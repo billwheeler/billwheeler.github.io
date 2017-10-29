@@ -1,0 +1,572 @@
+﻿{
+    "players": [
+        {
+            "id": 1,
+            "name": "Clover",
+            "player": "Casey",
+            "state": "alive"
+        },
+        {
+            "id": 2,
+            "name": "Moondragon",
+            "player": "Ben",
+            "state": "alive"
+        },
+        {
+            "id": 3,
+            "name": "Odesta",
+            "player": "Jessie",
+            "state": "alive"
+        },
+        {
+            "id": 4,
+            "name": "Ralthus",
+            "player": "Chris",
+            "state": "alive"
+        },
+        {
+            "id": 5,
+            "name": "Ravari",
+            "player": "Eric",
+            "state": "alive"
+        },
+        {
+            "id": 6,
+            "name": "River",
+            "player": "Mike",
+            "state": "alive"
+        }
+    ],
+    "npcs": [
+        {
+            "id": 21,
+            "name": "Dureyl",
+            "race": "Moon Elf",
+            "armor": 16,
+            "health": 48,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Shortbow",
+                    "dice": "1d6",
+                    "hitMod": 9,
+                    "attackMod": 5,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Walgeon",
+            "race": "Human",
+            "armor": 15,
+            "health": 56,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 9,
+                    "attackMod": 6,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Manor Guard #1",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Manor Guard #2",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Manor Guard #3",
+            "race": "Dwarf",
+            "armor": 12,
+            "health": 24,
+            "speed": 25,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Handaxe",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Manor Guard #4",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Manor Guard #5",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Manor Guard #6",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Manor Guard #7",
+            "race": "Dwarf",
+            "armor": 12,
+            "health": 24,
+            "speed": 25,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Handaxe",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Manor Guard #8",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Manor Guard #9",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Manor Guard #10",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Shortsword of Wounding",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Manor Guard #11",
+            "race": "Dwarf",
+            "armor": 12,
+            "health": 24,
+            "speed": 25,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Handaxe",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Manor Guard #12",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Manor Guard #13",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Manor Guard #14",
+            "race": "Human",
+            "armor": 12,
+            "health": 24,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Lord Woodtide",
+            "race": "Rakshasa",
+            "armor": 16,
+            "health": 110,
+            "speed": 40,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Claws",
+                    "dice": "2d6",
+                    "hitMod": 7,
+                    "attackMod": 2,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "Lord Woodtide's Construct",
+            "race": "Construct",
+            "armor": 19,
+            "health": 110,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Flail",
+                    "dice": "2d8",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Javelin",
+                    "dice": "2d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Braga",
+            "race": "Half-Orc",
+            "armor": 17,
+            "health": 64,
+            "speed": 35,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "2d6",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Longbow",
+                    "dice": "1d8",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Danamin",
+            "race": "Halfling",
+            "armor": 15,
+            "health": 42,
+            "speed": 25,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Shortbow",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Kelsira",
+            "race": "Halfling",
+            "armor": 13,
+            "health": 36,
+            "speed": 25,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "Sybil",
+            "race": "Human",
+            "armor": 15,
+            "health": 54,
+            "speed": 30,
+            "state": "alive",
+            "weapons": [
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 2,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>D&amp;D Battle Helper</title>
+	    <meta charset="utf-8" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="main-content">
+            <div class="top-link">
+                <a href="https://pre00.deviantart.net/4ccb/th/pre/i/2015/131/f/7/mimic_by_alejandro_mirabal-d8t0wmy.jpg" target="_blank">Cune</a>
+                &nbsp;
+                <a href="https://cdnb.artstation.com/p/assets/images/images/003/563/935/large/daehun-park-illust-cw-shield-01.jpg?1475053825" target="_blank">Construct</a>
+            </div>
+            <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td class="encounter">
+                        <h3>Encounter</h3>
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tbody id="active"></tbody>
+                        </table>
+                    </td>
+                    <td class="pool">
+                        <h3>Idle Peeps</h3>
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tbody id="inactive"></tbody>
+                        </table>
+                    </td>
+                    <td class="carnage">
+                        <h3>Dead Guys</h3>
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tbody id="deadguys"></tbody>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <div class="bottom-link">
+                <input type="button" class="hard_reset" value="Hard Reset" />
+            </div>
+        </div>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript">
+            App.run();
+        </script>
+    </body>
+</html>
