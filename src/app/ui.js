@@ -13,8 +13,6 @@ var update = function () {
 };
 
 var render = function () {
-    var encounter = [];
-
     active.innerHTML = "";
     inactive.innerHTML = "";
     deadguys.innerHTML = "";

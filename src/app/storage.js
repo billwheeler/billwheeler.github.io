@@ -1,6 +1,6 @@
 ﻿"use strict";
 
-const STORAGE_KEY = "BriarportOneShotPartDeux";
+const STORAGE_KEY = "OssariaPartOne";
 
 var fetchJson = function (callback) {
     var request = new XMLHttpRequest();

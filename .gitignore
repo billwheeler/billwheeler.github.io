@@ -1,3 +1,11 @@
 /node_modules/
 /.vs/
 /.idea/
+/bin/
+/js/*.map
+/obj/
+Web.config
+Web.*.config
+*.sln
+*.csproj
+*.csproj.user

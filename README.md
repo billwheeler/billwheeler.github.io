@@ -1,2 +1,2 @@
 # billwheeler.github.io
-Battle helper for a D&amp;D oneshot I'm running. YAYAYA
+Battle helper for a D&amp;D campaign I'm running. YAYAYA
