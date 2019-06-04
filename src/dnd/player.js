@@ -7,6 +7,7 @@ var player = function () {
     this.initiative = 0;
     this.state = CharacterState.Idle;
     this.exhaustion = 0;
+    this.link = "";
 };
 
 player.prototype.parse = function (json) {
@@ -38,6 +39,10 @@ player.prototype.parse = function (json) {
         if (this.exhaustion == 6)
             this.state = CharacterState.Dead;
     }
+
+    if (json.link) {
+        this.link = json.link;
+    }
 };
 
 player.prototype.serialize = function () {
@@ -46,7 +51,8 @@ player.prototype.serialize = function () {
         name: this.name,
         initiative: this.initiative,
         state: this.state,
-        exhaustion: this.exhaustion
+        exhaustion: this.exhaustion,
+        link: this.link
     };
 };
 
@@ -69,6 +75,8 @@ player.prototype.render = function () {
     } else if (this.state === CharacterState.Dead) {
         out += "<div><input type='button' class='player_revive' value='Revive Player' data-id='" + this.id + "' /></div>";
     }
+
+    if (this.link) out += "<div><a href='" + this.link + "' target='_blank'>D&D Beyond</a></div>";
 
     out += "</div>";
 

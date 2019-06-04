@@ -14,6 +14,7 @@ var npc = function () {
     this.initiative = 0;
     this.weapons = [];
     this.state = CharacterState.Idle;
+    this.link = "";
 };
 
 npc.prototype.parse = function (json) {
@@ -58,6 +59,10 @@ npc.prototype.parse = function (json) {
             this.weapons.push(w);
         }
     }
+
+    if (json.link) {
+        this.link = json.link;
+    }
 };
 
 npc.prototype.serialize = function () {
@@ -75,7 +80,8 @@ npc.prototype.serialize = function () {
         race: this.race,
         initiative: this.initiative,
         weapons: weapons,
-        state: this.state
+        state: this.state,
+        link: this.link
     };
 };
 
@@ -108,6 +114,8 @@ npc.prototype.render = function () {
     } else if (this.state === CharacterState.Dead) {
         out += "<div><input type='button' class='npc_revive' value='Revive NPC' data-id='" + this.id + "' /></div>";
     }
+
+    if (this.link) out += "<div><a href='" + this.link + "' target='_blank'>D&D Beyond</a></div>";
 
     out += "</div>";
     return out;

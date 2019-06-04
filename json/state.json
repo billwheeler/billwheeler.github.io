@@ -4,31 +4,36 @@
             "id": 1,
             "name": "Fionula",
             "player": "Casey",
-            "state": "alive"
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124"
         },
         {
             "id": 2,
             "name": "Malbraxys",
             "player": "Mike",
-            "state": "alive"
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845"
         },
         {
             "id": 3,
             "name": "Raelzegg",
             "player": "Ben",
-            "state": "alive"
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/Lord_Duckington_of_Stumbles/characters/11666335"
         },
         {
             "id": 4,
             "name": "Sulyman",
             "player": "Eric",
-            "state": "alive"
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328"
         },
         {
             "id": 5,
             "name": "Tenraja",
             "player": "Jesse",
-            "state": "alive"
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564"
         }
     ],
     "npcs": [
@@ -40,19 +45,20 @@
             "health": 40,
             "speed": 25,
             "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12594239",
             "weapons": [
                 {
                     "name": "Greataxe",
                     "dice": "1d12",
                     "hitMod": 7,
-                    "attackMod": 5,
+                    "attackMod": 4,
                     "damageType": "slashing"
                 },
                 {
                     "name": "Heavy Crossbow",
                     "dice": "1d10",
-                    "hitMod": 6,
-                    "attackMod": 4,
+                    "hitMod": 5,
+                    "attackMod": 2,
                     "damageType": "piercing"
                 }
             ]
