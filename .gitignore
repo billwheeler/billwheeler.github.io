@@ -4,6 +4,7 @@
 /bin/
 /js/*.map
 /obj/
+package-lock.json
 Web.config
 Web.*.config
 *.sln
