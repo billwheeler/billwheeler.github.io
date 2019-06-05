@@ -1,6 +1,6 @@
 ﻿"use strict";
 
-const STORAGE_KEY = "OssariaPartOne";
+const STORAGE_KEY = "OssariaSessionOne";
 
 var fetchJson = function (callback) {
     var request = new XMLHttpRequest();

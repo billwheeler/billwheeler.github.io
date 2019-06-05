@@ -65,8 +65,6 @@ var push = function (callback) {
     if (!Utils.isFunction(callback))
         return;
 
-    var self = this;
-
     var out = {
         npcs: [],
         players: []

@@ -40,25 +40,146 @@
         {
             "id": 21,
             "name": "Murie Woldshaper",
-            "race": "Dwarf",
+            "race": "Hill Dwarf",
             "armor": 15,
             "health": 40,
             "speed": 25,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12594239",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966",
             "weapons": [
                 {
-                    "name": "Greataxe",
-                    "dice": "1d12",
+                    "name": "Handaxe",
+                    "dice": "1d6",
                     "hitMod": 7,
                     "attackMod": 4,
                     "damageType": "slashing"
+                },
+                {
+                    "name": "Longbow",
+                    "dice": "1d8",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Dathon",
+            "race": "Murie's Wolf",
+            "armor": 15,
+            "health": 22,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/362263-dathon",
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "2d4",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "Fine Wine",
+            "race": "Tabaxi",
+            "armor": 15,
+            "health": 30,
+            "speed": 35,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12594823",
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "2d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Eldritch Blast",
+                    "dice": "1d10",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "force"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "Isai Hardstrider",
+            "race": "Human",
+            "armor": 15,
+            "health": 30,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12623962",
+            "weapons": [
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "dice": "1d16",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Astor Astenius",
+            "race": "Human",
+            "armor": 16,
+            "health": 50,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12618571"
+        },
+        {
+            "id": 26,
+            "name": "Burnham",
+            "race": "Human",
+            "armor": 16,
+            "health": 50,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12624813",
+            "weapons": [
+                {
+                    "name": "Glaive",
+                    "dice": "1d10",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
                 },
                 {
                     "name": "Heavy Crossbow",
                     "dice": "1d10",
                     "hitMod": 5,
                     "attackMod": 2,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 7,
+                    "attackMod": 4,
                     "damageType": "piercing"
                 }
             ]
