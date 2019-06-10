@@ -1,35 +1,30 @@
 ﻿{
     "players": [
         {
-            "id": 1,
             "name": "Fionula",
             "player": "Casey",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124"
         },
         {
-            "id": 2,
             "name": "Malbraxys",
             "player": "Mike",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845"
         },
         {
-            "id": 3,
             "name": "Raelzegg",
             "player": "Ben",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Lord_Duckington_of_Stumbles/characters/11666335"
         },
         {
-            "id": 4,
             "name": "Sulyman",
             "player": "Eric",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328"
         },
         {
-            "id": 5,
             "name": "Tenraja",
             "player": "Jesse",
             "state": "alive",
@@ -38,7 +33,6 @@
     ],
     "npcs": [
         {
-            "id": 21,
             "name": "Murie Woldshaper",
             "race": "Hill Dwarf",
             "armor": 15,
@@ -46,6 +40,7 @@
             "speed": 25,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966",
+            "initMod": 4,
             "weapons": [
                 {
                     "name": "Handaxe",
@@ -64,7 +59,6 @@
             ]
         },
         {
-            "id": 22,
             "name": "Dathon",
             "race": "Murie's Wolf",
             "armor": 15,
@@ -72,6 +66,7 @@
             "speed": 40,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/362263-dathon",
+            "initMod": 4,
             "weapons": [
                 {
                     "name": "Bite",
@@ -83,7 +78,6 @@
             ]
         },
         {
-            "id": 23,
             "name": "Fine Wine",
             "race": "Tabaxi",
             "armor": 15,
@@ -91,6 +85,7 @@
             "speed": 35,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12594823",
+            "initMod": 4,
             "weapons": [
                 {
                     "name": "Greatsword",
@@ -109,7 +104,6 @@
             ]
         },
         {
-            "id": 24,
             "name": "Isai Hardstrider",
             "race": "Human",
             "armor": 15,
@@ -117,17 +111,11 @@
             "speed": 40,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12623962",
+            "initMod": 4,
             "weapons": [
                 {
                     "name": "Shortsword",
                     "dice": "1d6",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Dagger",
-                    "dice": "1d4",
                     "hitMod": 7,
                     "attackMod": 4,
                     "damageType": "piercing"
@@ -142,17 +130,6 @@
             ]
         },
         {
-            "id": 25,
-            "name": "Astor Astenius",
-            "race": "Human",
-            "armor": 16,
-            "health": 50,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12618571"
-        },
-        {
-            "id": 26,
             "name": "Burnham",
             "race": "Human",
             "armor": 16,
@@ -160,6 +137,7 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12624813",
+            "initMod": 2,
             "weapons": [
                 {
                     "name": "Glaive",
@@ -185,24 +163,24 @@
             ]
         },
         {
-            "id": 27,
             "name": "Zariel",
             "race": "Archdevil",
             "armor": 21,
             "health": 580,
             "speed": 50,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/zariel"
+            "link": "https://www.dndbeyond.com/monsters/zariel",
+            "initMod": 7
         },
         {
-            "id": 29,
-            "name": "Goblin #2",
+            "name": "Goblin Warrior",
             "race": "Goblin",
             "armor": 15,
             "health": 7,
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/goblin",
+            "template": true,
             "weapons": [
                 {
                     "name": "Shortbow",
@@ -219,630 +197,6 @@
                     "damageType": "slashing"
                 }
             ]
-        },		
-        {
-            "id": 30,
-            "name": "Goblin #3",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 31,
-            "name": "Goblin #4",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 32,
-            "name": "Goblin #5",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 33,
-            "name": "Goblin #6",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 34,
-            "name": "Goblin #7",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 35,
-            "name": "Goblin #7",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 36,
-            "name": "Goblin #8",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 37,
-            "name": "Goblin #9",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 38,
-            "name": "Goblin #10",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 39,
-            "name": "Goblin #11",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 40,
-            "name": "Goblin #12",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 41,
-            "name": "Goblin #13",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 42,
-            "name": "Goblin #14",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 43,
-            "name": "Goblin #15",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 44,
-            "name": "Goblin #16",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 45,
-            "name": "Goblin #17",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 46,
-            "name": "Goblin #18",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 47,
-            "name": "Goblin #19",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 48,
-            "name": "Goblin #20",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 49,
-            "name": "Goblin #21",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 50,
-            "name": "Goblin #22",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 51,
-            "name": "Goblin #23",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "id": 52,
-            "name": "Goblin #24",
-            "race": "Goblin",
-            "armor": 15,
-            "health": 7,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
-            "weapons": [
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        },	
-        {
-            "id": 53,
-            "name": "Goblin Boss",
-            "race": "Goblin",
-            "armor": 17,
-            "health": 21,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin-boss",
-            "weapons": [
-                {
-                    "name": "Javelin",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                }
-            ]
-        }		
+        }	
     ]
 }

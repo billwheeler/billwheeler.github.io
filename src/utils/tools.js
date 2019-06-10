@@ -4,6 +4,10 @@ var isArray = function (obj) {
     return Object.prototype.toString.call(obj) === "[object Array]" ? true : false;
 };
 
+var arrayClone = function (arr) {
+    return arr.slice(0);
+}
+
 var isFunction = function (obj) {
     return typeof obj === "function" ? true : false;
 };
@@ -21,6 +25,7 @@ var storageAvailable = function (type) {
 
 module.exports = {
     isArray: isArray,
+    arrayClone: arrayClone,
     isFunction: isFunction,
     storageAvailable: storageAvailable
 };

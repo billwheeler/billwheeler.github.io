@@ -1,6 +1,6 @@
 ﻿"use strict";
 
-const STORAGE_KEY = "OssariaSessionOne";
+const STORAGE_KEY = "OssariaSessionTwo";
 
 var fetchJson = function (callback) {
     var request = new XMLHttpRequest();
@@ -27,16 +27,19 @@ var save = function (data) {
 };
 
 var pull = function (callback) {
-    if (!Utils.isFunction(callback))
-        return;
+    var fresh = false;
 
-    var fromStorage = localStorage.getItem(STORAGE_KEY);
-
-    if (fromStorage) {
-        callback.apply(this, [JSON.parse(fromStorage)]);
-    } else {
-        fetchJson(callback);
+    if (Utils.isFunction(callback)) {
+        var fromStorage = localStorage.getItem(STORAGE_KEY);
+        if (fromStorage) {
+            callback.apply(this, [JSON.parse(fromStorage)]);
+        } else {
+            fetchJson(callback);
+            fresh = true;
+        }
     }
+
+    return fresh;
 };
 
 var push = function (data, callback) {

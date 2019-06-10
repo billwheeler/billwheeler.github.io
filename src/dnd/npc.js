@@ -1,7 +1,6 @@
 ﻿"use strict";
 
 var Weapon = require("./weapon.js");
-
 var roll = require("../dnd/dice.js");
 
 var npc = function () {
@@ -15,6 +14,9 @@ var npc = function () {
     this.weapons = [];
     this.state = CharacterState.Idle;
     this.link = "";
+    this.initMod = 0;
+    this.template = false;
+    this.instance = 0;
 };
 
 npc.prototype.parse = function (json) {
@@ -63,6 +65,14 @@ npc.prototype.parse = function (json) {
     if (json.link) {
         this.link = json.link;
     }
+
+    if (json.template) {
+        this.template = json.template;
+    }
+
+    if (json.initMod && Utils.isNumeric(json.initMod)) {
+        this.initMod = json.initMod;
+    }
 };
 
 npc.prototype.serialize = function () {
@@ -81,7 +91,10 @@ npc.prototype.serialize = function () {
         initiative: this.initiative,
         weapons: weapons,
         state: this.state,
-        link: this.link
+        link: this.link,
+        initMod: this.initMod,
+        template: this.template,
+        instance: this.instance
     };
 };
 
@@ -108,8 +121,8 @@ npc.prototype.render = function () {
         out += "</div>";
     } else if (this.state === CharacterState.Idle) {
         out += "<div>";
-        out += "<input type='button' class='npc_initiative' value='Roll Initiative' data-id='" + this.id + "' />&nbsp;";
-        out += "<input type='button' class='npc_die' value='Die' data-id='" + this.id + "' />";
+        out += "<input type='button' class='npc_initiative' value='Roll Initiative' data-id='" + this.id + "' />";
+        if (!this.template) out += "&nbsp;<input type='button' class='npc_die' value='Die' data-id='" + this.id + "' />";
         out += "</div>";
     } else if (this.state === CharacterState.Dead) {
         out += "<div><input type='button' class='npc_revive' value='Revive NPC' data-id='" + this.id + "' /></div>";
@@ -123,7 +136,7 @@ npc.prototype.render = function () {
 
 npc.prototype.rollInitiative = function () {
     this.state = CharacterState.Encounter;
-    this.initiative = roll.d20();
+    this.initiative = roll.d20() + this.initMod;
 };
 
 npc.prototype.applyDamage = function (damage) {
@@ -147,6 +160,20 @@ npc.prototype.leaveEncounter = function () {
 npc.prototype.die = function () {
     this.health = 0;
     this.state = CharacterState.Dead;
+};
+
+npc.prototype.clone = function () {
+    var n = new npc();
+    this.instance++;
+    n.name = this.name + " #" + this.instance;
+    n.health = this.health;
+    n.armor = this.armor;
+    n.speed = this.speed;
+    n.race = this.race;
+    n.weapons = Utils.arrayClone(this.weapons);
+    n.link = this.link;
+    n.initMod = this.initMod;
+    return n;
 };
 
 module.exports = npc;
