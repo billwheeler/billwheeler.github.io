@@ -152,13 +152,6 @@
                     "hitMod": 5,
                     "attackMod": 2,
                     "damageType": "piercing"
-                },
-                {
-                    "name": "Dagger",
-                    "dice": "1d4",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
                 }
             ]
         },
@@ -173,13 +166,13 @@
             "initMod": 7
         },
         {
-            "name": "Goblin Warrior",
+            "name": "Goblin Skimisher",
             "race": "Goblin",
             "armor": 15,
-            "health": 7,
+            "health": 18,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/goblin",
+            "link": "https://www.dndbeyond.com/monsters/367635-goblin-skimisher",
             "template": true,
             "weapons": [
                 {
@@ -190,13 +183,51 @@
                     "damageType": "piercing"
                 },
                 {
-                    "name": "Scimitar",
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "bludgeoning"
+                }
+            ]
+        },
+        {
+            "name": "Goblin Berserker",
+            "race": "Goblin",
+            "armor": 13,
+            "health": 18,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/367642-goblin-beserker",
+            "template": true,
+            "weapons": [
+                {
+                    "name": "Handaxe",
                     "dice": "1d6",
                     "hitMod": 4,
                     "attackMod": 2,
                     "damageType": "slashing"
                 }
             ]
-        }	
+        },
+        {
+            "name": "Goblin Lancer",
+            "race": "Goblin",
+            "armor": 13,
+            "health": 18,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/367643-goblin-lancer",
+            "template": true,
+            "weapons": [
+                {
+                    "name": "Glaive",
+                    "dice": "1d10",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "slashing"
+                }
+            ]
+        }
     ]
 }
