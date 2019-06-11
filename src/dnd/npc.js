@@ -107,7 +107,7 @@ npc.prototype.render = function () {
     if (this.state === CharacterState.Encounter)
         initiative = " (" + (this.health > 0 ? "alive" : "dead") + "), Initiative: <span class='bold'>" + this.initiative + "</span>";
 
-    out += "<div>Health: <span class='bold'>" + this.health + "</span>" + initiative + "</div>";
+    out += "<div>Health: <span class='bold'>" + this.health + "</span>, AC: <span class='bold'>" + this.armor + "</span>" + initiative + "</div>";
 
     for (var i = 0, l = this.weapons.length; i < l; i++) {
         out += "<div>" + this.weapons[i].render() + "</div>";
