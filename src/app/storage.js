@@ -1,26 +1,19 @@
 ﻿"use strict";
 
+var axios = require('axios')
+
 const STORAGE_KEY = "OssariaSessionTwo";
 
 var fetchJson = function (callback) {
-    var request = new XMLHttpRequest();
-    request.open("GET", global.DataFile, true);
-
-    request.onreadystatechange = function () {
-        if (this.readyState === 4) {
-            if (this.status >= 200 && this.status < 400) {
-                save(this.responseText);
-                var data = JSON.parse(this.responseText);
-                callback.apply(this, [data]);
-            } else {
-                Debug.warn("error fetching state.json: " + this.status + ", " + this.statusText);
-            }
-        }
-    };
-
-    request.send();
-    request = null;
-};
+    axios.get(global.DataFile)
+        .then(function (response) {
+            save(JSON.stringify(response.data));
+            callback.apply(this, [response.data]);
+        })
+        .catch(function (error) {
+            Debug.warn(error)
+        })
+}
 
 var save = function (data) {
     localStorage.setItem(STORAGE_KEY, data);

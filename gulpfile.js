@@ -5,7 +5,8 @@ const babelify = require('babelify')
 const browserify = require('browserify')
 const source = require('vinyl-source-stream')
 
-gulp.task('default', () => {
+
+gulp.task('debugjs', () => {
     browserify({
         standalone: 'App',
         entries: './src/main.js',
@@ -20,3 +21,5 @@ gulp.task('default', () => {
     .pipe(source('scripts.js'))
     .pipe(gulp.dest('js'))
 })
+
+gulp.task('default', ['debugjs'])
