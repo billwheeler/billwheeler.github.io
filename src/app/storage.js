@@ -1,10 +1,11 @@
-﻿"use strict";
+﻿'use strict'
 
-var axios = require('axios')
+const axios = require('axios')
+const storageKey = 'OssariaSessionTwo'
 
-const STORAGE_KEY = "OssariaSessionTwo";
+var save = (data) => { localStorage.setItem(storageKey, data) }
 
-var fetchJson = function (callback) {
+var fetchJson = (callback) => {
     axios.get(global.DataFile)
         .then(function (response) {
             save(JSON.stringify(response.data));
@@ -15,15 +16,11 @@ var fetchJson = function (callback) {
         })
 }
 
-var save = function (data) {
-    localStorage.setItem(STORAGE_KEY, data);
-};
-
-var pull = function (callback) {
+module.exports.pull = (callback) => {
     var fresh = false;
 
     if (Utils.isFunction(callback)) {
-        var fromStorage = localStorage.getItem(STORAGE_KEY);
+        var fromStorage = localStorage.getItem(storageKey);
         if (fromStorage) {
             callback.apply(this, [JSON.parse(fromStorage)]);
         } else {
@@ -33,28 +30,18 @@ var pull = function (callback) {
     }
 
     return fresh;
-};
+}
 
-var push = function (data, callback) {
-    if (!Utils.isFunction(callback))
-        return;
+module.exports.push = (data, callback) => {
+    if (Utils.isFunction(callback)) {
+        save(JSON.stringify(data));
+        callback.apply(this);
+    }
+}
 
-    save(JSON.stringify(data));
-
-    callback.apply(this);
-};
-
-var reset = function (callback) {
-    if (!Utils.isFunction(callback))
-        return;
-
-    localStorage.removeItem(STORAGE_KEY);
-
-    callback.apply(this);
-};
-
-module.exports = {
-    pull: pull,
-    push: push,
-    reset: reset
-};
+module.exports.reset = (callback) => {
+    if (Utils.isFunction(callback)) {
+        localStorage.removeItem(storageKey);
+        callback.apply(this);
+    }
+}

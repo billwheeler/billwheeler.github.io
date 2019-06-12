@@ -1,17 +1,17 @@
-﻿"use strict";
+﻿'use strict'
 
 // global vars/functions
-global.Debug = require("./utils/debug.js");
-global.Utils = require("./utils/utils.js");
+global.Debug = require('./utils/debug.js')
+global.Utils = require('./utils/utils.js')
 
 // parse app specific globals
-require("./dnd/constants.js");
+require('./dnd/constants.js');
 
-global.DataFile = "/json/state.json";
+global.DataFile = '/json/state.json'
 
-var ui = require("./app/ui.js");
+var ui = require('./app/ui.js')
 
 module.exports = {
     run: ui.run
-};
+}
 
