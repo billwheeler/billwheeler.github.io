@@ -9,7 +9,9 @@
         "browserify": "^16.2.3",
         "gulp": "^3.9.1",
         "gulp-babel": "^8.0.0",
+        "gulp-uglify": "^3.0.2",
         "gulp-util": "^3.0.8",
+        "vinyl-buffer": "^1.0.1",
         "vinyl-source-stream": "^2.0.0"
     }
 }
