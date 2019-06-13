@@ -1,6 +1,6 @@
-﻿"use strict";
+﻿'use strict'
 
-var utils = {};
+var utils = {}
 
 var enumerate = function (obj) {
     for (var property in obj) {
@@ -8,9 +8,9 @@ var enumerate = function (obj) {
             utils[property] = obj[property];
         }
     }
-};
+}
 
-enumerate(require("./numbers.js"));
-enumerate(require("./tools.js"));
+enumerate(require('./numbers.js'));
+enumerate(require('./tools.js'));
 
-module.exports = utils;
+module.exports = utils

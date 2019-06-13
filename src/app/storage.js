@@ -3,45 +3,56 @@
 const axios = require('axios')
 const storageKey = 'OssariaSessionTwo'
 
-var save = (data) => { localStorage.setItem(storageKey, data) }
+var save = (data) => localStorage.setItem(storageKey, data)
 
-var fetchJson = (callback) => {
-    axios.get(global.DataFile)
-        .then(function (response) {
-            save(JSON.stringify(response.data));
-            callback.apply(this, [response.data]);
-        })
-        .catch(function (error) {
-            Debug.warn(error)
-        })
+var fetchJson = () => {
+    return new Promise((resolve, reject) => {
+        axios.get(global.DataFile)
+            .then(function (response) {
+                save(JSON.stringify(response.data));
+                resolve([response.data, true])
+            })
+            .catch(function (error) {
+                reject(error)
+            })
+    })
 }
 
-module.exports.pull = (callback) => {
-    var fresh = false;
-
-    if (Utils.isFunction(callback)) {
-        var fromStorage = localStorage.getItem(storageKey);
-        if (fromStorage) {
-            callback.apply(this, [JSON.parse(fromStorage)]);
-        } else {
-            fetchJson(callback);
-            fresh = true;
+var pullInner = (raw) => {
+    return new Promise((resolve, reject) => {
+        try {
+            resolve([JSON.parse(raw), false])
+        } catch (err) {
+            reject(err)
         }
-    }
-
-    return fresh;
+    })
 }
 
-module.exports.push = (data, callback) => {
-    if (Utils.isFunction(callback)) {
-        save(JSON.stringify(data));
-        callback.apply(this);
-    }
+module.exports.pull = () => {
+    var fromStorage = localStorage.getItem(storageKey);
+    return fromStorage ?
+        pullInner(fromStorage) :
+        fetchJson()
 }
 
-module.exports.reset = (callback) => {
-    if (Utils.isFunction(callback)) {
-        localStorage.removeItem(storageKey);
-        callback.apply(this);
-    }
+module.exports.push = (data) => {
+    return new Promise((resolve, reject) => {
+        try {
+            save(JSON.stringify(data))
+            resolve()
+        } catch (err) {
+            reject(err)
+        }
+    })
+}
+
+module.exports.reset = () => {
+    return new Promise((resolve, reject) => {
+        try {
+            localStorage.removeItem(storageKey)
+            resolve()
+        } catch (err) {
+            reject(err)
+        }
+    })
 }

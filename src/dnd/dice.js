@@ -1,4 +1,4 @@
-﻿"use strict";
+﻿'use strict'
 
 module.exports = {
     d4: function () { return Utils.randomInt(1, 4); },
@@ -8,4 +8,4 @@ module.exports = {
     d12: function () { return Utils.randomInt(1, 12); },
     d20: function () { return Utils.randomInt(1, 20); },
     d100: function () { return Utils.randomInt(1, 100); }
-};
+}

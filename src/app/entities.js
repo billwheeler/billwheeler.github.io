@@ -1,6 +1,5 @@
 ﻿'use strict'
 
-var Storage = require('./storage.js')
 var Player = require('../dnd/player.js')
 var Npc = require('../dnd/npc.js')
 
@@ -48,63 +47,55 @@ var addNpc = function (npc) {
     npcs.push(npc)
 }
 
-module.exports.pull = (callback) => {
-    if (Utils.isFunction(callback)) {
-        Storage.pull(function (data) {
-            players.length = 0
-            npcs.length = 0
+module.exports.pull = (data, fresh) => {
+    players.length = 0
+    npcs.length = 0
 
-            for (var i = 0, l = data.players.length; i < l; i++) {
-                if (typeof data.players[i].id !== 'number') {
-                    lastId++
-                    data.players[i].id = lastId
-                }
-
-                var p = new Player()
-                p.parse(data.players[i])
-                players.push(p)
-            }
-
-            for (var i = 0, l = data.npcs.length; i < l; i++) {
-                if (typeof data.npcs[i].id !== 'number') {
-                    lastId++
-                    data.npcs[i].id = lastId
-                }
-
-                var n = new Npc()
-                n.parse(data.npcs[i])
-                npcs.push(n)
-            }
-
-            if (callback.apply(this)) push(callback)
-        })
-    }
-}
-
-module.exports.push = (callback) => {
-    if (Utils.isFunction(callback)) {
-        var out = {
-            npcs: [],
-            players: []
+    for (var i = 0, l = data.players.length; i < l; i++) {
+        if (typeof data.players[i].id !== 'number') {
+            lastId++
+            data.players[i].id = lastId
         }
 
-        for (var i = 0, l = npcs.length; i < l; i++) {
-            out.npcs.push(npcs[i].serialize())
+        var p = new Player()
+        p.parse(data.players[i])
+        players.push(p)
+    }
+
+    for (var i = 0, l = data.npcs.length; i < l; i++) {
+        if (typeof data.npcs[i].id !== 'number') {
+            lastId++
+            data.npcs[i].id = lastId
         }
 
-        for (var i = 0, l = players.length; i < l; i++) {
-            out.players.push(players[i].serialize())
-        }
-
-        Storage.push(out, callback)
+        var n = new Npc()
+        n.parse(data.npcs[i])
+        npcs.push(n)
     }
+
+    if (fresh) push()
 }
 
-module.exports.reset = (callback) => {
-    if (Utils.isFunction(callback)) {
-        Storage.reset(callback)
+var push = () => {
+    var out = {
+        npcs: [],
+        players: []
     }
+
+    for (var i = 0, l = npcs.length; i < l; i++) {
+        out.npcs.push(npcs[i].serialize())
+    }
+
+    for (var i = 0, l = players.length; i < l; i++) {
+        out.players.push(players[i].serialize())
+    }
+
+    return out
 }
+
+module.exports.push = push
+
+module.exports.reset = () => { }
 
 module.exports.charsByState = (curState, callback) => {
     if (Utils.isFunction(callback)) {
