@@ -174,6 +174,7 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/367635-goblin-skimisher",
             "template": true,
+            "initMod": 2,
             "weapons": [
                 {
                     "name": "Shortbow",
@@ -200,6 +201,7 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/367642-goblin-beserker",
             "template": true,
+            "initMod": 0,
             "weapons": [
                 {
                     "name": "Handaxe",
@@ -219,6 +221,7 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/367643-goblin-lancer",
             "template": true,
+            "initMod": 0,
             "weapons": [
                 {
                     "name": "Glaive",
@@ -226,6 +229,33 @@
                     "hitMod": 4,
                     "attackMod": 2,
                     "damageType": "slashing"
+                }
+            ]
+        },
+        {
+            "name": "Wood Elf Ranger",
+            "race": "Wood Elf",
+            "armor": 16,
+            "health": 35,
+            "speed": 35,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12932110",
+            "template": true,
+            "initMod": 4,
+            "weapons": [
+                {
+                    "name": "Longbow",
+                    "dice": "1d8",
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
                 }
             ]
         }
