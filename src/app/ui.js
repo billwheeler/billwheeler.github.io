@@ -97,6 +97,16 @@ var addListener = function () {
                 case 'npc_die':
                     Entities.updateNpc(id, CharacterAction.Die)
                     break;
+                case 'companion_damage':
+                    var damage = parseInt(document.getElementById('companion_damage_' + id).value)
+                    Entities.updateCompanion(id, CharacterAction.Damage, [damage])
+                    break;
+                case 'companion_revive':
+                    Entities.updateCompanion(id, CharacterAction.Revive)
+                    break;
+                case 'companion_die':
+                    Entities.updateCompanion(id, CharacterAction.Die)
+                    break;
                 default:
                     doUpdate = false;
                     break;

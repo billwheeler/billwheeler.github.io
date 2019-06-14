@@ -44,6 +44,7 @@ var addNpc = function (npc) {
         npc.id = lastId
     }
 
+    if (npc.companion) npc.companion.id = npc.id
     npcs.push(npc)
 }
 
@@ -70,6 +71,11 @@ module.exports.pull = (data, fresh) => {
 
         var n = new Npc()
         n.parse(data.npcs[i])
+
+        if (typeof data.npcs[i].companion !== "undefined") {
+            n.companion.id = data.npcs[i].id
+        }
+
         npcs.push(n)
     }
 
@@ -168,6 +174,23 @@ module.exports.updateNpc = (id, action, params) => {
             break
         case CharacterAction.Die:
             currentNpc.die()
+            break
+    }
+}
+
+module.exports.updateCompanion = (id, action, params) => {
+    var currentNpc = npcById(id)
+    if (!currentNpc) return
+
+    switch (action) {
+        case CharacterAction.Damage:
+            currentNpc.companion.applyDamage(params[0])
+            break
+        case CharacterAction.Revive:
+            currentNpc.companion.revive()
+            break
+        case CharacterAction.Die:
+            currentNpc.companion.die()
             break
     }
 }

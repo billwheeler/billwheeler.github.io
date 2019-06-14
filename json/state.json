@@ -56,26 +56,26 @@
                     "attackMod": 4,
                     "damageType": "piercing"
                 }
-            ]
-        },
-        {
-            "name": "Dathon",
-            "race": "Murie's Wolf",
-            "armor": 15,
-            "health": 22,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/362263-dathon",
-            "initMod": 4,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "2d4",
-                    "hitMod": 6,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ]
+            ],
+            "companion": {
+                "name": "Dathon",
+                "race": "Murie's Wolf",
+                "armor": 15,
+                "health": 22,
+                "speed": 40,
+                "state": "alive",
+                "link": "https://www.dndbeyond.com/monsters/362263-dathon",
+                "weapons": [
+                    {
+                        "name": "Bite",
+                        "dice": "2d4",
+                        "hitMod": 6,
+                        "attackMod": 4,
+                        "damageType": "piercing"
+
+                    }
+                ]
+            }
         },
         {
             "name": "Fine Wine",

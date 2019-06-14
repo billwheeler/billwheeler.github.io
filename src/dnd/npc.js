@@ -2,6 +2,7 @@
 
 var Weapon = require('./weapon.js')
 var roll = require('../dnd/dice.js')
+var Companion = require('./companion.js')
 
 var npc = function () {
     this.id = 0
@@ -17,6 +18,7 @@ var npc = function () {
     this.initMod = 0
     this.template = false
     this.instance = 0
+    this.companion = null
 }
 
 npc.prototype.parse = function (json) {
@@ -73,6 +75,12 @@ npc.prototype.parse = function (json) {
     if (json.initMod && Utils.isNumeric(json.initMod)) {
         this.initMod = json.initMod
     }
+
+    if (json.companion) {
+        var c = new Companion()
+        c.parse(json.companion)
+        this.companion = c
+    }
 }
 
 npc.prototype.serialize = function () {
@@ -81,7 +89,7 @@ npc.prototype.serialize = function () {
         weapons.push(this.weapons[i].serialize())
     }
 
-    return {
+    var out = {
         id: this.id,
         name: this.name,
         health: this.health,
@@ -96,6 +104,9 @@ npc.prototype.serialize = function () {
         template: this.template,
         instance: this.instance
     }
+
+    if (this.companion) out['companion'] = this.companion.serialize()
+    return out
 }
 
 npc.prototype.render = function () {
@@ -114,7 +125,7 @@ npc.prototype.render = function () {
     }
 
     if (this.state === CharacterState.Encounter) {
-        out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="' + this.id + '" /><input type="text" id="npc_damage_"' + this.id + '" /></div>'
+        out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="' + this.id + '" /><input type="text" id="npc_damage_' + this.id + '" /></div>'
         out += '<div style="margin-top: 4px;">'
         out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="' + this.id + '" />&nbsp;'
         out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
@@ -129,6 +140,7 @@ npc.prototype.render = function () {
     }
 
     if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
+    if (this.companion) out += this.companion.render()
 
     out += '</div>'
     return out;
@@ -137,6 +149,12 @@ npc.prototype.render = function () {
 npc.prototype.rollInitiative = function () {
     this.state = CharacterState.Encounter
     this.initiative = roll.d20() + this.initMod
+
+    Debug.log(this.companion);
+
+    if (this.companion && this.companion.state !== CharacterState.Dead) {
+        this.companion.state = CharacterState.Encounter
+    }
 }
 
 npc.prototype.applyDamage = function (damage) {
@@ -155,6 +173,10 @@ npc.prototype.revive = function () {
 npc.prototype.leaveEncounter = function () {
     this.initiative = 0
     this.state = CharacterState.Idle
+
+    if (this.companion && this.companion.state !== CharacterState.Dead) {
+        this.companion.state = CharacterState.Idle
+    }
 }
 
 npc.prototype.die = function () {
@@ -173,6 +195,7 @@ npc.prototype.clone = function () {
     n.weapons = Utils.arrayClone(this.weapons)
     n.link = this.link
     n.initMod = this.initMod
+    if (this.companion) n.companion = this.companion.clone()
     return n
 }
 
