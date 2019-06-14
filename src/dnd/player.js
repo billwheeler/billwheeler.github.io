@@ -49,6 +49,7 @@ player.prototype.serialize = function () {
     return {
         id: this.id,
         name: this.name,
+        player: this.player,
         initiative: this.initiative,
         state: this.state,
         exhaustion: this.exhaustion,
@@ -57,26 +58,26 @@ player.prototype.serialize = function () {
 }
 
 player.prototype.render = function () {
-    var out = '<div class="ent player" data-id="" + this.id + "">'
+    var out = '<div class="ent player" data-id="' + this.id + '">'
 
-    out += '<div><span class="bold">" + this.name + "</span> <span class="italics">' + this.player + '</span></div>'
+    out += '<div><span class="bold">' + this.name + '</span> <span class="italics">' + this.player + '</span></div>'
 
     if (this.state === CharacterState.Encounter) {
         out += '<div>Initiative: <span class="bold">' + this.initiative + '</span></div>'
         out += '<div>'
-        out += '<input type="button" class="player_leave" value="Leave Encounter" data-id="" + this.id + "" style="margin-right:5px" />'
-        out += '<input type="button" class="player_die" value="Die" data-id="" + this.id + "" />'
+        out += '<input type="button" class="player_leave" value="Leave Encounter" data-id="' + this.id + '" style="margin-right:5px" />'
+        out += '<input type="button" class="player_die" value="Die" data-id="' + this.id + '" />'
         out += '</div>'
     } else if (this.state === CharacterState.Idle) {
         out += '<div>'
-        out += '<input type="button" class="player_initiative" value="Apply Initiatve" data-id="" + this.id + "" /><input type="text" id="player_initiative_" + this.id + "" />'
-        out += '<input type="button" class="player_die" value="Die" data-id="" + this.id + "" />'
+        out += '<input type="button" class="player_initiative" value="Apply Initiatve" data-id="' + this.id + '" /><input type="text" id="player_initiative_' + this.id + '" />'
+        out += '<input type="button" class="player_die" value="Die" data-id="' + this.id + '" />'
         out += '</div>';
     } else if (this.state === CharacterState.Dead) {
-        out += '<div><input type="button" class="player_revive" value="Revive Player" data-id="" + this.id + "" /></div>'
+        out += '<div><input type="button" class="player_revive" value="Revive Player" data-id="' + this.id + '" /></div>'
     }
 
-    if (this.link) out += '<div><a href="" + this.link + "" target="_blank">D&D Beyond</a></div>'
+    if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
 
     out += '</div>'
 

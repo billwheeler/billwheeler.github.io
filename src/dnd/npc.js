@@ -99,7 +99,7 @@ npc.prototype.serialize = function () {
 }
 
 npc.prototype.render = function () {
-    var out = '<div class="ent npc" data-id="" + this.id + "">';
+    var out = '<div class="ent npc" data-id="' + this.id + '">';
 
     out += '<div><span class="bold">' + this.name + '</span>, <span class="italic">' + this.race + '</span>. Speed: ' + this.speed + '</div>'
 
@@ -114,21 +114,21 @@ npc.prototype.render = function () {
     }
 
     if (this.state === CharacterState.Encounter) {
-        out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="" + this.id + "" /><input type="text" id="npc_damage_" + this.id + "" /></div>'
+        out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="' + this.id + '" /><input type="text" id="npc_damage_"' + this.id + '" /></div>'
         out += '<div style="margin-top: 4px;">'
-        out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="" + this.id + "" />&nbsp;'
-        out += '<input type="button" class="npc_die" value="Die" data-id="" + this.id + "" />'
+        out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="' + this.id + '" />&nbsp;'
+        out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
         out += '</div>';
     } else if (this.state === CharacterState.Idle) {
         out += '<div>';
-        out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="" + this.id + "" />'
-        if (!this.template) out += '&nbsp;<input type="button" class="npc_die" value="Die" data-id="" + this.id + "" />'
+        out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />'
+        if (!this.template) out += '&nbsp;<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
         out += '</div>';
     } else if (this.state === CharacterState.Dead) {
-        out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="" + this.id + "" /></div>'
+        out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="' + this.id + '" /></div>'
     }
 
-    if (this.link) out += '<div><a href="" + this.link + "" target="_blank">D&D Beyond</a></div>'
+    if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
 
     out += '</div>'
     return out;
