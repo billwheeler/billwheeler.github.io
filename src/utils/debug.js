@@ -1,4 +1,4 @@
-﻿"use strict";
+﻿'use strict'
 
 module.exports = {
     assert: console ? console.assert.bind(console) : function () { },
@@ -11,4 +11,4 @@ module.exports = {
     log: console ? console.log.bind(console) : function () { },
     trace: console ? console.trace.bind(console) : function () { },
     warn: console ? console.warn.bind(console) : function () { },
-};
+}

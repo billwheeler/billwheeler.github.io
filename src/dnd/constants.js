@@ -15,7 +15,7 @@ global.CharacterAction = {
 }
 
 global.DamageType = {
-    Acid: 'acid',s
+    Acid: 'acid',
     Bludgeoning: 'bludgeoning',
     Cold: 'cold',
     Fire: 'fire',

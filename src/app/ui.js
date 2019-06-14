@@ -11,7 +11,7 @@ var update = function () {
     Storage.push(Entities.push()).then(() => {
         render()
     })
-};
+}
 
 var render = function () {
     active.innerHTML = ''
@@ -26,7 +26,7 @@ var render = function () {
 
         row.appendChild(cell)
         active.appendChild(row)
-    });
+    })
 
     Entities.charsByState(CharacterState.Idle, function () {
         var row = document.createElement('tr')
@@ -36,7 +36,7 @@ var render = function () {
 
         row.appendChild(cell)
         inactive.appendChild(row)
-    });
+    })
 
     Entities.charsByState(CharacterState.Dead, function () {
         var row = document.createElement('tr')
@@ -46,8 +46,8 @@ var render = function () {
 
         row.appendChild(cell)
         deadguys.appendChild(row)
-    });
-};
+    })
+}
 
 var addListener = function () {
     document.addEventListener('click', function (e) {
@@ -104,8 +104,8 @@ var addListener = function () {
 
             if (doUpdate) update()
         }
-    });
-};
+    })
+}
 
 var run = function () {
     addListener()
@@ -114,8 +114,8 @@ var run = function () {
         Entities.pull(data, fresh)
         render()
     })
-};
+}
 
 module.exports = {
     run: run
-};
+}

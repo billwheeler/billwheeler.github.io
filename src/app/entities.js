@@ -21,7 +21,7 @@ var playerById = function (id) {
     }
 
     return player
-};
+}
 
 var npcById = function (id) {
     var npc = null;
@@ -36,7 +36,7 @@ var npcById = function (id) {
     }
 
     return npc
-};
+}
 
 var addNpc = function (npc) {
     if (typeof npc.id !== 'number' || npc.id === 0) {

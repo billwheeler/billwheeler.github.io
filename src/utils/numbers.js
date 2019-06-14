@@ -6,7 +6,7 @@ var randomInt = function (min, max) {
 
 var randomChance = function (percentTrue) {
     percentTrue = percentTrue || 50;
-    return randomInt(1, 100) <= percentTrue ? true : false;
+    return randomInt(1, 100) <= percentTrue ? true : false
 }
 
 module.exports = {
