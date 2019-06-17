@@ -150,8 +150,6 @@ npc.prototype.rollInitiative = function () {
     this.state = CharacterState.Encounter
     this.initiative = roll.d20() + this.initMod
 
-    Debug.log(this.companion);
-
     if (this.companion && this.companion.state !== CharacterState.Dead) {
         this.companion.state = CharacterState.Encounter
     }
