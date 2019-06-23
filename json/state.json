@@ -166,6 +166,16 @@
             "initMod": 7
         },
         {
+            "name": "Astor Astenius",
+            "race": "Human",
+            "armor": 13,
+            "health": 50,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12618571",
+            "initMod": 9
+        },        
+        {
             "name": "Goblin Skimisher",
             "race": "Goblin",
             "armor": 15,
@@ -258,6 +268,51 @@
                     "damageType": "piercing"
                 }
             ]
-        }
+        },
+        {
+            "name": "Shadow",
+            "race": "Undead",
+            "armor": 12,
+            "health": 24,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/shadow",
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Strength Drain",
+                    "dice": "2d6",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "necrotic"
+                },
+                {
+                    "name": "Strength Drain",
+                    "dice": "1d4",
+                    "hitMod": 4,
+                    "attackMod": 0,
+                    "damageType": "necrotic"
+                }
+            ]            
+        },
+        {
+            "name": "City Guard",
+            "race": "Human",
+            "armor": 16,
+            "health": 11,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/guard",
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Spear",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]            
+        }              
     ]
 }
