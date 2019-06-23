@@ -273,7 +273,7 @@
             "name": "Shadow",
             "race": "Undead",
             "armor": 12,
-            "health": 24,
+            "health": 16,
             "speed": 40,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/shadow",
