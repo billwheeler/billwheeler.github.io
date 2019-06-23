@@ -277,6 +277,7 @@
             "speed": 40,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/shadow",
+            "template": true,
             "initMod": 2,
             "weapons": [
                 {
@@ -303,6 +304,7 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/guard",
+            "template": true,
             "initMod": 1,
             "weapons": [
                 {
