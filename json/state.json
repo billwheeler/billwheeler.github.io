@@ -103,32 +103,6 @@
             ]
         },
         {
-            "name": "Isai Hardstrider",
-            "race": "Human",
-            "armor": 15,
-            "health": 30,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12623962",
-            "initMod": 4,
-            "weapons": [
-                {
-                    "name": "Shortsword",
-                    "dice": "1d6",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Hand Crossbow",
-                    "dice": "1d16",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
             "name": "Zariel",
             "race": "Archdevil",
             "armor": 21,
@@ -156,7 +130,7 @@
                     "attackMod": 2,
                     "damageType": "piercing"
                 }
-            ]            
+            ]
         },
         {
             "name": "Lina De Felius",
@@ -167,7 +141,27 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/393902-lina-de-felius",
             "template": false,
-            "initMod": 1         
+            "initMod": 1
+        },
+        {
+            "name": "Gelatinous Cube",
+            "race": "Large ooze",
+            "armor": 6,
+            "health": 84,
+            "speed": 15,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/gelatinous-cube",
+            "template": true,
+            "initMod": -4,
+            "weapons": [
+                {
+                    "name": "Pseudopod",
+                    "dice": "3d6",
+                    "hitMod": 4,
+                    "attackMod": 0,
+                    "damageType": "acid"
+                }
+            ]
         },
         {
             "name": "Shadow",
@@ -194,7 +188,34 @@
                     "attackMod": 0,
                     "damageType": "necrotic"
                 }
-            ]            
+            ]
+        },
+        {
+            "name": "Zombie",
+            "race": "Undead",
+            "armor": 8,
+            "health": 30,
+            "speed": 20,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/strahd-zombie",
+            "template": true,
+            "initMod": -2,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Claw",
+                    "dice": "1d6",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "slashing"
+                }
+            ]
         },
         {
             "name": "Specter",
@@ -214,8 +235,8 @@
                     "attackMod": 0,
                     "damageType": "necrotic"
                 }
-            ]            
-        },  
+            ]
+        },
         {
             "name": "Wraith",
             "race": "Undead",
@@ -234,101 +255,7 @@
                     "attackMod": 3,
                     "damageType": "necrotic"
                 }
-            ]            
-        },              
-        {
-            "name": "Brolgun",
-            "race": "Bearded Devil",
-            "armor": 13,
-            "health": 52,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bearded-devil",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Glaive",
-                    "dice": "1d10",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Beard Stinger",
-                    "dice": "1d8",
-                    "hitMod": 5,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }                
-            ]            
-        },
-        {
-            "name": "Infernal Reckoner",
-            "race": "Tiefling",
-            "armor": 15,
-            "health": 22,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/393594-infernal-reckoner",
-            "template": true,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Shortsword",
-                    "dice": "1d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }                
-            ]            
-        },
-        {
-            "name": "Minor Wereshark",
-            "race": "Wereshark",
-            "armor": 12,
-            "health": 26,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/119493-minor-wereshark",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Shortsword",
-                    "dice": "1d6",
-                    "hitMod": 3,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }                
-            ]            
-        },
-        {
-            "name": "Wereshark",
-            "race": "Wereshark",
-            "armor": 12,
-            "health": 120,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/193678-wereshark",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "slashing"
-                }                
-            ]            
-        }                      
+            ]
+        }
     ]
 }
