@@ -245,6 +245,114 @@
             ]
         },
         {
+            "name": "Hobgoblin Devastator",
+            "race": "Hobgoblin",
+            "armor": 13,
+            "health": 45,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-devastator",
+            "template": true,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Quarterstaff",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "bludgeoning"
+                }
+            ]
+        },
+        {
+            "name": "Hobgoblin Iron Shadow",
+            "race": "Hobgoblin",
+            "armor": 15,
+            "health": 32,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-iron-shadow",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Unarmed Strike",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Dart",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Hobgoblin Captain",
+            "race": "Hobgoblin",
+            "armor": 17,
+            "health": 39,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-captain",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "2d6",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Javelin",
+                    "dice": "1d6",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Hobgoblin Warlord",
+            "race": "Hobgoblin",
+            "armor": 20,
+            "health": 97,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-warlord",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Longsword",
+                    "dice": "1d8",
+                    "hitMod": 9,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Shield Bash",
+                    "dice": "1d4",
+                    "hitMod": 9,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Javelin",
+                    "dice": "1d6",
+                    "hitMod": 9,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Wight",
             "race": "Undead",
             "armor": 14,
@@ -275,46 +383,6 @@
                     "hitMod": 4,
                     "attackMod": 2,
                     "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Specter",
-            "race": "Undead",
-            "armor": 12,
-            "health": 22,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/specter",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Life Drain",
-                    "dice": "3d6",
-                    "hitMod": 4,
-                    "attackMod": 0,
-                    "damageType": "necrotic"
-                }
-            ]
-        },
-        {
-            "name": "Wraith",
-            "race": "Undead",
-            "armor": 13,
-            "health": 67,
-            "speed": 60,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/wraith",
-            "template": true,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Life Drain",
-                    "dice": "4d6",
-                    "hitMod": 6,
-                    "attackMod": 3,
-                    "damageType": "necrotic"
                 }
             ]
         }
