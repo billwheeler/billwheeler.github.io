@@ -218,6 +218,67 @@
             ]
         },
         {
+            "name": "Hobgoblin",
+            "race": "Hobgoblin",
+            "armor": 18,
+            "health": 11,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin",
+            "template": true,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Longsword",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Longbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Wight",
+            "race": "Undead",
+            "armor": 14,
+            "health": 45,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/wight",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Life Drain",
+                    "dice": "1d6",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "necrotic"
+                },
+                {
+                    "name": "Longsword",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Longbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Specter",
             "race": "Undead",
             "armor": 12,
