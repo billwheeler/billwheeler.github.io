@@ -220,7 +220,7 @@
         {
             "name": "Hobgoblin",
             "race": "Hobgoblin",
-            "armor": 18,
+            "armor": 15,
             "health": 11,
             "speed": 30,
             "state": "alive",
@@ -267,7 +267,7 @@
         {
             "name": "Hobgoblin Iron Shadow",
             "race": "Hobgoblin",
-            "armor": 15,
+            "armor": 13,
             "health": 32,
             "speed": 40,
             "state": "alive",
@@ -294,7 +294,7 @@
         {
             "name": "Hobgoblin Captain",
             "race": "Hobgoblin",
-            "armor": 17,
+            "armor": 15,
             "health": 39,
             "speed": 30,
             "state": "alive",
@@ -321,7 +321,7 @@
         {
             "name": "Hobgoblin Warlord",
             "race": "Hobgoblin",
-            "armor": 20,
+            "armor": 17,
             "health": 97,
             "speed": 30,
             "state": "alive",
