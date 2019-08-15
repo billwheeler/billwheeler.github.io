@@ -61,7 +61,7 @@
                 "name": "Dathon",
                 "race": "Murie's Wolf",
                 "armor": 15,
-                "health": 22,
+                "health": 27,
                 "speed": 40,
                 "state": "alive",
                 "link": "https://www.dndbeyond.com/monsters/362263-dathon",
@@ -69,8 +69,8 @@
                     {
                         "name": "Bite",
                         "dice": "2d4",
-                        "hitMod": 6,
-                        "attackMod": 4,
+                        "hitMod": 5,
+                        "attackMod": 3,
                         "damageType": "piercing"
                     }
                 ]
@@ -144,26 +144,6 @@
             "initMod": 1
         },
         {
-            "name": "Gelatinous Cube",
-            "race": "Large ooze",
-            "armor": 6,
-            "health": 84,
-            "speed": 15,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/gelatinous-cube",
-            "template": true,
-            "initMod": -4,
-            "weapons": [
-                {
-                    "name": "Pseudopod",
-                    "dice": "3d6",
-                    "hitMod": 4,
-                    "attackMod": 0,
-                    "damageType": "acid"
-                }
-            ]
-        },
-        {
             "name": "Shadow",
             "race": "Undead",
             "armor": 12,
@@ -187,33 +167,6 @@
                     "hitMod": 4,
                     "attackMod": 0,
                     "damageType": "necrotic"
-                }
-            ]
-        },
-        {
-            "name": "Zombie",
-            "race": "Undead",
-            "armor": 8,
-            "health": 30,
-            "speed": 20,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/strahd-zombie",
-            "template": true,
-            "initMod": -2,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Claw",
-                    "dice": "1d6",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "slashing"
                 }
             ]
         },
