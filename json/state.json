@@ -13,6 +13,12 @@
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845"
         },
         {
+            "name": "Murie Woldshaper",
+            "player": "Eric",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966"
+        },
+        {
             "name": "Raelzegg",
             "player": "Ben",
             "state": "alive",
@@ -33,72 +39,47 @@
     ],
     "npcs": [
         {
-            "name": "Murie Woldshaper",
-            "race": "Hill Dwarf",
-            "armor": 15,
-            "health": 40,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966",
-            "initMod": 4,
-            "weapons": [
-                {
-                    "name": "Handaxe",
-                    "dice": "1d6",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Longbow",
-                    "dice": "1d8",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ],
-            "companion": {
-                "name": "Dathon",
-                "race": "Murie's Wolf",
-                "armor": 15,
-                "health": 27,
-                "speed": 40,
-                "state": "alive",
-                "link": "https://www.dndbeyond.com/monsters/362263-dathon",
-                "weapons": [
-                    {
-                        "name": "Bite",
-                        "dice": "2d4",
-                        "hitMod": 5,
-                        "attackMod": 3,
-                        "damageType": "piercing"
-                    }
-                ]
-            }
-        },
-        {
             "name": "Fine Wine",
             "race": "Tabaxi",
-            "armor": 15,
-            "health": 30,
+            "armor": 16,
+            "health": 52,
             "speed": 35,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12594823",
-            "initMod": 4,
+            "initMod": 12,
             "weapons": [
                 {
                     "name": "Greatsword",
                     "dice": "2d6",
-                    "hitMod": 7,
-                    "attackMod": 4,
+                    "hitMod": 8,
+                    "attackMod": 5,
                     "damageType": "slashing"
                 },
                 {
                     "name": "Eldritch Blast",
                     "dice": "1d10",
-                    "hitMod": 7,
-                    "attackMod": 4,
+                    "hitMod": 8,
+                    "attackMod": 5,
                     "damageType": "force"
+                }
+            ]
+        },
+        {
+            "name": "Shadow Demon",
+            "race": "Fiend",
+            "armor": 13,
+            "health": 66,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/shadow-demon",
+            "initMod": 6,
+            "weapons": [
+                {
+                    "name": "Claws",
+                    "dice": "2d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "psychic"
                 }
             ]
         },
@@ -335,6 +316,86 @@
                     "dice": "1d8",
                     "hitMod": 4,
                     "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Sal'Athik",
+            "race": "Orc",
+            "armor": 16,
+            "health": 20,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/15401286",
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Handaxe",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 2,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
+            "name": "Bandit Captain",
+            "race": "Dwarf",
+            "armor": 15,
+            "health": 65,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/bandit-captain",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Bandit",
+            "race": "Human",
+            "armor": 12,
+            "health": 11,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/bandit",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
                     "damageType": "piercing"
                 }
             ]
