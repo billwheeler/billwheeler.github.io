@@ -46,7 +46,7 @@
             "speed": 35,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12594823",
-            "initMod": 12,
+            "initMod": 6,
             "weapons": [
                 {
                     "name": "Greatsword",
@@ -63,35 +63,6 @@
                     "damageType": "force"
                 }
             ]
-        },
-        {
-            "name": "Shadow Demon",
-            "race": "Fiend",
-            "armor": 13,
-            "health": 66,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/shadow-demon",
-            "initMod": 6,
-            "weapons": [
-                {
-                    "name": "Claws",
-                    "dice": "2d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "psychic"
-                }
-            ]
-        },
-        {
-            "name": "Zariel",
-            "race": "Archdevil",
-            "armor": 21,
-            "health": 580,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/zariel",
-            "initMod": 7
         },
         {
             "name": "City Guard",
@@ -117,12 +88,41 @@
             "name": "Lina De Felius",
             "race": "Human",
             "armor": 17,
-            "health": 104,
+            "health": 86,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/393902-lina-de-felius",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/15512179",
             "template": false,
-            "initMod": 1
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "White Hilt Dagger",
+                    "dice": "1d4",
+                    "hitMod": 6,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Specter",
+            "race": "Undead",
+            "armor": 12,
+            "health": 22,
+            "speed": 50,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/specter",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Life Drain",
+                    "dice": "3d6",
+                    "hitMod": 4,
+                    "attackMod": 0,
+                    "damageType": "necrotic"
+                }
+            ]
         },
         {
             "name": "Shadow",
@@ -148,175 +148,6 @@
                     "hitMod": 4,
                     "attackMod": 0,
                     "damageType": "necrotic"
-                }
-            ]
-        },
-        {
-            "name": "Hobgoblin",
-            "race": "Hobgoblin",
-            "armor": 15,
-            "health": 11,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Longsword",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Longbow",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Hobgoblin Devastator",
-            "race": "Hobgoblin",
-            "armor": 13,
-            "health": 45,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin-devastator",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Quarterstaff",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
-            "name": "Hobgoblin Iron Shadow",
-            "race": "Hobgoblin",
-            "armor": 13,
-            "health": 32,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin-iron-shadow",
-            "template": true,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Unarmed Strike",
-                    "dice": "1d4",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "bludgeoning"
-                },
-                {
-                    "name": "Dart",
-                    "dice": "1d4",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Hobgoblin Captain",
-            "race": "Hobgoblin",
-            "armor": 15,
-            "health": 39,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin-captain",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Greatsword",
-                    "dice": "2d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Javelin",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Hobgoblin Warlord",
-            "race": "Hobgoblin",
-            "armor": 17,
-            "health": 97,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin-warlord",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Longsword",
-                    "dice": "1d8",
-                    "hitMod": 9,
-                    "attackMod": 3,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Shield Bash",
-                    "dice": "1d4",
-                    "hitMod": 9,
-                    "attackMod": 3,
-                    "damageType": "bludgeoning"
-                },
-                {
-                    "name": "Javelin",
-                    "dice": "1d6",
-                    "hitMod": 9,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Wight",
-            "race": "Undead",
-            "armor": 14,
-            "health": 45,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/wight",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Life Drain",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "necrotic"
-                },
-                {
-                    "name": "Longsword",
-                    "dice": "1d8",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Longbow",
-                    "dice": "1d8",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
                 }
             ]
         },
