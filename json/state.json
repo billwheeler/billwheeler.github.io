@@ -42,11 +42,11 @@
             "name": "Fine Wine",
             "race": "Tabaxi",
             "armor": 16,
-            "health": 52,
+            "health": 80,
             "speed": 35,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12594823",
-            "initMod": 6,
+            "initMod": 3,
             "weapons": [
                 {
                     "name": "Greatsword",
@@ -65,21 +65,28 @@
             ]
         },
         {
-            "name": "City Guard",
+            "name": "Imperial Guard",
             "race": "Human",
-            "armor": 16,
-            "health": 11,
+            "armor": 15,
+            "health": 45,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/guard",
+            "link": "https://www.dndbeyond.com/monsters/454471-imperial-guard",
             "template": true,
-            "initMod": 1,
+            "initMod": 3,
             "weapons": [
                 {
                     "name": "Spear",
                     "dice": "1d8",
                     "hitMod": 4,
-                    "attackMod": 2,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 3,
                     "damageType": "piercing"
                 }
             ]
@@ -105,41 +112,21 @@
             ]
         },
         {
-            "name": "Specter",
-            "race": "Undead",
-            "armor": 12,
-            "health": 22,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/specter",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Life Drain",
-                    "dice": "3d6",
-                    "hitMod": 4,
-                    "attackMod": 0,
-                    "damageType": "necrotic"
-                }
-            ]
-        },
-        {
             "name": "Shadow",
             "race": "Undead",
             "armor": 12,
-            "health": 16,
+            "health": 19,
             "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/shadow",
+            "link": "https://www.dndbeyond.com/monsters/454446-shadow-upgraded",
             "template": true,
-            "initMod": 2,
+            "initMod": 3,
             "weapons": [
                 {
                     "name": "Strength Drain",
-                    "dice": "2d6",
+                    "dice": "2d12",
                     "hitMod": 4,
-                    "attackMod": 2,
+                    "attackMod": 3,
                     "damageType": "necrotic"
                 },
                 {
