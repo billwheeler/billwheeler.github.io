@@ -178,55 +178,55 @@
             ]
         },
         {
-            "name": "Bandit Captain",
+            "name": "Ravager Captain",
             "race": "Dwarf",
-            "armor": 15,
-            "health": 65,
+            "armor": 16,
+            "health": 71,
             "speed": 25,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bandit-captain",
+            "link": "https://www.dndbeyond.com/monsters/454394-ravager-captain",
             "template": true,
             "initMod": 2,
             "weapons": [
                 {
-                    "name": "Scimitar",
-                    "dice": "1d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "slashing"
+                    "name": "Maul",
+                    "dice": "2d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "blungeoning"
                 },
                 {
-                    "name": "Dagger",
-                    "dice": "1d4",
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
                     "hitMod": 5,
-                    "attackMod": 3,
+                    "attackMod": 2,
                     "damageType": "piercing"
                 }
             ]
         },
         {
-            "name": "Bandit",
+            "name": "Ravager",
             "race": "Human",
-            "armor": 12,
-            "health": 11,
+            "armor": 14,
+            "health": 39,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bandit",
+            "link": "https://www.dndbeyond.com/monsters/454366-ravager",
             "template": true,
-            "initMod": 2,
+            "initMod": 3,
             "weapons": [
                 {
                     "name": "Scimitar",
                     "dice": "1d6",
-                    "hitMod": 3,
-                    "attackMod": 1,
+                    "hitMod": 5,
+                    "attackMod": 3,
                     "damageType": "slashing"
                 },
                 {
                     "name": "Light Crossbow",
                     "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
+                    "hitMod": 5,
+                    "attackMod": 3,
                     "damageType": "piercing"
                 }
             ]
