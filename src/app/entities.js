@@ -12,12 +12,9 @@ var playerById = function (id) {
     var player = null
 
     if (Utils.isNumeric(id)) {
-        for (var i = 0, l = players.length; i < l; i++) {
-            if (players[i].id === id) {
-                player = players[i]
-                break
-            }
-        }
+        player = players.filter((a) => a.id === id)
+        if (player.length > 0)
+            return player[0]
     }
 
     return player
@@ -27,12 +24,9 @@ var npcById = function (id) {
     var npc = null;
 
     if (Utils.isNumeric(id)) {
-        for (var i = 0, l = npcs.length; i < l; i++) {
-            if (npcs[i].id === id) {
-                npc = npcs[i]
-                break
-            }
-        }
+        npc = npcs.filter((a) => a.id === id)
+        if (npc.length > 0)
+            return npc[0]
     }
 
     return npc

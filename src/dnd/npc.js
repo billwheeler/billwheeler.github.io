@@ -1,6 +1,7 @@
 ﻿'use strict'
 
 var Weapon = require('./weapon.js')
+var Spell = require('./spell.js')
 var roll = require('../dnd/dice.js')
 var Companion = require('./companion.js')
 
@@ -13,6 +14,7 @@ var npc = function () {
     this.race = 'Human'
     this.initiative = 0
     this.weapons = []
+    this.spells = []
     this.state = CharacterState.Idle
     this.link = ''
     this.initMod = 0
@@ -64,6 +66,14 @@ npc.prototype.parse = function (json) {
         }
     }
 
+    if (json.spells && Utils.isArray(json.spells)) {
+        for (var i = 0, l = json.spells.length; i < l; i++) {
+            var s = new Spell()
+            s.parse(json.spells[i])
+            this.spells.push(s)
+        }
+    }
+
     if (json.link) {
         this.link = json.link
     }
@@ -89,6 +99,11 @@ npc.prototype.serialize = function () {
         weapons.push(this.weapons[i].serialize())
     }
 
+    var spells = []
+    for (var i = 0, l = this.spells.length; i < l; i++) {
+        spells.push(this.spells[i].serialize())
+    }
+
     var out = {
         id: this.id,
         name: this.name,
@@ -98,6 +113,7 @@ npc.prototype.serialize = function () {
         race: this.race,
         initiative: this.initiative,
         weapons: weapons,
+        spells: spells,
         state: this.state,
         link: this.link,
         initMod: this.initMod,
@@ -122,6 +138,10 @@ npc.prototype.render = function () {
 
     for (var i = 0, l = this.weapons.length; i < l; i++) {
         out += '<div>' + this.weapons[i].render() + '</div>'
+    }
+
+    for (var i = 0, l = this.spells.length; i < l; i++) {
+        out += '<div>' + this.spells[i].render() + '</div>'
     }
 
     if (this.state === CharacterState.Encounter) {
@@ -191,8 +211,10 @@ npc.prototype.clone = function () {
     n.speed = this.speed
     n.race = this.race
     n.weapons = Utils.arrayClone(this.weapons)
+    n.spells = Utils.arrayClone(this.spells)
     n.link = this.link
     n.initMod = this.initMod
+
     if (this.companion) n.companion = this.companion.clone()
     return n
 }

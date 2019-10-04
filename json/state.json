@@ -90,7 +90,14 @@
                     "attackMod": 4,
                     "damageType": "slashing"
                 }
-            ] 
+            ],
+            "spells": [
+                {
+                    "name": "Pact Magic (4th)",
+                    "slots": 4,
+                    "used": 0
+                }
+            ]
         },
         {
             "name": "Kaygrun",
@@ -136,8 +143,25 @@
                     "hitMod": 6,
                     "attackMod": 3,
                     "damageType": "force"
-                }                
-            ] 
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First",
+                    "slots": 4,
+                    "used": 2
+                },
+                {
+                    "name": "Second",
+                    "slots": 3,
+                    "used": 3
+                },
+                {
+                    "name": "Third",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
         },
         {
             "name": "Rosara",
@@ -157,7 +181,19 @@
                     "attackMod": 2,
                     "damageType": "piercing"
                 }
-            ] 
+            ],
+            "spells": [
+                {
+                    "name": "First",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Second",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
         },
         {
             "name": "Radclyf",
