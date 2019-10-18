@@ -118,6 +118,12 @@ module.exports.updatePlayer = (id, action, params) => {
         case CharacterAction.Die:
             player.die()
             break
+        case CharacterAction.Spell:
+            player.useSpell(params[0], params[1])
+            break
+        case CharacterAction.Rest:
+            player.applyRest()
+            break
     }
 }
 
@@ -145,6 +151,12 @@ module.exports.updateNpc = (id, action, params) => {
             break
         case CharacterAction.Die:
             currentNpc.die()
+            break
+        case CharacterAction.Spell:
+            currentNpc.useSpell(params[0], params[1])
+            break
+        case CharacterAction.Rest:
+            currentNpc.applyRest()
             break
     }
 }

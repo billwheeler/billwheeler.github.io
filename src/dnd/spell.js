@@ -4,6 +4,7 @@ var Storage = require('../app/storage.js')
 
 var spell = function () {
     this.id = 0
+    this.parentId = 0
     this.name = ''
     this.slots = 0
     this.used = 0
@@ -18,6 +19,10 @@ spell.prototype.parse = function (json) {
 
     if (this.id === 0) {
         this.id = Storage.assignId()
+    }
+
+    if (json.parentId && Utils.isNumeric(json.parentId)) {
+        this.parentId = json.parentId
     }
 
     if (json.name) {
@@ -36,6 +41,7 @@ spell.prototype.parse = function (json) {
 spell.prototype.serialize = function () {
     return {
         id: this.id,
+        parentId: this.parentId,
         name: this.name,
         slots: this.slots,
         used: this.used
@@ -50,9 +56,9 @@ spell.prototype.render = function () {
     for (var i = 0, l = this.slots; i < l; i++) {
         out += '<td>'
         if ((i + 1) <= this.used) {
-            out += '<input class="spell-slot" type="checkbox" checked="checked" data-id="' + this.id + '" />'
+            out += '<input class="npc_spell_slot" type="checkbox" checked="checked" data-id="' + this.parentId + '" data-level-id="' + this.id + '" />'
         } else {
-            out += '<input class="spell-slot" type="checkbox" data-id="' + this.id + '" />'
+            out += '<input class="npc_spell_slot" type="checkbox" data-id="' + this.parentId + '" data-level-id="' + this.id + '" />'
         }
         out += '</td>'
     }

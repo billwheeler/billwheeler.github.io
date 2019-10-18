@@ -97,6 +97,14 @@ var addListener = function () {
                 case 'npc_die':
                     Entities.updateNpc(id, CharacterAction.Die)
                     break;
+                case 'npc_rest':
+                    Entities.updateNpc(id, CharacterAction.Rest)
+                    break;
+                case 'npc_spell_slot':
+                    var spellSlotId = parseInt(e.target.getAttribute('data-level-id'))
+                    var checked = e.target.checked
+                    Entities.updateNpc(id, CharacterAction.Spell, [spellSlotId, checked])
+                    break;
                 default:
                     doUpdate = false;
                     break;

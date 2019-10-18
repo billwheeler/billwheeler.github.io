@@ -108,5 +108,12 @@ player.prototype.die = function () {
     this.state = CharacterState.Dead
 }
 
+player.prototype.useSpell = function (slotId, use) {
+    return false
+}
+
+player.prototype.applyRest = function () {
+
+}
 
 module.exports = player;

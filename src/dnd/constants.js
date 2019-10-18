@@ -11,7 +11,9 @@ global.CharacterAction = {
     Die: 'die',
     Initiative: 'initiative',
     Leave: 'leave',
-    Revive: 'revive'
+    Revive: 'revive',
+    Spell: 'spell',
+    Rest: 'rest'
 }
 
 global.DamageType = {

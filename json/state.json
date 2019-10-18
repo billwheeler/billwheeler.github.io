@@ -43,6 +43,7 @@
             "race": "Undead",
             "armor": 12,
             "health": 19,
+            "maxHealth": 19,
             "speed": 40,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/454446-shadow-upgraded",
@@ -70,6 +71,7 @@
             "race": "Dwarf",
             "armor": 13,
             "health": 58,
+            "maxHealth": 58,
             "speed": 25,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/veteran",
@@ -90,13 +92,14 @@
                     "attackMod": 3,
                     "damageType": "piercing"
                 }
-            ] 
+            ]
         },
         {
             "name": "Wellgar Brinehanded",
             "race": "Human",
             "armor": 16,
             "health": 66,
+            "maxHealth": 66,
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/17736105",
@@ -138,12 +141,13 @@
                     "used": 0
                 }
             ]
-        },              
+        },
         {
             "name": "Sahuagin",
             "race": "Sahuagin",
             "armor": 12,
             "health": 22,
+            "maxHealth": 22,
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/sahuagin",
@@ -156,7 +160,7 @@
                     "hitMod": 3,
                     "attackMod": 1,
                     "damageType": "piercing"
-                },                
+                },
                 {
                     "name": "Bite",
                     "dice": "1d4",
@@ -164,13 +168,14 @@
                     "attackMod": 1,
                     "damageType": "piercing"
                 }
-            ] 
+            ]
         },
         {
             "name": "Giant Crocodile",
             "race": "Huge beast",
             "armor": 14,
             "health": 85,
+            "maxHealth": 85,
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/giant-crocodile",
@@ -183,7 +188,7 @@
                     "hitMod": 8,
                     "attackMod": 5,
                     "damageType": "piercing"
-                },                
+                },
                 {
                     "name": "Tail",
                     "dice": "2d8",
@@ -191,13 +196,14 @@
                     "attackMod": 5,
                     "damageType": "bludgeoning"
                 }
-            ] 
+            ]
         },
         {
             "name": "Bullywug",
             "race": "Bullywug",
             "armor": 15,
             "health": 11,
+            "maxHealth": 11,
             "speed": 20,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/bullywug",
@@ -210,7 +216,7 @@
                     "hitMod": 3,
                     "attackMod": 1,
                     "damageType": "piercing"
-                },                
+                },
                 {
                     "name": "Spear",
                     "dice": "1d8",
@@ -218,13 +224,14 @@
                     "attackMod": 1,
                     "damageType": "piercing"
                 }
-            ] 
+            ]
         },
         {
             "name": "Bullywug Croaker",
             "race": "Bullywug",
             "armor": 15,
             "health": 33,
+            "maxHealth": 33,
             "speed": 20,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/bullywug-croaker",
@@ -237,7 +244,7 @@
                     "hitMod": 4,
                     "attackMod": 2,
                     "damageType": "piercing"
-                },                
+                },
                 {
                     "name": "Spear",
                     "dice": "1d8",
@@ -245,13 +252,14 @@
                     "attackMod": 2,
                     "damageType": "piercing"
                 }
-            ] 
+            ]
         },
         {
             "name": "Bullywug Royal",
             "race": "Bullywug",
             "armor": 15,
             "health": 33,
+            "maxHealth": 33,
             "speed": 20,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/bullywug-royal",
@@ -264,7 +272,7 @@
                     "hitMod": 5,
                     "attackMod": 3,
                     "damageType": "piercing"
-                },                
+                },
                 {
                     "name": "Spear",
                     "dice": "2d8",
@@ -272,13 +280,14 @@
                     "attackMod": 3,
                     "damageType": "piercing"
                 }
-            ] 
+            ]
         },
         {
             "name": "Giant Toad",
             "race": "Large beast",
             "armor": 15,
             "health": 39,
+            "maxHealth": 39,
             "speed": 20,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/giant-toad",
@@ -291,7 +300,7 @@
                     "hitMod": 4,
                     "attackMod": 2,
                     "damageType": "piercing"
-                },                
+                },
                 {
                     "name": "Swallow",
                     "dice": "3d6",
@@ -299,7 +308,7 @@
                     "attackMod": 0,
                     "damageType": "acid"
                 }
-            ] 
+            ]
         }                
     ]
 }
