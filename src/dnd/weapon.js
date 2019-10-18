@@ -4,6 +4,7 @@ var Storage = require('../app/storage.js')
 
 var weapon = function () {
     this.id = 0
+    this.parentId = 0
     this.name = ''
     this.dice = '1d4'
     this.hitMod = 0
@@ -20,6 +21,10 @@ weapon.prototype.parse = function (json) {
 
     if (this.id === 0) {
         this.id = Storage.assignId()
+    }
+
+    if (json.parentId && Utils.isNumeric(json.parentId)) {
+        this.parentId = json.parentId
     }
 
     if (json.name) {
@@ -52,6 +57,21 @@ weapon.prototype.serialize = function () {
         attackMod: this.attackMod,
         damageType: this.damageType
     }
+}
+
+weapon.prototype.clone = function (parentId) {
+    var w = new weapon()
+
+    w.parse({
+        name: this.name,
+        parentId: parentId,
+        dice: this.dice,
+        hitMod: this.hitMod,
+        attackMod: this.attackMod,
+        damageType: this.damageType
+    })
+
+    return w
 }
 
 weapon.prototype.render = function () {

@@ -16,6 +16,7 @@ var npc = function () {
     this.initiative = 0
     this.weapons = []
     this.spells = []
+    this.companions = []
     this.state = CharacterState.Idle
     this.link = ''
     this.initMod = 0
@@ -107,6 +108,11 @@ npc.prototype.serialize = function () {
         spells.push(this.spells[i].serialize())
     }
 
+    var companions = []
+    for (var i = 0, l = this.companions.length; i < l; i++) {
+        companions.push(this.companions[i].serialize())
+    }
+
     var out = {
         id: this.id,
         name: this.name,
@@ -118,6 +124,7 @@ npc.prototype.serialize = function () {
         initiative: this.initiative,
         weapons: weapons,
         spells: spells,
+        companions: companions,
         state: this.state,
         link: this.link,
         initMod: this.initMod,
@@ -159,7 +166,7 @@ npc.prototype.render = function () {
         out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
         out += '</div>';
     } else if (this.state === CharacterState.Idle) {
-        out += '<div>';
+        out += '<div>'
         out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />&nbsp;'
         out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
         if (!this.template) out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
@@ -214,11 +221,21 @@ npc.prototype.clone = function () {
         armor: this.armor,
         speed: this.speed,
         race: this.race,
-        weapons: Utils.arrayClone(this.weapons),
-        spells: Utils.arrayClone(this.spells),
         link: this.link,
         initMod: this.initMod
     })
+
+    var weapons = []
+    for (var i = 0, l = this.weapons.length; i < l; i++) {
+        weapons.push(this.weapons[i].clone(n.id))
+    }
+    n.weapons = weapons;
+
+    var spells = []
+    for (var i = 0, l = this.spells.length; i < l; i++) {
+        spells.push(this.spells[i].clone(n.id))
+    }
+    n.spells = spells;
 
     return n
 }

@@ -48,6 +48,29 @@ spell.prototype.serialize = function () {
     }
 }
 
+spell.prototype.serialize = function () {
+    return {
+        id: this.id,
+        parentId: this.parentId,
+        name: this.name,
+        slots: this.slots,
+        used: this.used
+    }
+}
+
+spell.prototype.clone = function (parentId) {
+    var s = new spell()
+
+    s.parse({
+        name: this.name,
+        parentId: parentId,
+        slots: this.slots,
+        used: this.used
+    })
+
+    return s
+}
+
 spell.prototype.render = function () {
     var out = '<tr>'
 

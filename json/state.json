@@ -39,6 +39,55 @@
     ],
     "npcs": [
         {
+            "name": "Murie Woldshaper",
+            "race": "Hill Dwarf",
+            "armor": 15,
+            "health": 40,
+            "maxHealth": 40,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966",
+            "initMod": 4,
+            "weapons": [
+                {
+                    "name": "Handaxe",
+                    "dice": "1d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Longbow",
+                    "dice": "1d8",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ],
+            "companions": [
+                {
+                    "name": "Dathon",
+                    "race": "Murie's Wolf",
+                    "armor": 15,
+                    "health": 22,
+                    "maxHealth": 22,
+                    "speed": 40,
+                    "state": "alive",
+                    "link": "https://www.dndbeyond.com/monsters/362263-dathon",
+                    "weapons": [
+                        {
+                            "name": "Bite",
+                            "dice": "2d4",
+                            "hitMod": 6,
+                            "attackMod": 4,
+                            "damageType": "piercing"
+
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Shadow",
             "race": "Undead",
             "armor": 12,
@@ -56,41 +105,6 @@
                     "hitMod": 4,
                     "attackMod": 3,
                     "damageType": "necrotic"
-                },
-                {
-                    "name": "Strength Drain",
-                    "dice": "1d4",
-                    "hitMod": 4,
-                    "attackMod": 0,
-                    "damageType": "necrotic"
-                }
-            ]
-        },
-        {
-            "name": "Manistrad Copperlocks",
-            "race": "Dwarf",
-            "armor": 13,
-            "health": 58,
-            "maxHealth": 58,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/veteran",
-            "template": false,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Shortsword",
-                    "dice": "1d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
                 }
             ]
         },
@@ -141,174 +155,6 @@
                     "used": 0
                 }
             ]
-        },
-        {
-            "name": "Sahuagin",
-            "race": "Sahuagin",
-            "armor": 12,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/sahuagin",
-            "template": true,
-            "initMod": 0,
-            "weapons": [
-                {
-                    "name": "Spear",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Giant Crocodile",
-            "race": "Huge beast",
-            "armor": 14,
-            "health": 85,
-            "maxHealth": 85,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/giant-crocodile",
-            "template": true,
-            "initMod": -1,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "3d10",
-                    "hitMod": 8,
-                    "attackMod": 5,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Tail",
-                    "dice": "2d8",
-                    "hitMod": 8,
-                    "attackMod": 5,
-                    "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
-            "name": "Bullywug",
-            "race": "Bullywug",
-            "armor": 15,
-            "health": 11,
-            "maxHealth": 11,
-            "speed": 20,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bullywug",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Spear",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Bullywug Croaker",
-            "race": "Bullywug",
-            "armor": 15,
-            "health": 33,
-            "maxHealth": 33,
-            "speed": 20,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bullywug-croaker",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Spear",
-                    "dice": "1d8",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Bullywug Royal",
-            "race": "Bullywug",
-            "armor": 15,
-            "health": 33,
-            "maxHealth": 33,
-            "speed": 20,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bullywug-royal",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "1d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Spear",
-                    "dice": "2d8",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Giant Toad",
-            "race": "Large beast",
-            "armor": 15,
-            "health": 39,
-            "maxHealth": 39,
-            "speed": 20,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/giant-toad",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "1d10",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Swallow",
-                    "dice": "3d6",
-                    "hitMod": 0,
-                    "attackMod": 0,
-                    "damageType": "acid"
-                }
-            ]
-        }                
+        }
     ]
 }
