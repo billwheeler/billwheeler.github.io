@@ -3,7 +3,7 @@
 var Weapon = require('./weapon.js')
 var Spell = require('./spell.js')
 var roll = require('../dnd/dice.js')
-var Companion = require('./companion.js')
+var Storage = require('../app/storage.js')
 
 var npc = function () {
     this.id = 0
@@ -20,7 +20,6 @@ var npc = function () {
     this.initMod = 0
     this.template = false
     this.instance = 0
-    this.companion = null
 }
 
 npc.prototype.parse = function (json) {
@@ -28,6 +27,10 @@ npc.prototype.parse = function (json) {
 
     if (json.id && Utils.isNumeric(json.id)) {
         this.id = json.id
+    }
+
+    if (this.id === 0) {
+        this.id = Storage.assignId()
     }
 
     if (json.name) {
@@ -85,12 +88,6 @@ npc.prototype.parse = function (json) {
     if (json.initMod && Utils.isNumeric(json.initMod)) {
         this.initMod = json.initMod
     }
-
-    if (json.companion) {
-        var c = new Companion()
-        c.parse(json.companion)
-        this.companion = c
-    }
 }
 
 npc.prototype.serialize = function () {
@@ -121,7 +118,6 @@ npc.prototype.serialize = function () {
         instance: this.instance
     }
 
-    if (this.companion) out['companion'] = this.companion.serialize()
     return out
 }
 
@@ -140,8 +136,12 @@ npc.prototype.render = function () {
         out += '<div>' + this.weapons[i].render() + '</div>'
     }
 
-    for (var i = 0, l = this.spells.length; i < l; i++) {
-        out += '<div>' + this.spells[i].render() + '</div>'
+    if (this.spells.length > 0) {
+        out += '<table cellpadding="0" cellspacing="0" border="0" class="npc-spell-list">'
+        for (var i = 0, l = this.spells.length; i < l; i++) {
+            out += this.spells[i].render()
+        }
+        out += '</table>'
     }
 
     if (this.state === CharacterState.Encounter) {
@@ -160,7 +160,6 @@ npc.prototype.render = function () {
     }
 
     if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
-    if (this.companion) out += this.companion.render()
 
     out += '</div>'
     return out;
@@ -169,10 +168,6 @@ npc.prototype.render = function () {
 npc.prototype.rollInitiative = function () {
     this.state = CharacterState.Encounter
     this.initiative = roll.d20() + this.initMod
-
-    if (this.companion && this.companion.state !== CharacterState.Dead) {
-        this.companion.state = CharacterState.Encounter
-    }
 }
 
 npc.prototype.applyDamage = function (damage) {
@@ -191,10 +186,6 @@ npc.prototype.revive = function () {
 npc.prototype.leaveEncounter = function () {
     this.initiative = 0
     this.state = CharacterState.Idle
-
-    if (this.companion && this.companion.state !== CharacterState.Dead) {
-        this.companion.state = CharacterState.Idle
-    }
 }
 
 npc.prototype.die = function () {
@@ -215,7 +206,6 @@ npc.prototype.clone = function () {
     n.link = this.link
     n.initMod = this.initMod
 
-    if (this.companion) n.companion = this.companion.clone()
     return n
 }
 

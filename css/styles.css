@@ -30,8 +30,8 @@ h3 { margin: 0 6px 8px 6px; padding: 0; font: bold 24px/36px verdana; }
 
 .companion { padding: 3px 5px; background: rgba(204, 204, 204, 0.5); margin-top: 4px; }
 
-.npc-spells { height: 24px; line-height: 24px; }
-.spell-level { }
+.npc-spell-list { width: auto !important; }
+.npc-spell-list td { padding: 2px 2px 2px 0; }
 .npc-spells input[type="checkbox"] { margin: 5px 3px 6px 4px; }
 
 .top-link { padding: 10px 0; font: bold 15px/24px verdana; }

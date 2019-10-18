@@ -5,6 +5,8 @@ const storageKey = 'OssariaSessionEight'
 
 var save = (data) => localStorage.setItem(storageKey, data)
 
+var lastUsedId = 0
+
 var fetchJson = () => {
     return new Promise((resolve, reject) => {
         axios.get(global.DataFile)
@@ -55,4 +57,9 @@ module.exports.reset = () => {
             reject(err)
         }
     })
+}
+
+module.exports.assignId = () => {
+    lastUsedId++
+    return lastUsedId
 }

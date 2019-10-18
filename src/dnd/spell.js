@@ -1,6 +1,9 @@
 ﻿'use strict'
 
+var Storage = require('../app/storage.js')
+
 var spell = function () {
+    this.id = 0
     this.name = ''
     this.slots = 0
     this.used = 0
@@ -8,6 +11,14 @@ var spell = function () {
 
 spell.prototype.parse = function (json) {
     if (!json) return
+
+    if (json.id && Utils.isNumeric(json.id)) {
+        this.id = json.id
+    }
+
+    if (this.id === 0) {
+        this.id = Storage.assignId()
+    }
 
     if (json.name) {
         this.name = json.name
@@ -24,6 +35,7 @@ spell.prototype.parse = function (json) {
 
 spell.prototype.serialize = function () {
     return {
+        id: this.id,
         name: this.name,
         slots: this.slots,
         used: this.used
@@ -31,19 +43,21 @@ spell.prototype.serialize = function () {
 }
 
 spell.prototype.render = function () {
-    var out = '<div class="npc-spells">'
+    var out = '<tr>'
 
-    out += '<span class="spell-level">' + this.name + '</span>';
+    out += '<td>' + this.name + '</td>';
 
     for (var i = 0, l = this.slots; i < l; i++) {
+        out += '<td>'
         if ((i + 1) <= this.used) {
-            out += '<input class="spell-slot" type="checkbox" checked="checked" />'
+            out += '<input class="spell-slot" type="checkbox" checked="checked" data-id="' + this.id + '" />'
         } else {
-            out += '<input class="spell-slot" type="checkbox" />'
+            out += '<input class="spell-slot" type="checkbox" data-id="' + this.id + '" />'
         }
+        out += '</td>'
     }
 
-    out += '</div>'
+    out += '</tr>'
 
     return out
 }

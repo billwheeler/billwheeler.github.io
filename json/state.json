@@ -110,7 +110,34 @@
                     "attackMod": 5,
                     "damageType": "bludgeoning"
                 }
-            ] 
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
         },              
         {
             "name": "Sahuagin",

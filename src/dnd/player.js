@@ -1,5 +1,7 @@
 ﻿'use strict'
 
+var Storage = require('../app/storage.js')
+
 var player = function () {
     this.id = 0
     this.name = ''
@@ -15,6 +17,10 @@ player.prototype.parse = function (json) {
 
     if (json.id && Utils.isNumeric(json.id)) {
         this.id = json.id
+    }
+
+    if (this.id === 0) {
+        this.id = Storage.assignId()
     }
 
     if (json.name) {

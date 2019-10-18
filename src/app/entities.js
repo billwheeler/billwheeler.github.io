@@ -6,8 +6,6 @@ var Npc = require('../dnd/npc.js')
 var players = []
 var npcs = []
 
-var lastId = 0
-
 var playerById = function (id) {
     var player = null
 
@@ -33,12 +31,6 @@ var npcById = function (id) {
 }
 
 var addNpc = function (npc) {
-    if (typeof npc.id !== 'number' || npc.id === 0) {
-        lastId++
-        npc.id = lastId
-    }
-
-    if (npc.companion) npc.companion.id = npc.id
     npcs.push(npc)
 }
 
@@ -47,29 +39,14 @@ module.exports.pull = (data, fresh) => {
     npcs.length = 0
 
     for (var i = 0, l = data.players.length; i < l; i++) {
-        if (typeof data.players[i].id !== 'number') {
-            lastId++
-            data.players[i].id = lastId
-        }
-
         var p = new Player()
         p.parse(data.players[i])
         players.push(p)
     }
 
     for (var i = 0, l = data.npcs.length; i < l; i++) {
-        if (typeof data.npcs[i].id !== 'number') {
-            lastId++
-            data.npcs[i].id = lastId
-        }
-
         var n = new Npc()
         n.parse(data.npcs[i])
-
-        if (typeof data.npcs[i].companion !== "undefined") {
-            n.companion.id = data.npcs[i].id
-        }
-
         npcs.push(n)
     }
 
@@ -168,23 +145,6 @@ module.exports.updateNpc = (id, action, params) => {
             break
         case CharacterAction.Die:
             currentNpc.die()
-            break
-    }
-}
-
-module.exports.updateCompanion = (id, action, params) => {
-    var currentNpc = npcById(id)
-    if (!currentNpc) return
-
-    switch (action) {
-        case CharacterAction.Damage:
-            currentNpc.companion.applyDamage(params[0])
-            break
-        case CharacterAction.Revive:
-            currentNpc.companion.revive()
-            break
-        case CharacterAction.Die:
-            currentNpc.companion.die()
             break
     }
 }

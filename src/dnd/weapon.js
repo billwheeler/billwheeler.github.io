@@ -1,6 +1,9 @@
 ﻿'use strict'
 
+var Storage = require('../app/storage.js')
+
 var weapon = function () {
+    this.id = 0
     this.name = ''
     this.dice = '1d4'
     this.hitMod = 0
@@ -10,6 +13,14 @@ var weapon = function () {
 
 weapon.prototype.parse = function (json) {
     if (!json) return
+
+    if (json.id && Utils.isNumeric(json.id)) {
+        this.id = json.id
+    }
+
+    if (this.id === 0) {
+        this.id = Storage.assignId()
+    }
 
     if (json.name) {
         this.name = json.name
@@ -34,6 +45,7 @@ weapon.prototype.parse = function (json) {
 
 weapon.prototype.serialize = function () {
     return {
+        id: this.id,
         name: this.name,
         dice: this.dice,
         hitMod: this.hitMod,
