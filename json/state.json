@@ -42,8 +42,8 @@
             "name": "Murie Woldshaper",
             "race": "Hill Dwarf",
             "armor": 15,
-            "health": 40,
-            "maxHealth": 40,
+            "health": 49,
+            "maxHealth": 49,
             "speed": 25,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966",
@@ -64,28 +64,39 @@
                     "damageType": "piercing"
                 }
             ],
-            "companions": [
+            "spells": [
                 {
-                    "name": "Dathon",
-                    "race": "Murie's Wolf",
-                    "armor": 15,
-                    "health": 22,
-                    "maxHealth": 22,
-                    "speed": 40,
-                    "state": "alive",
-                    "link": "https://www.dndbeyond.com/monsters/362263-dathon",
-                    "weapons": [
-                        {
-                            "name": "Bite",
-                            "dice": "2d4",
-                            "hitMod": 6,
-                            "attackMod": 4,
-                            "damageType": "piercing"
-
-                        }
-                    ]
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 2,
+                    "used": 0
                 }
             ]
+        },
+        {
+            "name": "Dathon",
+            "race": "Wolf",
+            "armor": 15,
+            "health": 20,
+            "maxHealth": 20,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966",
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "2d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+
+                }
+            ],
+            "companionTo": "Murie Woldshaper"
         },
         {
             "name": "Shadow",

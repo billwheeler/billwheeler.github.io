@@ -57,6 +57,7 @@ var addListener = function () {
 
             switch (e.target.className) {
                 case 'hard_reset':
+                    Debug.log("hard reset");
                     doUpdate = false
                     if (confirm('Are you sure? This cannot be undone.')) {
                         var cell = document.getElementById('main-content')

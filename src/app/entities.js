@@ -50,7 +50,26 @@ module.exports.pull = (data, fresh) => {
         npcs.push(n)
     }
 
+    if (fresh) {
+        for (var i = 0, l = npcs.length; i < l; i++) {
+            if (npcs[i].companionTo) {
+                addCompanionTo(npcs[i].id, npcs[i].companionTo)
+            }
+        }
+    }
+
     if (fresh) push()
+}
+
+var addCompanionTo = function (companionId, npcName) {
+    for (var i = 0, l = npcs.length; i < l; i++) {
+        if (npcs[i].name === npcName) {
+            npcs[i].companions.push(companionId)
+            return true
+        }
+    }
+
+    return false
 }
 
 var push = () => {
@@ -142,9 +161,21 @@ module.exports.updateNpc = (id, action, params) => {
                 currentNpc = n
             }
             currentNpc.rollInitiative()
+            if (currentNpc.companions.length > 0) {
+                for (var i = 0, l = currentNpc.companions.length; i < l; i++) {
+                    var c = npcById(currentNpc.companions[i])
+                    if (c) c.applyInitiative(currentNpc.initiative)
+                }
+            }
             break
         case CharacterAction.Leave:
             currentNpc.leaveEncounter()
+            if (currentNpc.companions.length > 0) {
+                for (var i = 0, l = currentNpc.companions.length; i < l; i++) {
+                    var c = npcById(currentNpc.companions[i])
+                    if (c) c.leaveEncounter()
+                }
+            }
             break
         case CharacterAction.Revive:
             currentNpc.revive()

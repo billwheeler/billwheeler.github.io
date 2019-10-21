@@ -17,6 +17,7 @@ var npc = function () {
     this.weapons = []
     this.spells = []
     this.companions = []
+    this.companionTo = null
     this.state = CharacterState.Idle
     this.link = ''
     this.initMod = 0
@@ -84,12 +85,22 @@ npc.prototype.parse = function (json) {
         }
     }
 
+    if (json.companions && Utils.isArray(json.companions)) {
+        for (var i = 0, l = json.companions.length; i < l; i++) {
+            this.companions.push(json.companions[i])
+        }
+    }
+
     if (json.link) {
         this.link = json.link
     }
 
     if (json.template) {
         this.template = json.template
+    }
+
+    if (!this.template && json.companionTo) {
+        this.companionTo = json.companionTo
     }
 
     if (json.initMod && Utils.isNumeric(json.initMod)) {
@@ -110,7 +121,7 @@ npc.prototype.serialize = function () {
 
     var companions = []
     for (var i = 0, l = this.companions.length; i < l; i++) {
-        companions.push(this.companions[i].serialize())
+        companions.push(this.companions[i])
     }
 
     var out = {
@@ -125,6 +136,7 @@ npc.prototype.serialize = function () {
         weapons: weapons,
         spells: spells,
         companions: companions,
+        companionTo: this.companionTo,
         state: this.state,
         link: this.link,
         initMod: this.initMod,
@@ -136,7 +148,11 @@ npc.prototype.serialize = function () {
 }
 
 npc.prototype.render = function () {
-    var out = '<div class="ent npc" data-id="' + this.id + '">';
+    var classes = 'ent npc';
+    if (this.companionTo)
+        classes += ' companion'
+
+    var out = '<div class="' + classes + '" data-id="' + this.id + '">';
 
     out += '<div><span class="bold">' + this.name + '</span>, <span class="italic">' + this.race + '</span>. Speed: ' + this.speed + '</div>'
 
@@ -161,13 +177,13 @@ npc.prototype.render = function () {
     if (this.state === CharacterState.Encounter) {
         out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="' + this.id + '" /><input type="text" id="npc_damage_' + this.id + '" /></div>'
         out += '<div style="margin-top: 4px;">'
-        out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="' + this.id + '" />&nbsp;'
+        if (!this.companionTo) out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="' + this.id + '" />&nbsp;'
         out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
         out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
         out += '</div>';
     } else if (this.state === CharacterState.Idle) {
         out += '<div>'
-        out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />&nbsp;'
+        if (!this.companionTo) out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />&nbsp;'
         out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
         if (!this.template) out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
         out += '</div>';
@@ -184,6 +200,13 @@ npc.prototype.render = function () {
 npc.prototype.rollInitiative = function () {
     this.state = CharacterState.Encounter
     this.initiative = roll.d20() + this.initMod
+}
+
+npc.prototype.applyInitiative = function (initiative) {
+    this.initiative = initiative
+    if (this.state !== CharacterState.Dead) {
+        this.state = CharacterState.Encounter
+    }
 }
 
 npc.prototype.applyDamage = function (damage) {
