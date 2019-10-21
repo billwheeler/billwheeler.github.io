@@ -85,6 +85,152 @@
                     "attackMod": 5,
                     "damageType": "force"
                 }
+            ],
+            "spells": [
+                {
+                    "name": "Pact Magic (4th)",
+                    "slots": 4,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Berkohm Ruby-Eye",
+            "race": "Dwarf",
+            "armor": 15,
+            "health": 43,
+            "maxHealth": 43,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/521443-berkohm-ruby-eye",
+            "template": false,
+            "initMod": 6,
+            "weapons": [
+                {
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Lokkol",
+            "race": "Hobgoblin",
+            "armor": 13,
+            "health": 45,
+            "maxHealth": 45,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/521352-zariels-hobgoblin-devastator",
+            "template": false,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Quarterstaff",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Firebolt",
+                    "dice": "2d10",
+                    "hitMod": 5,
+                    "attackMod": 0,
+                    "damageType": "fire"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Glovuc",
+            "race": "Hobgoblin",
+            "armor": 15,
+            "health": 32,
+            "maxHealth": 32,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-iron-shadow",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Unarmed Strike",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Dart",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Lizardfolk",
+            "race": "Lizardfolk",
+            "armor": 15,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/lizardfolk",
+            "template": true,
+            "initMod": 0,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d6",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
             ]
         },
         {
