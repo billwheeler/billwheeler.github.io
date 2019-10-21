@@ -60,16 +60,170 @@
             "companionTo": "Tenraja"
         },
         {
+            "name": "Fine Wine",
+            "race": "Tabaxi",
+            "armor": 16,
+            "health": 77,
+            "maxHealth": 77,
+            "speed": 35,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/521173-fine-wine",
+            "template": false,
+            "initMod": 6,
+            "weapons": [
+                {
+                    "name": "Great Sword",
+                    "dice": "2d6",
+                    "hitMod": 8,
+                    "attackMod": 5,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Eldritch Blast",
+                    "dice": "1d10",
+                    "hitMod": 8,
+                    "attackMod": 5,
+                    "damageType": "force"
+                }
+            ]
+        },
+        {
+            "name": "Shadow Demon",
+            "race": "Demon",
+            "armor": 13,
+            "health": 66,
+            "maxHealth": 66,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/shadow-demon",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Claws",
+                    "dice": "2d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "psychic"
+                }
+            ]
+        },
+        {
+            "name": "Maw Demon",
+            "race": "Demon",
+            "armor": 13,
+            "health": 33,
+            "maxHealth": 33,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/maw-demon",
+            "template": true,
+            "initMod": -1,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "2d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Cackler",
+            "race": "Demon",
+            "armor": 15,
+            "health": 10,
+            "maxHealth": 10,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/cackler",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Spiked Chain",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Fire Bolt",
+                    "dice": "1d10",
+                    "hitMod": 3,
+                    "attackMod": 0,
+                    "damageType": "fire"
+                }
+            ]
+        },
+        {
+            "name": "Dretch",
+            "race": "Demon",
+            "armor": 11,
+            "health": 18,
+            "maxHealth": 18,
+            "speed": 20,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/dretch",
+            "template": true,
+            "initMod": 0,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d6",
+                    "hitMod": 2,
+                    "attackMod": 0,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Claws",
+                    "dice": "2d4",
+                    "hitMod": 2,
+                    "attackMod": 0,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
+            "name": "Manes",
+            "race": "Demon",
+            "armor": 9,
+            "health": 9,
+            "maxHealth": 9,
+            "speed": 20,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/manes",
+            "template": true,
+            "initMod": -1,
+            "weapons": [
+                {
+                    "name": "Claws",
+                    "dice": "2d4",
+                    "hitMod": 2,
+                    "attackMod": 0,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
             "name": "Shadow",
             "race": "Undead",
             "armor": 12,
-            "health": 19,
-            "maxHealth": 19,
+            "health": 16,
+            "maxHealth": 16,
             "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/454446-shadow-upgraded",
+            "link": "https://www.dndbeyond.com/monsters/shadow",
             "template": true,
-            "initMod": 3,
+            "initMod": 2,
             "weapons": [
                 {
                     "name": "Strength Drain",
