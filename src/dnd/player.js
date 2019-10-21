@@ -10,6 +10,7 @@ var player = function () {
     this.state = CharacterState.Idle
     this.exhaustion = 0
     this.link = ''
+    this.companions = []
 };
 
 player.prototype.parse = function (json) {
@@ -49,9 +50,20 @@ player.prototype.parse = function (json) {
     if (json.link) {
         this.link = json.link
     }
+
+    if (json.companions && Utils.isArray(json.companions)) {
+        for (var i = 0, l = json.companions.length; i < l; i++) {
+            this.companions.push(json.companions[i])
+        }
+    }
 }
 
 player.prototype.serialize = function () {
+    var companions = []
+    for (var i = 0, l = this.companions.length; i < l; i++) {
+        companions.push(this.companions[i])
+    }
+
     return {
         id: this.id,
         name: this.name,
@@ -59,7 +71,8 @@ player.prototype.serialize = function () {
         initiative: this.initiative,
         state: this.state,
         exhaustion: this.exhaustion,
-        link: this.link
+        link: this.link,
+        companions: companions
     }
 }
 

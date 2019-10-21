@@ -19,7 +19,7 @@
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845"
         },
         {
-            "name": "Raelzegg",
+            "name": "Raelzegg Daardendrian",
             "player": "Ben",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Lord_Duckington_of_Stumbles/characters/11666335"
@@ -31,7 +31,7 @@
             "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328"
         },
         {
-            "name": "Tenraja",
+            "name": "Tenraja Hurazan",
             "player": "Jesse",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564"
@@ -39,64 +39,25 @@
     ],
     "npcs": [
         {
-            "name": "Murie Woldshaper",
-            "race": "Hill Dwarf",
-            "armor": 15,
-            "health": 49,
-            "maxHealth": 49,
-            "speed": 25,
+            "name": "Liriam",
+            "race": "Warhorse",
+            "armor": 11,
+            "health": 25,
+            "maxHealth": 25,
+            "speed": 60,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966",
-            "initMod": 4,
+            "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564",
             "weapons": [
                 {
-                    "name": "Handaxe",
-                    "dice": "1d6",
-                    "hitMod": 7,
+                    "name": "Hooves",
+                    "dice": "2d6",
+                    "hitMod": 6,
                     "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Longbow",
-                    "dice": "1d8",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 2,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Dathon",
-            "race": "Wolf",
-            "armor": 15,
-            "health": 20,
-            "maxHealth": 20,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/12619966",
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "2d4",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
+                    "damageType": "bludgeoning"
 
                 }
             ],
-            "companionTo": "Murie Woldshaper"
+            "companionTo": "Tenraja"
         },
         {
             "name": "Shadow",
@@ -116,54 +77,6 @@
                     "hitMod": 4,
                     "attackMod": 3,
                     "damageType": "necrotic"
-                }
-            ]
-        },
-        {
-            "name": "Wellgar Brinehanded",
-            "race": "Human",
-            "armor": 16,
-            "health": 66,
-            "maxHealth": 66,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/17736105",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Shillelagh Quarterstaff",
-                    "dice": "1d8",
-                    "hitMod": 9,
-                    "attackMod": 5,
-                    "damageType": "bludgeoning"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 1,
-                    "used": 0
                 }
             ]
         }

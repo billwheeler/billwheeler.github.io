@@ -62,6 +62,13 @@ module.exports.pull = (data, fresh) => {
 }
 
 var addCompanionTo = function (companionId, npcName) {
+    for (var i = 0, l = players.length; i < l; i++) {
+        if (players[i].name === npcName) {
+            players[i].companions.push(companionId)
+            return true
+        }
+    }
+
     for (var i = 0, l = npcs.length; i < l; i++) {
         if (npcs[i].name === npcName) {
             npcs[i].companions.push(companionId)
@@ -127,9 +134,21 @@ module.exports.updatePlayer = (id, action, params) => {
     switch (action) {
         case CharacterAction.Initiative:
             player.applyInitiative(params[0])
+            if (player.companions.length > 0) {
+                for (var i = 0, l = player.companions.length; i < l; i++) {
+                    var c = npcById(player.companions[i])
+                    if (c) c.applyInitiative(player.initiative)
+                }
+            }
             break
         case CharacterAction.Leave:
             player.leaveEncounter()
+            if (player.companions.length > 0) {
+                for (var i = 0, l = player.companions.length; i < l; i++) {
+                    var c = npcById(player.companions[i])
+                    if (c) c.leaveEncounter()
+                }
+            }
             break
         case CharacterAction.Revive:
             player.revive()

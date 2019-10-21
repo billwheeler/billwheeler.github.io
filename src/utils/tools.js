@@ -13,6 +13,12 @@ module.exports = {
         return typeof obj === 'function' ? true : false
     },
 
+    isInteger: (value) => {
+        return typeof value === 'number' &&
+            isFinite(value) &&
+            Math.floor(value) === value;
+    },
+
     storageAvailable: (type) => {
         try {
             var storage = window[type], x = '__storage_test__'

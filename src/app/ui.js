@@ -57,7 +57,6 @@ var addListener = function () {
 
             switch (e.target.className) {
                 case 'hard_reset':
-                    Debug.log("hard reset");
                     doUpdate = false
                     if (confirm('Are you sure? This cannot be undone.')) {
                         var cell = document.getElementById('main-content')
@@ -71,7 +70,7 @@ var addListener = function () {
                     break;
                 case 'player_initiative':
                     var initiative = parseInt(document.getElementById('player_initiative_' + id).value)
-                    Entities.updatePlayer(id, CharacterAction.Initiative, [initiative])
+                    if (Utils.isInteger(initiative)) Entities.updatePlayer(id, CharacterAction.Initiative, [initiative])
                     break;
                 case 'player_leave':
                     Entities.updatePlayer(id, CharacterAction.Leave)
@@ -87,7 +86,7 @@ var addListener = function () {
                     break;
                 case 'npc_damage':
                     var damage = parseInt(document.getElementById('npc_damage_' + id).value)
-                    Entities.updateNpc(id, CharacterAction.Damage, [damage])
+                    if (Utils.isInteger(damage)) Entities.updateNpc(id, CharacterAction.Damage, [damage])
                     break;
                 case 'npc_leave':
                     Entities.updateNpc(id, CharacterAction.Leave)
@@ -104,7 +103,7 @@ var addListener = function () {
                 case 'npc_spell_slot':
                     var spellSlotId = parseInt(e.target.getAttribute('data-level-id'))
                     var checked = e.target.checked
-                    Entities.updateNpc(id, CharacterAction.Spell, [spellSlotId, checked])
+                    if (Utils.isInteger(spellSlotId)) Entities.updateNpc(id, CharacterAction.Spell, [spellSlotId, checked])
                     break;
                 default:
                     doUpdate = false;
