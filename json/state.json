@@ -69,7 +69,7 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/521173-fine-wine",
             "template": false,
-            "initMod": 6,
+            "initMod": 4,
             "weapons": [
                 {
                     "name": "Great Sword",
@@ -132,6 +132,97 @@
                 }
             ]
         },
+        {
+            "name": "Keyvaris Raethran",
+            "race": "High Elf",
+            "armor": 16,
+            "health": 38,
+            "maxHealth": 38,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/521724-keyvaris-raethran",
+            "template": false,
+            "initMod": 4,
+            "weapons": [
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "dice": "1d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }                
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        }, 
+        {
+            "name": "Ivy McLean",
+            "race": "Human",
+            "armor": 15,
+            "health": 65,
+            "maxHealth": 65,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/521810-ivy-mclean",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }               
+            ]
+        },    
+        {
+            "name": "Angus Walsh",
+            "race": "Human",
+            "armor": 14,
+            "health": 30,
+            "maxHealth": 30,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/521847-angus-walsh",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }               
+            ]
+        },                    
         {
             "name": "Lokkol",
             "race": "Hobgoblin",
