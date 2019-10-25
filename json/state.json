@@ -157,7 +157,7 @@
                     "hitMod": 7,
                     "attackMod": 4,
                     "damageType": "piercing"
-                }                
+                }
             ],
             "spells": [
                 {
@@ -166,7 +166,7 @@
                     "used": 0
                 }
             ]
-        }, 
+        },
         {
             "name": "Ivy McLean",
             "race": "Human",
@@ -192,9 +192,9 @@
                     "hitMod": 5,
                     "attackMod": 3,
                     "damageType": "piercing"
-                }               
+                }
             ]
-        },    
+        },
         {
             "name": "Angus Walsh",
             "race": "Human",
@@ -220,9 +220,9 @@
                     "hitMod": 5,
                     "attackMod": 3,
                     "damageType": "piercing"
-                }               
+                }
             ]
-        },                    
+        },
         {
             "name": "Lokkol",
             "race": "Hobgoblin",
@@ -269,7 +269,7 @@
             ]
         },
         {
-            "name": "Glovuc",
+            "name": "Glova",
             "race": "Hobgoblin",
             "armor": 15,
             "health": 32,
@@ -299,6 +299,54 @@
                 {
                     "name": "First Level",
                     "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Keledek",
+            "race": "Gnome",
+            "armor": 12,
+            "health": 65,
+            "maxHealth": 65,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/18228583",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Firebolt",
+                    "dice": "2d10",
+                    "hitMod": 9,
+                    "attackMod": 0,
+                    "damageType": "flame"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 1,
                     "used": 0
                 }
             ]
