@@ -23,6 +23,7 @@ var npc = function () {
     this.initMod = 0
     this.template = false
     this.instance = 0
+    this.concentrating = false
 }
 
 npc.prototype.parse = function (json) {
@@ -106,6 +107,10 @@ npc.prototype.parse = function (json) {
     if (json.initMod && Utils.isNumeric(json.initMod)) {
         this.initMod = json.initMod
     }
+
+    if (json.concentrating) {
+        this.concentrating = json.concentrating
+    }
 }
 
 npc.prototype.serialize = function () {
@@ -141,7 +146,8 @@ npc.prototype.serialize = function () {
         link: this.link,
         initMod: this.initMod,
         template: this.template,
-        instance: this.instance
+        instance: this.instance,
+        concentrating: this.concentrating
     }
 
     return out
@@ -189,6 +195,14 @@ npc.prototype.render = function () {
         out += '</div>';
     } else if (this.state === CharacterState.Dead) {
         out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="' + this.id + '" /></div>'
+    }
+
+
+    var con = 'npc_concentrating_' + this.id;
+    if (this.concentrating) {
+        out += '<div><label for="' + con + '">Concentrating</label><input class="npc_concentrating" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';
+    } else {
+        out += '<div><label for="' + con + '">Concentrating</label><input class="npc_concentrating" id="' + con + '" data-id="' + this.id + '" type="checkbox" /></div>';
     }
 
     if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
@@ -258,7 +272,7 @@ npc.prototype.clone = function () {
     for (var i = 0, l = this.spells.length; i < l; i++) {
         spells.push(this.spells[i].clone(n.id))
     }
-    n.spells = spells;
+    n.spells = spells
 
     return n
 }

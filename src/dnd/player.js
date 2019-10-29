@@ -11,6 +11,7 @@ var player = function () {
     this.exhaustion = 0
     this.link = ''
     this.companions = []
+    this.concentrating = false
 };
 
 player.prototype.parse = function (json) {
@@ -56,6 +57,10 @@ player.prototype.parse = function (json) {
             this.companions.push(json.companions[i])
         }
     }
+
+    if (json.concentrating) {
+        this.concentrating = json.concentrating 
+    }
 }
 
 player.prototype.serialize = function () {
@@ -72,7 +77,8 @@ player.prototype.serialize = function () {
         state: this.state,
         exhaustion: this.exhaustion,
         link: this.link,
-        companions: companions
+        companions: companions,
+        concentrating: this.concentrating
     }
 }
 
@@ -94,6 +100,13 @@ player.prototype.render = function () {
         out += '</div>';
     } else if (this.state === CharacterState.Dead) {
         out += '<div><input type="button" class="player_revive" value="Revive Player" data-id="' + this.id + '" /></div>'
+    }
+
+    var con = 'player_concentrating_' + this.id;
+    if (this.concentrating) {
+        out += '<div><label for="' + con + '">Concentrating</label><input class="player_concentrating" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';
+    } else {
+        out += '<div><label for="' + con + '">Concentrating</label><input class="player_concentrating" id="' + con + '" data-id="' + this.id + '" type="checkbox" /></div>';
     }
 
     if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
