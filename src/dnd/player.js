@@ -102,11 +102,10 @@ player.prototype.render = function () {
         out += '<div><input type="button" class="player_revive" value="Revive Player" data-id="' + this.id + '" /></div>'
     }
 
-    var con = 'player_concentrating_' + this.id;
     if (this.concentrating) {
-        out += '<div><label for="' + con + '">Concentrating</label><input class="player_concentrating" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';
+        out += '<label class="concentration">Concentrating<input class="player_concentrate" data-id="' + this.id + '" type="checkbox" checked="checked" /></label>';
     } else {
-        out += '<div><label for="' + con + '">Concentrating</label><input class="player_concentrating" id="' + con + '" data-id="' + this.id + '" type="checkbox" /></div>';
+        out += '<label class="concentration">Concentrating<input class="player_concentrate" data-id="' + this.id + '" type="checkbox" /></label>';
     }
 
     if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
@@ -140,6 +139,10 @@ player.prototype.useSpell = function (slotId, use) {
 
 player.prototype.applyRest = function () {
 
+}
+
+player.prototype.concentrate = function () {
+    this.concentrating = !this.concentrating
 }
 
 module.exports = player;

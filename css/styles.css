@@ -29,6 +29,8 @@ h3 { margin: 0 6px 8px 6px; padding: 0; font: bold 24px/36px verdana; }
 .ent input[type=text] { width: 50px; margin: 0 5px; text-align: center; }
 
 .companion { padding: 3px 5px; background: rgba(204, 204, 204, 0.5); border: 1px solid #888; }
+.concentration { margin: 5px 0; line-height: 30px; }
+.concentration input[type=checkbox] { float: left; margin: 8px 5px 0 0; cursor: pointer; }
 
 .npc-spell-list { width: auto !important; }
 .npc-spell-list td { padding: 2px 2px 2px 0; }

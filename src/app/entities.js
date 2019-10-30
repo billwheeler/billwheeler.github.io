@@ -162,6 +162,9 @@ module.exports.updatePlayer = (id, action, params) => {
         case CharacterAction.Rest:
             player.applyRest()
             break
+        case CharacterAction.Concentrate:
+            player.concentrate()
+            break
     }
 }
 
@@ -207,6 +210,9 @@ module.exports.updateNpc = (id, action, params) => {
             break
         case CharacterAction.Rest:
             currentNpc.applyRest()
+            break
+        case CharacterAction.Concentrate:
+            currentNpc.concentrate()
             break
     }
 }

@@ -200,9 +200,9 @@ npc.prototype.render = function () {
 
     var con = 'npc_concentrating_' + this.id;
     if (this.concentrating) {
-        out += '<div><label for="' + con + '">Concentrating</label><input class="npc_concentrating" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';
+        out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';
     } else {
-        out += '<div><label for="' + con + '">Concentrating</label><input class="npc_concentrating" id="' + con + '" data-id="' + this.id + '" type="checkbox" /></div>';
+        out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" /></div>';
     }
 
     if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
@@ -297,6 +297,10 @@ npc.prototype.applyRest = function () {
     for (var i = 0, l = this.spells.length; i < l; i++) {
         this.spells[i].used = 0
     }
+}
+
+npc.prototype.concentrate = function () {
+    this.concentrating = !this.concentrating
 }
 
 module.exports = npc

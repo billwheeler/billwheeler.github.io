@@ -67,47 +67,53 @@ var addListener = function () {
                             setTimeout(() => window.location.reload(), 600)
                         })
                     }
-                    break;
+                    break
                 case 'player_initiative':
                     var initiative = parseInt(document.getElementById('player_initiative_' + id).value)
                     if (Utils.isInteger(initiative)) Entities.updatePlayer(id, CharacterAction.Initiative, [initiative])
-                    break;
+                    break
                 case 'player_leave':
                     Entities.updatePlayer(id, CharacterAction.Leave)
                     break;
-                case 'player_revive':
+                case 'playerrevive':
                     Entities.updatePlayer(id, CharacterAction.Revive)
-                    break;
+                    break
                 case 'player_die':
                     Entities.updatePlayer(id, CharacterAction.Die)
-                    break;
+                    break
+                case 'player_concentrate':
+                    Entities.updatePlayer(id, CharacterAction.Concentrate)
+                    break
                 case 'npc_initiative':
                     Entities.updateNpc(id, CharacterAction.Initiative)
-                    break;
+                    break
                 case 'npc_damage':
                     var damage = parseInt(document.getElementById('npc_damage_' + id).value)
                     if (Utils.isInteger(damage)) Entities.updateNpc(id, CharacterAction.Damage, [damage])
-                    break;
+                    break
                 case 'npc_leave':
                     Entities.updateNpc(id, CharacterAction.Leave)
-                    break;
+                    break
                 case 'npc_revive':
                     Entities.updateNpc(id, CharacterAction.Revive)
-                    break;
+                    break
                 case 'npc_die':
                     Entities.updateNpc(id, CharacterAction.Die)
-                    break;
+                    break
                 case 'npc_rest':
                     Entities.updateNpc(id, CharacterAction.Rest)
-                    break;
+                    break
                 case 'npc_spell_slot':
                     var spellSlotId = parseInt(e.target.getAttribute('data-level-id'))
                     var checked = e.target.checked
                     if (Utils.isInteger(spellSlotId)) Entities.updateNpc(id, CharacterAction.Spell, [spellSlotId, checked])
-                    break;
+                    break
+                case 'npc_concentrate':
+                    Entities.updateNpc(id, CharacterAction.Concentrate)
+                    break
                 default:
                     doUpdate = false;
-                    break;
+                    break
             }
 
             if (doUpdate) update()
