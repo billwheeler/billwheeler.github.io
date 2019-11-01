@@ -111,6 +111,14 @@ var addListener = function () {
                 case 'npc_concentrate':
                     Entities.updateNpc(id, CharacterAction.Concentrate)
                     break
+                case 'component_damage':
+                    var vehicleId = parseInt(e.target.getAttribute('data-vehicle-id'))
+                    var damage = parseInt(document.getElementById('component_damage_' + id).value)
+
+                    Debug.log(vehicleId, id, damage);
+
+                    if (Utils.isInteger(damage)) Entities.updateVehicle(vehicleId, CharacterAction.Damage, [id, damage])
+                    break
                 default:
                     doUpdate = false;
                     break

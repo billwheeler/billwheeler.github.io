@@ -197,7 +197,6 @@ npc.prototype.render = function () {
         out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="' + this.id + '" /></div>'
     }
 
-
     var con = 'npc_concentrating_' + this.id;
     if (this.concentrating) {
         out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';

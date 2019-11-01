@@ -519,5 +519,168 @@
                 }
             ]
         }
+    ],
+    "vehicles": [
+        {
+            "name": "The Dathon's Howl",
+            "type": "Warship",
+            "components": [
+                {
+                    "name": "Hull",
+                    "armor": 15,
+                    "health": 500,
+                    "maxHealth": 500,
+                    "threshold": 20
+                },
+                {
+                    "name": "Helm",
+                    "armor": 18,
+                    "health": 50,
+                    "maxHealth": 50
+                },
+                {
+                    "name": "Sails",
+                    "armor": 12,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "speed": 35,
+                    "decrement": 10,
+                    "stages": 4
+                },
+                {
+                    "name": "Forecastle Ballista",
+                    "armor": 15,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 6,
+                    "attackRoll": "3d10",
+                    "attackRange": "120/480",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Quarterdeck Ballista",
+                    "armor": 15,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 6,
+                    "attackRoll": "3d10",
+                    "attackRange": "120/480",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Bow Mangonel",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Aft Mangonel",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Naval Ram",
+                    "armor": 20,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "threshold": 10
+                }
+            ],
+            "link": "https://www.dndbeyond.com/vehicles/warship"
+        },
+        {
+            "name": "The Festering Lust",
+            "type": "Warship",
+            "components": [
+                {
+                    "name": "Hull",
+                    "armor": 15,
+                    "health": 500,
+                    "maxHealth": 500,
+                    "threshold": 20
+                },
+                {
+                    "name": "Helm",
+                    "armor": 18,
+                    "health": 50,
+                    "maxHealth": 50
+                },
+                {
+                    "name": "Oars",
+                    "armor": 12,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "speed": 20,
+                    "decrement": 5,
+                    "stages": 4
+                },
+                {
+                    "name": "Sails",
+                    "armor": 12,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "speed": 35,
+                    "decrement": 10,
+                    "stages": 4
+                },
+                {
+                    "name": "Forecastle Ballista",
+                    "armor": 15,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 6,
+                    "attackRoll": "3d10",
+                    "attackRange": "120/480",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Quarterdeck Ballista",
+                    "armor": 15,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 6,
+                    "attackRoll": "3d10",
+                    "attackRange": "120/480",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Bow Mangonel",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Aft Mangonel",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Naval Ram",
+                    "armor": 20,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "threshold": 10
+                }
+            ],
+            "link": "https://www.dndbeyond.com/vehicles/warship"
+        }
     ]
 }

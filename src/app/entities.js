@@ -2,9 +2,11 @@
 
 var Player = require('../dnd/player.js')
 var Npc = require('../dnd/npc.js')
+var Vehicle = require('../dnd/vehicle.js')
 
 var players = []
 var npcs = []
+var vehicles = []
 
 var playerById = function (id) {
     var player = null
@@ -30,6 +32,22 @@ var npcById = function (id) {
     return npc
 }
 
+var vehicleById = function (id) {
+    var vehicle = null;
+
+    Debug.log(id)
+
+    if (Utils.isNumeric(id)) {
+        vehicle = vehicles.filter((a) => a.id === id)
+        Debug.log(vehicle)
+
+        if (vehicle.length > 0)
+            return vehicle[0]
+    }
+
+    return vehicle
+}
+
 var addNpc = function (npc) {
     npcs.push(npc)
 }
@@ -37,6 +55,7 @@ var addNpc = function (npc) {
 module.exports.pull = (data, fresh) => {
     players.length = 0
     npcs.length = 0
+    vehicles.length = 0
 
     for (var i = 0, l = data.players.length; i < l; i++) {
         var p = new Player()
@@ -48,6 +67,12 @@ module.exports.pull = (data, fresh) => {
         var n = new Npc()
         n.parse(data.npcs[i])
         npcs.push(n)
+    }
+
+    for (var i = 0, l = data.vehicles.length; i < l; i++) {
+        var v = new Vehicle()
+        v.parse(data.vehicles[i])
+        vehicles.push(v)
     }
 
     if (fresh) {
@@ -82,7 +107,8 @@ var addCompanionTo = function (companionId, npcName) {
 var push = () => {
     var out = {
         npcs: [],
-        players: []
+        players: [],
+        vehicles: []
     }
 
     for (var i = 0, l = npcs.length; i < l; i++) {
@@ -91,6 +117,10 @@ var push = () => {
 
     for (var i = 0, l = players.length; i < l; i++) {
         out.players.push(players[i].serialize())
+    }
+
+    for (var i = 0, l = vehicles.length; i < l; i++) {
+        out.vehicles.push(vehicles[i].serialize())
     }
 
     return out
@@ -103,6 +133,12 @@ module.exports.reset = () => { }
 module.exports.charsByState = (curState, callback) => {
     if (Utils.isFunction(callback)) {
         var output = []
+
+        if (curState === CharacterState.Idle) {
+            for (var i = 0, l = vehicles.length; i < l; i++) {
+                output.push(vehicles[i])
+            }
+        }
 
         for (var i = 0, l = players.length; i < l; i++) {
             if (players[i].state === curState)
@@ -213,6 +249,20 @@ module.exports.updateNpc = (id, action, params) => {
             break
         case CharacterAction.Concentrate:
             currentNpc.concentrate()
+            break
+    }
+}
+
+module.exports.updateVehicle = (id, action, params) => {
+    var vehicle = vehicleById(id)
+
+    Debug.log(vehicle)
+
+    if (!vehicle) return
+
+    switch (action) {
+        case CharacterAction.Damage:
+            vehicle.applyDamage(params[0], params[1])
             break
     }
 }
