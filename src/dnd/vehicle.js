@@ -9,6 +9,7 @@ var vehicle = function () {
     this.type = ""
     this.components = []
     this.link = ""
+    this.visible = false
 }
 
 vehicle.prototype.parse = function (json) {
@@ -42,6 +43,10 @@ vehicle.prototype.parse = function (json) {
     if (json.link) {
         this.link = json.link
     }
+
+    if (json.visible) {
+        this.visible = json.visible
+    }
 }
 
 vehicle.prototype.serialize = function () {
@@ -55,31 +60,36 @@ vehicle.prototype.serialize = function () {
         name: this.name,
         type: this.type,
         components: components,
-        link: this.link
+        link: this.link,
+        visible: this.visible
     }
 }
 
 vehicle.prototype.render = function () {
     var out = '<div class="ent vehicle" data-id="' + this.id + '">'
 
-    out += '<div><span class="bold">' + this.name + '</span> <span class="italics">' + this.type + '</span></div>'
+    var toggleChar = this.visible ? 'close' : 'open'
+    out += '<div><span class="bold">' + this.name + '</span> <span class="italics">' + this.type + '</span> '
+    out += '<input type="button" class="vehicle_toggle" data-id="' + this.id + '" value="' + toggleChar + '" /><div class="clear"></div></div>'
 
-    if (this.components.length > 0) {
-        out += '<div class="components">'
-        out += '<table cellpadding="0" cellspacing="2" border="0">'
-        for (var i = 0, l = this.components.length; i < l; i++) {
-            if (i % 2 === 0) out += '<tr>'
+    if (this.visible) {
+        if (this.components.length > 0) {
+            out += '<div class="components">'
+            out += '<table cellpadding="0" cellspacing="2" border="0">'
+            for (var i = 0, l = this.components.length; i < l; i++) {
+                if (i % 2 === 0) out += '<tr>'
 
-            out += '<td>' + this.components[i].render() + '</td>'
+                out += '<td>' + this.components[i].render() + '</td>'
 
-            if (i % 2 !== 0) out += '</tr>'
+                if (i % 2 !== 0) out += '</tr>'
+            }
+            if (i % 2 === 0) out += '</tr>'
+            out += '</table>'
+            out += '</div>'
         }
-        if (i % 2 === 0) out += '</tr>'
-        out += '</table>'
-        out += '</div>'
-    }
 
-    if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
+        if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
+    }
 
     out += '</div>'
 
@@ -97,5 +107,8 @@ vehicle.prototype.applyDamage = function (componentId, damage) {
     return false
 }
 
+vehicle.prototype.toggle = function () {
+    this.visible = this.visible ? false : true
+}
 
 module.exports = vehicle

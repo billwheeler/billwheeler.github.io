@@ -35,12 +35,8 @@ var npcById = function (id) {
 var vehicleById = function (id) {
     var vehicle = null;
 
-    Debug.log(id)
-
     if (Utils.isNumeric(id)) {
         vehicle = vehicles.filter((a) => a.id === id)
-        Debug.log(vehicle)
-
         if (vehicle.length > 0)
             return vehicle[0]
     }
@@ -201,6 +197,9 @@ module.exports.updatePlayer = (id, action, params) => {
         case CharacterAction.Concentrate:
             player.concentrate()
             break
+        case CharacterAction.Toggle:
+            player.toggle()
+            break
     }
 }
 
@@ -250,19 +249,22 @@ module.exports.updateNpc = (id, action, params) => {
         case CharacterAction.Concentrate:
             currentNpc.concentrate()
             break
+        case CharacterAction.Toggle:
+            currentNpc.toggle()
+            break
     }
 }
 
 module.exports.updateVehicle = (id, action, params) => {
     var vehicle = vehicleById(id)
-
-    Debug.log(vehicle)
-
     if (!vehicle) return
 
     switch (action) {
         case CharacterAction.Damage:
             vehicle.applyDamage(params[0], params[1])
+            break
+        case CharacterAction.Toggle:
+            vehicle.toggle()
             break
     }
 }

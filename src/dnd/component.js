@@ -17,6 +17,7 @@ var component = function () {
     this.attackRoll = "1d6"
     this.attackRange = "120/320"
     this.attackDamage = "piercing"
+    this.visible = true
 }
 
 component.prototype.parse = function (json) {
@@ -81,6 +82,10 @@ component.prototype.parse = function (json) {
     if (json.attackDamage) {
         this.attackDamage = json.attackDamage
     }
+
+    if (json.visible) {
+        this.visible = json.visible
+    }
 }
 
 component.prototype.serialize = function () {
@@ -98,7 +103,8 @@ component.prototype.serialize = function () {
         attackToHit: this.attackToHit,
         attackRoll: this.attackRoll,
         attackRange: this.attackRange,
-        attackDamage: this.attackDamage
+        attackDamage: this.attackDamage,
+        visible: this.visible
     }
 }
 

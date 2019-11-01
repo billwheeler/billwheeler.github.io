@@ -14,7 +14,8 @@ global.CharacterAction = {
     Revive: 'revive',
     Spell: 'spell',
     Rest: 'rest',
-    Concentrate: 'concentrate'
+    Concentrate: 'concentrate',
+    Toggle: 'toggle'
 }
 
 global.DamageType = {

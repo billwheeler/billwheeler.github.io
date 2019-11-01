@@ -39,5 +39,7 @@ h3 { margin: 0 6px 8px 6px; padding: 0; font: bold 24px/36px verdana; }
 
 .component-attack { margin-top: 8px; }
 
+.player_toggle, .npc_toggle, .vehicle_toggle { float: right; }
+
 .top-link { padding: 10px 0; font: bold 15px/24px verdana; }
 .bottom-link { padding: 30px 0 10px 0; }

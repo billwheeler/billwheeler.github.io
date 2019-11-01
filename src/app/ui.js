@@ -75,7 +75,7 @@ var addListener = function () {
                 case 'player_leave':
                     Entities.updatePlayer(id, CharacterAction.Leave)
                     break;
-                case 'playerrevive':
+                case 'player_revive':
                     Entities.updatePlayer(id, CharacterAction.Revive)
                     break
                 case 'player_die':
@@ -83,6 +83,9 @@ var addListener = function () {
                     break
                 case 'player_concentrate':
                     Entities.updatePlayer(id, CharacterAction.Concentrate)
+                    break
+                case 'player_toggle':
+                    Entities.updatePlayer(id, CharacterAction.Toggle)
                     break
                 case 'npc_initiative':
                     Entities.updateNpc(id, CharacterAction.Initiative)
@@ -111,12 +114,15 @@ var addListener = function () {
                 case 'npc_concentrate':
                     Entities.updateNpc(id, CharacterAction.Concentrate)
                     break
+                case 'npc_toggle':
+                    Entities.updateNpc(id, CharacterAction.Toggle)
+                    break
+                case 'vehicle_toggle':
+                    Entities.updateVehicle(id, CharacterAction.Toggle)
+                    break
                 case 'component_damage':
                     var vehicleId = parseInt(e.target.getAttribute('data-vehicle-id'))
                     var damage = parseInt(document.getElementById('component_damage_' + id).value)
-
-                    Debug.log(vehicleId, id, damage);
-
                     if (Utils.isInteger(damage)) Entities.updateVehicle(vehicleId, CharacterAction.Damage, [id, damage])
                     break
                 default:

@@ -24,6 +24,7 @@ var npc = function () {
     this.template = false
     this.instance = 0
     this.concentrating = false
+    this.visible = false
 }
 
 npc.prototype.parse = function (json) {
@@ -111,6 +112,10 @@ npc.prototype.parse = function (json) {
     if (json.concentrating) {
         this.concentrating = json.concentrating
     }
+
+    if (json.visible) {
+        this.visible = json.visible
+    }
 }
 
 npc.prototype.serialize = function () {
@@ -147,7 +152,8 @@ npc.prototype.serialize = function () {
         initMod: this.initMod,
         template: this.template,
         instance: this.instance,
-        concentrating: this.concentrating
+        concentrating: this.concentrating,
+        visible: this.visible
     }
 
     return out
@@ -160,51 +166,55 @@ npc.prototype.render = function () {
 
     var out = '<div class="' + classes + '" data-id="' + this.id + '">';
 
-    out += '<div><span class="bold">' + this.name + '</span>, <span class="italic">' + this.race + '</span>. Speed: ' + this.speed + '</div>'
+    var toggleChar = this.visible ? 'close' : 'open'
+    out += '<div><span class="bold">' + this.name + '</span>, <span class="italic">' + this.race + '</span>. Speed: ' + this.speed
+    out += '<input type="button" class="npc_toggle" data-id="' + this.id + '" value="' + toggleChar + '" /><div class="clear"></div></div>'
 
-    var initiative = '';
-    if (this.state === CharacterState.Encounter)
-        initiative = ' (' + (this.health > 0 ? 'alive' : 'dead') + '), Initiative: <span class="bold">' + this.initiative + '</span>'
+    if (this.visible) {
+        var initiative = '';
+        if (this.state === CharacterState.Encounter)
+            initiative = ' (' + (this.health > 0 ? 'alive' : 'dead') + '), Initiative: <span class="bold">' + this.initiative + '</span>'
 
-    out += '<div>Health: <span class="bold">' + this.health + '</span>, AC: <span class="bold">' + this.armor + '</span>' + initiative + '</div>'
+        out += '<div>Health: <span class="bold">' + this.health + '</span>, AC: <span class="bold">' + this.armor + '</span>' + initiative + '</div>'
 
-    for (var i = 0, l = this.weapons.length; i < l; i++) {
-        out += '<div>' + this.weapons[i].render() + '</div>'
-    }
-
-    if (this.spells.length > 0) {
-        out += '<table cellpadding="0" cellspacing="0" border="0" class="npc-spell-list">'
-        for (var i = 0, l = this.spells.length; i < l; i++) {
-            out += this.spells[i].render()
+        for (var i = 0, l = this.weapons.length; i < l; i++) {
+            out += '<div>' + this.weapons[i].render() + '</div>'
         }
-        out += '</table>'
-    }
 
-    if (this.state === CharacterState.Encounter) {
-        out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="' + this.id + '" /><input type="text" id="npc_damage_' + this.id + '" /></div>'
-        out += '<div style="margin-top: 4px;">'
-        if (!this.companionTo) out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="' + this.id + '" />&nbsp;'
-        out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
-        out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
-        out += '</div>';
-    } else if (this.state === CharacterState.Idle) {
-        out += '<div>'
-        if (!this.companionTo) out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />&nbsp;'
-        out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
-        if (!this.template) out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
-        out += '</div>';
-    } else if (this.state === CharacterState.Dead) {
-        out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="' + this.id + '" /></div>'
-    }
+        if (this.spells.length > 0) {
+            out += '<table cellpadding="0" cellspacing="0" border="0" class="npc-spell-list">'
+            for (var i = 0, l = this.spells.length; i < l; i++) {
+                out += this.spells[i].render()
+            }
+            out += '</table>'
+        }
 
-    var con = 'npc_concentrating_' + this.id;
-    if (this.concentrating) {
-        out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';
-    } else {
-        out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" /></div>';
-    }
+        if (this.state === CharacterState.Encounter) {
+            out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="' + this.id + '" /><input type="text" id="npc_damage_' + this.id + '" /></div>'
+            out += '<div style="margin-top: 4px;">'
+            if (!this.companionTo) out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="' + this.id + '" />&nbsp;'
+            out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
+            out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
+            out += '</div>';
+        } else if (this.state === CharacterState.Idle) {
+            out += '<div>'
+            if (!this.companionTo) out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />&nbsp;'
+            out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
+            if (!this.template) out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
+            out += '</div>';
+        } else if (this.state === CharacterState.Dead) {
+            out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="' + this.id + '" /></div>'
+        }
 
-    if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
+        var con = 'npc_concentrating_' + this.id;
+        if (this.concentrating) {
+            out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';
+        } else {
+            out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" /></div>';
+        }
+
+        if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
+    }
 
     out += '</div>'
     return out;
@@ -258,7 +268,8 @@ npc.prototype.clone = function () {
         speed: this.speed,
         race: this.race,
         link: this.link,
-        initMod: this.initMod
+        initMod: this.initMod,
+        visible: this.visible
     })
 
     var weapons = []
@@ -300,6 +311,10 @@ npc.prototype.applyRest = function () {
 
 npc.prototype.concentrate = function () {
     this.concentrating = !this.concentrating
+}
+
+npc.prototype.toggle = function () {
+    this.visible = this.visible ? false : true
 }
 
 module.exports = npc
