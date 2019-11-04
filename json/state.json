@@ -352,6 +352,90 @@
             ]
         },
         {
+            "name": "Talissa",
+            "race": "Dwarf",
+            "armor": 12,
+            "health": 11,
+            "maxHealth": 11,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/540579-talissa",
+            "template": false,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Mazen",
+            "race": "Dwarf",
+            "armor": 12,
+            "health": 11,
+            "maxHealth": 11,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/540570-mazen",
+            "template": false,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Senan",
+            "race": "Dwarf",
+            "armor": 12,
+            "health": 11,
+            "maxHealth": 11,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/540577-senan",
+            "template": false,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Scimitar",
+                    "dice": "1d4",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
             "name": "Lizardfolk",
             "race": "Lizardfolk",
             "armor": 15,
