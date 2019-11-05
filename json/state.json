@@ -54,10 +54,42 @@
                     "hitMod": 6,
                     "attackMod": 4,
                     "damageType": "bludgeoning"
-
                 }
             ],
             "companionTo": "Tenraja"
+        },
+        {
+            "name": "Corvon",
+            "race": "Adult White Dragon",
+            "armor": 18,
+            "health": 200,
+            "maxHealth": 200,
+            "speed": 80,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/adult-white-dragon",
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "2d10",
+                    "hitMod": 11,
+                    "attackMod": 6,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Claw",
+                    "dice": "2d6",
+                    "hitMod": 11,
+                    "attackMod": 6,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Tail",
+                    "dice": "2d8",
+                    "hitMod": 11,
+                    "attackMod": 6,
+                    "damageType": "bludgeoning"
+                }
+            ]
         },
         {
             "name": "Fine Wine",
