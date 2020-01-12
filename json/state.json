@@ -1,4 +1,4 @@
-﻿{
+{
     "players": [
         {
             "name": "Elocin Fae",
@@ -140,6 +140,138 @@
             ]
         },
         {
+            "name": "Sahuagin Priestess",
+            "race": "Sahuagin",
+            "armor": 12,
+            "health": 33,
+            "maxHealth": 33,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/sahuagin-priestess",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]            
+        },
+        {
+            "name": "Sahuagin",
+            "race": "Sahuagin",
+            "armor": 15,
+            "health": 44,
+            "maxHealth": 44,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/sahuagin",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Spear",
+                    "dice": "1d8",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },                
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]          
+        },         
+        {
+            "name": "Sahuagin Priestess",
+            "race": "Sahuagin",
+            "armor": 12,
+            "health": 33,
+            "maxHealth": 33,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/sahuagin-priestess",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]            
+        },                 
+        {
+            "name": "Eli Fireborn",
+            "race": "Human",
+            "armor": 18,
+            "health": 49,
+            "maxHealth": 49,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/21605534",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Longsword",
+                    "dice": "1d8",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },                 
+        {
             "name": "Skerrin Wavechaser",
             "race": "Human",
             "armor": 15,
@@ -162,6 +294,62 @@
                     "name": "Light Crossbow",
                     "dice": "1d8",
                     "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Gundar Hurazan",
+            "race": "Human",
+            "armor": 18,
+            "health": 132,
+            "maxHealth": 132,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/21601445",
+            "template": false,
+            "initMod": -1,
+            "weapons": [
+                {
+                    "name": "Battleaxe",
+                    "dice": "1d10",
+                    "hitMod": 11,
+                    "attackMod": 11,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Eldritch Blast",
+                    "dice": "1d10",
+                    "hitMod": 10,
+                    "attackMod": 5,
+                    "damageType": "force"
+                }
+            ]
+        }, 
+        {
+            "name": "Gnoll",
+            "race": "Gnoll",
+            "armor": 15,
+            "health": 49,
+            "maxHealth": 49,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/gnoll-pack-lord",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Spear",
+                    "dice": "1d8",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 5,
                     "attackMod": 3,
                     "damageType": "piercing"
                 }
