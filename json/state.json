@@ -92,23 +92,37 @@
             ]
         },
         {
-            "name": "Keledek",
-            "race": "Gnome",
-            "armor": 12,
-            "health": 65,
-            "maxHealth": 65,
-            "speed": 25,
+            "name": "Sahuagin High Priestess",
+            "race": "Sahuagin",
+            "armor": 14,
+            "health": 71,
+            "maxHealth": 71,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/18228583",
-            "template": false,
-            "initMod": 2,
+            "link": "https://www.dndbeyond.com/monsters/sahuagin-high-priestess",
+            "template": true,
+            "initMod": 1,
             "weapons": [
                 {
-                    "name": "Firebolt",
-                    "dice": "2d10",
-                    "hitMod": 9,
-                    "attackMod": 0,
-                    "damageType": "flame"
+                    "name": "Toothsome Staff",
+                    "dice": "2d8",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Claws",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
                 }
             ],
             "spells": [
@@ -129,65 +143,57 @@
                 },
                 {
                     "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
                     "slots": 1,
                     "used": 0
                 }
             ]
         },
         {
-            "name": "Sahuagin Priestess",
+            "name": "Sahuagin Champion",
             "race": "Sahuagin",
-            "armor": 12,
-            "health": 33,
-            "maxHealth": 33,
+            "armor": 16,
+            "health": 71,
+            "maxHealth": 71,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/sahuagin-priestess",
-            "template": false,
-            "initMod": 2,
+            "link": "https://www.dndbeyond.com/monsters/sahuagin-champion",
+            "template": true,
+            "initMod": 4,
             "weapons": [
+                {
+                    "name": "Spear",
+                    "dice": "1d8",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
                 {
                     "name": "Bite",
                     "dice": "1d4",
-                    "hitMod": 5,
-                    "attackMod": 3,
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Claws",
+                    "dice": "1d4",
+                    "hitMod": 6,
+                    "attackMod": 4,
                     "damageType": "piercing"
                 }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]            
+            ]
         },
         {
             "name": "Sahuagin",
             "race": "Sahuagin",
-            "armor": 15,
-            "health": 44,
-            "maxHealth": 44,
+            "armor": 12,
+            "health": 22,
+            "maxHealth": 22,
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/sahuagin",
             "template": true,
-            "initMod": 3,
+            "initMod": 0,
             "weapons": [
                 {
                     "name": "Spear",
@@ -195,54 +201,51 @@
                     "hitMod": 5,
                     "attackMod": 3,
                     "damageType": "piercing"
-                },                
+                },
                 {
                     "name": "Bite",
                     "dice": "1d4",
                     "hitMod": 5,
                     "attackMod": 3,
                     "damageType": "piercing"
+                },
+                {
+                    "name": "Claws",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
                 }
-            ]          
-        },         
+            ]
+        },
         {
-            "name": "Sahuagin Priestess",
-            "race": "Sahuagin",
-            "armor": 12,
-            "health": 33,
-            "maxHealth": 33,
+            "name": "Giant Crocodile",
+            "race": "Crocodile",
+            "armor": 14,
+            "health": 85,
+            "maxHealth": 85,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/sahuagin-priestess",
+            "link": "https://www.dndbeyond.com/monsters/giant-crocodile",
             "template": true,
-            "initMod": 2,
+            "initMod": -1,
             "weapons": [
                 {
                     "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 5,
-                    "attackMod": 3,
+                    "dice": "3d10",
+                    "hitMod": 8,
+                    "attackMod": 5,
                     "damageType": "piercing"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
                 },
                 {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
+                    "name": "Tail",
+                    "dice": "2d8",
+                    "hitMod": 8,
+                    "attackMod": 5,
+                    "damageType": "bludgeoning"
                 }
-            ]            
-        },                 
+            ]
+        },
         {
             "name": "Eli Fireborn",
             "race": "Human",
@@ -270,7 +273,7 @@
                     "damageType": "piercing"
                 }
             ]
-        },                 
+        },
         {
             "name": "Skerrin Wavechaser",
             "race": "Human",
@@ -326,7 +329,7 @@
                     "damageType": "force"
                 }
             ]
-        }, 
+        },
         {
             "name": "Gnoll",
             "race": "Gnoll",
@@ -351,111 +354,6 @@
                     "dice": "1d4",
                     "hitMod": 5,
                     "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Talissa",
-            "race": "Dwarf",
-            "armor": 12,
-            "health": 11,
-            "maxHealth": 11,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/540579-talissa",
-            "template": false,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Dagger",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Mazen",
-            "race": "Dwarf",
-            "armor": 12,
-            "health": 11,
-            "maxHealth": 11,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/540570-mazen",
-            "template": false,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Dagger",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Senan",
-            "race": "Dwarf",
-            "armor": 12,
-            "health": 11,
-            "maxHealth": 11,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/540577-senan",
-            "template": false,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Lizardfolk",
-            "race": "Lizardfolk",
-            "armor": 15,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/lizardfolk",
-            "template": true,
-            "initMod": 0,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "1d6",
-                    "hitMod": 4,
-                    "attackMod": 2,
                     "damageType": "piercing"
                 }
             ]
