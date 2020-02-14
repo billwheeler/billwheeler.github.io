@@ -8,10 +8,7 @@ var player = function () {
     this.player = ''
     this.initiative = 0
     this.state = CharacterState.Idle
-    this.exhaustion = 0
     this.link = ''
-    this.companions = []
-    this.concentrating = false
     this.visible = false
 };
 
@@ -42,48 +39,24 @@ player.prototype.parse = function (json) {
         this.state = json.state
     }
 
-    if (json.exhaustion && Utils.isNumeric(json.exhaustion)) {
-        this.exhaustion = Utils.clamp(json.exhaustion, 1, 6)
-
-        if (this.exhaustion == 6)
-            this.state = CharacterState.Dead
-    }
-
     if (json.link) {
         this.link = json.link
-    }
-
-    if (json.companions && Utils.isArray(json.companions)) {
-        for (var i = 0, l = json.companions.length; i < l; i++) {
-            this.companions.push(json.companions[i])
-        }
-    }
-
-    if (json.concentrating) {
-        this.concentrating = json.concentrating 
     }
 
     if (json.visible) {
         this.visible = json.visible
     }
+
 }
 
 player.prototype.serialize = function () {
-    var companions = []
-    for (var i = 0, l = this.companions.length; i < l; i++) {
-        companions.push(this.companions[i])
-    }
-
     return {
         id: this.id,
         name: this.name,
         player: this.player,
         initiative: this.initiative,
         state: this.state,
-        exhaustion: this.exhaustion,
         link: this.link,
-        companions: companions,
-        concentrating: this.concentrating,
         visible: this.visible
     }
 }
@@ -109,12 +82,6 @@ player.prototype.render = function () {
             out += '</div>';
         } else if (this.state === CharacterState.Dead) {
             out += '<div><input type="button" class="player_revive" value="Revive Player" data-id="' + this.id + '" /></div>'
-        }
-
-        if (this.concentrating) {
-            out += '<label class="concentration">Concentrating<input class="player_concentrate" data-id="' + this.id + '" type="checkbox" checked="checked" /></label>';
-        } else {
-            out += '<label class="concentration">Concentrating<input class="player_concentrate" data-id="' + this.id + '" type="checkbox" /></label>';
         }
 
         if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
@@ -149,10 +116,6 @@ player.prototype.useSpell = function (slotId, use) {
 
 player.prototype.applyRest = function () {
 
-}
-
-player.prototype.concentrate = function () {
-    this.concentrating = !this.concentrating
 }
 
 player.prototype.toggle = function () {

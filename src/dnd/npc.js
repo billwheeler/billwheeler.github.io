@@ -2,6 +2,7 @@
 
 var Weapon = require('./weapon.js')
 var Spell = require('./spell.js')
+var Conditions = require('./conditions.js')
 var roll = require('../dnd/dice.js')
 var Storage = require('../app/storage.js')
 
@@ -16,15 +17,13 @@ var npc = function () {
     this.initiative = 0
     this.weapons = []
     this.spells = []
-    this.companions = []
-    this.companionTo = null
     this.state = CharacterState.Idle
     this.link = ''
     this.initMod = 0
     this.template = false
     this.instance = 0
-    this.concentrating = false
     this.visible = false
+    this.conditions = null
 }
 
 npc.prototype.parse = function (json) {
@@ -87,12 +86,6 @@ npc.prototype.parse = function (json) {
         }
     }
 
-    if (json.companions && Utils.isArray(json.companions)) {
-        for (var i = 0, l = json.companions.length; i < l; i++) {
-            this.companions.push(json.companions[i])
-        }
-    }
-
     if (json.link) {
         this.link = json.link
     }
@@ -101,21 +94,19 @@ npc.prototype.parse = function (json) {
         this.template = json.template
     }
 
-    if (!this.template && json.companionTo) {
-        this.companionTo = json.companionTo
-    }
-
     if (json.initMod && Utils.isNumeric(json.initMod)) {
         this.initMod = json.initMod
-    }
-
-    if (json.concentrating) {
-        this.concentrating = json.concentrating
     }
 
     if (json.visible) {
         this.visible = json.visible
     }
+
+    var c = new Conditions()
+    if (c.parentId === 0) c.parentId = this.id
+    this.conditions = c
+
+    if (json.conditions) c.parse(json.conditions)
 }
 
 npc.prototype.serialize = function () {
@@ -129,11 +120,6 @@ npc.prototype.serialize = function () {
         spells.push(this.spells[i].serialize())
     }
 
-    var companions = []
-    for (var i = 0, l = this.companions.length; i < l; i++) {
-        companions.push(this.companions[i])
-    }
-
     var out = {
         id: this.id,
         name: this.name,
@@ -145,15 +131,13 @@ npc.prototype.serialize = function () {
         initiative: this.initiative,
         weapons: weapons,
         spells: spells,
-        companions: companions,
-        companionTo: this.companionTo,
         state: this.state,
         link: this.link,
         initMod: this.initMod,
         template: this.template,
         instance: this.instance,
-        concentrating: this.concentrating,
-        visible: this.visible
+        visible: this.visible,
+        conditions: this.conditions.serialize()
     }
 
     return out
@@ -161,8 +145,6 @@ npc.prototype.serialize = function () {
 
 npc.prototype.render = function () {
     var classes = 'ent npc';
-    if (this.companionTo)
-        classes += ' companion'
 
     var out = '<div class="' + classes + '" data-id="' + this.id + '">';
 
@@ -192,10 +174,10 @@ npc.prototype.render = function () {
         if (this.state === CharacterState.Encounter) {
             out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="' + this.id + '" /><input type="text" id="npc_damage_' + this.id + '" /></div>'
             out += '<div style="margin-top: 4px;">'
-            if (!this.companionTo) out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="' + this.id + '" />&nbsp;'
             out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
             out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
             out += '</div>';
+            if (this.conditions) out += this.conditions.render();
         } else if (this.state === CharacterState.Idle) {
             out += '<div>'
             if (!this.companionTo) out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />&nbsp;'
@@ -204,13 +186,6 @@ npc.prototype.render = function () {
             out += '</div>';
         } else if (this.state === CharacterState.Dead) {
             out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="' + this.id + '" /></div>'
-        }
-
-        var con = 'npc_concentrating_' + this.id;
-        if (this.concentrating) {
-            out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" checked="checked" /></div>';
-        } else {
-            out += '<div class="concentration"><label for="' + con + '">Concentrating</label><input class="npc_concentrate" id="' + con + '" data-id="' + this.id + '" type="checkbox" /></div>';
         }
 
         if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
@@ -309,12 +284,12 @@ npc.prototype.applyRest = function () {
     }
 }
 
-npc.prototype.concentrate = function () {
-    this.concentrating = !this.concentrating
-}
-
 npc.prototype.toggle = function () {
     this.visible = this.visible ? false : true
 }
+
+npc.prototype.condition = function (key, value) {
+    if (this.conditions) this.conditions.setValue(key, value)
+};
 
 module.exports = npc

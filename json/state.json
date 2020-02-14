@@ -290,6 +290,34 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/630172-skerrin-wavechaser",
             "template": false,
+            "initMod": 13,
+            "weapons": [
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Spectral Assassin",
+            "race": "Human",
+            "armor": 15,
+            "health": 52,
+            "maxHealth": 52,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/assassin",
+            "template": true,
             "initMod": 3,
             "weapons": [
                 {
@@ -312,8 +340,8 @@
             "name": "Gundar Hurazan",
             "race": "Human",
             "armor": 18,
-            "health": 132,
-            "maxHealth": 132,
+            "health": 182,
+            "maxHealth": 182,
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/21601445",
@@ -333,6 +361,41 @@
                     "hitMod": 10,
                     "attackMod": 5,
                     "damageType": "force"
+                }
+            ]
+        },
+        {
+            "name": "Sea Prince",
+            "race": "Human",
+            "armor": 15,
+            "health": 30,
+            "maxHealth": 30,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/685453-sea-prince",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Scimitar",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
                 }
             ]
         },
@@ -361,6 +424,27 @@
                     "hitMod": 5,
                     "attackMod": 3,
                     "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Zombie",
+            "race": "Zombie",
+            "armor": 8,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 20,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/zombie",
+            "template": true,
+            "initMod": -2,
+            "weapons": [
+                {
+                    "name": "Slam",
+                    "dice": "1d6",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "bludgeoning"
                 }
             ]
         },

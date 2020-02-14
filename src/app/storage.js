@@ -12,7 +12,7 @@ var fetchJson = () => {
         axios.get(global.DataFile)
             .then(function (response) {
                 save(JSON.stringify(response.data));
-                resolve([response.data, true])
+                resolve([response.data])
             })
             .catch(function (error) {
                 reject(error)
@@ -23,7 +23,7 @@ var fetchJson = () => {
 var pullInner = (raw) => {
     return new Promise((resolve, reject) => {
         try {
-            resolve([JSON.parse(raw), false])
+            resolve([JSON.parse(raw)])
         } catch (err) {
             reject(err)
         }

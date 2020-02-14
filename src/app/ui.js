@@ -117,6 +117,14 @@ var addListener = function () {
                 case 'npc_toggle':
                     Entities.updateNpc(id, CharacterAction.Toggle)
                     break
+                case 'npc_condition_add':
+                    var conToAdd = e.target.options[e.target.selectedIndex].value
+                    Entities.updateNpc(id, CharacterAction.AddCondition, [conToAdd, true])
+                    break
+                case 'npc_condition_remove':
+                    var conToRemove = e.target.getAttribute('data-condition')
+                    Entities.updateNpc(id, CharacterAction.RemoveCondition, [conToRemove, false])
+                    break
                 case 'vehicle_toggle':
                     Entities.updateVehicle(id, CharacterAction.Toggle)
                     break
@@ -138,8 +146,8 @@ var addListener = function () {
 var run = function () {
     addListener()
 
-    Storage.pull().then(([data, fresh]) => {
-        Entities.pull(data, fresh)
+    Storage.pull().then(([data]) => {
+        Entities.pull(data)
         render()
     })
 }

@@ -71,33 +71,7 @@ module.exports.pull = (data, fresh) => {
         vehicles.push(v)
     }
 
-    if (fresh) {
-        for (var i = 0, l = npcs.length; i < l; i++) {
-            if (npcs[i].companionTo) {
-                addCompanionTo(npcs[i].id, npcs[i].companionTo)
-            }
-        }
-    }
-
-    if (fresh) push()
-}
-
-var addCompanionTo = function (companionId, npcName) {
-    for (var i = 0, l = players.length; i < l; i++) {
-        if (players[i].name === npcName) {
-            players[i].companions.push(companionId)
-            return true
-        }
-    }
-
-    for (var i = 0, l = npcs.length; i < l; i++) {
-        if (npcs[i].name === npcName) {
-            npcs[i].companions.push(companionId)
-            return true
-        }
-    }
-
-    return false
+    push()
 }
 
 var push = () => {
@@ -166,21 +140,9 @@ module.exports.updatePlayer = (id, action, params) => {
     switch (action) {
         case CharacterAction.Initiative:
             player.applyInitiative(params[0])
-            if (player.companions.length > 0) {
-                for (var i = 0, l = player.companions.length; i < l; i++) {
-                    var c = npcById(player.companions[i])
-                    if (c) c.applyInitiative(player.initiative)
-                }
-            }
             break
         case CharacterAction.Leave:
             player.leaveEncounter()
-            if (player.companions.length > 0) {
-                for (var i = 0, l = player.companions.length; i < l; i++) {
-                    var c = npcById(player.companions[i])
-                    if (c) c.leaveEncounter()
-                }
-            }
             break
         case CharacterAction.Revive:
             player.revive()
@@ -193,9 +155,6 @@ module.exports.updatePlayer = (id, action, params) => {
             break
         case CharacterAction.Rest:
             player.applyRest()
-            break
-        case CharacterAction.Concentrate:
-            player.concentrate()
             break
         case CharacterAction.Toggle:
             player.toggle()
@@ -218,21 +177,9 @@ module.exports.updateNpc = (id, action, params) => {
                 currentNpc = n
             }
             currentNpc.rollInitiative()
-            if (currentNpc.companions.length > 0) {
-                for (var i = 0, l = currentNpc.companions.length; i < l; i++) {
-                    var c = npcById(currentNpc.companions[i])
-                    if (c) c.applyInitiative(currentNpc.initiative)
-                }
-            }
             break
         case CharacterAction.Leave:
             currentNpc.leaveEncounter()
-            if (currentNpc.companions.length > 0) {
-                for (var i = 0, l = currentNpc.companions.length; i < l; i++) {
-                    var c = npcById(currentNpc.companions[i])
-                    if (c) c.leaveEncounter()
-                }
-            }
             break
         case CharacterAction.Revive:
             currentNpc.revive()
@@ -246,11 +193,14 @@ module.exports.updateNpc = (id, action, params) => {
         case CharacterAction.Rest:
             currentNpc.applyRest()
             break
-        case CharacterAction.Concentrate:
-            currentNpc.concentrate()
-            break
         case CharacterAction.Toggle:
             currentNpc.toggle()
+            break
+        case CharacterAction.AddCondition:
+            currentNpc.condition(params[0], true)
+            break
+        case CharacterAction.RemoveCondition:
+            currentNpc.condition(params[0], false)
             break
     }
 }

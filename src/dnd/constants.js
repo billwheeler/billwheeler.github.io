@@ -14,8 +14,30 @@ global.CharacterAction = {
     Revive: 'revive',
     Spell: 'spell',
     Rest: 'rest',
-    Concentrate: 'concentrate',
-    Toggle: 'toggle'
+    Toggle: 'toggle',
+    AddCondition: 'add-condition',
+    RemoveCondition: 'remove-condition'
+}
+
+global.CharacterCondition = {
+    Concentrating: 'concentrating',
+    Exhaustion: 'exhaustion',
+    Blinded: 'blinded',
+    Deafened: 'deafened',
+    Charmed: 'charmed',
+    Frightened: 'frightened',
+    Grappled: 'grappled',
+    Incapacitated: 'incapacitated',
+    Invisible: 'invisible',
+    Paralyzed: 'paralyzed',
+    Petrified: 'petrified',
+    Poisoned: 'poisoned',
+    Prone: 'prone',
+    Restrained: 'restrained',
+    Stunned: 'stunned',
+    Unconscious: 'unconscious',
+    Hexed: 'hexed',
+    HuntersMark: 'huntersmark',
 }
 
 global.DamageType = {
