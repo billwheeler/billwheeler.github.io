@@ -80,7 +80,7 @@ player.prototype.render = function () {
         if (this.state === CharacterState.Encounter) {
             out += '<div>Initiative: <span class="bold">' + this.initiative + '</span></div>'
             out += '<div>'
-            out += '<input type="button" class="player_leave" value="Leave Encounter" data-id="' + this.id + '" style="margin-right:5px" />'
+            out += '<input type="button" class="player_leave" value="Leave Encounter" data-id="' + this.id + '" />'
             out += '<input type="button" class="player_die" value="Die" data-id="' + this.id + '" />'
             out += '</div>'
             if (this.conditions) out += this.conditions.render();

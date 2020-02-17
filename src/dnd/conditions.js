@@ -208,7 +208,7 @@ conditions.prototype.render = function () {
     out += '</select>'
 
     if (this.isPlayer) {
-        out += '<label class="exhaustion_label">Exhausion: '
+        out += '<label>Exhausion: '
         out += '<select class="player_exhaustion" data-id="' + this.parentId + '">'
         out += this.exhaustion === 0 ? '<option selected="selected" value="0">0</option>' : '<option value="0">0</option>'
         out += this.exhaustion === 1 ? '<option selected="selected" value="1">1</option>' : '<option value="1">1</option>'
