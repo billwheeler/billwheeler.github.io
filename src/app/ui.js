@@ -88,7 +88,7 @@ var addListener = function () {
                     Entities.updatePlayer(id, CharacterAction.Toggle)
                     break
                 case 'player_condition_remove':
-                    Entities.updatePlayer(id, CharacterAction.RemoveCondition, [e.target.getAttribute('data-condition'), false])
+                    Entities.updatePlayer(id, CharacterAction.ApplyCondition, [e.target.getAttribute('data-condition'), false])
                     break
                 case 'npc_initiative':
                     Entities.updateNpc(id, CharacterAction.Initiative)
@@ -121,7 +121,7 @@ var addListener = function () {
                     Entities.updateNpc(id, CharacterAction.Toggle)
                     break
                 case 'npc_condition_remove':
-                    Entities.updateNpc(id, CharacterAction.RemoveCondition, [e.target.getAttribute('data-condition'), false])
+                    Entities.updateNpc(id, CharacterAction.ApplyCondition, [e.target.getAttribute('data-condition'), false])
                     break
                 case 'vehicle_toggle':
                     Entities.updateVehicle(id, CharacterAction.Toggle)
@@ -147,13 +147,16 @@ var addListener = function () {
 
             switch (e.target.className) {
                 case 'player_condition_add':
-                    Entities.updatePlayer(id, CharacterAction.AddCondition, [e.target.options[e.target.selectedIndex].value, true])
+                    Entities.updatePlayer(id, CharacterAction.ApplyCondition, [e.target.options[e.target.selectedIndex].value, true])
                     break
                 case 'npc_condition_add':
-                    Entities.updateNpc(id, CharacterAction.AddCondition, [e.target.options[e.target.selectedIndex].value, true])
+                    Entities.updateNpc(id, CharacterAction.ApplyCondition, [e.target.options[e.target.selectedIndex].value, true])
                     break
                 case 'player_exhaustion':
-                    Entities.updatePlayer(id, CharacterAction.ApplyExhaustion, [CharacterCondition.Exhaustion, parseInt(e.target.options[e.target.selectedIndex].value)])
+                    Entities.updatePlayer(id, CharacterAction.ApplyCondition, [CharacterCondition.Exhaustion, parseInt(e.target.options[e.target.selectedIndex].value)])
+                    break
+                case 'npc_exhaustion':
+                    Entities.updateNpc(id, CharacterAction.ApplyCondition, [CharacterCondition.Exhaustion, parseInt(e.target.options[e.target.selectedIndex].value)])
                     break
                 default:
                     doUpdate = false

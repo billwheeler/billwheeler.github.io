@@ -11,7 +11,7 @@ var fetchJson = () => {
     return new Promise((resolve, reject) => {
         axios.get(global.DataFile)
             .then(function (response) {
-                save(JSON.stringify(response.data));
+                save(JSON.stringify(response.data))
                 resolve([response.data])
             })
             .catch(function (error) {
