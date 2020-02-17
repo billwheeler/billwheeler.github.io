@@ -159,6 +159,15 @@ module.exports.updatePlayer = (id, action, params) => {
         case CharacterAction.Toggle:
             player.toggle()
             break
+        case CharacterAction.AddCondition:
+            player.condition(params[0], true)
+            break
+        case CharacterAction.RemoveCondition:
+            player.condition(params[0], false)
+            break
+        case CharacterAction.ApplyExhaustion:
+            player.condition(params[0], params[1])
+            break
     }
 }
 
@@ -201,6 +210,9 @@ module.exports.updateNpc = (id, action, params) => {
             break
         case CharacterAction.RemoveCondition:
             currentNpc.condition(params[0], false)
+            break
+        case CharacterAction.ApplyExhaustion:
+            currentNpc.condition(params[0], params[1])
             break
     }
 }

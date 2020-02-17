@@ -44,6 +44,7 @@ h3 { margin: 0 6px 8px 6px; padding: 0; font: bold 24px/36px verdana; }
 .top-link { padding: 10px 0; font: bold 15px/24px verdana; }
 .bottom-link { padding: 30px 0 10px 0; }
 
-.npc_condition_add { margin: 4px 0; }
-.npc_conditions { margin: 3px 0; }
-.npc_condition_remove { cursor: pointer; margin: 2px; padding: 3px 8px; border-radius: 5px; background: rgba(204, 204, 204, 0.67); float: left; }
+.player_condition_add, .npc_condition_add { margin: 4px 0; }
+.player_conditions, .npc_conditions { margin: 3px 0; }
+.player_condition_remove, .npc_condition_remove { cursor: pointer; margin: 2px; padding: 3px 8px; border-radius: 5px; background: rgba(204, 204, 204, 0.67); float: left; }
+.exhaustion_label { margin-left: 5px; }

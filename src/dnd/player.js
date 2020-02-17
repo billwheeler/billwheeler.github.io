@@ -1,6 +1,7 @@
 ﻿'use strict'
 
 var Storage = require('../app/storage.js')
+var Conditions = require('./conditions.js')
 
 var player = function () {
     this.id = 0
@@ -47,6 +48,12 @@ player.prototype.parse = function (json) {
         this.visible = json.visible
     }
 
+    var c = new Conditions()
+    if (c.parentId === 0) c.parentId = this.id
+    c.isPlayer = true
+    this.conditions = c
+
+    if (json.conditions) c.parse(json.conditions)
 }
 
 player.prototype.serialize = function () {
@@ -57,7 +64,8 @@ player.prototype.serialize = function () {
         initiative: this.initiative,
         state: this.state,
         link: this.link,
-        visible: this.visible
+        visible: this.visible,
+        conditions: this.conditions.serialize()
     }
 }
 
@@ -75,11 +83,13 @@ player.prototype.render = function () {
             out += '<input type="button" class="player_leave" value="Leave Encounter" data-id="' + this.id + '" style="margin-right:5px" />'
             out += '<input type="button" class="player_die" value="Die" data-id="' + this.id + '" />'
             out += '</div>'
+            if (this.conditions) out += this.conditions.render();
         } else if (this.state === CharacterState.Idle) {
             out += '<div>'
             out += '<input type="button" class="player_initiative" value="Apply Initiatve" data-id="' + this.id + '" /><input type="text" id="player_initiative_' + this.id + '" />'
             out += '<input type="button" class="player_die" value="Die" data-id="' + this.id + '" />'
             out += '</div>';
+            if (this.conditions) out += this.conditions.render();
         } else if (this.state === CharacterState.Dead) {
             out += '<div><input type="button" class="player_revive" value="Revive Player" data-id="' + this.id + '" /></div>'
         }
@@ -121,5 +131,9 @@ player.prototype.applyRest = function () {
 player.prototype.toggle = function () {
     this.visible = this.visible ? false : true
 }
+
+player.prototype.condition = function (key, value) {
+    if (this.conditions) this.conditions.setValue(key, value)
+};
 
 module.exports = player;

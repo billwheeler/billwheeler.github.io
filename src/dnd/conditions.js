@@ -23,6 +23,7 @@ var conditions = function () {
     this.unconscious = false
     this.hexed = false
     this.huntersmark = false
+    this.isPlayer = false
 }
 
 conditions.prototype.parse = function (json) {
@@ -123,65 +124,69 @@ conditions.prototype.setValue = function (key, value) {
     switch (key) {
         case CharacterCondition.Concentrating:
             this.concentrating = value ? true : false
-            break;
+            break
         case CharacterCondition.Exhaustion:
-            value = Utils.isNumeric(value) ? Utils.clamp(value, 0, 6) : 0
-            break;
+            this.exhaustion = Utils.isNumeric(value) ? Utils.clamp(value, 0, 6) : 0
+            break
         case CharacterCondition.Blinded:
             this.blinded = value ? true : false
-            break;
+            break
         case CharacterCondition.Deafened:
             this.deafened = value ? true : false
-            break;
+            break
         case CharacterCondition.Charmed:
             this.charmed = value ? true : false
-            break;
+            break
         case CharacterCondition.Frightened:
             this.frightened = value ? true : false
-            break;
+            break
         case CharacterCondition.Grappled:
             this.grappled = value ? true : false
-            break;
+            break
         case CharacterCondition.Incapacitated:
             this.incapacitated = value ? true : false
-            break;
+            break
         case CharacterCondition.Invisible:
             this.invisible = value ? true : false
-            break;
+            break
         case CharacterCondition.Paralyzed:
             this.paralyzed = value ? true : false
-            break;
+            break
         case CharacterCondition.Petrified:
             this.petrified = value ? true : false
-            break;
+            break
         case CharacterCondition.Poisoned:
             this.poisoned = value ? true : false
-            break;
+            break
         case CharacterCondition.Prone:
             this.prone = value ? true : false
-            break;
+            break
         case CharacterCondition.Restrained:
             this.restrained = value ? true : false
-            break;
+            break
         case CharacterCondition.Stunned:
             this.stunned = value ? true : false
-            break;
+            break
         case CharacterCondition.Unconscious:
             this.unconscious = value ? true : false
-            break;
+            break
         case CharacterCondition.Hexed:
             this.hexed = value ? true : false
-            break;
+            break
         case CharacterCondition.HuntersMark:
             this.huntersmark = value ? true : false
-            break;
+            break
     }
 }
 
 conditions.prototype.render = function () {
     var out = ''
 
-    out += '<select class="npc_condition_add" data-id="' + this.parentId + '">'
+    if (this.isPlayer)
+        out += '<select class="player_condition_add" data-id="' + this.parentId + '">'
+    else
+        out += '<select class="npc_condition_add" data-id="' + this.parentId + '">'
+
     out += '<option value="0"> -- Select -- </option>'
     out += '<option value="' + CharacterCondition.Blinded + '">Blinded</option>'
     out += '<option value="' + CharacterCondition.Charmed + '">Charmed</option>'
@@ -202,58 +207,76 @@ conditions.prototype.render = function () {
     out += '<option value="' + CharacterCondition.Unconscious + '">Unconscious</option>'
     out += '</select>'
 
-    out += '<div class="npc_conditions">'
+    if (this.isPlayer) {
+        out += '<label class="exhaustion_label">Exhausion: '
+        out += '<select class="player_exhaustion" data-id="' + this.parentId + '">'
+        out += this.exhaustion === 0 ? '<option selected="selected" value="0">0</option>' : '<option value="0">0</option>'
+        out += this.exhaustion === 1 ? '<option selected="selected" value="1">1</option>' : '<option value="1">1</option>'
+        out += this.exhaustion === 2 ? '<option selected="selected" value="2">2</option>' : '<option value="2">2</option>'
+        out += this.exhaustion === 3 ? '<option selected="selected" value="3">3</option>' : '<option value="3">3</option>'
+        out += this.exhaustion === 4 ? '<option selected="selected" value="4">4</option>' : '<option value="4">4</option>'
+        out += this.exhaustion === 5 ? '<option selected="selected" value="5">5</option>' : '<option value="5">5</option>'
+        out += '</select>'
+        out += '</label>'
+    }
+
+    if (this.isPlayer)
+        out += '<div class="player_conditions">'
+    else 
+        out += '<div class="npc_conditions">'
+
+    var removeClass = this.isPlayer ? 'player_condition_remove' : 'npc_condition_remove'
 
     if (this.blinded)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Blinded + '">Blinded</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Blinded + '">Blinded</div>'
 
     if (this.charmed)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Charmed + '">Charmed</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Charmed + '">Charmed</div>'
 
     if (this.concentrating)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Concentrating + '">Concentrating</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Concentrating + '">Concentrating</div>'
 
     if (this.deafened)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Deafened + '">Deafened</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Deafened + '">Deafened</div>'
 
     if (this.frightened)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Frightened + '">Frightened</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Frightened + '">Frightened</div>'
 
     if (this.grappled)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Grappled + '">Grappled</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Grappled + '">Grappled</div>'
 
     if (this.hexed)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Hexed + '">Hexed</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Hexed + '">Hexed</div>'
 
     if (this.huntersmark)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.HuntersMark + '">Hunter\'s Mark</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.HuntersMark + '">Hunter\'s Mark</div>'
 
     if (this.incapacitated)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Incapacitated + '">Incapacitated</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Incapacitated + '">Incapacitated</div>'
 
     if (this.invisible)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Invisible + '">Invisible</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Invisible + '">Invisible</div>'
 
     if (this.paralyzed)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Paralyzed + '">Paralyzed</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Paralyzed + '">Paralyzed</div>'
 
     if (this.petrified)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Petrified + '">Petrified</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Petrified + '">Petrified</div>'
 
     if (this.poisoned)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Poisoned + '">Poisoned</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Poisoned + '">Poisoned</div>'
 
     if (this.prone)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Prone + '">Prone</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Prone + '">Prone</div>'
 
     if (this.restrained)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Restrained + '">Restrained</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Restrained + '">Restrained</div>'
 
     if (this.stunned)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Stunned + '">Stunned</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Stunned + '">Stunned</div>'
 
     if (this.unconscious)
-        out += '<div class="npc_condition_remove" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Unconscious + '">Unconscious</div>'
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Unconscious + '">Unconscious</div>'
 
     out += '<div class="clear"></div></div>'
 

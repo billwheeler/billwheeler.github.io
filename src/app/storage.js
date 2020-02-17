@@ -1,7 +1,7 @@
 ﻿'use strict'
 
 const axios = require('axios')
-const storageKey = 'OssariaSessionEleven'
+const storageKey = 'OssariaSessionTwelve'
 
 var save = (data) => localStorage.setItem(storageKey, data)
 

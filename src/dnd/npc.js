@@ -174,16 +174,22 @@ npc.prototype.render = function () {
         if (this.state === CharacterState.Encounter) {
             out += '<div><input type="button" class="npc_damage" value="Apply Damage" data-id="' + this.id + '" /><input type="text" id="npc_damage_' + this.id + '" /></div>'
             out += '<div style="margin-top: 4px;">'
-            out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
+            out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" style="margin-right:5px" />'
+            out += '<input type="button" class="npc_leave" value="Leave Encounter" data-id="' + this.id + '" style="margin-right:5px" />'
             out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
             out += '</div>';
             if (this.conditions) out += this.conditions.render();
         } else if (this.state === CharacterState.Idle) {
             out += '<div>'
-            if (!this.companionTo) out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />&nbsp;'
-            out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
-            if (!this.template) out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
+            out += '<input type="button" class="npc_initiative" value="Roll Initiative" data-id="' + this.id + '" />&nbsp;'
+
+            // template npc's can't do these things
+            if (!this.template) {
+                out += '<input type="button" class="npc_rest" value="Rest" data-id="' + this.id + '" />&nbsp;'
+                out += '<input type="button" class="npc_die" value="Die" data-id="' + this.id + '" />'
+            }
             out += '</div>';
+            if (!this.template && this.conditions) out += this.conditions.render();
         } else if (this.state === CharacterState.Dead) {
             out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="' + this.id + '" /></div>'
         }
