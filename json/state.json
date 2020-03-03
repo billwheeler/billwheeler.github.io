@@ -225,34 +225,6 @@
             ]
         },
         {
-            "name": "Giant Crocodile",
-            "race": "Crocodile",
-            "armor": 14,
-            "health": 85,
-            "maxHealth": 85,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/giant-crocodile",
-            "template": true,
-            "initMod": -1,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "3d10",
-                    "hitMod": 8,
-                    "attackMod": 5,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Tail",
-                    "dice": "2d8",
-                    "hitMod": 8,
-                    "attackMod": 5,
-                    "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
             "name": "Gundar Hurazan",
             "race": "Human",
             "armor": 18,
@@ -298,24 +270,55 @@
             ]
         },
         {
-            "name": "Sea Prince",
+            "name": "Sea Prince Cleric",
+            "race": "Human",
+            "armor": 18,
+            "health": 44,
+            "maxHealth": 44,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/697687-sea-prince-cleric",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Sea Prince Skirmisher",
             "race": "Human",
             "armor": 15,
-            "health": 30,
-            "maxHealth": 30,
+            "health": 71,
+            "maxHealth": 71,
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/685453-sea-prince",
             "template": true,
             "initMod": 3,
             "weapons": [
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
                 {
                     "name": "Scimitar",
                     "dice": "1d6",
@@ -333,7 +336,63 @@
             ]
         },
         {
+            "name": "Sea Prince Ranger",
+            "race": "Human",
+            "armor": 15,
+            "health": 39,
+            "maxHealth": 39,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/685453-sea-prince-ranger",
+            "template": true,
+            "initMod": 4,
+            "weapons": [
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Gnoll",
+            "race": "Gnoll",
+            "armor": 15,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/gnoll",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Spear",
+                    "dice": "1d8",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Gnoll Pack Lord",
             "race": "Gnoll",
             "armor": 15,
             "health": 49,
