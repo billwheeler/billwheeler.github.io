@@ -19,9 +19,12 @@ body { background: #d8dbe2; color: #19191c; font-family: 'Lucida Sans', 'Lucida 
 a { color: #982328; }
 a:visited { color: #982328; }
 
-input[type=button], input[type=text], input[type=checkbox], select { margin: 3px 5px 3px 0; border-style: solid; background: rgba(231, 236, 242, 0.5); border-color: rgba(231, 236, 242, 0.5); border-radius: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-input[type=button], input[type=text], input[type=checkbox] { border-radius: 5px; }
+input[type=button], input[type=text], select { margin: 3px 5px 3px 0; border-style: solid; background: rgba(231, 236, 242, 0.5); border-color: rgba(231, 236, 242, 0.5); border-radius: 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+input[type=button], input[type=text], input[type=checkbox] { cursor: pointer; }
+input[type=button], input[type=text] { border-radius: 5px; }
 input[type=text] { width: 50px; margin: 0 5px; text-align: center; }
+
+input.hard_reset { background: rgba(55, 63, 81, 0.075); border-color: rgba(55, 63, 81, 0.15); }
 
 #main-content { width: 1280px; margin: 0 auto; font-size: 14px; line-height: 21px; }
 

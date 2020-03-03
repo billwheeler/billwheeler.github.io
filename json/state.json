@@ -546,22 +546,22 @@
             ]
         },
         {
-            "name": "Shadow",
+            "name": "Specter",
             "race": "Undead",
             "armor": 12,
-            "health": 16,
-            "maxHealth": 16,
-            "speed": 40,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 50,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/shadow",
+            "link": "https://www.dndbeyond.com/monsters/specter",
             "template": true,
             "initMod": 2,
             "weapons": [
                 {
                     "name": "Strength Drain",
-                    "dice": "2d12",
+                    "dice": "3d6",
                     "hitMod": 4,
-                    "attackMod": 3,
+                    "attackMod": 0,
                     "damageType": "necrotic"
                 }
             ]
