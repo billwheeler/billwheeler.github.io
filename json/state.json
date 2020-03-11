@@ -226,7 +226,7 @@
         },
         {
             "name": "Gundar Hurazan",
-            "race": "Human",
+            "race": "Minitaur",
             "armor": 18,
             "health": 182,
             "maxHealth": 182,
@@ -420,6 +420,256 @@
             ]
         },
         {
+            "name": "Harpy Matriarch",
+            "race": "Harpy",
+            "armor": 14,
+            "health": 88,
+            "maxHealth": 88,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/harpy-matriarch",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Claws",
+                    "dice": "3d6",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
+            "name": "Deep Scion",
+            "race": "Scion",
+            "armor": 11,
+            "health": 67,
+            "maxHealth": 67,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/deep-scion",
+            "template": true,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Battleaxe",
+                    "dice": "1d10",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
+            "name": "Assassin Vine",
+            "race": "Large Plant",
+            "armor": 13,
+            "health": 85,
+            "maxHealth": 85,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/assassin-vine",
+            "template": true,
+            "initMod": 0,
+            "weapons": [
+                {
+                    "name": "Constrict",
+                    "dice": "2d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                }
+            ]
+        },
+        {
+            "name": "Thousand Teeth",
+            "race": "Large monstrosity",
+            "armor": 12,
+            "health": 93,
+            "maxHealth": 93,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/thousand-teeth",
+            "template": false,
+            "initMod": 0,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "2d10",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Tail",
+                    "dice": "1d8",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                }
+            ]
+        },
+        {
+            "name": "Jade Fionula Statue",
+            "race": "Large construct",
+            "armor": 14,
+            "health": 114,
+            "maxHealth": 114,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/vampiric-jade-statue",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "2d6",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Claws",
+                    "dice": "2d6",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
+            "name": "Nadmalog",
+            "race": "Storm Giant",
+            "armor": 12,
+            "health": 230,
+            "maxHealth": 230,
+            "speed": 50,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/storm-giant-quintessent",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Lightning Sword",
+                    "dice": "9d6",
+                    "hitMod": 14,
+                    "attackMod": 9,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Wind Javelin",
+                    "dice": "3d6",
+                    "hitMod": 14,
+                    "attackMod": 9,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Bodak",
+            "race": "Undead",
+            "armor": 15,
+            "health": 53,
+            "maxHealth": 53,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/bodak",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Fists",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 2,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Fists",
+                    "dice": "2d8",
+                    "hitMod": 5,
+                    "attackMod": 0,
+                    "damageType": "necrotic"
+                }
+            ]
+        },
+        {
+            "name": "Granny Nightshade",
+            "race": "Tiefling",
+            "armor": 18,
+            "health": 153,
+            "maxHealth": 153,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/522481-granny-nightshade",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Claws",
+                    "dice": "2d8",
+                    "hitMod": 10,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Gulthias Staff",
+                    "dice": "1d8",
+                    "hitMod": 10,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Eighth Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Nineth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
             "name": "Zombie",
             "race": "Zombie",
             "armor": 8,
@@ -584,91 +834,6 @@
                     "armor": 18,
                     "health": 50,
                     "maxHealth": 50
-                },
-                {
-                    "name": "Sails",
-                    "armor": 12,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "speed": 35,
-                    "decrement": 10,
-                    "stages": 4
-                },
-                {
-                    "name": "Forecastle Ballista",
-                    "armor": 15,
-                    "health": 50,
-                    "maxHealth": 50,
-                    "attackToHit": 6,
-                    "attackRoll": "3d10",
-                    "attackRange": "120/480",
-                    "attackDamage": "piercing"
-                },
-                {
-                    "name": "Quarterdeck Ballista",
-                    "armor": 15,
-                    "health": 50,
-                    "maxHealth": 50,
-                    "attackToHit": 6,
-                    "attackRoll": "3d10",
-                    "attackRange": "120/480",
-                    "attackDamage": "piercing"
-                },
-                {
-                    "name": "Bow Mangonel",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Aft Mangonel",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Naval Ram",
-                    "armor": 20,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "threshold": 10
-                }
-            ],
-            "link": "https://www.dndbeyond.com/vehicles/warship"
-        },
-        {
-            "name": "The Sea Ghost",
-            "type": "Warship",
-            "components": [
-                {
-                    "name": "Hull",
-                    "armor": 15,
-                    "health": 500,
-                    "maxHealth": 500,
-                    "threshold": 20
-                },
-                {
-                    "name": "Helm",
-                    "armor": 18,
-                    "health": 50,
-                    "maxHealth": 50
-                },
-                {
-                    "name": "Oars",
-                    "armor": 12,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "speed": 20,
-                    "decrement": 5,
-                    "stages": 4
                 },
                 {
                     "name": "Sails",

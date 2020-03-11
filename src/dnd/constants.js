@@ -24,6 +24,7 @@ global.CharacterCondition = {
     Blinded: 'blinded',
     Deafened: 'deafened',
     Charmed: 'charmed',
+    Cursed: 'cursed',
     Frightened: 'frightened',
     Grappled: 'grappled',
     Incapacitated: 'incapacitated',

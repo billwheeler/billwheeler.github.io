@@ -76,6 +76,7 @@ conditions.prototype.serialize = function () {
         blinded: this.blinded,
         deafened: this.deafened,
         charmed: this.charmed,
+        cursed: this.cursed,
         frightened: this.frightened,
         grappled: this.grappled,
         incapacitated: this.incapacitated,
@@ -102,6 +103,7 @@ conditions.prototype.clone = function (parentId) {
         blinded: false,
         deafened: false,
         charmed: false,
+        cursed: false,
         frightened: false,
         grappled: false,
         incapacitated: false,
@@ -136,6 +138,9 @@ conditions.prototype.setValue = function (key, value) {
             break
         case CharacterCondition.Charmed:
             this.charmed = value ? true : false
+            break
+        case CharacterCondition.Cursed:
+            this.cursed = value ? true : false
             break
         case CharacterCondition.Frightened:
             this.frightened = value ? true : false
@@ -191,6 +196,7 @@ conditions.prototype.render = function () {
     out += '<option value="' + CharacterCondition.Blinded + '">Blinded</option>'
     out += '<option value="' + CharacterCondition.Charmed + '">Charmed</option>'
     out += '<option value="' + CharacterCondition.Concentrating + '">Concentrating</option>'    
+    out += '<option value="' + CharacterCondition.Cursed + '">Cursed</option>'    
     out += '<option value="' + CharacterCondition.Deafened + '">Deafened</option>'
     out += '<option value="' + CharacterCondition.Frightened + '">Frightened</option>'
     out += '<option value="' + CharacterCondition.Grappled + '">Grappled</option>'
@@ -235,6 +241,9 @@ conditions.prototype.render = function () {
 
     if (this.concentrating)
         out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Concentrating + '">Concentrating</div>'
+
+    if (this.cursed)
+        out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Cursed + '">Cursed</div>'
 
     if (this.deafened)
         out += '<div class="' + removeClass + '" data-id="' + this.parentId + '" data-condition="' + CharacterCondition.Deafened + '">Deafened</div>'
