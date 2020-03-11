@@ -19,6 +19,7 @@ var npc = function () {
     this.spells = []
     this.state = CharacterState.Idle
     this.link = ''
+    this.image = ''
     this.initMod = 0
     this.template = false
     this.instance = 0
@@ -90,6 +91,10 @@ npc.prototype.parse = function (json) {
         this.link = json.link
     }
 
+    if (json.image) {
+        this.image = json.image
+    }
+
     if (json.template) {
         this.template = json.template
     }
@@ -133,6 +138,7 @@ npc.prototype.serialize = function () {
         spells: spells,
         state: this.state,
         link: this.link,
+        image: this.image,
         initMod: this.initMod,
         template: this.template,
         instance: this.instance,
@@ -194,7 +200,13 @@ npc.prototype.render = function () {
             out += '<div><input type="button" class="npc_revive" value="Revive NPC" data-id="' + this.id + '" /></div>'
         }
 
-        if (this.link) out += '<div><a href="' + this.link + '" target="_blank">D&D Beyond</a></div>'
+        if (this.link || this.image) {
+            out += '<div>'
+            if (this.link) out += '<a href="' + this.link + '" target="_blank">D&D Beyond</a>'
+            if (this.link && this.image) out += '&nbsp;&amp;&nbsp;'
+            if (this.image) out += '<a href="' + this.image + '" target="_blank">Image</a>'
+            out += '</div>'
+        }
     }
 
     out += '</div>'
@@ -249,6 +261,7 @@ npc.prototype.clone = function () {
         speed: this.speed,
         race: this.race,
         link: this.link,
+        image: this.image,
         initMod: this.initMod,
         visible: this.visible
     })

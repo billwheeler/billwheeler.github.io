@@ -603,6 +603,7 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/522481-granny-nightshade",
+            "image": "https://i.pinimg.com/originals/61/75/f4/6175f449468027f7044194620d5272d8.png",
             "template": false,
             "initMod": 3,
             "weapons": [
