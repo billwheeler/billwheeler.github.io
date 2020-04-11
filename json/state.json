@@ -1,28 +1,22 @@
 {
     "players": [
         {
-            "name": "Elocin Fae",
-            "player": "Nicole",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/Rnderstine3193/characters/17629032"
-        },
-        {
             "name": "Fionula Copperkettle",
             "player": "Casey",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124"
         },
         {
+            "name": "Lorax",
+            "player": "Chris",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/26572718"
+        },
+        {
             "name": "Malbraxys",
             "player": "Mike",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845"
-        },
-        {
-            "name": "Raelzegg Daardendrian",
-            "player": "Ben",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/Lord_Duckington_of_Stumbles/characters/11666335"
         },
         {
             "name": "Sulyman Quantarius Zornastica Mushkin",
@@ -65,34 +59,46 @@
             ]
         },
         {
-            "name": "Corvon",
-            "race": "Adult White Dragon",
-            "armor": 18,
-            "health": 200,
-            "maxHealth": 200,
-            "speed": 80,
+            "name": "Treant Dryad",
+            "race": "Fey",
+            "armor": 16,
+            "health": 204,
+            "maxHealth": 204,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/adult-white-dragon",
+            "link": "https://www.dndbeyond.com/monsters/treant",
             "weapons": [
                 {
-                    "name": "Bite",
-                    "dice": "2d10",
-                    "hitMod": 11,
+                    "name": "Slam",
+                    "dice": "3d6",
+                    "hitMod": 10,
                     "attackMod": 6,
-                    "damageType": "piercing"
+                    "damageType": "bludgeoning"
                 },
                 {
-                    "name": "Claw",
-                    "dice": "2d6",
-                    "hitMod": 11,
+                    "name": "Rock",
+                    "dice": "4d10",
+                    "hitMod": 10,
                     "attackMod": 6,
-                    "damageType": "slashing"
-                },
+                    "damageType": "bludgeoning"
+                }
+            ]
+        },
+        {
+            "name": "Animated Tree",
+            "race": "Fey",
+            "armor": 13,
+            "health": 98,
+            "maxHealth": 98,
+            "speed": 20,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/awakened-tree",
+            "weapons": [
                 {
-                    "name": "Tail",
-                    "dice": "2d8",
-                    "hitMod": 11,
-                    "attackMod": 6,
+                    "name": "Slam",
+                    "dice": "3d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
                     "damageType": "bludgeoning"
                 }
             ]
@@ -420,48 +426,6 @@
             ]
         },
         {
-            "name": "Harpy Matriarch",
-            "race": "Harpy",
-            "armor": 14,
-            "health": 88,
-            "maxHealth": 88,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/harpy-matriarch",
-            "template": true,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Claws",
-                    "dice": "3d6",
-                    "hitMod": 6,
-                    "attackMod": 3,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Deep Scion",
-            "race": "Scion",
-            "armor": 11,
-            "health": 67,
-            "maxHealth": 67,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/deep-scion",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Battleaxe",
-                    "dice": "1d10",
-                    "hitMod": 6,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
             "name": "Assassin Vine",
             "race": "Large Plant",
             "armor": 13,
@@ -507,34 +471,6 @@
                     "hitMod": 7,
                     "attackMod": 4,
                     "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
-            "name": "Jade Fionula Statue",
-            "race": "Large construct",
-            "armor": 14,
-            "health": 114,
-            "maxHealth": 114,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/vampiric-jade-statue",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "2d6",
-                    "hitMod": 6,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Claws",
-                    "dice": "2d6",
-                    "hitMod": 6,
-                    "attackMod": 3,
-                    "damageType": "slashing"
                 }
             ]
         },
@@ -667,27 +603,6 @@
                     "name": "Nineth Level",
                     "slots": 1,
                     "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Zombie",
-            "race": "Zombie",
-            "armor": 8,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 20,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/zombie",
-            "template": true,
-            "initMod": -2,
-            "weapons": [
-                {
-                    "name": "Slam",
-                    "dice": "1d6",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "bludgeoning"
                 }
             ]
         },
