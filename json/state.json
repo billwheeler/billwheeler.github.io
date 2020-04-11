@@ -59,6 +59,117 @@
             ]
         },
         {
+            "name": "Flan Vatavavan",
+            "race": "Human",
+            "armor": 11,
+            "health": 56,
+            "maxHealth": 56,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/26580063",
+            "template": false,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 3,
+                    "attackMod": 0,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Mauthereign Vance",
+            "race": "Human",
+            "armor": 13,
+            "health": 107,
+            "maxHealth": 107,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/26581258",
+            "template": false,
+            "initMod": 8,
+            "weapons": [
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 8,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Eighth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
             "name": "Treant Dryad",
             "race": "Fey",
             "armor": 16,
