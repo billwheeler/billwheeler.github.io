@@ -177,7 +177,7 @@
             "armor": 18,
             "health": 80,
             "maxHealth": 80,
-            "speed": 30,
+            "speed": 35,
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/27675197",
             "template": false,
@@ -235,23 +235,37 @@
             ]
         },
         {
-            "name": "Frostbite Spider",
-            "race": "Spider",
-            "armor": 15,
-            "health": 34,
-            "maxHealth": 34,
-            "speed": 30,
+            "name": "Fine Wine",
+            "race": "Tabaxi",
+            "armor": 16,
+            "health": 77,
+            "maxHealth": 77,
+            "speed": 35,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/861828-frostbite-spider",
-            "template": true,
-            "initMod": 0,
+            "link": "https://www.dndbeyond.com/monsters/521173-fine-wine",
+            "template": false,
+            "initMod": 3,
             "weapons": [
                 {
-                    "name": "Bite",
-                    "dice": "3d8",
-                    "hitMod": 7,
-                    "attackMod": 5,
-                    "damageType": "piercing"
+                    "name": "Greatsword",
+                    "dice": "2d6",
+                    "hitMod": 8,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Eldritch Blast",
+                    "dice": "1d10",
+                    "hitMod": 8,
+                    "attackMod": 4,
+                    "damageType": "force"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Pact Magic (4th)",
+                    "slots": 4,
+                    "used": 0
                 }
             ]
         },
@@ -493,6 +507,27 @@
                 }
             ]
         },
+        {
+            "name": "Wraith",
+            "race": "Undead",
+            "armor": 13,
+            "health": 67,
+            "maxHealth": 67,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/wraith",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Strength Drain",
+                    "dice": "4d8",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "necrotic"
+                }
+            ]
+        }
         {
             "name": "Specter",
             "race": "Undead",
