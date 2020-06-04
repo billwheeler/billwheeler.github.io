@@ -127,86 +127,6 @@
             ]
         },
         {
-            "name": "Gundar Hurazan",
-            "race": "Minitaur",
-            "armor": 18,
-            "health": 182,
-            "maxHealth": 182,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/21601445",
-            "template": false,
-            "initMod": -1,
-            "weapons": [
-                {
-                    "name": "Battleaxe",
-                    "dice": "1d10",
-                    "hitMod": 11,
-                    "attackMod": 11,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Eldritch Blast",
-                    "dice": "1d10",
-                    "hitMod": 10,
-                    "attackMod": 5,
-                    "damageType": "force"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Durrant",
-            "race": "Half Elf",
-            "armor": 18,
-            "health": 80,
-            "maxHealth": 80,
-            "speed": 35,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/27675197",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Greatsword",
-                    "dice": "2d6",
-                    "hitMod": 8,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Longbow",
-                    "dice": "1d8",
-                    "hitMod": 8,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "Pact Magic (5th)",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
-        },
-        {
             "name": "Durrant's Gray Render",
             "race": "Gray Render",
             "armor": 19,
@@ -270,133 +190,200 @@
             ]
         },
         {
-            "name": "Gnoll",
-            "race": "Gnoll",
-            "armor": 15,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 30,
+            "name": "Gudhagh",
+            "race": "Undead Orc",
+            "armor": 17,
+            "health": 153,
+            "maxHealth": 153,
+            "speed": 45,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/gnoll",
-            "template": true,
-            "initMod": 2,
+            "link": "https://www.dndbeyond.com/monsters/911147-gudhagh",
+            "template": false,
+            "initMod": 4,
             "weapons": [
                 {
-                    "name": "Spear",
-                    "dice": "1d8",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Gnoll Pack Lord",
-            "race": "Gnoll",
-            "armor": 15,
-            "health": 49,
-            "maxHealth": 49,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/gnoll-pack-lord",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Spear",
-                    "dice": "1d8",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Assassin Vine",
-            "race": "Large Plant",
-            "armor": 13,
-            "health": 85,
-            "maxHealth": 85,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/assassin-vine",
-            "template": true,
-            "initMod": 0,
-            "weapons": [
-                {
-                    "name": "Constrict",
-                    "dice": "2d6",
-                    "hitMod": 6,
+                    "name": "Glaive",
+                    "dice": "1d10",
+                    "hitMod": 7,
                     "attackMod": 4,
-                    "damageType": "bludgeoning"
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
                 }
             ]
         },
         {
-            "name": "Thousand Teeth",
-            "race": "Large monstrosity",
-            "armor": 12,
-            "health": 93,
-            "maxHealth": 93,
-            "speed": 30,
+            "name": "Olodagh",
+            "race": "Undead Orc",
+            "armor": 18,
+            "health": 71,
+            "maxHealth": 71,
+            "speed": 45,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/thousand-teeth",
+            "link": "https://www.dndbeyond.com/monsters/915013-olodagh",
             "template": false,
             "initMod": 0,
             "weapons": [
                 {
-                    "name": "Bite",
-                    "dice": "2d10",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Tail",
-                    "dice": "1d8",
+                    "name": "Warhammer",
+                    "dice": "2d8",
                     "hitMod": 7,
                     "attackMod": 4,
                     "damageType": "bludgeoning"
                 }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 2,
+                    "used": 0
+                }
             ]
         },
         {
-            "name": "Bodak",
-            "race": "Undead",
+            "name": "Gulm",
+            "race": "Undead Orc",
             "armor": 15,
-            "health": 53,
-            "maxHealth": 53,
-            "speed": 30,
+            "health": 51,
+            "maxHealth": 51,
+            "speed": 45,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bodak",
-            "template": true,
-            "initMod": 3,
+            "template": false,
+            "initMod": 2,
             "weapons": [
                 {
-                    "name": "Fists",
-                    "dice": "1d4",
-                    "hitMod": 5,
-                    "attackMod": 2,
-                    "damageType": "bludgeoning"
+                    "name": "Greataxe",
+                    "dice": "1d12",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "slashing"
                 },
                 {
-                    "name": "Fists",
-                    "dice": "2d8",
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
                     "hitMod": 5,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Valthurg",
+            "race": "Undead Orc",
+            "armor": 15,
+            "health": 51,
+            "maxHealth": 51,
+            "speed": 45,
+            "state": "alive",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Greataxe",
+                    "dice": "1d12",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 5,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Xujarek",
+            "race": "Undead Orc",
+            "armor": 15,
+            "health": 51,
+            "maxHealth": 51,
+            "speed": 45,
+            "state": "alive",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Greataxe",
+                    "dice": "1d12",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 5,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Xomath",
+            "race": "Undead Orc",
+            "armor": 15,
+            "health": 51,
+            "maxHealth": 51,
+            "speed": 45,
+            "state": "alive",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Greataxe",
+                    "dice": "1d12",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 5,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Specter",
+            "race": "Undead",
+            "armor": 14,
+            "health": 32,
+            "maxHealth": 32,
+            "speed": 50,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/909392-tiefling-specter",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Strength Drain",
+                    "dice": "5d6",
+                    "hitMod": 7,
                     "attackMod": 0,
                     "damageType": "necrotic"
                 }
@@ -504,48 +491,6 @@
                     "hitMod": 2,
                     "attackMod": 0,
                     "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Wraith",
-            "race": "Undead",
-            "armor": 13,
-            "health": 67,
-            "maxHealth": 67,
-            "speed": 60,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/wraith",
-            "template": true,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Strength Drain",
-                    "dice": "4d8",
-                    "hitMod": 6,
-                    "attackMod": 3,
-                    "damageType": "necrotic"
-                }
-            ]
-        },
-        {
-            "name": "Specter",
-            "race": "Undead",
-            "armor": 12,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/specter",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Strength Drain",
-                    "dice": "3d6",
-                    "hitMod": 4,
-                    "attackMod": 0,
-                    "damageType": "necrotic"
                 }
             ]
         }
