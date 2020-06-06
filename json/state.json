@@ -215,6 +215,23 @@
                     "attackMod": 4,
                     "damageType": "piercing"
                 }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 2,
+                    "used": 0
+                }
             ]
         },
         {
