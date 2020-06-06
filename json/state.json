@@ -190,6 +190,27 @@
             ]
         },
         {
+            "name": "Shadow Demon",
+            "race": "Undead",
+            "armor": 16,
+            "health": 66,
+            "maxHealth": 66,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/shadow-demon",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Claws",
+                    "dice": "2d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
             "name": "Gudhagh",
             "race": "Undead Orc",
             "armor": 17,
