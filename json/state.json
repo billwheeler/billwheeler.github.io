@@ -200,6 +200,101 @@
             ]
         },
         {
+            "name": "Monstrous Peryton",
+            "race": "Peryton",
+            "armor": 14,
+            "health": 144,
+            "maxHealth": 144,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/monstrous-peryton",
+            "template": false
+        },
+        {
+            "name": "Talissa",
+            "race": "Dwarf",
+            "armor": 12,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/540579-talissa",
+            "template": false,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Maitland",
+            "race": "Human",
+            "armor": 12,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/540570-mazen",
+            "template": false,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Senan",
+            "race": "Dwarf",
+            "armor": 12,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/540577-senan",
+            "template": false,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Scimitar",
+                    "dice": "1d4",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "slashing"
+                }
+            ]
+        },
+        {
             "name": "Hezrou",
             "race": "Hezrou",
             "armor": 16,
