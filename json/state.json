@@ -59,219 +59,85 @@
             ]
         },
         {
-            "name": "Mauthereign Vance",
-            "race": "Human",
-            "armor": 13,
-            "health": 121,
-            "maxHealth": 121,
+            "name": "Hobgoblin Warlord",
+            "race": "Hobgoblin",
+            "armor": 20,
+            "health": 71,
+            "maxHealth": 71,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/26581258",
-            "template": false,
-            "initMod": 13,
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-warlord",
+            "template": true,
+            "initMod": 2,
             "weapons": [
                 {
-                    "name": "Dagger",
-                    "dice": "1d4",
-                    "hitMod": 8,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Eighth Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Ninth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Durrant's Gray Render",
-            "race": "Gray Render",
-            "armor": 19,
-            "health": 189,
-            "maxHealth": 189,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/gray-render",
-            "template": false,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "2d12",
-                    "hitMod": 8,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Claws",
-                    "dice": "2d8",
-                    "hitMod": 8,
+                    "name": "Longsword",
+                    "dice": "1d8",
+                    "hitMod": 9,
                     "attackMod": 4,
                     "damageType": "slashing"
+                },
+                {
+                    "name": "Shield Bash",
+                    "dice": "1d4",
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Javelin",
+                    "dice": "1d6",
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "piercing"
                 }
             ]
         },
         {
-            "name": "Fine Wine",
-            "race": "Tabaxi",
-            "armor": 16,
-            "health": 77,
-            "maxHealth": 77,
-            "speed": 35,
+            "name": "Hobgoblin Warrior",
+            "race": "Hobgoblin",
+            "armor": 18,
+            "health": 71,
+            "maxHealth": 71,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/521173-fine-wine",
-            "template": false,
-            "initMod": 3,
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-captain",
+            "template": true,
+            "initMod": 2,
             "weapons": [
                 {
                     "name": "Greatsword",
                     "dice": "2d6",
-                    "hitMod": 8,
+                    "hitMod": 6,
                     "attackMod": 4,
                     "damageType": "slashing"
                 },
                 {
-                    "name": "Eldritch Blast",
-                    "dice": "1d10",
-                    "hitMod": 8,
-                    "attackMod": 4,
-                    "damageType": "force"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "Pact Magic (4th)",
-                    "slots": 4,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Shadow Demon",
-            "race": "Undead",
-            "armor": 16,
-            "health": 66,
-            "maxHealth": 66,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/shadow-demon",
-            "template": true,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Claws",
-                    "dice": "2d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Gudhagh",
-            "race": "Undead Orc",
-            "armor": 17,
-            "health": 153,
-            "maxHealth": 153,
-            "speed": 45,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/911147-gudhagh",
-            "template": false,
-            "initMod": 4,
-            "weapons": [
-                {
-                    "name": "Glaive",
-                    "dice": "1d10",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 7,
+                    "name": "Javelin",
+                    "dice": "1d6",
+                    "hitMod": 6,
                     "attackMod": 4,
                     "damageType": "piercing"
                 }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 2,
-                    "used": 0
-                }
             ]
         },
         {
-            "name": "Olodagh",
-            "race": "Undead Orc",
-            "armor": 18,
-            "health": 71,
-            "maxHealth": 71,
-            "speed": 45,
+            "name": "Hobgoblin Devastator",
+            "race": "Hobgoblin",
+            "armor": 16,
+            "health": 45,
+            "maxHealth": 45,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/915013-olodagh",
-            "template": false,
-            "initMod": 0,
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-devastator",
+            "template": true,
+            "initMod": 1,
             "weapons": [
                 {
-                    "name": "Warhammer",
-                    "dice": "2d8",
-                    "hitMod": 7,
-                    "attackMod": 4,
+                    "name": "Quarterstaff",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
                     "damageType": "bludgeoning"
                 }
             ],
@@ -293,241 +159,126 @@
                 },
                 {
                     "name": "Fourth Level",
-                    "slots": 2,
+                    "slots": 1,
                     "used": 0
                 }
             ]
         },
         {
-            "name": "Gulm",
-            "race": "Undead Orc",
-            "armor": 15,
-            "health": 51,
-            "maxHealth": 51,
+            "name": "Hobgoblin Iron Shadow",
+            "race": "Hobgoblin",
+            "armor": 17,
+            "health": 48,
+            "maxHealth": 48,
             "speed": 45,
             "state": "alive",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Greataxe",
-                    "dice": "1d12",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 5,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Valthurg",
-            "race": "Undead Orc",
-            "armor": 15,
-            "health": 51,
-            "maxHealth": 51,
-            "speed": 45,
-            "state": "alive",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Greataxe",
-                    "dice": "1d12",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 5,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Xujarek",
-            "race": "Undead Orc",
-            "armor": 15,
-            "health": 51,
-            "maxHealth": 51,
-            "speed": 45,
-            "state": "alive",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Greataxe",
-                    "dice": "1d12",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 5,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Xomath",
-            "race": "Undead Orc",
-            "armor": 15,
-            "health": 51,
-            "maxHealth": 51,
-            "speed": 45,
-            "state": "alive",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Greataxe",
-                    "dice": "1d12",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 5,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Specter",
-            "race": "Undead",
-            "armor": 14,
-            "health": 32,
-            "maxHealth": 32,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/909392-tiefling-specter",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-devastator",
             "template": true,
-            "initMod": 2,
+            "initMod": 3,
             "weapons": [
                 {
-                    "name": "Strength Drain",
-                    "dice": "5d6",
-                    "hitMod": 7,
-                    "attackMod": 0,
-                    "damageType": "necrotic"
+                    "name": "Unarmed Strike",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Dart",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 3,
+                    "used": 0
                 }
             ]
         },
         {
-            "name": "Maw Demon",
-            "race": "Demon",
-            "armor": 13,
-            "health": 33,
-            "maxHealth": 33,
+            "name": "Hezrou",
+            "race": "Hezrou",
+            "armor": 16,
+            "health": 136,
+            "maxHealth": 136,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/maw-demon",
-            "template": true,
-            "initMod": -1,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "2d8",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Cackler",
-            "race": "Demon",
-            "armor": 15,
-            "health": 10,
-            "maxHealth": 10,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/cackler",
+            "link": "https://www.dndbeyond.com/monsters/hezrou",
             "template": true,
             "initMod": 3,
             "weapons": [
                 {
                     "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 5,
-                    "attackMod": 3,
+                    "dice": "2d10",
+                    "hitMod": 7,
+                    "attackMod": 4,
                     "damageType": "piercing"
                 },
                 {
-                    "name": "Spiked Chain",
-                    "dice": "1d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
+                    "name": "Claws",
+                    "dice": "2d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
                     "damageType": "slashing"
-                },
-                {
-                    "name": "Fire Bolt",
-                    "dice": "1d10",
-                    "hitMod": 3,
-                    "attackMod": 0,
-                    "damageType": "fire"
                 }
             ]
         },
         {
-            "name": "Dretch",
-            "race": "Demon",
-            "armor": 11,
-            "health": 18,
-            "maxHealth": 18,
-            "speed": 20,
+            "name": "Hezrou Smol",
+            "race": "Hezrou",
+            "armor": 16,
+            "health": 68,
+            "maxHealth": 68,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/dretch",
+            "link": "https://www.dndbeyond.com/monsters/reduced-threat-hezrou",
             "template": true,
-            "initMod": 0,
+            "initMod": 3,
             "weapons": [
                 {
                     "name": "Bite",
-                    "dice": "1d6",
-                    "hitMod": 2,
-                    "attackMod": 0,
+                    "dice": "2d8",
+                    "hitMod": 5,
+                    "attackMod": 4,
                     "damageType": "piercing"
                 },
                 {
                     "name": "Claws",
                     "dice": "2d4",
-                    "hitMod": 2,
-                    "attackMod": 0,
+                    "hitMod": 5,
+                    "attackMod": 4,
                     "damageType": "slashing"
                 }
             ]
         },
         {
-            "name": "Manes",
-            "race": "Demon",
-            "armor": 9,
-            "health": 9,
-            "maxHealth": 9,
-            "speed": 20,
+            "name": "Servant of Nambria",
+            "race": "Winter Eladrin",
+            "armor": 18,
+            "health": 82,
+            "maxHealth": 82,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/manes",
+            "link": "https://www.dndbeyond.com/monsters/974808-servant-of-nambria",
             "template": true,
-            "initMod": -1,
+            "initMod": 3,
             "weapons": [
                 {
-                    "name": "Claws",
-                    "dice": "2d4",
-                    "hitMod": 2,
-                    "attackMod": 0,
+                    "name": "Longbow",
+                    "dice": "1d8",
+                    "hitMod": 6,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Longsword",
+                    "dice": "1d8",
+                    "hitMod": 6,
+                    "attackMod": 3,
                     "damageType": "slashing"
                 }
             ]
