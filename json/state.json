@@ -59,86 +59,23 @@
             ]
         },
         {
-            "name": "Hobgoblin Warlord",
-            "race": "Hobgoblin",
-            "armor": 20,
-            "health": 71,
-            "maxHealth": 71,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin-warlord",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Longsword",
-                    "dice": "1d8",
-                    "hitMod": 9,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Shield Bash",
-                    "dice": "1d4",
-                    "hitMod": 9,
-                    "attackMod": 4,
-                    "damageType": "bludgeoning"
-                },
-                {
-                    "name": "Javelin",
-                    "dice": "1d6",
-                    "hitMod": 9,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Hobgoblin Warrior",
-            "race": "Hobgoblin",
-            "armor": 18,
-            "health": 71,
-            "maxHealth": 71,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin-captain",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Greatsword",
-                    "dice": "2d6",
-                    "hitMod": 6,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Javelin",
-                    "dice": "1d6",
-                    "hitMod": 6,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Hobgoblin Devastator",
-            "race": "Hobgoblin",
+            "name": "Ammareth",
+            "race": "Human",
             "armor": 16,
-            "health": 45,
-            "maxHealth": 45,
+            "health": 74,
+            "maxHealth": 74,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin-devastator",
-            "template": true,
-            "initMod": 1,
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
+            "template": false,
+            "initMod": 3,
             "weapons": [
                 {
-                    "name": "Quarterstaff",
+                    "name": "Light Crossbow",
                     "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "bludgeoning"
+                    "hitMod": 7,
+                    "attackMod": 3,
+                    "damageType": "piercing"
                 }
             ],
             "spells": [
@@ -159,33 +96,36 @@
                 },
                 {
                     "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
                     "slots": 1,
                     "used": 0
                 }
             ]
         },
         {
-            "name": "Hobgoblin Iron Shadow",
-            "race": "Hobgoblin",
-            "armor": 17,
-            "health": 48,
-            "maxHealth": 48,
-            "speed": 45,
+            "name": "Drogol",
+            "race": "Human",
+            "armor": 16,
+            "health": 31,
+            "maxHealth": 31,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hobgoblin-devastator",
-            "template": true,
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
+            "template": false,
             "initMod": 3,
             "weapons": [
                 {
-                    "name": "Unarmed Strike",
-                    "dice": "1d4",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "bludgeoning"
-                },
-                {
-                    "name": "Dart",
-                    "dice": "1d4",
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
                     "hitMod": 5,
                     "attackMod": 3,
                     "damageType": "piercing"
@@ -194,159 +134,76 @@
             "spells": [
                 {
                     "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
                     "slots": 3,
                     "used": 0
                 }
             ]
         },
         {
-            "name": "Monstrous Peryton",
-            "race": "Peryton",
-            "armor": 14,
-            "health": 144,
-            "maxHealth": 144,
-            "speed": 60,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/monstrous-peryton",
-            "template": false
-        },
-        {
-            "name": "Talissa",
-            "race": "Dwarf",
-            "armor": 12,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/540579-talissa",
-            "template": false,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Dagger",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Maitland",
-            "race": "Human",
-            "armor": 12,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/540570-mazen",
-            "template": false,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Dagger",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Senan",
-            "race": "Dwarf",
-            "armor": 12,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/540577-senan",
-            "template": false,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Scimitar",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Hezrou",
-            "race": "Hezrou",
-            "armor": 16,
-            "health": 136,
-            "maxHealth": 136,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hezrou",
-            "template": true,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "2d10",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Claws",
-                    "dice": "2d6",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Hezrou Smol",
-            "race": "Hezrou",
+            "name": "Fire Elemental #1",
+            "race": "Fire Elemental",
             "armor": 16,
             "health": 68,
             "maxHealth": 68,
-            "speed": 30,
+            "speed": 50,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/reduced-threat-hezrou",
-            "template": true,
+            "link": "https://www.dndbeyond.com/monsters/fire-elemental",
+            "template": false,
             "initMod": 3,
             "weapons": [
                 {
-                    "name": "Bite",
+                    "name": "Touch",
                     "dice": "2d8",
-                    "hitMod": 5,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                },
+                    "hitMod": 8,
+                    "attackMod": 3,
+                    "damageType": "fire"
+                }
+            ]
+        },
+        {
+            "name": "Fire Elemental #2",
+            "race": "Fire Elemental",
+            "armor": 16,
+            "health": 68,
+            "maxHealth": 68,
+            "speed": 50,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/fire-elemental",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
                 {
-                    "name": "Claws",
-                    "dice": "2d4",
-                    "hitMod": 5,
-                    "attackMod": 4,
-                    "damageType": "slashing"
+                    "name": "Touch",
+                    "dice": "2d8",
+                    "hitMod": 8,
+                    "attackMod": 3,
+                    "damageType": "fire"
+                }
+            ]
+        },
+        {
+            "name": "Fire Elemental #3",
+            "race": "Fire Elemental",
+            "armor": 16,
+            "health": 68,
+            "maxHealth": 68,
+            "speed": 50,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/fire-elemental",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Touch",
+                    "dice": "2d8",
+                    "hitMod": 8,
+                    "attackMod": 3,
+                    "damageType": "fire"
                 }
             ]
         },
