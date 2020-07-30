@@ -59,6 +59,76 @@
             ]
         },
         {
+            "name": "Ayda Olaris",
+            "race": "High Elf",
+            "armor": 16,
+            "health": 24,
+            "maxHealth": 24,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32922088",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Dagger",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Hand Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Mitalar Araharice",
+            "race": "High Elf",
+            "armor": 16,
+            "health": 99,
+            "maxHealth": 99,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32920975",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "2d6",
+                    "hitMod": 9,
+                    "attackMod": 10,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Eldritch Blast",
+                    "dice": "1d10",
+                    "hitMod": 9,
+                    "attackMod": 5,
+                    "damageType": "force"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "Pact Magic (Fifth Level)",
+                    "slots": 5,
+                    "used": 0
+                }
+            ]
+        },
+        {
             "name": "Ammareth",
             "race": "Human",
             "armor": 16,
