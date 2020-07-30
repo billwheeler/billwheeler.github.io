@@ -94,6 +94,34 @@
             ]
         },
         {
+            "name": "Hamael Deepmail",
+            "race": "Dwarf",
+            "armor": 17,
+            "health": 111,
+            "maxHealth": 111,
+            "speed": 35,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32958995",
+            "template": false,
+            "initMod": 5,
+            "weapons": [
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 9,
+                    "attackMod": 5,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Shortbow",
+                    "dice": "1d6",
+                    "hitMod": 9,
+                    "attackMod": 5,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Mitalar Araharice",
             "race": "High Elf",
             "armor": 16,
@@ -258,6 +286,27 @@
         },
         {
             "name": "Fire Elemental #3",
+            "race": "Fire Elemental",
+            "armor": 16,
+            "health": 68,
+            "maxHealth": 68,
+            "speed": 50,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/fire-elemental",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Touch",
+                    "dice": "2d8",
+                    "hitMod": 8,
+                    "attackMod": 3,
+                    "damageType": "fire"
+                }
+            ]
+        },
+        {
+            "name": "Fire Elemental #4",
             "race": "Fire Elemental",
             "armor": 16,
             "health": 68,
