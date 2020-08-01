@@ -122,6 +122,33 @@
             ]
         },
         {
+            "name": "Duskman",
+            "race": "Human",
+            "armor": 15,
+            "health": 42,
+            "maxHealth": 42,
+            "speed": 30,
+            "state": "alive",
+            "template": true,
+            "initMod": 4,
+            "weapons": [
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Mitalar Araharice",
             "race": "High Elf",
             "armor": 16,
