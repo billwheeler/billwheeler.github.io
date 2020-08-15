@@ -94,6 +94,147 @@
             ]
         },
         {
+            "name": "Hobgoblin Warlord",
+            "race": "Hobgoblin",
+            "armor": 20,
+            "health": 71,
+            "maxHealth": 71,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-warlord",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Longsword",
+                    "dice": "1d8",
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Shield Bash",
+                    "dice": "1d4",
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Javelin",
+                    "dice": "1d6",
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Hobgoblin Warrior",
+            "race": "Hobgoblin",
+            "armor": 18,
+            "health": 71,
+            "maxHealth": 71,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-captain",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "2d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Javelin",
+                    "dice": "1d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Hobgoblin Devastator",
+            "race": "Hobgoblin",
+            "armor": 16,
+            "health": 45,
+            "maxHealth": 45,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-devastator",
+            "template": true,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Quarterstaff",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "bludgeoning"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Hobgoblin Iron Shadow",
+            "race": "Hobgoblin",
+            "armor": 17,
+            "health": 48,
+            "maxHealth": 48,
+            "speed": 45,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hobgoblin-devastator",
+            "template": true,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Unarmed Strike",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                },
+                {
+                    "name": "Dart",
+                    "dice": "1d4",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
             "name": "Hamael Deepmail",
             "race": "Dwarf",
             "armor": 17,
@@ -266,90 +407,6 @@
                     "name": "Second Level",
                     "slots": 3,
                     "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Fire Elemental #1",
-            "race": "Fire Elemental",
-            "armor": 16,
-            "health": 68,
-            "maxHealth": 68,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/fire-elemental",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Touch",
-                    "dice": "2d8",
-                    "hitMod": 8,
-                    "attackMod": 3,
-                    "damageType": "fire"
-                }
-            ]
-        },
-        {
-            "name": "Fire Elemental #2",
-            "race": "Fire Elemental",
-            "armor": 16,
-            "health": 68,
-            "maxHealth": 68,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/fire-elemental",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Touch",
-                    "dice": "2d8",
-                    "hitMod": 8,
-                    "attackMod": 3,
-                    "damageType": "fire"
-                }
-            ]
-        },
-        {
-            "name": "Fire Elemental #3",
-            "race": "Fire Elemental",
-            "armor": 16,
-            "health": 68,
-            "maxHealth": 68,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/fire-elemental",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Touch",
-                    "dice": "2d8",
-                    "hitMod": 8,
-                    "attackMod": 3,
-                    "damageType": "fire"
-                }
-            ]
-        },
-        {
-            "name": "Fire Elemental #4",
-            "race": "Fire Elemental",
-            "armor": 16,
-            "health": 68,
-            "maxHealth": 68,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/fire-elemental",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Touch",
-                    "dice": "2d8",
-                    "hitMod": 8,
-                    "attackMod": 3,
-                    "damageType": "fire"
                 }
             ]
         },
