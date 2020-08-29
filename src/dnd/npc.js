@@ -25,6 +25,8 @@ var npc = function () {
     this.instance = 0
     this.visible = false
     this.conditions = null
+    this.poisons = 0
+    this.poisonDesc = ''
 }
 
 npc.prototype.parse = function (json) {
@@ -112,6 +114,14 @@ npc.prototype.parse = function (json) {
     this.conditions = c
 
     if (json.conditions) c.parse(json.conditions)
+
+    if (json.poisons) {
+        this.poisons = 0
+    }
+
+    if (json.poisonDesc) {
+        this.poisonDesc = 0
+    }
 }
 
 npc.prototype.serialize = function () {
@@ -143,7 +153,9 @@ npc.prototype.serialize = function () {
         template: this.template,
         instance: this.instance,
         visible: this.visible,
-        conditions: this.conditions.serialize()
+        conditions: this.conditions.serialize(),
+        poisons: this.poisons,
+        poisonDesc: this.poisonDesc
     }
 
     return out
@@ -175,6 +187,11 @@ npc.prototype.render = function () {
                 out += this.spells[i].render()
             }
             out += '</table>'
+        }
+
+        if (this.poisons > 0) {
+            out += '<div>Poisons: <span class="bold">' + this.poisons + '</span> - <span>' + this.poisonDesc + '</span>'
+            out += '<input type="button" class="npc_poison" value="Use Poison" data-id="' + this.id + '" /></div>'
         }
 
         if (this.state === CharacterState.Encounter) {
@@ -309,6 +326,10 @@ npc.prototype.toggle = function () {
 
 npc.prototype.condition = function (key, value) {
     if (this.conditions) this.conditions.setValue(key, value)
-};
+}
+
+npc.prototype.usePoison = function () {
+    this.poisons = this.poisons > 0 ? this.poisons-- : 0
+}
 
 module.exports = npc

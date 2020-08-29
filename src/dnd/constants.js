@@ -15,7 +15,8 @@ global.CharacterAction = {
     Spell: 'spell',
     Rest: 'rest',
     Toggle: 'toggle',
-    ApplyCondition: 'apply-condition'
+    ApplyCondition: 'apply-condition',
+    UsePoison: 'poison'
 }
 
 global.CharacterCondition = {

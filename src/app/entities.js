@@ -202,6 +202,9 @@ module.exports.updateNpc = (id, action, params) => {
         case CharacterAction.ApplyCondition:
             currentNpc.condition(params[0], params[1])
             break
+        case CharacterAction.UsePoison:
+            currentNpc.usePoison()
+            break
     }
 }
 
