@@ -191,7 +191,7 @@ npc.prototype.render = function () {
 
         if (this.poisons > 0) {
             out += '<div>Poisons: <span class="bold">' + this.poisons + '</span> - <span>' + this.poisonDesc + '</span>'
-            out += '<input type="button" class="npc_poison" value="Use Poison" data-id="' + this.id + '" /></div>'
+            out += '&nbsp;&nbsp;<input type="button" class="npc_poison" value="Use Poison" data-id="' + this.id + '" /></div>'
         }
 
         if (this.state === CharacterState.Encounter) {
@@ -329,7 +329,7 @@ npc.prototype.condition = function (key, value) {
 }
 
 npc.prototype.usePoison = function () {
-    this.poisons = this.poisons > 0 ? this.poisons-- : 0
+    this.poisons = this.poisons > 0 ? this.poisons - 1 : 0
 }
 
 module.exports = npc
