@@ -535,6 +535,27 @@
             ]
         },
         {
+            "name": "Barghest",
+            "race": "Wolf",
+            "armor": 18,
+            "health": 46,
+            "maxHealth": 46,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "2d4",
+                    "hitMod": 9,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Servant of Nambria",
             "race": "Winter Eladrin",
             "armor": 18,

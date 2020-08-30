@@ -116,11 +116,11 @@ npc.prototype.parse = function (json) {
     if (json.conditions) c.parse(json.conditions)
 
     if (json.poisons) {
-        this.poisons = 0
+        this.poisons = json.poisons
     }
 
     if (json.poisonDesc) {
-        this.poisonDesc = 0
+        this.poisonDesc = json.poisonDesc
     }
 }
 
