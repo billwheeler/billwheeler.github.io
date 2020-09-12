@@ -269,6 +269,40 @@
             ]
         },
         {
+            "name": "Mirador Guard",
+            "race": "Human",
+            "armor": 16,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 30,
+            "state": "alive",
+            "template": true,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Spear",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Shortsword",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 3,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Murie Woldshaper",
             "race": "Dwarf",
             "armor": 16,
