@@ -335,6 +335,18 @@
             ]
         },
         {
+            "name": "Frostbite Spider",
+            "race": "Spider",
+            "armor": 15,
+            "health": 34,
+            "maxHealth": 34,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/861828-frostbite-spider",
+            "template": true,
+            "initMod": 5
+        },
+        {
             "name": "Markella Cursed Form",
             "race": "Dragon",
             "armor": 19,
