@@ -10,7 +10,7 @@
             "name": "Lorax, the Reader",
             "player": "Chris",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/26572718"
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/29257720"
         },
         {
             "name": "Malbraxys",
@@ -228,71 +228,81 @@
             ]
         },
         {
-            "name": "Zombie",
-            "race": "Zombie",
-            "armor": 12,
-            "health": 30,
-            "maxHealth": 30,
-            "speed": 20,
+            "name": "Markella",
+            "race": "Shader-kai",
+            "armor": 20,
+            "health": 182,
+            "maxHealth": 182,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/strahd-zombie",
-            "template": true,
-            "initMod": -2,
-            "weapons": [
+            "link": "https://www.dndbeyond.com/monsters/1203275-markella",
+            "template": false,
+            "initMod": 12,
+            "spells": [
                 {
-                    "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
                 },
                 {
-                    "name": "Claws",
-                    "dice": "1d6",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Eigth Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Nineth Level",
+                    "slots": 1,
+                    "used": 0
                 }
             ]
         },
         {
-            "name": "Greater Zombie",
-            "race": "Zombie",
+            "name": "Ninefold",
+            "race": "Dragonborn",
             "armor": 15,
-            "health": 97,
-            "maxHealth": 97,
+            "health": 40,
+            "maxHealth": 40,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/greater-zombie",
-            "template": true,
-            "initMod": -1,
-            "weapons": [
-                {
-                    "name": "Slam",
-                    "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Watcher",
-            "race": "Lich",
-            "armor": 14,
-            "health": 97,
-            "maxHealth": 97,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/devkarin-lich",
+            "link": "https://www.dndbeyond.com/monsters/mage",
             "template": false,
-            "initMod": 3,
+            "initMod": 2,
             "weapons": [
                 {
-                    "name": "Slam",
+                    "name": "Dagger",
                     "dice": "1d4",
-                    "hitMod": 3,
-                    "attackMod": 1,
+                    "hitMod": 5,
+                    "attackMod": 2,
                     "damageType": "piercing"
                 }
             ],
@@ -309,7 +319,7 @@
                 },
                 {
                     "name": "Third Level",
-                    "slots": 3,
+                    "slots": 2,
                     "used": 0
                 },
                 {
@@ -319,56 +329,31 @@
                 },
                 {
                     "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
                     "slots": 1,
                     "used": 0
                 }
             ]
         },
         {
-            "name": "Frostbite Spider",
-            "race": "Spider",
+            "name": "Templar",
+            "race": "Dragonborn",
             "armor": 15,
-            "health": 34,
-            "maxHealth": 34,
+            "health": 39,
+            "maxHealth": 39,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/861828-frostbite-spider",
-            "template": true,
-            "initMod": 5
-        },
-        {
-            "name": "Markella Cursed Form",
-            "race": "Dragon",
-            "armor": 19,
-            "health": 195,
-            "maxHealth": 195,
-            "speed": 80,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/adult-black-dragon",
+            "link": "https://www.dndbeyond.com/monsters/priest",
             "template": false,
-            "initMod": 2
-        },
-        {
-            "name": "Markella",
-            "race": "Shader-kai",
-            "armor": 20,
-            "health": 182,
-            "maxHealth": 182,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/35656703",
-            "template": false,
-            "initMod": 5,
+            "initMod": 0,
+            "weapons": [
+                {
+                    "name": "Mace",
+                    "dice": "1d6",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                }
+            ],
             "spells": [
                 {
                     "name": "First Level",
@@ -382,40 +367,76 @@
                 },
                 {
                     "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
                     "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Eigth Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Nineth Level",
-                    "slots": 1,
                     "used": 0
                 }
             ]
+        },
+        {
+            "name": "Tempest",
+            "race": "Dragonborn",
+            "armor": 16,
+            "health": 39,
+            "maxHealth": 39,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/druid",
+            "template": false,
+            "initMod": 0,
+            "weapons": [
+                {
+                    "name": "Quarterstaff",
+                    "dice": "1d8",
+                    "hitMod": 5,
+                    "attackMod": 3,
+                    "damageType": "bludgeoning"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Blade",
+            "race": "Dragonborn",
+            "armor": 18,
+            "health": 39,
+            "maxHealth": 39,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/black-earth-guard",
+            "template": false,
+            "initMod": 0,
+            "weapons": [
+                {
+                    "name": "Morningstar",
+                    "dice": "1d8",
+                    "hitMod": 5,
+                    "attackMod": 2,
+                    "damageType": "bludgeoning"
+                }
+            ]
+        },
+        {
+            "name": "Lorax, the Simulacrum",
+            "race": "Simulacrum",
+            "armor": 17,
+            "health": 61,
+            "maxHealth": 61,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/29257720",
+            "template": false,
+            "initMod": 3
         },
         {
             "name": "Servant of Nambria",
