@@ -34,24 +34,17 @@
     "npcs": [
         {
             "name": "Liriam",
-            "race": "Elk",
+            "race": "Nightmare",
             "armor": 18,
-            "health": 25,
-            "maxHealth": 25,
-            "speed": 50,
+            "health": 68,
+            "maxHealth": 68,
+            "speed": 60,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/513696-liriam",
+            "link": "https://www.dndbeyond.com/monsters/nightmare",
             "weapons": [
                 {
                     "name": "Hooves",
-                    "dice": "1d6",
-                    "hitMod": 6,
-                    "attackMod": 4,
-                    "damageType": "bludgeoning"
-                },
-                {
-                    "name": "Ram",
-                    "dice": "2d4",
+                    "dice": "2d8",
                     "hitMod": 6,
                     "attackMod": 4,
                     "damageType": "bludgeoning"
