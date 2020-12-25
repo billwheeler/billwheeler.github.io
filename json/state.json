@@ -354,6 +354,34 @@
                     "damageType": "piercing"
                 }
             ]
+        },
+        {
+            "name": "Hellwasp",
+            "race": "Hellwasp",
+            "armor": 19,
+            "health": 52,
+            "maxHealth": 52,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hellwasp",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "String",
+                    "dice": "1d8",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Sword Talons",
+                    "dice": "2d6",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
         }
     ],
     "vehicles": [
