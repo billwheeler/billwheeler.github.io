@@ -368,7 +368,7 @@
             "initMod": 2,
             "weapons": [
                 {
-                    "name": "String",
+                    "name": "Sting",
                     "dice": "1d8",
                     "hitMod": 7,
                     "attackMod": 4,
