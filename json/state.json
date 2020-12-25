@@ -375,11 +375,46 @@
                     "damageType": "piercing"
                 },
                 {
+                    "name": "Fire Damage",
+                    "dice": "2d6",
+                    "hitMod": 0,
+                    "attackMod": 0,
+                    "damageType": "fire"
+                },
+                {
                     "name": "Sword Talons",
                     "dice": "2d6",
                     "hitMod": 7,
                     "attackMod": 4,
                     "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Hellwasp Larvae",
+            "race": "Hellwasp",
+            "armor": 13,
+            "health": 4,
+            "maxHealth": 4,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/giant-centipede",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d4",
+                    "hitMod": 4,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Poison",
+                    "dice": "3d6",
+                    "hitMod": 11,
+                    "attackMod": 0,
+                    "damageType": "poison"
                 }
             ]
         }
