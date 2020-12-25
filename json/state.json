@@ -52,40 +52,6 @@
             ]
         },
         {
-            "name": "Mirador Guard",
-            "race": "Human",
-            "armor": 16,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 30,
-            "state": "alive",
-            "template": true,
-            "initMod": 1,
-            "weapons": [
-                {
-                    "name": "Spear",
-                    "dice": "1d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Shortsword",
-                    "dice": "1d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 1,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
             "name": "Murie Woldshaper",
             "race": "Dwarf",
             "armor": 17,
@@ -152,51 +118,23 @@
             ]
         },
         {
-            "name": "Ancient Madcap",
-            "race": "Fey",
+            "name": "Ammareth",
+            "race": "Human",
             "armor": 16,
-            "health": 73,
-            "maxHealth": 73,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1238842-ancient-madcap",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Sickle",
-                    "dice": "2d12",
-                    "hitMod": 9,
-                    "attackMod": 5,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Charge",
-                    "dice": "6d12",
-                    "hitMod": 9,
-                    "attackMod": 5,
-                    "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
-            "name": "Mad Maggie",
-            "race": "Hag",
-            "armor": 19,
-            "health": 195,
-            "maxHealth": 195,
+            "health": 74,
+            "maxHealth": 74,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1259913-mad-maggie",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
             "template": false,
             "initMod": 3,
             "weapons": [
                 {
-                    "name": "Claws",
-                    "dice": "5d8",
-                    "hitMod": 9,
-                    "attackMod": 5,
-                    "damageType": "slashing"
+                    "name": "Light Crossbow",
+                    "dice": "1d8",
+                    "hitMod": 7,
+                    "attackMod": 3,
+                    "damageType": "piercing"
                 }
             ],
             "spells": [
@@ -233,99 +171,29 @@
             ]
         },
         {
-            "name": "Cambion",
-            "race": "Tanar-ri",
-            "armor": 19,
-            "health": 82,
-            "maxHealth": 82,
-            "speed": 30,
+            "name": "Barghest",
+            "race": "Spectral Dire Wolf",
+            "armor": 18,
+            "health": 46,
+            "maxHealth": 46,
+            "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/cambion",
-            "template": true,
-            "initMod": 4,
-            "weapons": [
-                {
-                    "name": "Spear",
-                    "dice": "1d8",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Fire Ray",
-                    "dice": "3d6",
-                    "hitMod": 7,
-                    "attackMod": 0,
-                    "damageType": "fire"
-                }
-            ]
-        },
-        {
-            "name": "Spined Devil",
-            "race": "Tanar-ri",
-            "armor": 13,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 20,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/spined-devil",
-            "template": true,
-            "initMod": 2,
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
+            "template": false,
+            "initMod": 3,
             "weapons": [
                 {
                     "name": "Bite",
                     "dice": "2d4",
-                    "hitMod": 2,
-                    "attackMod": 0,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Fork",
-                    "dice": "1d6",
-                    "hitMod": 2,
-                    "attackMod": 0,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Tail Spine",
-                    "dice": "1d4",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Bone Devil",
-            "race": "Tanar-ri",
-            "armor": 19,
-            "health": 142,
-            "maxHealth": 142,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bone-devil",
-            "template": true,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Claw",
-                    "dice": "1d8",
-                    "hitMod": 8,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Sting",
-                    "dice": "2d8",
-                    "hitMod": 8,
-                    "attackMod": 4,
+                    "hitMod": 9,
+                    "attackMod": 3,
                     "damageType": "piercing"
                 }
             ]
         },
         {
             "name": "Drulgath",
-            "race": "Tanar-ri (Orthon)",
+            "race": "Orthon",
             "armor": 17,
             "health": 142,
             "maxHealth": 142,
@@ -350,129 +218,116 @@
                     "damageType": "slashing"
                 }
             ]
-        },
-        {
-            "name": "Woman",
-            "race": "Human",
-            "armor": 10,
-            "health": 4,
-            "maxHealth": 4,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/commoner",
-            "template": true,
-            "initMod": 0
-        },
-        {
-            "name": "Boy",
-            "race": "Human",
-            "armor": 10,
-            "health": 4,
-            "maxHealth": 4,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/commoner",
-            "template": true,
-            "initMod": 0
-        },
-        {
-            "name": "Girl",
-            "race": "Human",
-            "armor": 10,
-            "health": 4,
-            "maxHealth": 4,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/commoner",
-            "template": true,
-            "initMod": 0,
-            "weapons": [
-                {
-                    "name": "Sling",
-                    "dice": "1d4",
-                    "hitMod": 2,
-                    "attackMod": 0,
-                    "damageType": "bludgeoning"
-                }
-            ]
         }
     ],
     "vehicles": [
         {
-            "name": "The Dathon's Howl",
-            "type": "Warship",
+            "name": "Player's Ride",
+            "type": "Demon Grinder",
             "components": [
                 {
                     "name": "Hull",
-                    "armor": 15,
-                    "health": 500,
-                    "maxHealth": 500,
+                    "armor": 19,
+                    "health": 200,
+                    "maxHealth": 200,
                     "threshold": 20
                 },
                 {
-                    "name": "Helm",
-                    "armor": 18,
-                    "health": 50,
-                    "maxHealth": 50
-                },
-                {
-                    "name": "Sails",
-                    "armor": 12,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "speed": 35,
-                    "decrement": 10,
-                    "stages": 4
-                },
-                {
-                    "name": "Forecastle Ballista",
-                    "armor": 15,
+                    "name": "Chomper",
+                    "armor": 19,
                     "health": 50,
                     "maxHealth": 50,
-                    "attackToHit": 6,
-                    "attackRoll": "3d10",
-                    "attackRange": "120/480",
+                    "attackToHit": 9,
+                    "attackRoll": "6d6+4",
+                    "attackRange": "5",
                     "attackDamage": "piercing"
                 },
                 {
-                    "name": "Quarterdeck Ballista",
-                    "armor": 15,
+                    "name": "Wrecking Ball",
+                    "armor": 19,
                     "health": 50,
                     "maxHealth": 50,
-                    "attackToHit": 6,
-                    "attackRoll": "3d10",
-                    "attackRange": "120/480",
+                    "attackToHit": 9,
+                    "attackRoll": "8d8+4",
+                    "attackRange": "15",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Left Harpoon",
+                    "armor": 19,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "2d8",
+                    "attackRange": "120/600",
                     "attackDamage": "piercing"
                 },
                 {
-                    "name": "Bow Mangonel",
-                    "armor": 15,
+                    "name": "Right Harpoon",
+                    "armor": 19,
                     "health": 100,
                     "maxHealth": 100,
                     "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Aft Mangonel",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Naval Ram",
-                    "armor": 20,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "threshold": 10
+                    "attackRoll": "2d8",
+                    "attackRange": "120/600",
+                    "attackDamage": "piercing"
                 }
             ],
-            "link": "https://www.dndbeyond.com/vehicles/warship"
+            "link": "https://www.dndbeyond.com/vehicles/demon-grinder"
+        },
+        {
+            "name": "Goreguts Gang",
+            "type": "Scavenger",
+            "components": [
+                {
+                    "name": "Hull",
+                    "armor": 20,
+                    "health": 150,
+                    "maxHealth": 150,
+                    "threshold": 20
+                },
+                {
+                    "name": "Chomper",
+                    "armor": 19,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 9,
+                    "attackRoll": "6d6+4",
+                    "attackRange": "5",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Wrecking Ball",
+                    "armor": 19,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 9,
+                    "attackRoll": "8d8+4",
+                    "attackRange": "15",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Harpoon",
+                    "armor": 19,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "2d8",
+                    "attackRange": "120/600",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Flamethrower",
+                    "armor": 19,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "4d6",
+                    "attackRange": "100",
+                    "attackDamage": "fire"
+                }
+            ],
+            "link": "https://www.dndbeyond.com/vehicles/scavenger"
         }
     ]
 }
