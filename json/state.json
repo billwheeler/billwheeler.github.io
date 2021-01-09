@@ -223,8 +223,8 @@
             "name": "Hellwasp",
             "race": "Hellwasp",
             "armor": 16,
-            "health": 32,
-            "maxHealth": 32,
+            "health": 38,
+            "maxHealth": 38,
             "speed": 60,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/hellwasp",
@@ -279,6 +279,97 @@
                     "hitMod": 11,
                     "attackMod": 0,
                     "damageType": "poison"
+                }
+            ]
+        },
+        {
+            "name": "Fire Giant",
+            "race": "Giant",
+            "armor": 18,
+            "health": 162,
+            "maxHealth": 162,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/fire-giant",
+            "template": true,
+            "initMod": -1,
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "6d6",
+                    "hitMod": 11,
+                    "attackMod": 7,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Rock",
+                    "dice": "4d10",
+                    "hitMod": 11,
+                    "attackMod": 7,
+                    "damageType": "bludgeoning"
+                }
+            ]
+        },
+        {
+            "name": "Bel",
+            "race": "Archdevil",
+            "armor": 19,
+            "health": 364,
+            "maxHealth": 364,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/bel",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "4d6",
+                    "hitMod": 16,
+                    "attackMod": 9,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Greatsword - Fire Damage",
+                    "dice": "6d6",
+                    "hitMod": 16,
+                    "attackMod": 0,
+                    "damageType": "fire"
+                },
+                {
+                    "name": "Rock",
+                    "dice": "3d10",
+                    "hitMod": 16,
+                    "attackMod": 9,
+                    "damageType": "bludgeoning"
+                }
+            ]
+        },
+        {
+            "name": "Ice Devil",
+            "race": "Devil",
+            "armor": 18,
+            "health": 180,
+            "maxHealth": 180,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/ice-devil-spear-variant",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Ice Spear",
+                    "dice": "2d8",
+                    "hitMod": 10,
+                    "attackMod": 5,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Ice Spear - Cold Damage",
+                    "dice": "3d6",
+                    "hitMod": 10,
+                    "attackMod": 0,
+                    "damageType": "cold"
                 }
             ]
         }
