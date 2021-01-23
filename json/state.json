@@ -220,65 +220,70 @@
             ]
         },
         {
-            "name": "Hellwasp",
-            "race": "Hellwasp",
-            "armor": 16,
-            "health": 38,
-            "maxHealth": 38,
-            "speed": 60,
+            "name": "Fetchtatter",
+            "race": "Sibriex",
+            "armor": 19,
+            "health": 150,
+            "maxHealth": 150,
+            "speed": 20,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/hellwasp",
-            "template": true,
+            "link": "https://www.dndbeyond.com/monsters/sibriex",
+            "template": false,
+            "initMod": -4
+        },
+        {
+            "name": "Shalok",
+            "race": "Chain Devil",
+            "armor": 16,
+            "health": 85,
+            "maxHealth": 85,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/chain-devil",
+            "template": false,
             "initMod": 2,
             "weapons": [
                 {
-                    "name": "Sting",
-                    "dice": "1d8",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "piercing"
+                    "name": "Chain",
+                    "dice": "2d6",
+                    "hitMod": 8,
+                    "attackMod": 4,
+                    "damageType": "slashing"
                 },
                 {
-                    "name": "Fire Damage",
+                    "name": "Grapple",
                     "dice": "2d6",
-                    "hitMod": 0,
+                    "hitMod": 8,
                     "attackMod": 0,
-                    "damageType": "fire"
-                },
-                {
-                    "name": "Sword Talons",
-                    "dice": "2d6",
-                    "hitMod": 5,
-                    "attackMod": 3,
                     "damageType": "piercing"
                 }
             ]
         },
         {
-            "name": "Hellwasp Larvae",
-            "race": "Hellwasp",
-            "armor": 13,
-            "health": 4,
-            "maxHealth": 4,
+            "name": "Jank",
+            "race": "Chain Devil",
+            "armor": 16,
+            "health": 85,
+            "maxHealth": 85,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/giant-centipede",
-            "template": true,
+            "link": "https://www.dndbeyond.com/monsters/chain-devil",
+            "template": false,
             "initMod": 2,
             "weapons": [
                 {
-                    "name": "Bite",
-                    "dice": "1d4",
-                    "hitMod": 4,
-                    "attackMod": 2,
-                    "damageType": "piercing"
+                    "name": "Chain",
+                    "dice": "2d6",
+                    "hitMod": 8,
+                    "attackMod": 4,
+                    "damageType": "slashing"
                 },
                 {
-                    "name": "Poison",
-                    "dice": "3d6",
-                    "hitMod": 11,
+                    "name": "Grapple",
+                    "dice": "2d6",
+                    "hitMod": 8,
                     "attackMod": 0,
-                    "damageType": "poison"
+                    "damageType": "piercing"
                 }
             ]
         },
