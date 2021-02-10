@@ -195,8 +195,8 @@
             "name": "Birukharh Warlord",
             "race": "Undead Dwarf",
             "armor": 21,
-            "health": 123,
-            "maxHealth": 123,
+            "health": 153,
+            "maxHealth": 153,
             "speed": 25,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/1446611-birukharh-warlord",
@@ -207,15 +207,131 @@
                     "name": "Greatsword",
                     "dice": "2d6",
                     "hitMod": 9,
-                    "attackMod": 3,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 7,
+                    "attackMod": 2,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Birukharh Defender",
+            "race": "Undead Dwarf",
+            "armor": 17,
+            "health": 123,
+            "maxHealth": 123,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1446748-birukharh-defender",
+            "template": true,
+            "initMod": 4,
+            "weapons": [
+                {
+                    "name": "Glaive",
+                    "dice": "1d10",
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Birukharh Warrior",
+            "race": "Undead Dwarf",
+            "armor": 18,
+            "health": 54,
+            "maxHealth": 54,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1446664-birukharh-warrior",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Battleaxe",
+                    "dice": "1d8",
+                    "hitMod": 7,
+                    "attackMod": 4,
                     "damageType": "slashing"
                 },
                 {
                     "name": "Heavy Crossbow",
                     "dice": "1d10",
                     "hitMod": 6,
-                    "attackMod": 1,
+                    "attackMod": 2,
                     "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Birukharh Cleric",
+            "race": "Undead Dwarf",
+            "armor": 18,
+            "health": 84,
+            "maxHealth": 84,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1446779-birukharh-cleric",
+            "template": true,
+            "initMod": 0,
+            "weapons": [
+                {
+                    "name": "Warhammer",
+                    "dice": "2d8",
+                    "hitMod": 7,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 2,
+                    "used": 0
                 }
             ]
         },
@@ -223,8 +339,8 @@
             "name": "Birukharh Mage",
             "race": "Undead Dwarf",
             "armor": 15,
-            "health": 104,
-            "maxHealth": 104,
+            "health": 74,
+            "maxHealth": 74,
             "speed": 25,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/1446254-birukharh-mage",
@@ -278,6 +394,13 @@
                     "armor": 19,
                     "health": 200,
                     "maxHealth": 200,
+                    "threshold": 20
+                },
+                {
+                    "name": "Engine",
+                    "armor": 15,
+                    "health": 60,
+                    "maxHealth": 60,
                     "threshold": 20
                 },
                 {
