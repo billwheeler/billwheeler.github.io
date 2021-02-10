@@ -192,11 +192,39 @@
             ]
         },
         {
+            "name": "Birukharh Warlord",
+            "race": "Undead Dwarf",
+            "armor": 21,
+            "health": 123,
+            "maxHealth": 123,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1446611-birukharh-warlord",
+            "template": true,
+            "initMod": 1,
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "2d6",
+                    "hitMod": 9,
+                    "attackMod": 3,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Heavy Crossbow",
+                    "dice": "1d10",
+                    "hitMod": 6,
+                    "attackMod": 1,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Birukharh Mage",
             "race": "Undead Dwarf",
             "armor": 15,
-            "health": 74,
-            "maxHealth": 74,
+            "health": 104,
+            "maxHealth": 104,
             "speed": 25,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/1446254-birukharh-mage",
