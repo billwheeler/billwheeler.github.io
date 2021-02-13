@@ -260,6 +260,34 @@
             ]
         },
         {
+            "name": "Princeps Kovik",
+            "race": "Chain Devil",
+            "armor": 18,
+            "health": 236,
+            "maxHealth": 236,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/chain-devil",
+            "template": false,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Chain",
+                    "dice": "4d6",
+                    "hitMod": 10,
+                    "attackMod": 7,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Grapple",
+                    "dice": "2d6",
+                    "hitMod": 10,
+                    "attackMod": 7,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
             "name": "Raggadragga",
             "race": "Wereboar",
             "armor": 17,
