@@ -192,27 +192,6 @@
             ]
         },
         {
-            "name": "Raggadragga",
-            "race": "Wereboar",
-            "armor": 17,
-            "health": 168,
-            "maxHealth": 168,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/wereboar",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Halberd",
-                    "dice": "1d10",
-                    "hitMod": 9,
-                    "attackMod": 5,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
             "name": "Fetchtatter",
             "race": "Sibriex",
             "armor": 19,
