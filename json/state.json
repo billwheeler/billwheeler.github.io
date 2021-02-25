@@ -260,247 +260,58 @@
             ]
         },
         {
-            "name": "Princeps Kovik",
-            "race": "Chain Devil",
-            "armor": 18,
-            "health": 236,
-            "maxHealth": 236,
+            "name": "Guardian",
+            "race": "Nightwalker",
+            "armor": 14,
+            "health": 297,
+            "maxHealth": 297,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/chain-devil",
+            "link": "https://www.dndbeyond.com/monsters/nightwalker",
             "template": false,
-            "initMod": 2,
+            "initMod": 4,
             "weapons": [
                 {
-                    "name": "Chain",
-                    "dice": "4d6",
-                    "hitMod": 10,
-                    "attackMod": 7,
-                    "damageType": "slashing"
+                    "name": "Enervating Focus",
+                    "dice": "5d8",
+                    "hitMod": 12,
+                    "attackMod": 6,
+                    "damageType": "necrotic"
                 },
                 {
-                    "name": "Grapple",
-                    "dice": "2d6",
-                    "hitMod": 10,
-                    "attackMod": 7,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Raggadragga",
-            "race": "Wereboar",
-            "armor": 17,
-            "health": 170,
-            "maxHealth": 170,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/wereboar",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Halberd",
-                    "dice": "2d10",
-                    "hitMod": 8,
-                    "attackMod": 5,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Poisoned Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 6,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Borzuk",
-            "race": "Barbed Devil",
-            "armor": 15,
-            "health": 110,
-            "maxHealth": 110,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/barbed-devil",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Claw",
-                    "dice": "2d6",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Tail",
-                    "dice": "4d6",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Hurl Flame",
-                    "dice": "4d10",
-                    "hitMod": 6,
+                    "name": "Finger of Doom",
+                    "dice": "4d12",
+                    "hitMod": 12,
                     "attackMod": 0,
-                    "damageType": "fire"
+                    "damageType": "necrotic"
                 }
             ]
         },
         {
-            "name": "Izzazith",
-            "race": "Barbed Devil",
-            "armor": 15,
-            "health": 110,
-            "maxHealth": 110,
+            "name": "Vassal",
+            "race": "Wight",
+            "armor": 14,
+            "health": 54,
+            "maxHealth": 54,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/barbed-devil",
-            "template": false,
-            "initMod": 3,
+            "link": "https://www.dndbeyond.com/monsters/1483104-vassal-wight",
+            "template": true,
+            "initMod": 4,
             "weapons": [
                 {
-                    "name": "Claw",
-                    "dice": "2d6",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Tail",
-                    "dice": "4d6",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Hurl Flame",
-                    "dice": "4d10",
-                    "hitMod": 6,
-                    "attackMod": 0,
-                    "damageType": "fire"
-                }
-            ]
-        },
-        {
-            "name": "Millmouth",
-            "race": "Barbed Devil",
-            "armor": 15,
-            "health": 110,
-            "maxHealth": 110,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/barbed-devil",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Claw",
-                    "dice": "2d6",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Tail",
-                    "dice": "4d6",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Hurl Flame",
-                    "dice": "4d10",
-                    "hitMod": 6,
-                    "attackMod": 0,
-                    "damageType": "fire"
-                }
-            ]
-        },
-        {
-            "name": "Aggamaath",
-            "race": "Bearded Devil",
-            "armor": 13,
-            "health": 52,
-            "maxHealth": 52,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bearded-devil",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Beard",
+                    "name": "Longsword",
                     "dice": "1d8",
-                    "hitMod": 5,
+                    "hitMod": 9,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Longbow",
+                    "dice": "1d8",
+                    "hitMod": 7,
                     "attackMod": 2,
                     "damageType": "piercing"
-                },
-                {
-                    "name": "Glaive",
-                    "dice": "1d10",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Ez'gan",
-            "race": "Bearded Devil",
-            "armor": 13,
-            "health": 52,
-            "maxHealth": 52,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bearded-devil",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Beard",
-                    "dice": "1d8",
-                    "hitMod": 5,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Glaive",
-                    "dice": "1d10",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Sagirith",
-            "race": "Bearded Devil",
-            "armor": 13,
-            "health": 52,
-            "maxHealth": 52,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bearded-devil",
-            "template": false,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Beard",
-                    "dice": "1d8",
-                    "hitMod": 5,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Glaive",
-                    "dice": "1d10",
-                    "hitMod": 5,
-                    "attackMod": 3,
-                    "damageType": "slashing"
                 }
             ]
         },
