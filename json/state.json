@@ -506,6 +506,30 @@
                     "used": 0
                 }
             ]
+        },
+        {
+            "name": "Elysande Gracey",
+            "race": "Human",
+            "armor": 20,
+            "health": 115,
+            "maxHealth": 115,
+            "speed": 55,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/45505744",
+            "template": false,
+            "initMod": 2
+        },
+        {
+            "name": "Hellwasp",
+            "race": "Hellwasp",
+            "armor": 19,
+            "health": 52,
+            "maxHealth": 52,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/hellwasp",
+            "template": true,
+            "initMod": 2
         }
     ],
     "vehicles": [
@@ -571,65 +595,18 @@
             "link": "https://www.dndbeyond.com/vehicles/demon-grinder"
         },
         {
-            "name": "Eighth Remnants",
-            "type": "Scavenger",
+            "name": "Ellie's Bike",
+            "type": "Devil's Ride",
             "components": [
                 {
                     "name": "Hull",
-                    "armor": 20,
-                    "health": 150,
-                    "maxHealth": 150,
-                    "threshold": 20
-                },
-                {
-                    "name": "Engine",
-                    "armor": 15,
-                    "health": 60,
-                    "maxHealth": 60,
-                    "threshold": 20
-                },
-                {
-                    "name": "Chomper",
-                    "armor": 19,
-                    "health": 50,
-                    "maxHealth": 50,
-                    "attackToHit": 9,
-                    "attackRoll": "6d6+4",
-                    "attackRange": "5",
-                    "attackDamage": "piercing"
-                },
-                {
-                    "name": "Wrecking Ball",
-                    "armor": 19,
-                    "health": 50,
-                    "maxHealth": 50,
-                    "attackToHit": 9,
-                    "attackRoll": "8d8+4",
-                    "attackRange": "15",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Harpoon",
-                    "armor": 19,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "2d8",
-                    "attackRange": "120/600",
-                    "attackDamage": "piercing"
-                },
-                {
-                    "name": "Flamethrower",
-                    "armor": 19,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "4d6",
-                    "attackRange": "100",
-                    "attackDamage": "fire"
+                    "armor": 23,
+                    "health": 30,
+                    "maxHealth": 30,
+                    "threshold": 5
                 }
             ],
-            "link": "https://www.dndbeyond.com/vehicles/scavenger"
+            "link": "https://www.dndbeyond.com/vehicles/devils-ride"
         }
     ]
 }
