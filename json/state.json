@@ -316,6 +316,59 @@
             ]
         },
         {
+            "name": "Maggie",
+            "race": "Fey",
+            "armor": 19,
+            "health": 195,
+            "maxHealth": 195,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1259913-mad-maggie",
+            "template": false,
+            "initMod": 4,
+            "weapons": [
+                {
+                    "name": "Claws",
+                    "dice": "5d8",
+                    "hitMod": 9,
+                    "attackMod": 5,
+                    "damageType": "slashing"
+                }
+            ],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
             "name": "Birukharh Warlord",
             "race": "Undead Dwarf",
             "armor": 21,
