@@ -577,6 +577,19 @@
             "initMod": 2,
             "template": false,
             "visible": true
+        },
+        {
+            "name": "Gnoll",
+            "health": 84,
+            "maxHealth": 84,
+            "armor": 15,
+            "speed": 30,
+            "race": "Gnoll",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1523932-dream-crystal-gnoll",
+            "initMod": 3,
+            "template": true,
+            "visible": true
         }
     ],
     "players": [
