@@ -590,6 +590,19 @@
             "initMod": 3,
             "template": true,
             "visible": true
+        },
+        {
+            "name": "Hyena",
+            "health": 45,
+            "maxHealth": 45,
+            "armor": 12,
+            "speed": 30,
+            "race": "Hyena",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/giant-hyena",
+            "initMod": 2,
+            "template": true,
+            "visible": true
         }
     ],
     "players": [
