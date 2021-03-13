@@ -589,7 +589,7 @@
             "link": "https://www.dndbeyond.com/monsters/1523932-dream-crystal-gnoll",
             "initMod": 3,
             "template": true,
-            "visible": true
+            "visible": false
         },
         {
             "name": "Hyena",
@@ -602,7 +602,33 @@
             "link": "https://www.dndbeyond.com/monsters/giant-hyena",
             "initMod": 2,
             "template": true,
-            "visible": true
+            "visible": false
+        },
+        {
+            "name": "Callum Gill",
+            "health": 58,
+            "maxHealth": 58,
+            "armor": 17,
+            "speed": 30,
+            "race": "Human",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/veteran",
+            "initMod": 2,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Lulu",
+            "health": 110,
+            "maxHealth": 110,
+            "armor": 19,
+            "speed": 120,
+            "race": "Hollyphant",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1524056-lulu",
+            "initMod": 2,
+            "template": false,
+            "visible": false
         }
     ],
     "players": [
