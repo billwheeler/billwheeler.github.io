@@ -1,7 +1,6 @@
 {
     "npcs": [
         {
-            "id": 6,
             "name": "Liriam",
             "health": 68,
             "maxHealth": 68,
@@ -25,35 +24,9 @@
             "image": "",
             "initMod": 0,
             "template": false,
-            "instance": 0,
-            "visible": true,
-            "conditions": {
-                "id": 6,
-                "parentId": 6,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": true
         },
         {
-            "id": 8,
             "name": "Murie Woldshaper",
             "health": 85,
             "maxHealth": 85,
@@ -107,35 +80,9 @@
             "image": "",
             "initMod": 4,
             "template": false,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 7,
-                "parentId": 8,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": false
         },
         {
-            "id": 14,
             "name": "Dathon",
             "health": 27,
             "maxHealth": 44,
@@ -159,35 +106,9 @@
             "image": "",
             "initMod": 3,
             "template": false,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 8,
-                "parentId": 14,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": false
         },
         {
-            "id": 16,
             "name": "Ammareth",
             "health": 74,
             "maxHealth": 74,
@@ -254,35 +175,9 @@
             "image": "",
             "initMod": 3,
             "template": false,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 9,
-                "parentId": 16,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": false
         },
         {
-            "id": 24,
             "name": "Barghest",
             "health": 46,
             "maxHealth": 46,
@@ -306,35 +201,9 @@
             "image": "",
             "initMod": 3,
             "template": false,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 10,
-                "parentId": 24,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": false
         },
         {
-            "id": 26,
             "name": "Fetchtatter",
             "health": 150,
             "maxHealth": 150,
@@ -349,35 +218,9 @@
             "image": "",
             "initMod": -4,
             "template": false,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 11,
-                "parentId": 26,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": false
         },
         {
-            "id": 27,
             "name": "Shalok",
             "health": 85,
             "maxHealth": 85,
@@ -409,35 +252,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 12,
-                "parentId": 27,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": false
         },
         {
-            "id": 30,
             "name": "Jank",
             "health": 85,
             "maxHealth": 85,
@@ -469,406 +286,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 13,
-                "parentId": 30,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": false
         },
         {
-            "id": 47,
-            "name": "Birukharh Warlord",
-            "health": 153,
-            "maxHealth": 153,
-            "armor": 21,
-            "speed": 25,
-            "race": "Undead Dwarf",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 48,
-                    "name": "Greatsword",
-                    "dice": "2d6",
-                    "hitMod": 9,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "id": 49,
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 7,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1446611-birukharh-warlord",
-            "image": "",
-            "initMod": 1,
-            "template": true,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 17,
-                "parentId": 47,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
-        },
-        {
-            "id": 50,
-            "name": "Birukharh Defender",
-            "health": 123,
-            "maxHealth": 123,
-            "armor": 17,
-            "speed": 25,
-            "race": "Undead Dwarf",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 51,
-                    "name": "Glaive",
-                    "dice": "1d10",
-                    "hitMod": 9,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "id": 52,
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 9,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [
-                {
-                    "id": 53,
-                    "parentId": 50,
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "id": 54,
-                    "parentId": 50,
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "id": 55,
-                    "parentId": 50,
-                    "name": "Third Level",
-                    "slots": 2,
-                    "used": 0
-                }
-            ],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1446748-birukharh-defender",
-            "image": "",
-            "initMod": 4,
-            "template": true,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 18,
-                "parentId": 50,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
-        },
-        {
-            "id": 56,
-            "name": "Birukharh Warrior",
-            "health": 54,
-            "maxHealth": 54,
-            "armor": 18,
-            "speed": 25,
-            "race": "Undead Dwarf",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 57,
-                    "name": "Battleaxe",
-                    "dice": "1d8",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "id": 58,
-                    "name": "Heavy Crossbow",
-                    "dice": "1d10",
-                    "hitMod": 6,
-                    "attackMod": 2,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1446664-birukharh-warrior",
-            "image": "",
-            "initMod": 2,
-            "template": true,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 19,
-                "parentId": 56,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
-        },
-        {
-            "id": 59,
-            "name": "Birukharh Cleric",
-            "health": 84,
-            "maxHealth": 84,
-            "armor": 18,
-            "speed": 25,
-            "race": "Undead Dwarf",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 60,
-                    "name": "Warhammer",
-                    "dice": "2d8",
-                    "hitMod": 7,
-                    "attackMod": 4,
-                    "damageType": "bludgeoning"
-                }
-            ],
-            "spells": [
-                {
-                    "id": 61,
-                    "parentId": 59,
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "id": 62,
-                    "parentId": 59,
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "id": 63,
-                    "parentId": 59,
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "id": 64,
-                    "parentId": 59,
-                    "name": "Fourth Level",
-                    "slots": 2,
-                    "used": 0
-                }
-            ],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1446779-birukharh-cleric",
-            "image": "",
-            "initMod": 0,
-            "template": true,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 20,
-                "parentId": 59,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
-        },
-        {
-            "id": 65,
-            "name": "Birukharh Mage",
-            "health": 74,
-            "maxHealth": 74,
-            "armor": 15,
-            "speed": 25,
-            "race": "Undead Dwarf",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 66,
-                    "name": "Quarterstaff",
-                    "dice": "1d8",
-                    "hitMod": 3,
-                    "attackMod": 0,
-                    "damageType": "bludgeoning"
-                }
-            ],
-            "spells": [
-                {
-                    "id": 67,
-                    "parentId": 65,
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "id": 68,
-                    "parentId": 65,
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "id": 69,
-                    "parentId": 65,
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "id": 70,
-                    "parentId": 65,
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "id": 71,
-                    "parentId": 65,
-                    "name": "Fifth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1446254-birukharh-mage",
-            "image": "",
-            "initMod": 2,
-            "template": true,
-            "instance": 0,
-            "visible": false,
-            "conditions": {
-                "id": 21,
-                "parentId": 65,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
-        },
-        {
-            "id": 72,
             "name": "Elysande Gracey",
             "health": 115,
             "maxHealth": 115,
@@ -883,35 +303,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "instance": 0,
-            "visible": true,
-            "conditions": {
-                "id": 22,
-                "parentId": 72,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": true
         },
         {
-            "id": 96,
             "name": "Hellwasp #5",
             "health": 52,
             "maxHealth": 52,
@@ -926,10 +320,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "visible": false
+            "visible": true
         },
         {
-            "id": 97,
             "name": "Hellwasp #6",
             "health": 52,
             "maxHealth": 52,
@@ -944,10 +337,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "visible": false
+            "visible": true
         },
         {
-            "id": 98,
             "name": "Hellwasp #7",
             "health": 52,
             "maxHealth": 52,
@@ -962,10 +354,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "visible": false
+            "visible": true
         },
         {
-            "id": 99,
             "name": "Hellwasp #8",
             "health": 52,
             "maxHealth": 52,
@@ -980,10 +371,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "visible": false
+            "visible": true
         },
         {
-            "id": 100,
             "name": "Hellwasp #9",
             "health": 52,
             "maxHealth": 52,
@@ -998,10 +388,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "visible": false
+            "visible": true
         },
         {
-            "id": 101,
             "name": "Hellwasp #10",
             "health": 52,
             "maxHealth": 52,
@@ -1016,10 +405,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "visible": false
+            "visible": true
         },
         {
-            "id": 92,
             "name": "Hellwasp #1",
             "health": 9,
             "maxHealth": 52,
@@ -1034,35 +422,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "instance": 0,
-            "visible": true,
-            "conditions": {
-                "id": 27,
-                "parentId": 92,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": true
         },
         {
-            "id": 93,
             "name": "Hellwasp #2",
             "health": 52,
             "maxHealth": 52,
@@ -1077,35 +439,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "instance": 0,
-            "visible": true,
-            "conditions": {
-                "id": 28,
-                "parentId": 93,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": true
         },
         {
-            "id": 94,
             "name": "Hellwasp #3",
             "health": 5,
             "maxHealth": 52,
@@ -1120,35 +456,9 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "instance": 0,
-            "visible": true,
-            "conditions": {
-                "id": 29,
-                "parentId": 94,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": true
         },
         {
-            "id": 95,
             "name": "Hellwasp #4",
             "health": 39,
             "maxHealth": 52,
@@ -1163,200 +473,57 @@
             "image": "",
             "initMod": 2,
             "template": false,
-            "instance": 0,
-            "visible": true,
-            "conditions": {
-                "id": 30,
-                "parentId": 95,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            },
-            "poisons": 0,
-            "poisonDesc": ""
+            "visible": true
         }
     ],
     "players": [
         {
-            "id": 1,
             "name": "Fionula Copperkettle",
             "player": "Casey",
             "initiative": 9,
             "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
-            "visible": true,
-            "conditions": {
-                "id": 1,
-                "parentId": 1,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            }
+            "visible": true
         },
         {
-            "id": 2,
             "name": "Lorax, the Reader",
             "player": "Chris",
             "initiative": 21,
             "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/29257720",
-            "visible": true,
-            "conditions": {
-                "id": 2,
-                "parentId": 2,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            }
+            "visible": true
         },
         {
-            "id": 3,
             "name": "Malbraxys",
             "player": "Mike",
             "initiative": 16,
             "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845",
-            "visible": true,
-            "conditions": {
-                "id": 3,
-                "parentId": 3,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            }
+            "visible": true
         },
         {
-            "id": 4,
             "name": "Sulyman Quantarius Zornastica Mushkin",
             "player": "Eric",
             "initiative": 15,
             "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328",
-            "visible": true,
-            "conditions": {
-                "id": 4,
-                "parentId": 4,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            }
+            "visible": true
         },
         {
-            "id": 5,
             "name": "Tenraja Hurazan",
             "player": "Jesse",
             "initiative": 20,
             "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564",
-            "visible": true,
-            "conditions": {
-                "id": 5,
-                "parentId": 5,
-                "exhaustion": 0,
-                "concentrating": false,
-                "blinded": false,
-                "deafened": false,
-                "charmed": false,
-                "frightened": false,
-                "grappled": false,
-                "incapacitated": false,
-                "invisible": false,
-                "paralyzed": false,
-                "petrified": false,
-                "poisoned": false,
-                "prone": false,
-                "restrained": false,
-                "stunned": false,
-                "unconscious": false,
-                "hexed": false,
-                "huntersmark": false
-            }
+            "visible": true
         }
     ],
     "vehicles": [
         {
-            "id": 74,
             "name": "Player's Ride",
             "type": "Demon Grinder",
             "components": [
                 {
-                    "id": 75,
-                    "vehicleId": 74,
                     "name": "Hull",
                     "health": 200,
                     "maxHealth": 200,
@@ -1368,12 +535,9 @@
                     "attackToHit": 0,
                     "attackRoll": "1d6",
                     "attackRange": "120/320",
-                    "attackDamage": "piercing",
-                    "visible": true
+                    "attackDamage": "piercing"
                 },
                 {
-                    "id": 76,
-                    "vehicleId": 74,
                     "name": "Engine",
                     "health": 60,
                     "maxHealth": 60,
@@ -1385,12 +549,9 @@
                     "attackToHit": 0,
                     "attackRoll": "1d6",
                     "attackRange": "120/320",
-                    "attackDamage": "piercing",
-                    "visible": true
+                    "attackDamage": "piercing"
                 },
                 {
-                    "id": 77,
-                    "vehicleId": 74,
                     "name": "Chomper",
                     "health": 50,
                     "maxHealth": 50,
@@ -1402,12 +563,9 @@
                     "attackToHit": 9,
                     "attackRoll": "6d6+4",
                     "attackRange": "120/320",
-                    "attackDamage": "piercing",
-                    "visible": true
+                    "attackDamage": "piercing"
                 },
                 {
-                    "id": 78,
-                    "vehicleId": 74,
                     "name": "Wrecking Ball",
                     "health": 50,
                     "maxHealth": 50,
@@ -1419,12 +577,9 @@
                     "attackToHit": 9,
                     "attackRoll": "8d8+4",
                     "attackRange": "120/320",
-                    "attackDamage": "bludgeoning",
-                    "visible": true
+                    "attackDamage": "bludgeoning"
                 },
                 {
-                    "id": 79,
-                    "vehicleId": 74,
                     "name": "Left Harpoon",
                     "health": 100,
                     "maxHealth": 100,
@@ -1436,12 +591,9 @@
                     "attackToHit": 5,
                     "attackRoll": "2d8",
                     "attackRange": "120/320",
-                    "attackDamage": "piercing",
-                    "visible": true
+                    "attackDamage": "piercing"
                 },
                 {
-                    "id": 80,
-                    "vehicleId": 74,
                     "name": "Right Harpoon",
                     "health": 100,
                     "maxHealth": 100,
@@ -1453,8 +605,7 @@
                     "attackToHit": 5,
                     "attackRoll": "2d8",
                     "attackRange": "120/320",
-                    "attackDamage": "piercing",
-                    "visible": true
+                    "attackDamage": "piercing"
                 }
             ],
             "link": "https://www.dndbeyond.com/vehicles/demon-grinder",
@@ -1466,8 +617,6 @@
             "type": "Devil's Ride",
             "components": [
                 {
-                    "id": 82,
-                    "vehicleId": 81,
                     "name": "Hull",
                     "health": 30,
                     "maxHealth": 30,
@@ -1479,8 +628,7 @@
                     "attackToHit": 0,
                     "attackRoll": "1d6",
                     "attackRange": "120/320",
-                    "attackDamage": "piercing",
-                    "visible": true
+                    "attackDamage": "piercing"
                 }
             ],
             "link": "https://www.dndbeyond.com/vehicles/devils-ride",
