@@ -277,6 +277,19 @@
             "visible": false
         },
         {
+            "name": "Yeenoghu",
+            "health": 333,
+            "maxHealth": 333,
+            "armor": 20,
+            "speed": 50,
+            "race": "Demon Lord",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/yeenoghu",
+            "initMod": 3,
+            "template": false,
+            "visible": false
+        },
+        {
             "name": "Gnoll",
             "health": 84,
             "maxHealth": 84,
@@ -317,13 +330,26 @@
         },
         {
             "name": "Lulu",
-            "health": 110,
-            "maxHealth": 110,
+            "health": 538,
+            "maxHealth": 538,
             "armor": 19,
             "speed": 120,
             "race": "Hollyphant",
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/1524056-lulu",
+            "initMod": 2,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Lulu",
+            "health": 538,
+            "maxHealth": 538,
+            "armor": 19,
+            "speed": 120,
+            "race": "Mastadon",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/mammoth",
             "initMod": 2,
             "template": false,
             "visible": false
