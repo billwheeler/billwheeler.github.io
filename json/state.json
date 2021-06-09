@@ -109,174 +109,6 @@
             "visible": false
         },
         {
-            "name": "Ammareth",
-            "health": 74,
-            "maxHealth": 74,
-            "armor": 16,
-            "speed": 30,
-            "race": "Human",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 17,
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
-            "image": "",
-            "initMod": 3,
-            "template": false,
-            "visible": false
-        },
-        {
-            "name": "Barghest",
-            "health": 46,
-            "maxHealth": 46,
-            "armor": 18,
-            "speed": 40,
-            "race": "Spectral Dire Wolf",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 25,
-                    "name": "Bite",
-                    "dice": "2d4",
-                    "hitMod": 9,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
-            "image": "",
-            "initMod": 3,
-            "template": false,
-            "visible": false
-        },
-        {
-            "name": "Fetchtatter",
-            "health": 150,
-            "maxHealth": 150,
-            "armor": 19,
-            "speed": 20,
-            "race": "Sibriex",
-            "initiative": 0,
-            "weapons": [],
-            "spells": [],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/sibriex",
-            "image": "",
-            "initMod": -4,
-            "template": false,
-            "visible": false
-        },
-        {
-            "name": "Shalok",
-            "health": 85,
-            "maxHealth": 85,
-            "armor": 16,
-            "speed": 30,
-            "race": "Chain Devil",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 28,
-                    "name": "Chain",
-                    "dice": "2d6",
-                    "hitMod": 8,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "id": 29,
-                    "name": "Grapple",
-                    "dice": "2d6",
-                    "hitMod": 8,
-                    "attackMod": 0,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/chain-devil",
-            "image": "",
-            "initMod": 2,
-            "template": false,
-            "visible": false
-        },
-        {
-            "name": "Jank",
-            "health": 85,
-            "maxHealth": 85,
-            "armor": 16,
-            "speed": 30,
-            "race": "Chain Devil",
-            "initiative": 0,
-            "weapons": [
-                {
-                    "id": 31,
-                    "name": "Chain",
-                    "dice": "2d6",
-                    "hitMod": 8,
-                    "attackMod": 4,
-                    "damageType": "slashing"
-                },
-                {
-                    "id": 32,
-                    "name": "Grapple",
-                    "dice": "2d6",
-                    "hitMod": 8,
-                    "attackMod": 0,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/chain-devil",
-            "image": "",
-            "initMod": 2,
-            "template": false,
-            "visible": false
-        },
-        {
             "name": "Yeenoghu",
             "health": 333,
             "maxHealth": 333,
@@ -359,40 +191,35 @@
         {
             "name": "Fionula Copperkettle",
             "player": "Casey",
-            "initiative": 9,
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
             "visible": true
         },
         {
             "name": "Lorax, the Reader",
             "player": "Chris",
-            "initiative": 21,
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/29257720",
             "visible": true
         },
         {
             "name": "Malbraxys",
             "player": "Mike",
-            "initiative": 16,
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845",
             "visible": true
         },
         {
             "name": "Sulyman Quantarius Zornastica Mushkin",
             "player": "Eric",
-            "initiative": 15,
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328",
             "visible": true
         },
         {
             "name": "Tenraja Hurazan",
             "player": "Jesse",
-            "initiative": 20,
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564",
             "visible": true
         }
