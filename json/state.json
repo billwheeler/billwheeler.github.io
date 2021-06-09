@@ -197,6 +197,19 @@
             "initMod": 2,
             "template": false,
             "visible": false
+        },
+        {
+            "name": "Ofalth",
+            "health": 178,
+            "maxHealth": 178,
+            "armor": 16,
+            "speed": 20,
+            "race": "Plant",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1739145-ofalth",
+            "initMod": 0,
+            "template": true,
+            "visible": false
         }
     ],
     "players": [
