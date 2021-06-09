@@ -7,7 +7,6 @@
             "armor": 18,
             "speed": 60,
             "race": "Nightmare",
-            "initiative": 2,
             "weapons": [
                 {
                     "id": 7,
@@ -19,7 +18,7 @@
                 }
             ],
             "spells": [],
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/nightmare",
             "image": "",
             "initMod": 0,
@@ -122,7 +121,7 @@
             "visible": false
         },
         {
-            "name": "Gnoll",
+            "name": "Gnoll Invader",
             "health": 84,
             "maxHealth": 84,
             "armor": 15,
@@ -132,6 +131,19 @@
             "link": "https://www.dndbeyond.com/monsters/1523932-dream-crystal-gnoll",
             "initMod": 3,
             "template": true,
+            "visible": false
+        },
+        {
+            "name": "Gnoll Brood Mother",
+            "health": 123,
+            "maxHealth": 123,
+            "armor": 17,
+            "speed": 30,
+            "race": "Gnoll",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1738871-gnoll-brood-mother",
+            "initMod": 3,
+            "template": false,
             "visible": false
         },
         {
