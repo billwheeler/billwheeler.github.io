@@ -280,6 +280,121 @@
             "initMod": 5,
             "template": false,
             "visible": false
+        },
+        {
+            "name": "Zakimor",
+            "health": 115,
+            "maxHealth": 115,
+            "armor": 16,
+            "speed": 30,
+            "race": "Blue Abishai",
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ],
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/blue-abishai",
+            "initMod": 2,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Zazgaros",
+            "health": 115,
+            "maxHealth": 115,
+            "armor": 16,
+            "speed": 30,
+            "race": "Green Abishai",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/green-abishai",
+            "initMod": 3,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Teglamil",
+            "health": 68,
+            "maxHealth": 68,
+            "armor": 15,
+            "speed": 30,
+            "race": "White Abishai",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/white-abishai",
+            "initMod": 0,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Ograxaur",
+            "health": 68,
+            "maxHealth": 68,
+            "armor": 15,
+            "speed": 30,
+            "race": "White Abishai",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/white-abishai",
+            "initMod": 0,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Mogthoden",
+            "health": 58,
+            "maxHealth": 58,
+            "armor": 15,
+            "speed": 30,
+            "race": "Black Abishai",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/black-abishai",
+            "initMod": 3,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Golgizar",
+            "health": 58,
+            "maxHealth": 58,
+            "armor": 15,
+            "speed": 30,
+            "race": "Black Abishai",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/black-abishai",
+            "initMod": 3,
+            "template": false,
+            "visible": false
         }
     ],
     "players": [
