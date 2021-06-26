@@ -369,6 +369,32 @@
             "initMod": 3,
             "template": false,
             "visible": false
+        },
+        {
+            "name": "Cambion Solider",
+            "health": 82,
+            "maxHealth": 82,
+            "armor": 19,
+            "speed": 30,
+            "race": "Fiend",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/cambion",
+            "initMod": 4,
+            "template": true,
+            "visible": false
+        },
+        {
+            "name": "Imp",
+            "health": 10,
+            "maxHealth": 10,
+            "armor": 13,
+            "speed": 30,
+            "race": "Fiend",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/imp",
+            "initMod": 4,
+            "template": true,
+            "visible": false
         }
     ],
     "players": [
