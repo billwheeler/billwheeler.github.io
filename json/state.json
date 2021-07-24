@@ -332,15 +332,15 @@
             "visible": false
         },
         {
-            "name": "Zalvalon",
-            "health": 255,
-            "maxHealth": 255,
-            "armor": 22,
-            "speed": 30,
-            "race": "Red Abishai",
+            "name": "Qasrun Ashcaller",
+            "health": 143,
+            "maxHealth": 143,
+            "armor": 19,
+            "speed": 64,
+            "race": "White Abishai",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/red-abishai",
-            "initMod": 3,
+            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/54956089",
+            "initMod": 5,
             "template": false,
             "visible": false
         },
