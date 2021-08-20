@@ -134,86 +134,29 @@
             "visible": false
         },
         {
-            "name": "Ofalth",
-            "health": 178,
-            "maxHealth": 178,
-            "armor": 16,
-            "speed": 20,
-            "race": "Plant",
+            "name": "Rigorath",
+            "health": 105,
+            "maxHealth": 105,
+            "armor": 20,
+            "speed": 30,
+            "race": "Fiend",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1739145-ofalth",
-            "initMod": 0,
-            "template": true,
+            "link": "https://www.dndbeyond.com/monsters/1909025-rigorath",
+            "initMod": 4,
+            "template": false,
             "visible": false
         },
         {
-            "name": "Red Ruth",
-            "health": 241,
-            "maxHealth": 241,
-            "armor": 20,
-            "speed": 30,
-            "race": "Night Hag",
-            "weapons": [
-                {
-                    "name": "Claws",
-                    "dice": "3d8",
-                    "hitMod": 9,
-                    "attackMod": 5,
-                    "damageType": "slashing"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 5,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Eighth Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Nineth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ],
+            "name": "Ice Devil",
+            "health": 180,
+            "maxHealth": 180,
+            "armor": 18,
+            "speed": 40,
+            "race": "Fiend",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1740118-red-ruth",
-            "image": "",
-            "initMod": 5,
-            "template": false,
+            "link": "https://www.dndbeyond.com/monsters/ice-devil",
+            "initMod": 2,
+            "template": true,
             "visible": false
         },
         {
