@@ -185,8 +185,8 @@
         },
         {
             "name": "Qasrun Ashcaller",
-            "health": 220,
-            "maxHealth": 220,
+            "health": 168,
+            "maxHealth": 168,
             "armor": 19,
             "speed": 50,
             "race": "White Abishai",
