@@ -164,7 +164,7 @@
                 {
                     "name": "Fifth Level",
                     "slots": 2,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Sixth Level",
@@ -193,6 +193,19 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/1917507-qasrun-ashcaller",
             "initMod": 6,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Smiler the Defiler",
+            "health": 165,
+            "maxHealth": 165,
+            "armor": 18,
+            "speed": 30,
+            "race": "Elandrin",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/smiler-the-defiler",
+            "initMod": 5,
             "template": false,
             "visible": false
         },
@@ -351,6 +364,28 @@
                 }
             ],
             "link": "https://www.dndbeyond.com/vehicles/demon-grinder",
+            "visible": false
+        },
+        {
+            "name": "Smiler's Bike",
+            "type": "Devil's Ride",
+            "components": [
+                {
+                    "name": "Hull",
+                    "health": 30,
+                    "maxHealth": 30,
+                    "armor": 23,
+                    "speed": 0,
+                    "decrement": 0,
+                    "stages": 0,
+                    "threshold": 20,
+                    "attackToHit": 0,
+                    "attackRoll": "1d6",
+                    "attackRange": "120/320",
+                    "attackDamage": "piercing"
+                }
+            ],
+            "link": "https://www.dndbeyond.com/vehicles/devils-ride",
             "visible": false
         }
     ]
