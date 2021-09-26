@@ -134,56 +134,6 @@
             "visible": false
         },
         {
-            "name": "Zakimor",
-            "health": 195,
-            "maxHealth": 195,
-            "armor": 19,
-            "speed": 30,
-            "race": "Blue Abishai",
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 1
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ],
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1917330-zakimor",
-            "initMod": 2,
-            "template": false,
-            "visible": false
-        },
-        {
             "name": "Qasrun Ashcaller",
             "health": 168,
             "maxHealth": 168,
@@ -197,15 +147,28 @@
             "visible": false
         },
         {
-            "name": "Smiler the Defiler",
-            "health": 165,
-            "maxHealth": 165,
-            "armor": 18,
+            "name": "Red Dragon",
+            "health": 256,
+            "maxHealth": 256,
+            "armor": 19,
             "speed": 30,
-            "race": "Elandrin",
+            "race": "Dragon",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/smiler-the-defiler",
-            "initMod": 5,
+            "link": "https://www.dndbeyond.com/monsters/adult-red-dragon",
+            "initMod": 0,
+            "template": true,
+            "visible": false
+        },
+        {
+            "name": "Weird Dragon",
+            "health": 1014,
+            "maxHealth": 1014,
+            "armor": 22,
+            "speed": 30,
+            "race": "Dragon",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/adult-red-dragon",
+            "initMod": 4,
             "template": false,
             "visible": false
         },
