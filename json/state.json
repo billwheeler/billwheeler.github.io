@@ -61,7 +61,7 @@
                 {
                     "name": "Fifth Level",
                     "slots": 3,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Sixth Level",
@@ -165,7 +165,7 @@
             ]
         },
         {
-            "name": "Gray Mist Monk",
+            "name": "Hamish",
             "race": "Human",
             "armor": 17,
             "health": 97,
@@ -173,7 +173,7 @@
             "speed": 45,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/2035934-gray-mist-monk",
-            "template": true,
+            "template": false,
             "initMod": 3,
             "weapons": [
                 {
@@ -191,6 +191,114 @@
                     "damageType": "piercing"
                 }
             ]
+        },
+        {
+            "name": "Seth",
+            "race": "Human",
+            "armor": 17,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 45,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2035934-gray-mist-monk",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Force Strike",
+                    "dice": "2d8",
+                    "hitMod": 7,
+                    "attackMod": 3,
+                    "damageType": "force"
+                },
+                {
+                    "name": "Dart",
+                    "dice": "2d4",
+                    "hitMod": 7,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Dylan",
+            "race": "Human",
+            "armor": 17,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 45,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2035934-gray-mist-monk",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Force Strike",
+                    "dice": "2d8",
+                    "hitMod": 7,
+                    "attackMod": 3,
+                    "damageType": "force"
+                },
+                {
+                    "name": "Dart",
+                    "dice": "2d4",
+                    "hitMod": 7,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Ayla",
+            "race": "Human",
+            "armor": 17,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 45,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2035934-gray-mist-monk",
+            "template": false,
+            "initMod": 3,
+            "weapons": [
+                {
+                    "name": "Force Strike",
+                    "dice": "2d8",
+                    "hitMod": 7,
+                    "attackMod": 3,
+                    "damageType": "force"
+                },
+                {
+                    "name": "Dart",
+                    "dice": "2d4",
+                    "hitMod": 7,
+                    "attackMod": 3,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Jacob",
+            "race": "Human",
+            "armor": 10,
+            "health": 4,
+            "maxHealth": 4,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/commoner",
+            "template": false,
+            "initMod": 0
+        },
+        {
+            "name": "Zahra",
+            "race": "Human",
+            "armor": 10,
+            "health": 4,
+            "maxHealth": 4,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/commoner",
+            "template": false,
+            "initMod": 0
         }
     ],
     "players": [
