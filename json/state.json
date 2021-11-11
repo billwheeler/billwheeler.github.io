@@ -189,6 +189,34 @@
                     "damageType": "piercing"
                 }
             ]
+        },
+        {
+            "name": "Owlbear",
+            "race": "Monstrosity",
+            "armor": 18,
+            "health": 161,
+            "maxHealth": 161,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2103363-savage-owlbear",
+            "template": false,
+            "initMod": 6,
+            "weapons": [
+                {
+                    "name": "Beak",
+                    "dice": "4d12",
+                    "hitMod": 11,
+                    "attackMod": 5,
+                    "damageType": "piercing"
+                },
+                {
+                    "name": "Claws",
+                    "dice": "5d8",
+                    "hitMod": 11,
+                    "attackMod": 5,
+                    "damageType": "slashing"
+                }
+            ]
         }
     ],
     "players": [
