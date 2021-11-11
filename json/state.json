@@ -86,219 +86,81 @@
             ]
         },
         {
-            "name": "Ammareth",
-            "race": "Human",
-            "armor": 16,
-            "health": 100,
-            "maxHealth": 100,
+            "name": "Bel",
+            "race": "Archdevil",
+            "armor": 19,
+            "health": 364,
+            "maxHealth": 364,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
-            "template": false,
-            "initMod": 3,
+            "link": "https://www.dndbeyond.com/monsters/bel",
+            "template": true,
+            "initMod": 2,
             "weapons": [
                 {
-                    "name": "Light Crossbow",
-                    "dice": "1d8",
-                    "hitMod": 8,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
+                    "name": "Greatsword",
+                    "dice": "4d6",
+                    "hitMod": 16,
+                    "attackMod": 9,
+                    "damageType": "slashing"
                 },
                 {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 1,
-                    "used": 0
+                    "name": "Tail",
+                    "dice": "3d10",
+                    "hitMod": 16,
+                    "attackMod": 9,
+                    "damageType": "bludgeoning"
                 }
             ]
         },
         {
-            "name": "Barghest",
-            "race": "Spectral Dire Wolf",
+            "name": "Fire Giant",
+            "race": "Giant",
             "armor": 18,
-            "health": 46,
-            "maxHealth": 46,
-            "speed": 50,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/32128026",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Bite",
-                    "dice": "2d6",
-                    "hitMod": 9,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Hamish",
-            "race": "Human",
-            "armor": 17,
-            "health": 97,
-            "maxHealth": 97,
-            "speed": 45,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2035934-gray-mist-monk",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Force Strike",
-                    "dice": "2d8",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "force"
-                },
-                {
-                    "name": "Dart",
-                    "dice": "2d4",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Seth",
-            "race": "Human",
-            "armor": 17,
-            "health": 97,
-            "maxHealth": 97,
-            "speed": 45,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2035934-gray-mist-monk",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Force Strike",
-                    "dice": "2d8",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "force"
-                },
-                {
-                    "name": "Dart",
-                    "dice": "2d4",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Dylan",
-            "race": "Human",
-            "armor": 17,
-            "health": 97,
-            "maxHealth": 97,
-            "speed": 45,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2035934-gray-mist-monk",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Force Strike",
-                    "dice": "2d8",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "force"
-                },
-                {
-                    "name": "Dart",
-                    "dice": "2d4",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Ayla",
-            "race": "Human",
-            "armor": 17,
-            "health": 97,
-            "maxHealth": 97,
-            "speed": 45,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2035934-gray-mist-monk",
-            "template": false,
-            "initMod": 3,
-            "weapons": [
-                {
-                    "name": "Force Strike",
-                    "dice": "2d8",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "force"
-                },
-                {
-                    "name": "Dart",
-                    "dice": "2d4",
-                    "hitMod": 7,
-                    "attackMod": 3,
-                    "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Jacob",
-            "race": "Human",
-            "armor": 10,
-            "health": 4,
-            "maxHealth": 4,
+            "health": 162,
+            "maxHealth": 162,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/commoner",
-            "template": false,
-            "initMod": 0
+            "link": "https://www.dndbeyond.com/monsters/fire-giant",
+            "template": true,
+            "initMod": -1,
+            "weapons": [
+                {
+                    "name": "Greatsword",
+                    "dice": "6d6",
+                    "hitMod": 11,
+                    "attackMod": 7,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Rock",
+                    "dice": "4d10",
+                    "hitMod": 11,
+                    "attackMod": 7,
+                    "damageType": "bludgeoning"
+                }
+            ]
         },
         {
-            "name": "Zahra",
-            "race": "Human",
-            "armor": 10,
-            "health": 4,
-            "maxHealth": 4,
+            "name": "Giant Fuggin Spider",
+            "race": "Beast",
+            "armor": 19,
+            "health": 310,
+            "maxHealth": 310,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/commoner",
+            "link": "https://www.dndbeyond.com/monsters/2102332-giant-fuggin-spider",
             "template": false,
-            "initMod": 0
+            "initMod": -1,
+            "weapons": [
+                {
+                    "name": "Slam",
+                    "dice": "9d8",
+                    "hitMod": 17,
+                    "attackMod": 7,
+                    "damageType": "bludgeoning"
+                }
+            ]
         }
     ],
     "players": [
