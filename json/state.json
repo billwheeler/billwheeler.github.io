@@ -161,6 +161,34 @@
                     "damageType": "bludgeoning"
                 }
             ]
+        },
+        {
+            "name": "Goblin",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 30,
+            "maxHealth": 30,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2102954-fey-carnival-goblin",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Scimitar",
+                    "dice": "2d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                },
+                {
+                    "name": "Shortbow",
+                    "dice": "2d6",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "piercing"
+                }
+            ]
         }
     ],
     "players": [
