@@ -217,6 +217,27 @@
                     "damageType": "slashing"
                 }
             ]
+        },
+        {
+            "name": "Treant",
+            "race": "Plant",
+            "armor": 16,
+            "health": 138,
+            "maxHealth": 138,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/treant",
+            "template": true,
+            "initMod": -1,
+            "weapons": [
+                {
+                    "name": "Slam",
+                    "dice": "3d6",
+                    "hitMod": 10,
+                    "attackMod": 6,
+                    "damageType": "bludgeoning"
+                }
+            ]
         }
     ],
     "players": [
