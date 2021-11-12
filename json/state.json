@@ -31,7 +31,7 @@
             "maxHealth": 195,
             "armor": 19,
             "speed": 30,
-            "race": "Archfey (night hag)",
+            "race": "Medium Fey (Wizard)",
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/1259913-mad-maggie",
             "initMod": 4,
@@ -87,7 +87,7 @@
         },
         {
             "name": "Bel",
-            "race": "Archdevil",
+            "race": "Large fiend (devil)",
             "armor": 19,
             "health": 364,
             "maxHealth": 364,
@@ -115,7 +115,7 @@
         },
         {
             "name": "Fire Giant",
-            "race": "Giant",
+            "race": "Large Giant",
             "armor": 18,
             "health": 162,
             "maxHealth": 162,
@@ -164,7 +164,7 @@
         },
         {
             "name": "Goblin",
-            "race": "Goblin",
+            "race": "Goblinoid",
             "armor": 15,
             "health": 30,
             "maxHealth": 30,
