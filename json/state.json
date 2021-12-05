@@ -238,6 +238,27 @@
                     "damageType": "bludgeoning"
                 }
             ]
+        },
+        {
+            "name": "Archie",
+            "race": "Archfey",
+            "armor": 23,
+            "health": 750,
+            "maxHealth": 750,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1115125-archfey-of-dreams-and-nightmares",
+            "template": false,
+            "initMod": 8,
+            "weapons": [
+                {
+                    "name": "Longsword",
+                    "dice": "4d8",
+                    "hitMod": 17,
+                    "attackMod": 4,
+                    "damageType": "slashing"
+                }
+            ]
         }
     ],
     "players": [
