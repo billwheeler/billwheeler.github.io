@@ -41,7 +41,7 @@
                 {
                     "name": "First Level",
                     "slots": 4,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Second Level",
@@ -51,7 +51,7 @@
                 {
                     "name": "Third Level",
                     "slots": 3,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Fourth Level",
@@ -66,7 +66,7 @@
                 {
                     "name": "Sixth Level",
                     "slots": 3,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Seventh Level",
@@ -81,182 +81,35 @@
                 {
                     "name": "Nineth Level",
                     "slots": 1,
-                    "used": 0
+                    "used": 1
                 }
             ]
         },
         {
-            "name": "Bel",
-            "race": "Large fiend (devil)",
-            "armor": 19,
-            "health": 364,
-            "maxHealth": 364,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bel",
-            "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Greatsword",
-                    "dice": "4d6",
-                    "hitMod": 16,
-                    "attackMod": 9,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Tail",
-                    "dice": "3d10",
-                    "hitMod": 16,
-                    "attackMod": 9,
-                    "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
-            "name": "Fire Giant",
-            "race": "Large Giant",
-            "armor": 18,
-            "health": 162,
-            "maxHealth": 162,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/fire-giant",
-            "template": true,
-            "initMod": -1,
-            "weapons": [
-                {
-                    "name": "Greatsword",
-                    "dice": "6d6",
-                    "hitMod": 11,
-                    "attackMod": 7,
-                    "damageType": "slashing"
-                },
-                {
-                    "name": "Rock",
-                    "dice": "4d10",
-                    "hitMod": 11,
-                    "attackMod": 7,
-                    "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
-            "name": "Giant Fuggin Spider",
-            "race": "Beast",
-            "armor": 19,
-            "health": 310,
-            "maxHealth": 310,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2102332-giant-fuggin-spider",
-            "template": false,
-            "initMod": -1,
-            "weapons": [
-                {
-                    "name": "Slam",
-                    "dice": "9d8",
-                    "hitMod": 17,
-                    "attackMod": 7,
-                    "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
-            "name": "Goblin",
-            "race": "Goblinoid",
+            "name": "Swarm of Sprites",
+            "race": "Tiny Fey (Large swarm)",
             "armor": 15,
-            "health": 30,
-            "maxHealth": 30,
-            "speed": 30,
+            "health": 60,
+            "maxHealth": 60,
+            "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2102954-fey-carnival-goblin",
+            "link": "https://www.dndbeyond.com/monsters/1993871-swarm-of-sprites",
             "template": true,
             "initMod": 2,
             "weapons": [
                 {
-                    "name": "Scimitar",
-                    "dice": "2d6",
+                    "name": "Shortsword",
+                    "dice": "1d6",
                     "hitMod": 6,
                     "attackMod": 4,
-                    "damageType": "slashing"
+                    "damageType": "piercing"
                 },
                 {
                     "name": "Shortbow",
-                    "dice": "2d6",
+                    "dice": "1d6",
                     "hitMod": 6,
                     "attackMod": 4,
                     "damageType": "piercing"
-                }
-            ]
-        },
-        {
-            "name": "Owlbear",
-            "race": "Monstrosity",
-            "armor": 18,
-            "health": 161,
-            "maxHealth": 161,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2103363-savage-owlbear",
-            "template": false,
-            "initMod": 6,
-            "weapons": [
-                {
-                    "name": "Beak",
-                    "dice": "4d12",
-                    "hitMod": 11,
-                    "attackMod": 5,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Claws",
-                    "dice": "5d8",
-                    "hitMod": 11,
-                    "attackMod": 5,
-                    "damageType": "slashing"
-                }
-            ]
-        },
-        {
-            "name": "Treant",
-            "race": "Plant",
-            "armor": 16,
-            "health": 138,
-            "maxHealth": 138,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/treant",
-            "template": true,
-            "initMod": -1,
-            "weapons": [
-                {
-                    "name": "Slam",
-                    "dice": "3d6",
-                    "hitMod": 10,
-                    "attackMod": 6,
-                    "damageType": "bludgeoning"
-                }
-            ]
-        },
-        {
-            "name": "Archie",
-            "race": "Archfey",
-            "armor": 23,
-            "health": 750,
-            "maxHealth": 750,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1115125-archfey-of-dreams-and-nightmares",
-            "template": false,
-            "initMod": 8,
-            "weapons": [
-                {
-                    "name": "Longsword",
-                    "dice": "4d8",
-                    "hitMod": 17,
-                    "attackMod": 4,
-                    "damageType": "slashing"
                 }
             ]
         }
