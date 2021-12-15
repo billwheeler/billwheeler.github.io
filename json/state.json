@@ -36,7 +36,7 @@
             "link": "https://www.dndbeyond.com/monsters/1259913-mad-maggie",
             "initMod": 4,
             "template": false,
-            "visible": false,
+            "visible": true,
             "spells": [
                 {
                     "name": "First Level",
@@ -56,7 +56,7 @@
                 {
                     "name": "Fourth Level",
                     "slots": 3,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Fifth Level",
@@ -77,6 +77,51 @@
                     "name": "Eight Level",
                     "slots": 2,
                     "used": 0
+                },
+                {
+                    "name": "Nineth Level",
+                    "slots": 1,
+                    "used": 1
+                }
+            ]
+        },
+        {
+            "name": "Lucien",
+            "health": 367,
+            "maxHealth": 367,
+            "armor": 18,
+            "speed": 30,
+            "race": "Archfey",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2182709-lucien",
+            "initMod": 4,
+            "template": false,
+            "visible": true,
+            "spells": [
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 1
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 3,
+                    "used": 1
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Eight Level",
+                    "slots": 2,
+                    "used": 1
                 },
                 {
                     "name": "Nineth Level",
@@ -120,13 +165,6 @@
             "player": "Casey",
             "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
-            "visible": true
-        },
-        {
-            "name": "Flynn Chapman",
-            "player": "Chris",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/onehandsomemule/characters/59522825",
             "visible": true
         },
         {
