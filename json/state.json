@@ -101,7 +101,7 @@
                 {
                     "name": "Fourth Level",
                     "slots": 3,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Fifth Level",
@@ -111,7 +111,7 @@
                 {
                     "name": "Sixth Level",
                     "slots": 3,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Seventh Level",
@@ -126,7 +126,7 @@
                 {
                     "name": "Nineth Level",
                     "slots": 1,
-                    "used": 1
+                    "used": 0
                 }
             ]
         },
