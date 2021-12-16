@@ -27,7 +27,7 @@
         },
         {
             "name": "Swarm of Weasels",
-            "race": "Tiny Beast (Large swarm)",
+            "race": "(Large swarm)",
             "armor": 13,
             "health": 24,
             "maxHealth": 24,
@@ -153,7 +153,7 @@
         },
         {
             "name": "Swarm of Sprites",
-            "race": "Tiny Fey (Large swarm)",
+            "race": "(Large swarm)",
             "armor": 15,
             "health": 60,
             "maxHealth": 60,
