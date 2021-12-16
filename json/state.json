@@ -26,6 +26,27 @@
             "visible": true
         },
         {
+            "name": "Swarm of Weasels",
+            "race": "Tiny Beast (Large swarm)",
+            "armor": 13,
+            "health": 24,
+            "maxHealth": 24,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2184572-swarm-of-weasels",
+            "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d8",
+                    "hitMod": 5,
+                    "attackMod": 0,
+                    "damageType": "piercing"
+                }
+            ]
+        }
+        {
             "name": "Mad Maggie",
             "health": 195,
             "maxHealth": 195,
