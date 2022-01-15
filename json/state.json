@@ -62,7 +62,7 @@
                 {
                     "name": "First Level",
                     "slots": 4,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Second Level",
@@ -72,12 +72,12 @@
                 {
                     "name": "Third Level",
                     "slots": 3,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Fourth Level",
                     "slots": 3,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Fifth Level",
@@ -87,7 +87,7 @@
                 {
                     "name": "Sixth Level",
                     "slots": 3,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Seventh Level",
@@ -102,82 +102,132 @@
                 {
                     "name": "Nineth Level",
                     "slots": 1,
-                    "used": 1
+                    "used": 0
                 }
             ]
         },
         {
-            "name": "Lucien",
-            "health": 367,
-            "maxHealth": 367,
+            "name": "Sarjeon",
+            "race": "Medium Fey",
+            "armor": 16,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251176-harengon-warrior",
+            "template": false,
+            "initMod": 8
+        },
+        {
+            "name": "Robur",
+            "health": 84,
+            "maxHealth": 84,
             "armor": 18,
             "speed": 30,
-            "race": "Archfey",
+            "race": "Medium Fey",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2182709-lucien",
-            "initMod": 4,
+            "link": "https://www.dndbeyond.com/monsters/2251059-robur",
+            "initMod": 7,
             "template": false,
             "visible": true,
             "spells": [
                 {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Maben",
+            "race": "Medium Fey",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251125-maben",
+            "template": false,
+            "initMod": 7
+        },
+        {
+            "name": "Lernot",
+            "health": 63,
+            "maxHealth": 63,
+            "armor": 15,
+            "speed": 30,
+            "race": "Medium Fey",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251156-lernot",
+            "initMod": 7,
+            "template": false,
+            "visible": true,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
                     "name": "Fourth Level",
                     "slots": 3,
                     "used": 0
                 },
                 {
                     "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
                     "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Eight Level",
-                    "slots": 2,
-                    "used": 1
-                },
-                {
-                    "name": "Nineth Level",
-                    "slots": 1,
                     "used": 0
                 }
             ]
         },
         {
-            "name": "Swarm of Sprites",
-            "race": "(Large swarm)",
-            "armor": 15,
-            "health": 60,
-            "maxHealth": 60,
+            "name": "Balnan",
+            "race": "Medium Fey",
+            "armor": 16,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251176-harengon-warrior",
+            "template": false,
+            "initMod": 8
+        },
+        {
+            "name": "Hybsil",
+            "race": "Medium Fey",
+            "armor": 17,
+            "health": 127,
+            "maxHealth": 127,
             "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1993871-swarm-of-sprites",
+            "link": "https://www.dndbeyond.com/monsters/2251009-hybsil",
             "template": true,
-            "initMod": 2,
-            "weapons": [
-                {
-                    "name": "Shortsword",
-                    "dice": "1d6",
-                    "hitMod": 6,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                },
-                {
-                    "name": "Shortbow",
-                    "dice": "1d6",
-                    "hitMod": 6,
-                    "attackMod": 4,
-                    "damageType": "piercing"
-                }
-            ]
+            "initMod": 1
         }
     ],
     "players": [

@@ -15,6 +15,14 @@ var npc = function () {
     this.speed = 15
     this.race = 'Human'
     this.initiative = 0
+    this.saves = {
+        strength: 0,
+        dexterity: 0,
+        constitution: 0,
+        intelligence: 0,
+        wisdom: 0,
+        charisma: 0
+    }
     this.weapons = []
     this.spells = []
     this.state = CharacterState.Idle
@@ -66,6 +74,17 @@ npc.prototype.parse = function (json) {
 
     if (json.initiative && Utils.isNumeric(json.initiative)) {
         this.initiative = json.initiative
+    }
+
+    if (json.saves) {
+        this.saves = {
+            strength: json.saves.strength,
+            dexterity: json.saves.dexterity,
+            constitution: json.saves.constitution,
+            intelligence: json.saves.intelligence,
+            wisdom: json.saves.wisdom,
+            charisma: json.saves.charisma
+        }
     }
 
     if (json.state) {
@@ -144,6 +163,14 @@ npc.prototype.serialize = function () {
         speed: this.speed,
         race: this.race,
         initiative: this.initiative,
+        saves: {
+            strength: this.saves.strength,
+            dexterity: this.saves.dexterity,
+            constitution: this.saves.constitution,
+            intelligence: this.saves.intelligence,
+            wisdom: this.saves.wisdom,
+            charisma: this.saves.charisma
+        },
         weapons: weapons,
         spells: spells,
         state: this.state,
@@ -188,6 +215,17 @@ npc.prototype.render = function () {
             }
             out += '</table>'
         }
+
+        /*if (this.state !== CharacterState.Dead) {
+            out += '<table cellpadding="0" cellspacing="0" border="0" class="npc-spell-list">'
+            out += '<tr><td>Strength</td><td>' + this.saves.strength + '</td></tr>'
+            out += '<tr><td>Dexterity</td><td>' + this.saves.dexterity + '</td></tr>'
+            out += '<tr><td>Constitution</td><td>' + this.saves.constitution + '</td></tr>'
+            out += '<tr><td>Intelligence</td><td>' + this.saves.intelligence + '</td></tr>'
+            out += '<tr><td>Wisdom</td><td>' + this.saves.wisdom + '</td></tr>'
+            out += '<tr><td>Charisma</td><td>' + this.saves.charisma + '</td></tr>'
+            out += '</table>'
+        }*/
 
         if (this.poisons > 0) {
             out += '<div>Poisons: <span class="bold">' + this.poisons + '</span> - <span>' + this.poisonDesc + '</span>'
