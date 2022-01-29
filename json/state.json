@@ -312,6 +312,18 @@
             "link": "https://www.dndbeyond.com/monsters/2251009-hybsil",
             "template": true,
             "initMod": 1
+        },
+        {
+            "name": "Tin Soldier",
+            "race": "Small Construct",
+            "armor": 18,
+            "health": 27,
+            "maxHealth": 27,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/tin-soldier",
+            "template": true,
+            "initMod": 0
         }
     ],
     "players": [
