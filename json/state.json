@@ -107,18 +107,6 @@
             ]
         },
         {
-            "name": "Earl of Detritus",
-            "race": "Bullywug",
-            "armor": 18,
-            "health": 66,
-            "maxHealth": 66,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bullywug-knight",
-            "template": false,
-            "initMod": 1
-        },
-        {
             "name": "Elandor",
             "race": "Elf",
             "armor": 18,
@@ -299,6 +287,66 @@
             "link": "https://www.dndbeyond.com/monsters/undying-soldier",
             "template": true,
             "initMod": 1
+        },
+        {
+            "name": "Bone Knight (Commander Ardryll)",
+            "race": "Elf (Undead)",
+            "armor": 20,
+            "health": 84,
+            "maxHealth": 84,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/bone-knight",
+            "template": false,
+            "initMod": 1,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Bone Knight",
+            "race": "Elf (Undead)",
+            "armor": 20,
+            "health": 84,
+            "maxHealth": 84,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/bone-knight",
+            "template": true,
+            "initMod": 1,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Meleraf Elyrion",
+            "race": "Elf (Undead)",
+            "armor": 21,
+            "health": 325,
+            "maxHealth": 325,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2370264-meleraf-elyrion",
+            "template": false,
+            "initMod": 5
         }
     ],
     "players": [
