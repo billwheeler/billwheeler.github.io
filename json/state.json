@@ -107,236 +107,6 @@
             ]
         },
         {
-            "name": "Elandor",
-            "race": "Elf",
-            "armor": 18,
-            "health": 117,
-            "maxHealth": 117,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/war-priest",
-            "template": false,
-            "initMod": 0,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Belanor Morran",
-            "race": "Elf",
-            "armor": 15,
-            "health": 66,
-            "maxHealth": 66,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/evoker",
-            "template": false,
-            "initMod": 2,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Mage",
-            "race": "Elf",
-            "armor": 15,
-            "health": 40,
-            "maxHealth": 40,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/evoker",
-            "template": true,
-            "initMod": 2,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Soldier",
-            "race": "Elf",
-            "armor": 17,
-            "health": 58,
-            "maxHealth": 58,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/veteran",
-            "template": true,
-            "initMod": 1
-        },
-        {
-            "name": "Blood Hunter",
-            "race": "Elf",
-            "armor": 16,
-            "health": 65,
-            "maxHealth": 65,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/blood-hunter",
-            "template": true,
-            "initMod": 1
-        },
-        {
-            "name": "Tin Soldier",
-            "race": "Small Construct",
-            "armor": 18,
-            "health": 27,
-            "maxHealth": 27,
-            "speed": 25,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/tin-soldier",
-            "template": true,
-            "initMod": 0
-        },
-        {
-            "name": "Boneclaw",
-            "race": "Large Undead",
-            "armor": 16,
-            "health": 127,
-            "maxHealth": 127,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/boneclaw",
-            "template": true,
-            "initMod": 1
-        },
-        {
-            "name": "Undead Soldier",
-            "race": "Elf (Undead)",
-            "armor": 17,
-            "health": 26,
-            "maxHealth": 26,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/undying-soldier",
-            "template": true,
-            "initMod": 1
-        },
-        {
-            "name": "Bone Knight (Commander Ardryll)",
-            "race": "Elf (Undead)",
-            "armor": 20,
-            "health": 84,
-            "maxHealth": 84,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bone-knight",
-            "template": false,
-            "initMod": 1,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Bone Knight",
-            "race": "Elf (Undead)",
-            "armor": 20,
-            "health": 84,
-            "maxHealth": 84,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/bone-knight",
-            "template": true,
-            "initMod": 1,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
-        },
-        {
             "name": "Meleraf Elyrion",
             "race": "Elf (Undead)",
             "armor": 21,
@@ -347,6 +117,18 @@
             "link": "https://www.dndbeyond.com/monsters/2370264-meleraf-elyrion",
             "template": false,
             "initMod": 5
+        },
+        {
+            "name": "Bloodword Sac",
+            "race": "Elf (Undead)",
+            "armor": 18,
+            "health": 68,
+            "maxHealth": 68,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2395180-bloodworm-sac",
+            "template": true,
+            "initMod": -2
         }
     ],
     "players": [
