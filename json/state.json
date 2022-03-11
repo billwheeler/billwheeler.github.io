@@ -119,8 +119,44 @@
             "initMod": 5
         },
         {
+            "name": "Myalis",
+            "race": "Infested Gem Dragon",
+            "armor": 19,
+            "health": 350,
+            "maxHealth": 350,
+            "speed": 80,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2397909-myalis",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Dragonbone Golem",
+            "race": "Construct",
+            "armor": 17,
+            "health": 161,
+            "maxHealth": 161,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/dragonbone-golem",
+            "template": false,
+            "initMod": 0
+        },
+        {
+            "name": "Giant Octopus",
+            "race": "Beast",
+            "armor": 11,
+            "health": 52,
+            "maxHealth": 52,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/giant-octopus",
+            "template": true,
+            "initMod": 5
+        },
+        {
             "name": "Bloodword Sac",
-            "race": "Elf (Undead)",
+            "race": "Ooze",
             "armor": 18,
             "health": 68,
             "maxHealth": 68,
