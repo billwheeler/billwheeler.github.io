@@ -192,46 +192,65 @@
                 {
                     "name": "First Level",
                     "slots": 5,
-                    "used": 0
+                    "used": 2
                 },
                 {
                     "name": "Second Level",
                     "slots": 4,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Third Level",
                     "slots": 4,
-                    "used": 0
+                    "used": 2
                 },
                 {
                     "name": "Fourth Level",
                     "slots": 3,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Fifth Level",
                     "slots": 3,
-                    "used": 0
+                    "used": 2
                 },
                 {
                     "name": "Sixth Level",
                     "slots": 3,
-                    "used": 0
+                    "used": 2
                 },
                 {
                     "name": "Seventh Level",
                     "slots": 2,
-                    "used": 0
+                    "used": 2
                 },
                 {
                     "name": "Eight Level",
                     "slots": 2,
-                    "used": 0
+                    "used": 2
                 },
                 {
                     "name": "Nineth Level",
                     "slots": 1,
+                    "used": 1
+                }
+            ]
+        },
+        {
+            "name": "Fionula Simulacrum",
+            "race": "Fey-Touched Halfling (simulacrum)",
+            "armor": 18,
+            "health": 96,
+            "maxHealth": 96,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
+            "template": false,
+            "initMod": 3,
+            "spells": [
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
                     "used": 0
                 }
             ]
