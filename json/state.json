@@ -52,7 +52,7 @@
             "maxHealth": 195,
             "armor": 19,
             "speed": 30,
-            "race": "Medium Fey (Wizard)",
+            "race": "Medium Fey",
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/1259913-mad-maggie",
             "initMod": 4,
@@ -72,6 +72,136 @@
                 {
                     "name": "Third Level",
                     "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Eight Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Nineth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Meleraf Elyrion",
+            "race": "Elf (Undead)",
+            "armor": 21,
+            "health": 325,
+            "maxHealth": 325,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2441458-meleraf-elyrion",
+            "template": false,
+            "initMod": 3,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Eight Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Nineth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Coalescent Aboleth",
+            "race": "Large aberration",
+            "armor": 19,
+            "health": 449,
+            "maxHealth": 449,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2441390-coalescent-aboleth",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Nambria",
+            "race": "Archfey",
+            "armor": 19,
+            "health": 615,
+            "maxHealth": 615,
+            "speed": 35,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2441242-nambria",
+            "template": false,
+            "initMod": 4,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 5,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 4,
                     "used": 0
                 },
                 {
@@ -107,43 +237,7 @@
             ]
         },
         {
-            "name": "Meleraf Elyrion",
-            "race": "Elf (Undead)",
-            "armor": 21,
-            "health": 325,
-            "maxHealth": 325,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2370264-meleraf-elyrion",
-            "template": false,
-            "initMod": 5
-        },
-        {
-            "name": "Myalis",
-            "race": "Infested Gem Dragon",
-            "armor": 19,
-            "health": 350,
-            "maxHealth": 350,
-            "speed": 80,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2397909-myalis",
-            "template": false,
-            "initMod": 1
-        },
-        {
-            "name": "Dragonbone Golem",
-            "race": "Construct",
-            "armor": 17,
-            "health": 161,
-            "maxHealth": 161,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/dragonbone-golem",
-            "template": false,
-            "initMod": 0
-        },
-        {
-            "name": "Giant Octopus",
+            "name": "Giant Octopus #2",
             "race": "Beast",
             "armor": 11,
             "health": 52,
@@ -151,12 +245,36 @@
             "speed": 60,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/giant-octopus",
-            "template": true,
+            "template": false,
             "initMod": 5
         },
         {
-            "name": "Bloodword Sac",
-            "race": "Ooze",
+            "name": "Giant Octopus #3",
+            "race": "Beast",
+            "armor": 11,
+            "health": 38,
+            "maxHealth": 52,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/giant-octopus",
+            "template": false,
+            "initMod": 5
+        },
+        {
+            "name": "Giant Octopus #4",
+            "race": "Beast",
+            "armor": 11,
+            "health": 36,
+            "maxHealth": 52,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/giant-octopus",
+            "template": false,
+            "initMod": 5
+        },
+        {
+            "name": "Bloodworm Sac",
+            "race": "Abberation",
             "armor": 18,
             "health": 68,
             "maxHealth": 68,
