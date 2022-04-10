@@ -107,77 +107,6 @@
             ]
         },
         {
-            "name": "Meleraf Elyrion",
-            "race": "Elf (Undead)",
-            "armor": 21,
-            "health": 325,
-            "maxHealth": 325,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2441458-meleraf-elyrion",
-            "template": false,
-            "initMod": 3,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Eight Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Nineth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Coalescent Aboleth",
-            "race": "Large aberration",
-            "armor": 19,
-            "health": 449,
-            "maxHealth": 449,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2441390-coalescent-aboleth",
-            "template": false,
-            "initMod": 1
-        },
-        {
             "name": "Nambria",
             "race": "Archfey",
             "armor": 19,
@@ -192,61 +121,61 @@
                 {
                     "name": "First Level",
                     "slots": 5,
-                    "used": 2
+                    "used": 0
                 },
                 {
                     "name": "Second Level",
                     "slots": 4,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Third Level",
                     "slots": 4,
-                    "used": 2
+                    "used": 0
                 },
                 {
                     "name": "Fourth Level",
                     "slots": 3,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Fifth Level",
                     "slots": 3,
-                    "used": 2
+                    "used": 0
                 },
                 {
                     "name": "Sixth Level",
                     "slots": 3,
-                    "used": 2
+                    "used": 0
                 },
                 {
                     "name": "Seventh Level",
                     "slots": 2,
-                    "used": 2
+                    "used": 0
                 },
                 {
                     "name": "Eight Level",
                     "slots": 2,
-                    "used": 2
+                    "used": 0
                 },
                 {
                     "name": "Nineth Level",
                     "slots": 1,
-                    "used": 1
+                    "used": 0
                 }
             ]
         },
         {
-            "name": "Fionula Simulacrum",
-            "race": "Fey-Touched Halfling (simulacrum)",
-            "armor": 18,
-            "health": 96,
-            "maxHealth": 96,
-            "speed": 25,
+            "name": "Tralar Mystralath",
+            "race": "Winter Eladrin (Undead)",
+            "armor": 16,
+            "health": 153,
+            "maxHealth": 153,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
+            "link": "https://www.dndbeyond.com/characters/71684309",
             "template": false,
-            "initMod": 3,
+            "initMod": 4,
             "spells": [
                 {
                     "name": "Fifth Level",
@@ -256,52 +185,124 @@
             ]
         },
         {
-            "name": "Giant Octopus #2",
-            "race": "Beast",
-            "armor": 11,
+            "name": "Renna",
+            "race": "Elf",
+            "armor": 16,
+            "health": 84,
+            "maxHealth": 84,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2478207-renna",
+            "template": false,
+            "initMod": 4
+        },
+        {
+            "name": "Hycis",
+            "race": "Elf",
+            "armor": 16,
+            "health": 105,
+            "maxHealth": 105,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2478220-hycis",
+            "template": false,
+            "initMod": 2
+        },
+        {
+            "name": "Sylvar",
+            "race": "Elf",
+            "armor": 15,
+            "health": 44,
+            "maxHealth": 44,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2478241-sylvar",
+            "template": false,
+            "initMod": 2,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Neremyn",
+            "race": "Elf",
+            "armor": 18,
             "health": 52,
             "maxHealth": 52,
-            "speed": 60,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/giant-octopus",
+            "link": "https://www.dndbeyond.com/monsters/phoenix-anvil",
             "template": false,
-            "initMod": 5
+            "initMod": 0,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
         },
         {
-            "name": "Giant Octopus #3",
-            "race": "Beast",
-            "armor": 11,
-            "health": 38,
-            "maxHealth": 52,
-            "speed": 60,
+            "name": "Boneclaw",
+            "race": "Large Undead",
+            "armor": 16,
+            "health": 127,
+            "maxHealth": 127,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/giant-octopus",
-            "template": false,
-            "initMod": 5
-        },
-        {
-            "name": "Giant Octopus #4",
-            "race": "Beast",
-            "armor": 11,
-            "health": 36,
-            "maxHealth": 52,
-            "speed": 60,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/giant-octopus",
-            "template": false,
-            "initMod": 5
-        },
-        {
-            "name": "Bloodworm Sac",
-            "race": "Abberation",
-            "armor": 18,
-            "health": 68,
-            "maxHealth": 68,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2395180-bloodworm-sac",
+            "link": "https://www.dndbeyond.com/monsters/boneclaw",
             "template": true,
-            "initMod": -2
+            "initMod": 1
+        },
+        {
+            "name": "Undead Soldier",
+            "race": "Elf (Undead)",
+            "armor": 17,
+            "health": 26,
+            "maxHealth": 26,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/undying-soldier",
+            "template": true,
+            "initMod": 1
+        },
+        {
+            "name": "Water Elemental",
+            "race": "Large elemental",
+            "armor": 14,
+            "health": 114,
+            "maxHealth": 114,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/water-elemental",
+            "template": true,
+            "initMod": 2
+        },
+        {
+            "name": "Steam Mephit",
+            "race": "Small elemental",
+            "armor": 10,
+            "health": 21,
+            "maxHealth": 21,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/steam-mephit",
+            "template": true,
+            "initMod": 0
         }
     ],
     "players": [
