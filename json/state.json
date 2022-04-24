@@ -255,6 +255,45 @@
             "link": "https://www.dndbeyond.com/monsters/undying-soldier",
             "template": true,
             "initMod": 1
+        },
+        {
+            "name": "Vampire Paladin",
+            "race": "Elf (Undead)",
+            "armor": 20,
+            "health": 180,
+            "maxHealth": 180,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/277918-dezmyr-shadowdusk",
+            "template": true,
+            "initMod": 0,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
         }
     ],
     "players": [
