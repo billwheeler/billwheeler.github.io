@@ -185,6 +185,18 @@
             ]
         },
         {
+            "name": "Pharom Daethyra",
+            "race": "Vampire Elf",
+            "armor": 18,
+            "health": 144,
+            "maxHealth": 144,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17206-vampire-warrior",
+            "template": false,
+            "initMod": 4
+        },
+        {
             "name": "Renna",
             "race": "Elf",
             "armor": 16,
@@ -209,52 +221,16 @@
             "initMod": 2
         },
         {
-            "name": "Sylvar",
-            "race": "Elf",
-            "armor": 15,
-            "health": 44,
-            "maxHealth": 44,
-            "speed": 30,
+            "name": "Wormspawn",
+            "race": "Undead",
+            "armor": 14,
+            "health": 76,
+            "maxHealth": 76,
+            "speed": 60,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2478241-sylvar",
-            "template": false,
-            "initMod": 2,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Neremyn",
-            "race": "Elf",
-            "armor": 18,
-            "health": 52,
-            "maxHealth": 52,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/phoenix-anvil",
-            "template": false,
-            "initMod": 0,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
+            "link": "https://www.dndbeyond.com/monsters/2514300-wormspawn",
+            "template": true,
+            "initMod": 1
         },
         {
             "name": "Boneclaw",
@@ -279,30 +255,6 @@
             "link": "https://www.dndbeyond.com/monsters/undying-soldier",
             "template": true,
             "initMod": 1
-        },
-        {
-            "name": "Water Elemental",
-            "race": "Large elemental",
-            "armor": 14,
-            "health": 114,
-            "maxHealth": 114,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/water-elemental",
-            "template": true,
-            "initMod": 2
-        },
-        {
-            "name": "Steam Mephit",
-            "race": "Small elemental",
-            "armor": 10,
-            "health": 21,
-            "maxHealth": 21,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/steam-mephit",
-            "template": true,
-            "initMod": 0
         }
     ],
     "players": [
