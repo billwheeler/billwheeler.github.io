@@ -185,18 +185,6 @@
             ]
         },
         {
-            "name": "Pharom Daethyra",
-            "race": "Vampire Elf",
-            "armor": 18,
-            "health": 144,
-            "maxHealth": 144,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/17206-vampire-warrior",
-            "template": false,
-            "initMod": 4
-        },
-        {
             "name": "Renna",
             "race": "Elf",
             "armor": 16,
@@ -209,52 +197,16 @@
             "initMod": 4
         },
         {
-            "name": "Hycis",
-            "race": "Elf",
-            "armor": 16,
-            "health": 105,
-            "maxHealth": 105,
-            "speed": 30,
+            "name": "Tin Soldier",
+            "race": "Small Construct",
+            "armor": 18,
+            "health": 27,
+            "maxHealth": 27,
+            "speed": 25,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2478220-hycis",
-            "template": false,
-            "initMod": 2
-        },
-        {
-            "name": "Wormspawn",
-            "race": "Undead",
-            "armor": 14,
-            "health": 76,
-            "maxHealth": 76,
-            "speed": 60,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2514300-wormspawn",
+            "link": "https://www.dndbeyond.com/monsters/1979811-tin-soldier",
             "template": true,
-            "initMod": 1
-        },
-        {
-            "name": "Boneclaw",
-            "race": "Large Undead",
-            "armor": 16,
-            "health": 127,
-            "maxHealth": 127,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/boneclaw",
-            "template": true,
-            "initMod": 1
-        },
-        {
-            "name": "Undead Soldier",
-            "race": "Elf (Undead)",
-            "armor": 17,
-            "health": 26,
-            "maxHealth": 26,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/undying-soldier",
-            "template": true,
-            "initMod": 1
+            "initMod": 0
         },
         {
             "name": "Vampire Paladin",
