@@ -197,16 +197,40 @@
             "initMod": 4
         },
         {
-            "name": "Tin Soldier",
-            "race": "Small Construct",
-            "armor": 18,
-            "health": 27,
-            "maxHealth": 27,
-            "speed": 25,
+            "name": "Wormspawn",
+            "race": "Undead",
+            "armor": 14,
+            "health": 76,
+            "maxHealth": 76,
+            "speed": 60,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1979811-tin-soldier",
+            "link": "https://www.dndbeyond.com/monsters/2514300-wormspawn",
             "template": true,
-            "initMod": 0
+            "initMod": 1
+        },
+        {
+            "name": "Arbane",
+            "race": "Elf",
+            "armor": 15,
+            "health": 110,
+            "maxHealth": 110,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560883-necromancer-wizard",
+            "template": false,
+            "initMod": 2
+        },
+        {
+            "name": "Estelar",
+            "race": "Elf",
+            "armor": 15,
+            "health": 110,
+            "maxHealth": 110,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560943-transmuter-wizard",
+            "template": false,
+            "initMod": 2
         },
         {
             "name": "Vampire Paladin",
