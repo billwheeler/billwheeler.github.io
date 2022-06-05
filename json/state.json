@@ -209,30 +209,6 @@
             "initMod": 1
         },
         {
-            "name": "Arbane",
-            "race": "Elf",
-            "armor": 15,
-            "health": 110,
-            "maxHealth": 110,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560883-necromancer-wizard",
-            "template": false,
-            "initMod": 2
-        },
-        {
-            "name": "Estelar",
-            "race": "Elf",
-            "armor": 15,
-            "health": 110,
-            "maxHealth": 110,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560943-transmuter-wizard",
-            "template": false,
-            "initMod": 2
-        },
-        {
             "name": "Vampire Paladin",
             "race": "Elf (Undead)",
             "armor": 20,
@@ -242,34 +218,79 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/277918-dezmyr-shadowdusk",
             "template": true,
-            "initMod": 0,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                }
-            ]
+            "initMod": 0
+        },
+        {
+            "name": "Githyanki Warrior",
+            "race": "Githyanki",
+            "armor": 17,
+            "health": 49,
+            "maxHealth": 49,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17149-githyanki-warrior",
+            "template": true,
+            "initMod": 2
+        },
+        {
+            "name": "Githyanki Knight",
+            "race": "Githyanki",
+            "armor": 18,
+            "health": 91,
+            "maxHealth": 91,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17150-githyanki-knight",
+            "template": true,
+            "initMod": 2
+        },
+        {
+            "name": "Githyanki Gish",
+            "race": "Githyanki",
+            "armor": 17,
+            "health": 130,
+            "maxHealth": 130,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560828-githyanki-gish",
+            "template": true,
+            "initMod": 2
+        },
+        {
+            "name": "Githyanki Kith’rak",
+            "race": "Githyanki",
+            "armor": 18,
+            "health": 180,
+            "maxHealth": 180,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560829-githyanki-kithrak",
+            "template": true,
+            "initMod": 3
+        },
+        {
+            "name": "Githyanki Surpeme Commander",
+            "race": "Githyanki",
+            "armor": 18,
+            "health": 187,
+            "maxHealth": 187,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560830-githyanki-supreme-commander",
+            "template": true,
+            "initMod": 3
+        },
+        {
+            "name": "Larva Mage",
+            "race": "Aberration",
+            "armor": 16,
+            "health": 168,
+            "maxHealth": 168,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560924-star-spawn-larva-mage",
+            "template": true,
+            "initMod": 1
         }
     ],
     "players": [
