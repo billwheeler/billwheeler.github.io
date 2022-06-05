@@ -291,6 +291,18 @@
             "link": "https://www.dndbeyond.com/monsters/2560924-star-spawn-larva-mage",
             "template": true,
             "initMod": 1
+        },
+        {
+            "name": "Shadow Demon",
+            "race": "Fiend (Demon)",
+            "armor": 13,
+            "health": 66,
+            "maxHealth": 66,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17131-shadow-demon",
+            "template": true,
+            "initMod": 3
         }
     ],
     "players": [
