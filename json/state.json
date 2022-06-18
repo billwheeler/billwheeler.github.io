@@ -197,18 +197,6 @@
             "initMod": 4
         },
         {
-            "name": "Wormspawn",
-            "race": "Undead",
-            "armor": 14,
-            "health": 76,
-            "maxHealth": 76,
-            "speed": 60,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2514300-wormspawn",
-            "template": true,
-            "initMod": 1
-        },
-        {
             "name": "Vampire Paladin",
             "race": "Elf (Undead)",
             "armor": 20,
@@ -281,18 +269,6 @@
             "initMod": 3
         },
         {
-            "name": "Larva Mage",
-            "race": "Aberration",
-            "armor": 16,
-            "health": 168,
-            "maxHealth": 168,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560924-star-spawn-larva-mage",
-            "template": true,
-            "initMod": 1
-        },
-        {
             "name": "Shadow Demon",
             "race": "Fiend (Demon)",
             "armor": 13,
@@ -301,6 +277,30 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/17131-shadow-demon",
+            "template": true,
+            "initMod": 3
+        },
+        {
+            "name": "Ghast Group",
+            "race": "Undead",
+            "armor": 13,
+            "health": 234,
+            "maxHealth": 234,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/16870-ghast",
+            "template": true,
+            "initMod": 3
+        },
+        {
+            "name": "Alip",
+            "race": "Undead",
+            "armor": 16,
+            "health": 120,
+            "maxHealth": 120,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560718-allip",
             "template": true,
             "initMod": 3
         }
