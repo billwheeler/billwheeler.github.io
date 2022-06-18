@@ -269,6 +269,18 @@
             "initMod": 3
         },
         {
+            "name": "Adult Red Dragon",
+            "race": "Dragon",
+            "armor": 19,
+            "health": 256,
+            "maxHealth": 256,
+            "speed": 80,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560718-allip",
+            "template": true,
+            "initMod": 0
+        },
+        {
             "name": "Shadow Demon",
             "race": "Fiend (Demon)",
             "armor": 13,
