@@ -185,30 +185,6 @@
             ]
         },
         {
-            "name": "Renna",
-            "race": "Elf",
-            "armor": 16,
-            "health": 84,
-            "maxHealth": 84,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2478207-renna",
-            "template": false,
-            "initMod": 4
-        },
-        {
-            "name": "Vampire Paladin",
-            "race": "Elf (Undead)",
-            "armor": 20,
-            "health": 180,
-            "maxHealth": 180,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/277918-dezmyr-shadowdusk",
-            "template": true,
-            "initMod": 0
-        },
-        {
             "name": "Githyanki Warrior",
             "race": "Githyanki",
             "armor": 17,
@@ -276,7 +252,7 @@
             "maxHealth": 256,
             "speed": 80,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560718-allip",
+            "link": "https://www.dndbeyond.com/monsters/16771-adult-red-dragon",
             "template": true,
             "initMod": 0
         },
@@ -293,28 +269,28 @@
             "initMod": 3
         },
         {
-            "name": "Ghast Group",
-            "race": "Undead",
-            "armor": 13,
-            "health": 234,
-            "maxHealth": 234,
+            "name": "Grey Render",
+            "race": "Large Monstrosity",
+            "armor": 19,
+            "health": 189,
+            "maxHealth": 189,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/16870-ghast",
+            "link": "https://www.dndbeyond.com/monsters/2560836-gray-render",
             "template": true,
-            "initMod": 3
+            "initMod": 1
         },
         {
-            "name": "Alip",
-            "race": "Undead",
-            "armor": 16,
-            "health": 120,
-            "maxHealth": 120,
+            "name": "Quasrun Ashcaller",
+            "race": "White Abishai",
+            "armor": 20,
+            "health": 139,
+            "maxHealth": 139,
             "speed": 60,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560718-allip",
-            "template": true,
-            "initMod": 3
+            "link": "https://www.dndbeyond.com/monsters/2692523-quasrun-ashcaller",
+            "template": false,
+            "initMod": 5
         }
     ],
     "players": [
