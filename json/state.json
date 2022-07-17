@@ -47,216 +47,6 @@
             ]
         },
         {
-            "name": "Mad Maggie",
-            "health": 195,
-            "maxHealth": 195,
-            "armor": 19,
-            "speed": 30,
-            "race": "Medium Fey",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1259913-mad-maggie",
-            "initMod": 4,
-            "template": false,
-            "visible": true,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Eight Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Nineth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Nambria",
-            "race": "Archfey",
-            "armor": 19,
-            "health": 615,
-            "maxHealth": 615,
-            "speed": 35,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2441242-nambria",
-            "template": false,
-            "initMod": 4,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 5,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Eight Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Nineth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Tralar Mystralath",
-            "race": "Winter Eladrin (Undead)",
-            "armor": 16,
-            "health": 153,
-            "maxHealth": 153,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/characters/71684309",
-            "template": false,
-            "initMod": 4,
-            "spells": [
-                {
-                    "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Githyanki Warrior",
-            "race": "Githyanki",
-            "armor": 17,
-            "health": 49,
-            "maxHealth": 49,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/17149-githyanki-warrior",
-            "template": true,
-            "initMod": 2
-        },
-        {
-            "name": "Githyanki Knight",
-            "race": "Githyanki",
-            "armor": 18,
-            "health": 91,
-            "maxHealth": 91,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/17150-githyanki-knight",
-            "template": true,
-            "initMod": 2
-        },
-        {
-            "name": "Githyanki Gish",
-            "race": "Githyanki",
-            "armor": 17,
-            "health": 130,
-            "maxHealth": 130,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560828-githyanki-gish",
-            "template": true,
-            "initMod": 2
-        },
-        {
-            "name": "Githyanki Kith’rak",
-            "race": "Githyanki",
-            "armor": 18,
-            "health": 180,
-            "maxHealth": 180,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560829-githyanki-kithrak",
-            "template": true,
-            "initMod": 3
-        },
-        {
-            "name": "Githyanki Surpeme Commander",
-            "race": "Githyanki",
-            "armor": 18,
-            "health": 187,
-            "maxHealth": 187,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560830-githyanki-supreme-commander",
-            "template": true,
-            "initMod": 3
-        },
-        {
-            "name": "Adult Red Dragon",
-            "race": "Dragon",
-            "armor": 19,
-            "health": 256,
-            "maxHealth": 256,
-            "speed": 80,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/16771-adult-red-dragon",
-            "template": true,
-            "initMod": 0
-        },
-        {
             "name": "Shadow Demon",
             "race": "Fiend (Demon)",
             "armor": 13,
@@ -269,28 +59,28 @@
             "initMod": 3
         },
         {
-            "name": "Grey Render",
-            "race": "Large Monstrosity",
-            "armor": 19,
-            "health": 189,
-            "maxHealth": 189,
+            "name": "Sarre'i",
+            "race": "Githyanki",
+            "armor": 17,
+            "health": 130,
+            "maxHealth": 130,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560836-gray-render",
-            "template": true,
-            "initMod": 1
+            "link": "https://www.dndbeyond.com/monsters/2560828-githyanki-gish",
+            "template": false,
+            "initMod": 2
         },
         {
-            "name": "Quasrun Ashcaller",
-            "race": "White Abishai",
-            "armor": 20,
-            "health": 139,
-            "maxHealth": 139,
-            "speed": 60,
+            "name": "Coalescent Aboleth",
+            "race": "Aboleth",
+            "armor": 19,
+            "health": 449,
+            "maxHealth": 449,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2692523-quasrun-ashcaller",
+            "link": "https://www.dndbeyond.com/monsters/2441390-coalescent-aboleth",
             "template": false,
-            "initMod": 5
+            "initMod": 1
         }
     ],
     "players": [
