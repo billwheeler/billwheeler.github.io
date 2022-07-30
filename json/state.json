@@ -71,16 +71,76 @@
             "initMod": 2
         },
         {
-            "name": "Coalescent Aboleth",
-            "race": "Aboleth",
-            "armor": 19,
-            "health": 449,
-            "maxHealth": 449,
+            "name": "Bulgreck",
+            "health": 292,
+            "maxHealth": 292,
+            "armor": 18,
+            "speed": 30,
+            "race": "Medium Fey",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2774465-bulgreck",
+            "initMod": 2,
+            "template": false,
+            "visible": true,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Eight Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Nineth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Plesiosaurus",
+            "race": "Large Beast",
+            "armor": 13,
+            "health": 68,
+            "maxHealth": 68,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2441390-coalescent-aboleth",
-            "template": false,
-            "initMod": 1
+            "link": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+            "template": true,
+            "initMod": 2
         }
     ],
     "players": [
