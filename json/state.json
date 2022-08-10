@@ -71,74 +71,26 @@
             "initMod": 2
         },
         {
-            "name": "Bulgreck",
-            "health": 292,
-            "maxHealth": 292,
+            "name": "Barb Captain",
+            "race": "Halfling",
             "armor": 18,
-            "speed": 30,
-            "race": "Medium Fey",
+            "health": 135,
+            "maxHealth": 135,
+            "speed": 25,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2774465-bulgreck",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Seventh Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Eight Level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "Nineth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
+            "link": "https://www.dndbeyond.com/monsters/2806555-barb-captain",
+            "template": true,
+            "initMod": 2
         },
         {
-            "name": "Plesiosaurus",
-            "race": "Large Beast",
-            "armor": 13,
-            "health": 68,
-            "maxHealth": 68,
-            "speed": 30,
+            "name": "Barb",
+            "race": "Halfling",
+            "armor": 16,
+            "health": 82,
+            "maxHealth": 82,
+            "speed": 25,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+            "link": "https://www.dndbeyond.com/monsters/2806495-barb",
             "template": true,
             "initMod": 2
         }
