@@ -278,6 +278,30 @@
             "initMod": 8
         },
         {
+            "name": "Bago",
+            "race": "Medium Fey",
+            "armor": 16,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251176-harengon-warrior",
+            "template": false,
+            "initMod": 8
+        },
+        {
+            "name": "Gresys",
+            "race": "Medium Fey",
+            "armor": 16,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251176-harengon-warrior",
+            "template": false,
+            "initMod": 8
+        },
+        {
             "name": "Hybsil",
             "race": "Medium Fey",
             "armor": 17,
