@@ -71,28 +71,223 @@
             "initMod": 2
         },
         {
-            "name": "Barb Captain",
-            "race": "Halfling",
-            "armor": 18,
-            "health": 135,
-            "maxHealth": 135,
-            "speed": 25,
+            "name": "Mat'Selesnya",
+            "race": "Archfey",
+            "armor": 17,
+            "health": 252,
+            "maxHealth": 252,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2806555-barb-captain",
+            "link": "https://www.dndbeyond.com/monsters/176270-trostani",
+            "template": false,
+            "initMod": 2
+        },
+        {
+            "name": "Plesiosaurus",
+            "race": "Large Beast",
+            "armor": 13,
+            "health": 63,
+            "maxHealth": 63,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
             "template": true,
             "initMod": 2
         },
         {
-            "name": "Barb",
-            "race": "Halfling",
-            "armor": 16,
-            "health": 82,
-            "maxHealth": 82,
-            "speed": 25,
+            "name": "Normo",
+            "race": "Crew",
+            "armor": 17,
+            "health": 58,
+            "maxHealth": 58,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2806495-barb",
+            "link": "https://www.dndbeyond.com/monsters/17045-veteran",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Selene",
+            "race": "Crew",
+            "armor": 17,
+            "health": 58,
+            "maxHealth": 58,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17045-veteran",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Elroy",
+            "race": "Crew",
+            "armor": 17,
+            "health": 58,
+            "maxHealth": 58,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17045-veteran",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Dak",
+            "race": "Crew",
+            "armor": 17,
+            "health": 58,
+            "maxHealth": 58,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17045-veteran",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Gerdonk",
+            "race": "Crew",
+            "armor": 17,
+            "health": 58,
+            "maxHealth": 58,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17045-veteran",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Geronimo",
+            "race": "Crew",
+            "armor": 17,
+            "health": 58,
+            "maxHealth": 58,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17045-veteran",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Sarjeon",
+            "race": "Medium Fey",
+            "armor": 16,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251176-harengon-warrior",
+            "template": false,
+            "initMod": 8
+        },
+        {
+            "name": "Robur",
+            "health": 84,
+            "maxHealth": 84,
+            "armor": 18,
+            "speed": 30,
+            "race": "Medium Fey",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251059-robur",
+            "initMod": 7,
+            "template": false,
+            "visible": true,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Maben",
+            "race": "Medium Fey",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251125-maben",
+            "template": false,
+            "initMod": 7
+        },
+        {
+            "name": "Lernot",
+            "health": 63,
+            "maxHealth": 63,
+            "armor": 15,
+            "speed": 30,
+            "race": "Medium Fey",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251156-lernot",
+            "initMod": 7,
+            "template": false,
+            "visible": true,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Balnan",
+            "race": "Medium Fey",
+            "armor": 16,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251176-harengon-warrior",
+            "template": false,
+            "initMod": 8
+        },
+        {
+            "name": "Hybsil",
+            "race": "Medium Fey",
+            "armor": 17,
+            "health": 127,
+            "maxHealth": 127,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2251009-hybsil",
             "template": true,
-            "initMod": 2
+            "initMod": 1
         }
     ],
     "players": [
@@ -126,5 +321,130 @@
         }
     ],
     "vehicles": [
+        {
+            "name": "SS Clydebank",
+            "type": "Sailing Ship",
+            "components": [
+                {
+                    "name": "Hull",
+                    "armor": 15,
+                    "health": 300,
+                    "maxHealth": 300,
+                    "threshold": 15
+                },
+                {
+                    "name": "Helm",
+                    "armor": 18,
+                    "health": 50,
+                    "maxHealth": 50
+                },
+                {
+                    "name": "Sails",
+                    "armor": 12,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "speed": 35,
+                    "decrement": 10,
+                    "stages": 4
+                },
+                {
+                    "name": "Ballista",
+                    "armor": 15,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 6,
+                    "attackRoll": "3d10",
+                    "attackRange": "120/480",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Mangonel",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                }
+            ],
+            "link": "https://www.dndbeyond.com/vehicles/sailing-ship"
+        },
+        {
+            "name": "The Scowling Stomper",
+            "type": "Warship",
+            "components": [
+                {
+                    "name": "Hull",
+                    "armor": 15,
+                    "health": 500,
+                    "maxHealth": 500,
+                    "threshold": 20
+                },
+                {
+                    "name": "Helm",
+                    "armor": 18,
+                    "health": 50,
+                    "maxHealth": 50
+                },
+                {
+                    "name": "Sails",
+                    "armor": 12,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "speed": 35,
+                    "decrement": 10,
+                    "stages": 4
+                },
+                {
+                    "name": "Forecastle Ballista",
+                    "armor": 15,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 6,
+                    "attackRoll": "3d10",
+                    "attackRange": "120/480",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Quarterdeck Ballista",
+                    "armor": 15,
+                    "health": 50,
+                    "maxHealth": 50,
+                    "attackToHit": 6,
+                    "attackRoll": "3d10",
+                    "attackRange": "120/480",
+                    "attackDamage": "piercing"
+                },
+                {
+                    "name": "Bow Mangonel",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Aft Mangonel",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Naval Ram",
+                    "armor": 20,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "threshold": 10
+                }
+            ],
+            "link": "https://www.dndbeyond.com/vehicles/warship"
+        }
     ]
 }
