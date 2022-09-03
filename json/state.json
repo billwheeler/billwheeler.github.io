@@ -98,18 +98,6 @@
             "initMod": 1
         },
         {
-            "name": "The Dollhouse",
-            "race": "Archfey",
-            "armor": 17,
-            "health": 90,
-            "maxHealth": 90,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560722-annis-hag",
-            "template": false,
-            "initMod": 1
-        },
-        {
             "name": "The Hairbrush",
             "race": "Archfey",
             "armor": 17,
