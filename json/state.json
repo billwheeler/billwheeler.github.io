@@ -18,12 +18,13 @@
                 }
             ],
             "spells": [],
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/monsters/nightmare",
             "image": "",
             "initMod": 0,
             "template": false,
-            "visible": true
+            "visible": true,
+            "initiative": 18
         },
         {
             "name": "Swarm of Weasels",
@@ -62,25 +63,53 @@
             "name": "Sarre'i",
             "race": "Githyanki",
             "armor": 17,
-            "health": 130,
+            "health": 111,
             "maxHealth": 130,
             "speed": 30,
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/monsters/2560828-githyanki-gish",
             "template": false,
-            "initMod": 2
+            "initMod": 2,
+            "initiative": 20
         },
         {
             "name": "Mat'Selesnya",
             "race": "Archfey",
             "armor": 17,
-            "health": 252,
+            "health": 111,
             "maxHealth": 252,
             "speed": 30,
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/monsters/176270-trostani",
             "template": false,
-            "initMod": 2
+            "initMod": 2,
+            "initiative": 21
+        },
+        {
+            "name": "Snek 1",
+            "race": "Large Beast",
+            "armor": 13,
+            "health": 46,
+            "maxHealth": 63,
+            "speed": 30,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+            "template": true,
+            "initMod": 2,
+            "initiative": 12
+        },
+        {
+            "name": "Snek 2",
+            "race": "Large Beast",
+            "armor": 13,
+            "health": 37,
+            "maxHealth": 63,
+            "speed": 30,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+            "template": true,
+            "initMod": 2,
+            "initiative": 11
         },
         {
             "name": "Plesiosaurus",
@@ -253,30 +282,34 @@
         {
             "name": "Fionula Copperkettle",
             "player": "Casey",
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
-            "visible": true
+            "visible": true,
+            "initiative": 17
         },
         {
             "name": "Malbraxys",
             "player": "Mike",
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845",
-            "visible": true
+            "visible": true,
+            "initiative": 23
         },
         {
             "name": "Sulyman Quantarius Zornastica Mushkin",
             "player": "Eric",
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328",
-            "visible": true
+            "visible": true,
+            "initiative": 19
         },
         {
             "name": "Tenraja Hurazan",
             "player": "Jesse",
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564",
-            "visible": true
+            "visible": true,
+            "initiative": 22
         }
     ],
     "vehicles": [
