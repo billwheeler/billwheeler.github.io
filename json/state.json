@@ -18,13 +18,11 @@
                 }
             ],
             "spells": [],
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/nightmare",
-            "image": "",
             "initMod": 0,
             "template": false,
-            "visible": true,
-            "initiative": 18
+            "visible": true
         },
         {
             "name": "Swarm of Weasels",
@@ -63,101 +61,200 @@
             "name": "Sarre'i",
             "race": "Githyanki",
             "armor": 17,
-            "health": 111,
+            "health": 130,
             "maxHealth": 130,
             "speed": 30,
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/2560828-githyanki-gish",
             "template": false,
-            "initMod": 2,
-            "initiative": 20
+            "initMod": 2
         },
         {
-            "name": "Mat'Selesnya",
-            "race": "Archfey",
+            "name": "Fionula Copperkettle",
+            "race": "Halfling",
             "armor": 17,
-            "health": 111,
-            "maxHealth": 252,
-            "speed": 30,
-            "state": "encounter",
-            "link": "https://www.dndbeyond.com/monsters/176270-trostani",
+            "health": 162,
+            "maxHealth": 162,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/characters/83775637",
             "template": false,
-            "initMod": 2,
-            "initiative": 21
+            "initMod": 13,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Eigth Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Nineth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
         },
         {
-            "name": "The Dollhouse",
-            "race": "Archfey",
-            "armor": 17,
-            "health": 90,
-            "maxHealth": 90,
+            "name": "Kas, the Bloody Handed",
+            "race": "Undead, Vampire",
+            "armor": 22,
+            "health": 560,
+            "maxHealth": 560,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/1258388-kas-the-betrayer",
+            "template": false,
+            "initMod": 11,
+            "spells": [
+                {
+                    "name": "Legendary Resistance (3/day)",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Legendary Actions (3/round)",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Igoneth",
+            "race": "Fiend (Demon)",
+            "armor": 18,
+            "health": 143,
+            "maxHealth": 143,
             "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560722-annis-hag",
+            "link": "https://www.dndbeyond.com/monsters/16952-marilith",
             "template": false,
-            "initMod": 1
+            "initMod": 5
         },
         {
-            "name": "The Hairbrush",
-            "race": "Archfey",
-            "armor": 17,
-            "health": 91,
-            "maxHealth": 91,
-            "speed": 50,
+            "name": "Armanite",
+            "race": "Fiend (Demon)",
+            "armor": 16,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 60,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560738-bheur-hag",
-            "template": false,
+            "link": "https://www.dndbeyond.com/monsters/94186-armanite",
+            "template": true,
+            "initMod": 4
+        },
+        {
+            "name": "Gloamwing",
+            "race": "Undead",
+            "armor": 16,
+            "health": 67,
+            "maxHealth": 67,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/175397-gloamwing",
+            "template": true,
             "initMod": 3
         },
         {
-            "name": "The Mirror",
-            "race": "Archfey",
+            "name": "Specter",
+            "race": "Undead",
             "armor": 17,
-            "health": 82,
-            "maxHealth": 82,
+            "health": 78,
+            "maxHealth": 78,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/486313-dusk-hag",
+            "link": "https://www.dndbeyond.com/monsters/175405-nightveil-specter",
+            "template": true,
+            "initMod": 4
+        },
+        {
+            "name": "Garinuakt",
+            "race": "Alhoon (Undead)",
+            "armor": 15,
+            "health": 93,
+            "maxHealth": 93,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17282-alhoon",
             "template": false,
-            "initMod": 2
+            "initMod": 1,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
         },
         {
-            "name": "Snek 1",
-            "race": "Large Beast",
-            "armor": 13,
-            "health": 46,
-            "maxHealth": 63,
-            "speed": 30,
-            "state": "encounter",
-            "link": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
-            "template": true,
-            "initMod": 2,
-            "initiative": 12
-        },
-        {
-            "name": "Snek 2",
-            "race": "Large Beast",
-            "armor": 13,
-            "health": 37,
-            "maxHealth": 63,
-            "speed": 30,
-            "state": "encounter",
-            "link": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
-            "template": true,
-            "initMod": 2,
-            "initiative": 11
-        },
-        {
-            "name": "Plesiosaurus",
-            "race": "Large Beast",
-            "armor": 13,
-            "health": 63,
-            "maxHealth": 63,
+            "name": "Whistler",
+            "race": "Aberration",
+            "armor": 15,
+            "health": 104,
+            "maxHealth": 104,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/16981-plesiosaurus",
+            "link": "https://www.dndbeyond.com/monsters/2739106-whistler",
             "template": true,
-            "initMod": 2
+            "initMod": 4
         },
         {
             "name": "Normo",
@@ -331,34 +428,30 @@
         {
             "name": "Fionula Copperkettle",
             "player": "Casey",
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
-            "visible": true,
-            "initiative": 17
+            "visible": true
         },
         {
             "name": "Malbraxys",
             "player": "Mike",
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845",
-            "visible": true,
-            "initiative": 23
+            "visible": true
         },
         {
             "name": "Sulyman Quantarius Zornastica Mushkin",
             "player": "Eric",
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328",
-            "visible": true,
-            "initiative": 19
+            "visible": true
         },
         {
             "name": "Tenraja Hurazan",
             "player": "Jesse",
-            "state": "encounter",
+            "state": "alive",
             "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564",
-            "visible": true,
-            "initiative": 22
+            "visible": true
         }
     ],
     "vehicles": [
