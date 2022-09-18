@@ -58,6 +58,18 @@
             "initMod": 3
         },
         {
+            "name": "Dhastha",
+            "race": "Spirit Naga",
+            "armor": 15,
+            "health": 75,
+            "maxHealth": 75,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17019-spirit-naga",
+            "template": false,
+            "initMod": 3
+        },
+        {
             "name": "Mouse Death",
             "race": "Fey Cat Man",
             "armor": 17,
