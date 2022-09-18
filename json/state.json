@@ -58,6 +58,18 @@
             "initMod": 3
         },
         {
+            "name": "Mouse Death",
+            "race": "Fey Cat Man",
+            "armor": 17,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 35,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2913297-mouse-death",
+            "template": false,
+            "initMod": 5
+        },
+        {
             "name": "Sarre'i",
             "race": "Githyanki",
             "armor": 17,
