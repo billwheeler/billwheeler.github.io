@@ -388,7 +388,7 @@
             "link": "https://www.dndbeyond.com/monsters/2251059-pyroclast-cleric",
             "initMod": 3,
             "template": true,
-            "visible": true,
+            "visible": false,
             "spells": [
                 {
                     "name": "Touch of Death (3/day)",
@@ -433,7 +433,7 @@
             "link": "https://www.dndbeyond.com/monsters/2251125-pyroclast-rogue",
             "initMod": 5,
             "template": true,
-            "visible": true
+            "visible": false
         },
         {
             "name": "Pyroclast Warrior",
@@ -446,7 +446,7 @@
             "link": "https://www.dndbeyond.com/monsters/2251176-pyroclast-warrior",
             "initMod": 5,
             "template": true,
-            "visible": true
+            "visible": false
         },
         {
             "name": "Pyroclast Brute",
