@@ -18,11 +18,12 @@
                 }
             ],
             "spells": [],
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/monsters/nightmare",
             "initMod": 0,
             "template": false,
-            "visible": true
+            "visible": true,
+            "initiative": 3
         },
         {
             "name": "Swarm of Weasels",
@@ -58,57 +59,50 @@
             "initMod": 3
         },
         {
-            "name": "Dhastha",
-            "race": "Spirit Naga",
-            "armor": 15,
-            "health": 75,
-            "maxHealth": 75,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/17019-spirit-naga",
-            "template": false,
-            "initMod": 3
-        },
-        {
             "name": "Mouse Death",
             "race": "Fey Cat Man",
             "armor": 17,
             "health": 78,
             "maxHealth": 78,
             "speed": 35,
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/monsters/2913297-mouse-death",
             "template": false,
-            "initMod": 5
+            "initMod": 5,
+            "initiative": 19
         },
         {
             "name": "Sarre'i",
             "race": "Githyanki",
             "armor": 17,
-            "health": 130,
+            "health": 101,
             "maxHealth": 130,
             "speed": 30,
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/monsters/2560828-githyanki-gish",
             "template": false,
-            "initMod": 2
+            "visible": true,
+            "initMod": 2,
+            "initiative": 12
         },
         {
             "name": "Fionula Copperkettle",
             "race": "Halfling",
             "armor": 17,
-            "health": 162,
+            "health": 47,
             "maxHealth": 162,
             "speed": 25,
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/characters/83775637",
             "template": false,
             "initMod": 13,
+            "initiative": 2,
+            "visible": true,
             "spells": [
                 {
                     "name": "First Level",
                     "slots": 4,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Second Level",
@@ -128,7 +122,7 @@
                 {
                     "name": "Fifth Level",
                     "slots": 3,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Sixth Level",
@@ -153,21 +147,22 @@
             ]
         },
         {
-            "name": "Kas, the Bloody Handed",
+            "name": "Kas!",
             "race": "Undead, Vampire",
-            "armor": 22,
-            "health": 560,
-            "maxHealth": 560,
-            "speed": 60,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1258388-kas-the-betrayer",
+            "armor": 20,
+            "health": 190,
+            "maxHealth": 190,
+            "speed": 30,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/2933420-kas-the-bloody-handed",
             "template": false,
             "initMod": 11,
+            "initiative": 25,
             "spells": [
                 {
                     "name": "Legendary Resistance (3/day)",
                     "slots": 3,
-                    "used": 0
+                    "used": 1
                 },
                 {
                     "name": "Legendary Actions (3/round)",
@@ -201,6 +196,48 @@
             "initMod": 4
         },
         {
+            "name": "Armanite #2",
+            "race": "Fiend (Demon)",
+            "armor": 16,
+            "health": 24,
+            "maxHealth": 78,
+            "speed": 60,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/94186-armanite",
+            "template": false,
+            "initMod": 4,
+            "visible": true,
+            "initiative": 9
+        },
+        {
+            "name": "Armanite #3",
+            "race": "Fiend (Demon)",
+            "armor": 16,
+            "health": 32,
+            "maxHealth": 78,
+            "speed": 60,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/94186-armanite",
+            "template": false,
+            "initMod": 4,
+            "visible": true,
+            "initiative": 8
+        },
+        {
+            "name": "Armanite #4",
+            "race": "Fiend (Demon)",
+            "armor": 16,
+            "health": 39,
+            "maxHealth": 78,
+            "speed": 60,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/94186-armanite",
+            "template": false,
+            "initMod": 4,
+            "visible": true,
+            "initiative": 17
+        },
+        {
             "name": "Gloamwing",
             "race": "Undead",
             "armor": 16,
@@ -213,60 +250,46 @@
             "initMod": 3
         },
         {
-            "name": "Specter",
+            "name": "Gloamwing #1",
             "race": "Undead",
-            "armor": 17,
-            "health": 78,
-            "maxHealth": 78,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/175405-nightveil-specter",
-            "template": true,
-            "initMod": 4
+            "armor": 16,
+            "health": 67,
+            "maxHealth": 67,
+            "speed": 60,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/175397-gloamwing",
+            "template": false,
+            "initMod": 3,
+            "visible": true,
+            "initiative": 11
         },
         {
-            "name": "Garinuakt",
-            "race": "Alhoon (Undead)",
-            "armor": 15,
-            "health": 93,
-            "maxHealth": 93,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/17282-alhoon",
+            "name": "Gloamwing #2",
+            "race": "Undead",
+            "armor": 16,
+            "health": 67,
+            "maxHealth": 67,
+            "speed": 60,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/175397-gloamwing",
             "template": false,
-            "initMod": 1,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
+            "initMod": 3,
+            "visible": true,
+            "initiative": 18
+        },
+        {
+            "name": "Gloamwing #3",
+            "race": "Undead",
+            "armor": 16,
+            "health": 67,
+            "maxHealth": 67,
+            "speed": 60,
+            "state": "encounter",
+            "link": "https://www.dndbeyond.com/monsters/175397-gloamwing",
+            "template": false,
+            "initMod": 3,
+            "visible": true,
+            "initiative": 21
         },
         {
             "name": "Whistler",
@@ -354,8 +377,8 @@
         },
         {
             "name": "Pyroclast Cleric",
-            "health": 91,
-            "maxHealth": 91,
+            "health": 78,
+            "maxHealth": 78,
             "armor": 18,
             "speed": 30,
             "race": "Medium Fey",
@@ -399,8 +422,8 @@
         },
         {
             "name": "Pyroclast Rogue",
-            "health": 93,
-            "maxHealth": 93,
+            "health": 73,
+            "maxHealth": 73,
             "armor": 17,
             "speed": 30,
             "race": "Medium Fey",
@@ -412,8 +435,8 @@
         },
         {
             "name": "Pyroclast Warrior",
-            "health": 116,
-            "maxHealth": 116,
+            "health": 86,
+            "maxHealth": 86,
             "armor": 18,
             "speed": 30,
             "race": "Medium Fey",
@@ -422,6 +445,78 @@
             "initMod": 5,
             "template": true,
             "visible": true
+        },
+        {
+            "name": "Pyroclast Brute",
+            "armor": 17,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2933261-pyroclast-brute",
+            "template": true,
+            "initMod": 1
+        },
+        {
+            "name": "Pyroclast Mage",
+            "armor": 15,
+            "health": 66,
+            "maxHealth": 66,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2933274-pyroclast-mage",
+            "template": true,
+            "initMod": 2,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Pyroclast Warlock",
+            "armor": 15,
+            "health": 70,
+            "maxHealth": 70,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2933274-pyroclast-mage",
+            "template": true,
+            "initMod": 2,
+            "spells": [
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
         },
         {
             "name": "Bago",
@@ -434,48 +529,40 @@
             "link": "https://www.dndbeyond.com/monsters/2059693-ancient-dragon-turtle",
             "template": false,
             "initMod": 1
-        },
-        {
-            "name": "Hybsil",
-            "race": "Medium Fey",
-            "armor": 17,
-            "health": 127,
-            "maxHealth": 127,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2251009-hybsil",
-            "template": true,
-            "initMod": 1
         }
     ],
     "players": [
         {
             "name": "Fionula Copperkettle",
             "player": "Casey",
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
-            "visible": true
+            "visible": true,
+            "initiative": 10
         },
         {
             "name": "Malbraxys",
             "player": "Mike",
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845",
-            "visible": true
+            "visible": true,
+            "initiative": 30
         },
         {
             "name": "Sulyman Quantarius Zornastica Mushkin",
             "player": "Eric",
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328",
-            "visible": true
+            "visible": true,
+            "initiative": 13
         },
         {
             "name": "Tenraja Hurazan",
             "player": "Jesse",
-            "state": "alive",
+            "state": "encounter",
             "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564",
-            "visible": true
+            "visible": true,
+            "initiative": 24
         }
     ],
     "vehicles": [
