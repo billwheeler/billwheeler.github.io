@@ -69,7 +69,8 @@
             "link": "https://www.dndbeyond.com/monsters/2913297-mouse-death",
             "template": false,
             "initMod": 5,
-            "initiative": 19
+            "initiative": 19,
+            "visible": true
         },
         {
             "name": "Sarre'i",
@@ -158,6 +159,7 @@
             "template": false,
             "initMod": 11,
             "initiative": 25,
+            "visible": true,
             "spells": [
                 {
                     "name": "Legendary Resistance (3/day)",
