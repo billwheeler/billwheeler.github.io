@@ -96,7 +96,7 @@
             "state": "encounter",
             "link": "https://www.dndbeyond.com/characters/83775637",
             "template": false,
-            "initMod": 13,
+            "initMod": 2,
             "initiative": 2,
             "visible": true,
             "spells": [
@@ -163,7 +163,7 @@
                 {
                     "name": "First Level",
                     "slots": 4,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Second Level",
@@ -183,7 +183,7 @@
                 {
                     "name": "Fifth Level",
                     "slots": 1,
-                    "used": 1
+                    "used": 0
                 }
             ]
         },
@@ -203,7 +203,7 @@
                 {
                     "name": "First Level",
                     "slots": 4,
-                    "used": 1
+                    "used": 0
                 },
                 {
                     "name": "Second Level",
@@ -676,6 +676,43 @@
                 },
                 {
                     "name": "Mangonel",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                }
+            ],
+            "link": "https://www.dndbeyond.com/vehicles/sailing-ship"
+        },
+        {
+            "name": "Keltrak Pass Trap",
+            "type": "Base",
+            "components": [
+                {
+                    "name": "Cannon #1",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Cannon #2",
+                    "armor": 15,
+                    "health": 100,
+                    "maxHealth": 100,
+                    "attackToHit": 5,
+                    "attackRoll": "5d10",
+                    "attackRange": "200/800",
+                    "attackDamage": "bludgeoning"
+                },
+                {
+                    "name": "Cannon #3",
                     "armor": 15,
                     "health": 100,
                     "maxHealth": 100,
