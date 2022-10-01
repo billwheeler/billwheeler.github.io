@@ -148,6 +148,76 @@
             ]
         },
         {
+            "name": "Olaf Copperkettle",
+            "race": "Halfling",
+            "armor": 15,
+            "health": 117,
+            "maxHealth": 117,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17342-war-priest",
+            "template": false,
+            "initMod": 0,
+            "visible": true,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 1
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 1,
+                    "used": 1
+                }
+            ]
+        },
+        {
+            "name": "Dathon Copperkettle",
+            "race": "Halfling",
+            "armor": 17,
+            "health": 85,
+            "maxHealth": 85,
+            "speed": 25,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17429-black-earth-priest",
+            "template": false,
+            "initMod": 0,
+            "visible": true,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 1
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 2,
+                    "used": 0
+                }
+            ]
+        },
+        {
             "name": "Kas!",
             "race": "Undead, Vampire",
             "armor": 20,
