@@ -278,11 +278,11 @@ npc.prototype.rollInitiative = function () {
     this.state = CharacterState.Encounter
 
     if (this.group === 1) {
-        this.initiative = 17
-    } else if (this.group === 1) {
-        this.initiative = 13
-    } else if (this.group === 1) {
-        this.initiative = 8
+        this.initiative = 18
+    } else if (this.group === 2) {
+        this.initiative = 12
+    } else if (this.group === 3) {
+        this.initiative = 6
     } else {
         this.initiative = roll.d20() + this.initMod
     }
