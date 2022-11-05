@@ -22,8 +22,7 @@
             "initMod": 0,
             "template": false,
             "visible": true,
-            "state": "encounter",
-            "initiative": 11
+            "state": "alive"
         },
         {
             "name": "Swarm of Weasels",
@@ -55,8 +54,7 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/17131-shadow-demon",
-            "template": true,
-            "initMod": 3
+            "template": true
         },
         {
             "name": "Mouse Death",
@@ -69,8 +67,7 @@
             "template": false,
             "initMod": 5,
             "visible": true,
-            "state": "encounter",
-            "initiative": 14
+            "state": "alive"
         },
         {
             "name": "Sarre'i",
@@ -83,125 +80,7 @@
             "template": false,
             "visible": true,
             "initMod": 2,
-            "state": "encounter",
-            "initiative": 10
-        },
-        {
-            "name": "Normo",
-            "race": "Crew",
-            "armor": 14,
-            "health": 45,
-            "maxHealth": 45,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980919-crew-captain",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 12
-        },
-        {
-            "name": "Selene",
-            "race": "Crew",
-            "armor": 16,
-            "health": 36,
-            "maxHealth": 36,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980923-crew-experienced",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 3
-        },
-        {
-            "name": "Elroy",
-            "race": "Crew",
-            "armor": 15,
-            "health": 32,
-            "maxHealth": 32,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980939-crew-mage",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 7
-        },
-        {
-            "name": "Dak",
-            "race": "Crew",
-            "armor": 16,
-            "health": 36,
-            "maxHealth": 36,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980923-crew-experienced",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 9
-        },
-        {
-            "name": "Gerdonk",
-            "race": "Crew",
-            "armor": 17,
-            "health": 58,
-            "maxHealth": 58,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980995-crew-warrior",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 20
-        },
-        {
-            "name": "Geronimo",
-            "race": "Crew",
-            "armor": 12,
-            "health": 27,
-            "maxHealth": 27,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980927-crew-standard",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 16
-        },
-        {
-            "name": "Velmie",
-            "race": "Crew",
-            "armor": 12,
-            "health": 27,
-            "maxHealth": 27,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980927-crew-standard",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 5
-        },
-        {
-            "name": "Yigo",
-            "race": "Crew",
-            "armor": 12,
-            "health": 27,
-            "maxHealth": 27,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980927-crew-standard",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 13
-        },
-        {
-            "name": "Rexi",
-            "race": "Crew",
-            "armor": 15,
-            "health": 32,
-            "maxHealth": 32,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2980939-crew-mage",
-            "template": false,
-            "initMod": 1,
-            "state": "encounter",
-            "initiative": 18
+            "state": "alive"
         },
         {
             "name": "Pyroclast Cleric",
@@ -360,7 +239,7 @@
         },
         {
             "name": "Greater Chinnorid",
-            "race": "Gargantuan Fey",
+            "race": "Gargantuan Aberration",
             "armor": 15,
             "health": 490,
             "maxHealth": 490,
@@ -369,6 +248,93 @@
             "link": "https://www.dndbeyond.com/monsters/2983478-greater-chinnorid",
             "template": false,
             "initMod": 1
+        },
+        {
+            "name": "Cadaver Collector",
+            "race": "Large Construct",
+            "armor": 17,
+            "health": 189,
+            "maxHealth": 189,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560748-cadaver-collector",
+            "template": false,
+            "initMod": 2
+        },
+        {
+            "name": "Zombie",
+            "race": "Medium Undead",
+            "armor": 15,
+            "health": 97,
+            "maxHealth": 97,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/22571-greater-zombie",
+            "template": true,
+            "initMod": 0
+        },
+        {
+            "name": "G1 Magma Mephit",
+            "race": "Small Elemental",
+            "armor": 11,
+            "health": 22,
+            "maxHealth": 2,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/16948-magma-mephit",
+            "template": true,
+            "initMod": 1,
+            "group": 1
+        },
+        {
+            "name": "G2 Magma Mephit",
+            "race": "Small Elemental",
+            "armor": 11,
+            "health": 22,
+            "maxHealth": 2,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/16948-magma-mephit",
+            "template": true,
+            "initMod": 1,
+            "group": 2
+        },
+        {
+            "name": "G3 Magma Mephit",
+            "race": "Small Elemental",
+            "armor": 11,
+            "health": 22,
+            "maxHealth": 2,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/16948-magma-mephit",
+            "template": true,
+            "initMod": 1,
+            "group": 3
+        },
+        {
+            "name": "Dwarven Construct",
+            "race": "Huge Construct",
+            "armor": 18,
+            "health": 216,
+            "maxHealth": 216,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3037777-dwarven-construct",
+            "template": false,
+            "initMod": 3
+        },
+        {
+            "name": "Elysande Gracey",
+            "race": "Medium Human",
+            "armor": 21,
+            "health": 157,
+            "maxHealth": 157,
+            "speed": 65,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/characters/45505744",
+            "template": false,
+            "initMod": 9
         }
     ],
     "players": [
@@ -440,43 +406,6 @@
                 },
                 {
                     "name": "Mangonel",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                }
-            ],
-            "link": "https://www.dndbeyond.com/vehicles/sailing-ship"
-        },
-        {
-            "name": "Keltrak Pass Trap",
-            "type": "Base",
-            "components": [
-                {
-                    "name": "Cannon #1",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Cannon #2",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Cannon #3",
                     "armor": 15,
                     "health": 100,
                     "maxHealth": 100,

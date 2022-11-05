@@ -35,6 +35,7 @@ var npc = function () {
     this.conditions = null
     this.poisons = 0
     this.poisonDesc = ''
+    this.group = 0
 }
 
 npc.prototype.parse = function (json) {
@@ -141,6 +142,10 @@ npc.prototype.parse = function (json) {
     if (json.poisonDesc) {
         this.poisonDesc = json.poisonDesc
     }
+
+    if (json.group && Utils.isNumeric(json.group)) {
+        this.group = json.group
+    }
 }
 
 npc.prototype.serialize = function () {
@@ -182,7 +187,8 @@ npc.prototype.serialize = function () {
         visible: this.visible,
         conditions: this.conditions.serialize(),
         poisons: this.poisons,
-        poisonDesc: this.poisonDesc
+        poisonDesc: this.poisonDesc,
+        group: this.group
     }
 
     return out
@@ -270,7 +276,16 @@ npc.prototype.render = function () {
 
 npc.prototype.rollInitiative = function () {
     this.state = CharacterState.Encounter
-    this.initiative = roll.d20() + this.initMod
+
+    if (this.group === 1) {
+        this.initiative = 17
+    } else if (this.group === 1) {
+        this.initiative = 13
+    } else if (this.group === 1) {
+        this.initiative = 8
+    } else {
+        this.initiative = roll.d20() + this.initMod
+    }
 }
 
 npc.prototype.applyInitiative = function (initiative) {
@@ -318,7 +333,8 @@ npc.prototype.clone = function () {
         link: this.link,
         image: this.image,
         initMod: this.initMod,
-        visible: this.visible
+        visible: this.visible,
+        group: this.group
     })
 
     var weapons = []
