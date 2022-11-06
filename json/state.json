@@ -83,149 +83,6 @@
             "state": "alive"
         },
         {
-            "name": "Pyroclast Cleric",
-            "health": 78,
-            "maxHealth": 78,
-            "armor": 18,
-            "speed": 30,
-            "race": "Medium Fey",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2251059-pyroclast-cleric",
-            "initMod": 3,
-            "template": true,
-            "visible": false,
-            "spells": [
-                {
-                    "name": "Touch of Death (3/day)",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Pyroclast Rogue",
-            "health": 73,
-            "maxHealth": 73,
-            "armor": 17,
-            "speed": 30,
-            "race": "Medium Fey",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2251125-pyroclast-rogue",
-            "initMod": 5,
-            "template": true,
-            "visible": false
-        },
-        {
-            "name": "Pyroclast Warrior",
-            "health": 86,
-            "maxHealth": 86,
-            "armor": 18,
-            "speed": 30,
-            "race": "Medium Fey",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2251176-pyroclast-warrior",
-            "initMod": 5,
-            "template": true,
-            "visible": false
-        },
-        {
-            "name": "Pyroclast Brute",
-            "armor": 17,
-            "health": 97,
-            "maxHealth": 97,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2933261-pyroclast-brute",
-            "template": true,
-            "initMod": 1
-        },
-        {
-            "name": "Pyroclast Mage",
-            "armor": 15,
-            "health": 66,
-            "maxHealth": 66,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2933274-pyroclast-mage",
-            "template": true,
-            "initMod": 2,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Pyroclast Warlock",
-            "armor": 15,
-            "health": 70,
-            "maxHealth": 70,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2933274-pyroclast-mage",
-            "template": true,
-            "initMod": 2,
-            "spells": [
-                {
-                    "name": "Fifth Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
-        },
-        {
             "name": "Bago",
             "race": "Gargantuan Fey",
             "armor": 22,
@@ -335,6 +192,120 @@
             "link": "https://www.dndbeyond.com/characters/45505744",
             "template": false,
             "initMod": 9
+        },
+        {
+            "name": "Eekee Keek Reekee",
+            "armor": 15,
+            "health": 86,
+            "maxHealth": 86,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3040765-eekee-keek-reekee",
+            "template": false,
+            "initMod": 2,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Jorlat",
+            "health": 78,
+            "maxHealth": 78,
+            "armor": 18,
+            "speed": 30,
+            "race": "Medium Fey",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3040804-jorlat",
+            "initMod": 3,
+            "template": false,
+            "visible": false,
+            "spells": [
+                {
+                    "name": "Touch of Death (3/day)",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Osborn",
+            "health": 86,
+            "maxHealth": 86,
+            "armor": 18,
+            "speed": 30,
+            "race": "Medium Fey",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3040810-osborn",
+            "initMod": 5,
+            "template": false,
+            "visible": false
+        },
+        {
+            "name": "Renfrow",
+            "health": 18,
+            "maxHealth": 18,
+            "armor": 14,
+            "speed": 30,
+            "race": "Medium Fey",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3040781-renfrow-boulderflower",
+            "initMod": 3,
+            "template": false,
+            "visible": false
         }
     ],
     "players": [
