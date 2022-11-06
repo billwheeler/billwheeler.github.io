@@ -107,6 +107,18 @@
             "initMod": 1
         },
         {
+            "name": "Mahadi",
+            "race": "Medium Fiend",
+            "armor": 19,
+            "health": 1095,
+            "maxHealth": 1095,
+            "speed": 60,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3040836-mahadi-the-rakshasa",
+            "template": false,
+            "initMod": 4
+        },
+        {
             "name": "Cadaver Collector",
             "race": "Large Construct",
             "armor": 17,
