@@ -95,15 +95,15 @@
             "initMod": 1
         },
         {
-            "name": "Greater Chinnorid",
-            "race": "Gargantuan Aberration",
-            "armor": 15,
-            "health": 490,
-            "maxHealth": 490,
-            "speed": 120,
+            "name": "Spider Construct",
+            "race": "Large Construct",
+            "armor": 19,
+            "health": 210,
+            "maxHealth": 210,
+            "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2983478-greater-chinnorid",
-            "template": false,
+            "link": "https://www.dndbeyond.com/monsters/3078277-spider-construct",
+            "template": true,
             "initMod": 1
         },
         {
@@ -117,30 +117,6 @@
             "link": "https://www.dndbeyond.com/monsters/3040836-mahadi-the-rakshasa",
             "template": false,
             "initMod": 4
-        },
-        {
-            "name": "Cadaver Collector",
-            "race": "Large Construct",
-            "armor": 17,
-            "health": 189,
-            "maxHealth": 189,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560748-cadaver-collector",
-            "template": false,
-            "initMod": 2
-        },
-        {
-            "name": "Zombie",
-            "race": "Medium Undead",
-            "armor": 15,
-            "health": 97,
-            "maxHealth": 97,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/22571-greater-zombie",
-            "template": true,
-            "initMod": 0
         },
         {
             "name": "G1 Magma Mephit",
@@ -182,14 +158,38 @@
             "group": 3
         },
         {
-            "name": "Dwarven Construct",
+            "name": "Abomination Construct",
+            "race": "Medium Construct",
+            "armor": 20,
+            "health": 125,
+            "maxHealth": 125,
+            "speed": 40,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3078270-abomination-construct",
+            "template": false,
+            "initMod": -1
+        },
+        {
+            "name": "Soldier Construct",
+            "race": "Medium Construct",
+            "armor": 17,
+            "health": 112,
+            "maxHealth": 112,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3078249-dwarf-soldier-construct",
+            "template": true,
+            "initMod": 2
+        },
+        {
+            "name": "Infernal Machine",
             "race": "Huge Construct",
             "armor": 18,
             "health": 216,
             "maxHealth": 216,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3037777-dwarven-construct",
+            "link": "https://www.dndbeyond.com/monsters/3037777-yemelion-infernal-machine",
             "template": false,
             "initMod": 3
         },
