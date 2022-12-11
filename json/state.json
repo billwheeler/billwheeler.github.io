@@ -95,229 +95,40 @@
             "initMod": 1
         },
         {
-            "name": "Spider Construct",
-            "race": "Large Construct",
-            "armor": 19,
-            "health": 210,
-            "maxHealth": 210,
+            "name": "Mangler",
+            "race": "Medium Aberration",
+            "armor": 14,
+            "health": 71,
+            "maxHealth": 71,
             "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3078277-spider-construct",
-            "template": true,
-            "initMod": 1
-        },
-        {
-            "name": "Mahadi",
-            "race": "Medium Fiend",
-            "armor": 19,
-            "health": 1095,
-            "maxHealth": 1095,
-            "speed": 60,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3040836-mahadi-the-rakshasa",
+            "link": "https://www.dndbeyond.com/monsters/2560925-star-spawn-mangler",
             "template": false,
             "initMod": 4
         },
         {
-            "name": "G1 Magma Mephit",
-            "race": "Small Elemental",
-            "armor": 11,
-            "health": 22,
-            "maxHealth": 2,
+            "name": "Hulk",
+            "race": "Large Aberration",
+            "armor": 16,
+            "health": 136,
+            "maxHealth": 136,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/16948-magma-mephit",
-            "template": true,
-            "initMod": 1,
-            "group": 1
-        },
-        {
-            "name": "G2 Magma Mephit",
-            "race": "Small Elemental",
-            "armor": 11,
-            "health": 22,
-            "maxHealth": 2,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/16948-magma-mephit",
-            "template": true,
-            "initMod": 1,
-            "group": 2
-        },
-        {
-            "name": "G3 Magma Mephit",
-            "race": "Small Elemental",
-            "armor": 11,
-            "health": 22,
-            "maxHealth": 2,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/16948-magma-mephit",
-            "template": true,
-            "initMod": 1,
-            "group": 3
-        },
-        {
-            "name": "Abomination Construct",
-            "race": "Medium Construct",
-            "armor": 20,
-            "health": 125,
-            "maxHealth": 125,
-            "speed": 40,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3078270-abomination-construct",
+            "link": "https://www.dndbeyond.com/monsters/2560923-star-spawn-hulk",
             "template": false,
             "initMod": -1
         },
         {
-            "name": "Soldier Construct",
-            "race": "Medium Construct",
+            "name": "Seer",
+            "race": "Medium Aberration",
             "armor": 17,
-            "health": 112,
-            "maxHealth": 112,
+            "health": 153,
+            "maxHealth": 153,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3078249-dwarf-soldier-construct",
-            "template": true,
-            "initMod": 2
-        },
-        {
-            "name": "Infernal Machine",
-            "race": "Huge Construct",
-            "armor": 18,
-            "health": 216,
-            "maxHealth": 216,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3037777-yemelion-infernal-machine",
+            "link": "https://www.dndbeyond.com/monsters/2560926-star-spawn-seer",
             "template": false,
-            "initMod": 3
-        },
-        {
-            "name": "Elysande Gracey",
-            "race": "Medium Human",
-            "armor": 21,
-            "health": 157,
-            "maxHealth": 157,
-            "speed": 65,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/characters/45505744",
-            "template": false,
-            "initMod": 9
-        },
-        {
-            "name": "Eekee Keek Reekee",
-            "armor": 15,
-            "health": 86,
-            "maxHealth": 86,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3040765-eekee-keek-reekee",
-            "template": false,
-            "initMod": 2,
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "Sixth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Jorlat",
-            "health": 78,
-            "maxHealth": 78,
-            "armor": 18,
-            "speed": 30,
-            "race": "Medium Fey",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3040804-jorlat",
-            "initMod": 3,
-            "template": false,
-            "visible": false,
-            "spells": [
-                {
-                    "name": "Touch of Death (3/day)",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Osborn",
-            "health": 86,
-            "maxHealth": 86,
-            "armor": 18,
-            "speed": 30,
-            "race": "Medium Fey",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3040810-osborn",
-            "initMod": 5,
-            "template": false,
-            "visible": false
-        },
-        {
-            "name": "Renfrow",
-            "health": 18,
-            "maxHealth": 18,
-            "armor": 14,
-            "speed": 30,
-            "race": "Medium Fey",
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/3040781-renfrow-boulderflower",
-            "initMod": 3,
-            "template": false,
-            "visible": false
+            "initMod": 1
         }
     ],
     "players": [
