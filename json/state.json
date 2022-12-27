@@ -185,6 +185,62 @@
             "visible": true,
             "state": "alive",
             "group": 3
+        },
+        {
+            "name": "Cult Priest",
+            "health": 117,
+            "maxHealth": 117,
+            "armor": 18,
+            "speed": 30,
+            "race": "Human",
+            "weapons": [],
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 1
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ],
+            "link": "https://www.dndbeyond.com/monsters/3170658-cult-priest",
+            "initMod": 0,
+            "template": true,
+            "visible": true,
+            "state": "alive"
+        },
+        {
+            "name": "Cultist",
+            "health": 9,
+            "maxHealth": 9,
+            "armor": 12,
+            "speed": 30,
+            "race": "Human",
+            "weapons": [],
+            "spells": [],
+            "link": "https://www.dndbeyond.com/monsters/16835-cultist",
+            "initMod": 1,
+            "template": true,
+            "visible": true,
+            "state": "alive"
         }
     ],
     "players": [
