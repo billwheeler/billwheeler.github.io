@@ -1,396 +1,124 @@
 {
     "npcs": [
         {
-            "name": "Honse",
-            "health": 13,
-            "maxHealth": 13,
-            "armor": 10,
-            "speed": 60,
-            "race": "Riding Horse",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16997-riding-horse",
-            "initMod": 0,
-            "template": false,
-            "visible": true,
-            "state": "alive"
-        },
-        {
-            "name": "Goblin Shaman",
-            "health": 15,
-            "maxHealth": 15,
-            "armor": 16,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [
-                {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 1
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ],
-            "link": "https://www.dndbeyond.com/monsters/3170404-goblin-shaman",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 1
-        },
-        {
-            "name": "Goblin #1",
-            "health": 7,
-            "maxHealth": 7,
-            "armor": 15,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16907-goblin",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 1
-        },
-        {
-            "name": "Goblin #2",
-            "health": 7,
-            "maxHealth": 7,
-            "armor": 15,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16907-goblin",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 1
-        },
-        {
-            "name": "Goblin #3",
-            "health": 7,
-            "maxHealth": 7,
-            "armor": 15,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16907-goblin",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 1
-        },
-        {
-            "name": "Goblin Boss",
-            "health": 21,
-            "maxHealth": 21,
-            "armor": 17,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/17155-goblin-boss",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 2
-        },
-        {
-            "name": "Goblin #4",
-            "health": 7,
-            "maxHealth": 7,
-            "armor": 15,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16907-goblin",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 2
-        },
-        {
-            "name": "Goblin #5",
-            "health": 7,
-            "maxHealth": 7,
-            "armor": 15,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16907-goblin",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 2
-        },
-        {
-            "name": "Goblin #6",
-            "health": 7,
-            "maxHealth": 7,
-            "armor": 15,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16907-goblin",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 3
-        },
-        {
-            "name": "Goblin #7",
-            "health": 7,
-            "maxHealth": 7,
-            "armor": 15,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16907-goblin",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 3
-        },
-        {
-            "name": "Goblin #8",
-            "health": 7,
-            "maxHealth": 7,
-            "armor": 15,
-            "speed": 30,
-            "race": "Goblin",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16907-goblin",
-            "initMod": 2,
-            "template": false,
-            "visible": true,
-            "state": "alive",
-            "group": 3
-        },
-        {
-            "name": "Cult Priest",
-            "health": 117,
-            "maxHealth": 117,
+            "name": "Liriam",
+            "health": 68,
+            "maxHealth": 68,
             "armor": 18,
-            "speed": 30,
-            "race": "Human",
-            "weapons": [],
-            "spells": [
+            "speed": 60,
+            "race": "Nightmare",
+            "weapons": [
                 {
-                    "name": "First Level",
-                    "slots": 4,
-                    "used": 1
-                },
-                {
-                    "name": "Second Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Third Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fourth Level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "Fifth Level",
-                    "slots": 1,
-                    "used": 0
+                    "id": 7,
+                    "name": "Hooves",
+                    "dice": "2d8",
+                    "hitMod": 6,
+                    "attackMod": 4,
+                    "damageType": "bludgeoning"
                 }
             ],
-            "link": "https://www.dndbeyond.com/monsters/3170658-cult-priest",
+            "spells": [],
+            "link": "https://www.dndbeyond.com/monsters/nightmare",
             "initMod": 0,
-            "template": true,
+            "template": false,
             "visible": true,
             "state": "alive"
         },
         {
-            "name": "Cultist",
-            "health": 9,
-            "maxHealth": 9,
-            "armor": 12,
+            "name": "Swarm of Weasels",
+            "race": "(Large swarm)",
+            "armor": 13,
+            "health": 24,
+            "maxHealth": 24,
             "speed": 30,
-            "race": "Human",
-            "weapons": [],
-            "spells": [],
-            "link": "https://www.dndbeyond.com/monsters/16835-cultist",
-            "initMod": 1,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2184572-swarm-of-weasels",
             "template": true,
+            "initMod": 2,
+            "weapons": [
+                {
+                    "name": "Bite",
+                    "dice": "1d8",
+                    "hitMod": 5,
+                    "attackMod": 0,
+                    "damageType": "piercing"
+                }
+            ]
+        },
+        {
+            "name": "Shadow Demon",
+            "race": "Fiend (Demon)",
+            "armor": 13,
+            "health": 66,
+            "maxHealth": 66,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17131-shadow-demon",
+            "template": true
+        },
+        {
+            "name": "Bago",
+            "race": "Gargantuan Fey",
+            "armor": 22,
+            "health": 409,
+            "maxHealth": 409,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2059693-ancient-dragon-turtle",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Gorzethmara",
+            "race": "Kraken",
+            "armor": 18,
+            "health": 888,
+            "maxHealth": 888,
+            "speed": 60,
+            "link": "https://www.dndbeyond.com/monsters/3200436-gorzethmara",
+            "template": false,
             "visible": true,
-            "state": "alive"
+            "initMod": 0,
+            "state": "alive",
+            "spells": [
+                {
+                    "name": "Legendary Actions",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
         }
     ],
     "players": [
         {
-            "name": "Luna Potatolight",
+            "name": "Fionula Copperkettle",
             "player": "Casey",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/characters/90570985/KaJkHf",
+            "link": "https://www.dndbeyond.com/profile/Gresha/characters/11728124",
             "visible": true
         },
         {
-            "name": "Dragon Fart",
+            "name": "Malbraxys",
+            "player": "Mike",
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/profile/Desrali_T_Bear/characters/10782845",
+            "visible": true
+        },
+        {
+            "name": "Sulyman Quantarius Zornastica Mushkin",
             "player": "Eric",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/characters/90553611/FZrM2B",
+            "link": "https://www.dndbeyond.com/profile/SuperStromboli/characters/4798328",
             "visible": true
         },
         {
-            "name": "Hebs",
+            "name": "Tenraja Hurazan",
             "player": "Jesse",
             "state": "alive",
-            "link": "https://www.dndbeyond.com/characters/90685512",
+            "link": "https://www.dndbeyond.com/profile/Gidgerby/characters/11749564",
             "visible": true
         }
     ],
     "vehicles": [
-        {
-            "name": "SS Clydebank",
-            "type": "Sailing Ship",
-            "components": [
-                {
-                    "name": "Hull",
-                    "armor": 15,
-                    "health": 300,
-                    "maxHealth": 300,
-                    "threshold": 15
-                },
-                {
-                    "name": "Helm",
-                    "armor": 18,
-                    "health": 50,
-                    "maxHealth": 50
-                },
-                {
-                    "name": "Sails",
-                    "armor": 12,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "speed": 35,
-                    "decrement": 10,
-                    "stages": 4
-                },
-                {
-                    "name": "Ballista",
-                    "armor": 15,
-                    "health": 50,
-                    "maxHealth": 50,
-                    "attackToHit": 6,
-                    "attackRoll": "3d10",
-                    "attackRange": "120/480",
-                    "attackDamage": "piercing"
-                },
-                {
-                    "name": "Mangonel",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                }
-            ],
-            "link": "https://www.dndbeyond.com/vehicles/sailing-ship"
-        },
-        {
-            "name": "The Scowling Stomper",
-            "type": "Warship",
-            "components": [
-                {
-                    "name": "Hull",
-                    "armor": 15,
-                    "health": 500,
-                    "maxHealth": 500,
-                    "threshold": 20
-                },
-                {
-                    "name": "Helm",
-                    "armor": 18,
-                    "health": 50,
-                    "maxHealth": 50
-                },
-                {
-                    "name": "Sails",
-                    "armor": 12,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "speed": 35,
-                    "decrement": 10,
-                    "stages": 4
-                },
-                {
-                    "name": "Forecastle Ballista",
-                    "armor": 15,
-                    "health": 50,
-                    "maxHealth": 50,
-                    "attackToHit": 6,
-                    "attackRoll": "3d10",
-                    "attackRange": "120/480",
-                    "attackDamage": "piercing"
-                },
-                {
-                    "name": "Quarterdeck Ballista",
-                    "armor": 15,
-                    "health": 50,
-                    "maxHealth": 50,
-                    "attackToHit": 6,
-                    "attackRoll": "3d10",
-                    "attackRange": "120/480",
-                    "attackDamage": "piercing"
-                },
-                {
-                    "name": "Bow Mangonel",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Aft Mangonel",
-                    "armor": 15,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "attackToHit": 5,
-                    "attackRoll": "5d10",
-                    "attackRange": "200/800",
-                    "attackDamage": "bludgeoning"
-                },
-                {
-                    "name": "Naval Ram",
-                    "armor": 20,
-                    "health": 100,
-                    "maxHealth": 100,
-                    "threshold": 10
-                }
-            ],
-            "link": "https://www.dndbeyond.com/vehicles/warship"
-        }
     ]
 }
