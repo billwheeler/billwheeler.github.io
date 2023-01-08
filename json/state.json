@@ -87,6 +87,39 @@
                     "used": 0
                 }
             ]
+        },
+        {
+            "name": "Durrant",
+            "race": "Half Elf",
+            "armor": 16,
+            "health": 140,
+            "maxHealth": 140,
+            "speed": 30,
+            "link": "https://www.dndbeyond.com/characters/91513491",
+            "template": false,
+            "visible": true,
+            "initMod": 2,
+            "state": "alive",
+            "spells": [
+                {
+                    "name": "5th level",
+                    "slots": 3,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Grey Render",
+            "race": "Large Monstrosity",
+            "armor": 19,
+            "health": 189,
+            "maxHealth": 189,
+            "speed": 30,
+            "link": "https://www.dndbeyond.com/monsters/2560836-gray-render",
+            "template": false,
+            "visible": true,
+            "initMod": 1,
+            "state": "alive"
         }
     ],
     "players": [
