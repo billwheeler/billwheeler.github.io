@@ -25,6 +25,66 @@
             "state": "alive"
         },
         {
+            "name": "Mauthereign Vance",
+            "race": "Human (lol)",
+            "armor": 16,
+            "health": 121,
+            "maxHealth": 121,
+            "speed": 30,
+            "link": "https://www.dndbeyond.com/characters/26581258",
+            "template": false,
+            "visible": true,
+            "initMod": 13,
+            "state": "alive",
+            "spells": [
+                {
+                    "name": "1st level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "2nd level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "3rd level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "4th level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "5th level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "6th level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "7th level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "8th level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "9th level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
             "name": "Swarm of Weasels",
             "race": "(Large swarm)",
             "armor": 13,
@@ -69,28 +129,8 @@
             "initMod": 1
         },
         {
-            "name": "Gorzethmara",
-            "race": "Kraken",
-            "armor": 18,
-            "health": 888,
-            "maxHealth": 888,
-            "speed": 60,
-            "link": "https://www.dndbeyond.com/monsters/3200436-gorzethmara",
-            "template": false,
-            "visible": true,
-            "initMod": 0,
-            "state": "alive",
-            "spells": [
-                {
-                    "name": "Legendary Actions",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Durrant",
-            "race": "Half Elf",
+            "name": "Fine Wine",
+            "race": "Tabaxi",
             "armor": 16,
             "health": 140,
             "maxHealth": 140,
@@ -116,9 +156,35 @@
             "maxHealth": 189,
             "speed": 30,
             "link": "https://www.dndbeyond.com/monsters/2560836-gray-render",
-            "template": false,
+            "template": true,
             "visible": true,
             "initMod": 1,
+            "state": "alive"
+        },
+        {
+            "name": "Specter",
+            "race": "Medium Undead",
+            "armor": 12,
+            "health": 22,
+            "maxHealth": 22,
+            "speed": 50,
+            "link": "https://www.dndbeyond.com/monsters/17017-specter",
+            "template": true,
+            "visible": true,
+            "initMod": 2,
+            "state": "alive"
+        },
+        {
+            "name": "Nightwalker",
+            "race": "Huge Undead",
+            "armor": 14,
+            "health": 337,
+            "maxHealth": 337,
+            "speed": 40,
+            "link": "https://www.dndbeyond.com/monsters/2560888-nightwalker",
+            "template": true,
+            "visible": true,
+            "initMod": 4,
             "state": "alive"
         }
     ],
