@@ -28,8 +28,8 @@
             "name": "Mauthereign Vance",
             "race": "Human (lol)",
             "armor": 16,
-            "health": 121,
-            "maxHealth": 121,
+            "health": 142,
+            "maxHealth": 142,
             "speed": 30,
             "link": "https://www.dndbeyond.com/characters/26581258",
             "template": false,
@@ -64,12 +64,77 @@
                 },
                 {
                     "name": "6th level",
-                    "slots": 1,
+                    "slots": 2,
                     "used": 0
                 },
                 {
                     "name": "7th level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "8th level",
                     "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "9th level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
+        },
+        {
+            "name": "Lina Defilius",
+            "race": "Human",
+            "armor": 17,
+            "health": 246,
+            "maxHealth": 246,
+            "speed": 30,
+            "link": "https://www.dndbeyond.com/monsters/3324321-lina-defilius",
+            "template": false,
+            "visible": true,
+            "initMod": 3,
+            "state": "alive",
+            "spells": [
+                {
+                    "name": "Legendary Actions",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "1st level",
+                    "slots": 4,
+                    "used": 0
+                },
+                {
+                    "name": "2nd level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "3rd level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "4th level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "5th level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "6th level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "7th level",
+                    "slots": 2,
                     "used": 0
                 },
                 {
@@ -117,75 +182,136 @@
             "template": true
         },
         {
-            "name": "Bago",
-            "race": "Gargantuan Fey",
-            "armor": 22,
-            "health": 409,
-            "maxHealth": 409,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2059693-ancient-dragon-turtle",
-            "template": false,
-            "initMod": 1
-        },
-        {
-            "name": "Fine Wine",
-            "race": "Tabaxi",
+            "name": "Shadow Demon",
+            "race": "Human",
             "armor": 16,
-            "health": 140,
-            "maxHealth": 140,
+            "health": 91,
+            "maxHealth": 91,
             "speed": 30,
-            "link": "https://www.dndbeyond.com/characters/91513491",
-            "template": false,
-            "visible": true,
-            "initMod": 2,
             "state": "alive",
-            "spells": [
-                {
-                    "name": "5th level",
-                    "slots": 3,
-                    "used": 0
-                }
-            ]
+            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
+            "template": false
         },
         {
-            "name": "Grey Render",
-            "race": "Large Monstrosity",
-            "armor": 19,
-            "health": 189,
-            "maxHealth": 189,
+            "name": "Tyrose Baresi",
+            "race": "Human",
+            "armor": 16,
+            "health": 91,
+            "maxHealth": 91,
             "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/2560836-gray-render",
-            "template": true,
-            "visible": true,
-            "initMod": 1,
-            "state": "alive"
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "template": false
         },
         {
-            "name": "Specter",
-            "race": "Medium Undead",
-            "armor": 12,
-            "health": 22,
-            "maxHealth": 22,
-            "speed": 50,
-            "link": "https://www.dndbeyond.com/monsters/17017-specter",
-            "template": true,
-            "visible": true,
-            "initMod": 2,
-            "state": "alive"
+            "name": "Atticus Daranouve",
+            "race": "Human",
+            "armor": 16,
+            "health": 91,
+            "maxHealth": 91,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "template": false
         },
         {
-            "name": "Nightwalker",
-            "race": "Huge Undead",
-            "armor": 14,
-            "health": 337,
-            "maxHealth": 337,
-            "speed": 40,
-            "link": "https://www.dndbeyond.com/monsters/2560888-nightwalker",
-            "template": true,
-            "visible": true,
-            "initMod": 4,
-            "state": "alive"
+            "name": "Desmond Estana",
+            "race": "Human",
+            "armor": 16,
+            "health": 91,
+            "maxHealth": 91,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "template": false
+        },
+        {
+            "name": "Isabelle Estana",
+            "race": "Human",
+            "armor": 16,
+            "health": 91,
+            "maxHealth": 91,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "template": false
+        },
+        {
+            "name": "Simone Paletree",
+            "race": "Human",
+            "armor": 16,
+            "health": 91,
+            "maxHealth": 91,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "template": false
+        },
+        {
+            "name": "Kaylin Sunfall",
+            "race": "Human",
+            "armor": 16,
+            "health": 91,
+            "maxHealth": 91,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "template": false
+        },
+        {
+            "name": "Cassandra Whitemane",
+            "race": "Human",
+            "armor": 16,
+            "health": 121,
+            "maxHealth": 121,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
+            "template": false
+        },
+        {
+            "name": "Maximillian Everguard",
+            "race": "Human",
+            "armor": 16,
+            "health": 121,
+            "maxHealth": 121,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
+            "template": false
+        },
+        {
+            "name": "Diana Sanderson",
+            "race": "Human",
+            "armor": 16,
+            "health": 121,
+            "maxHealth": 121,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
+            "template": false
+        },
+        {
+            "name": "Deliliah Vayne",
+            "race": "Human",
+            "armor": 19,
+            "health": 229,
+            "maxHealth": 229,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560956-warlord",
+            "template": false
+        },
+        {
+            "name": "Guard",
+            "race": "Human",
+            "armor": 17,
+            "health": 58,
+            "maxHealth": 58,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/17045-veteran",
+            "template": true
         }
     ],
     "players": [
