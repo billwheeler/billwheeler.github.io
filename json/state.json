@@ -96,6 +96,7 @@
             "visible": true,
             "initMod": 3,
             "state": "alive",
+            "group": 1,
             "spells": [
                 {
                     "name": "Legendary Actions",
@@ -195,24 +196,53 @@
         {
             "name": "Tyrose Baresi",
             "race": "Human",
-            "armor": 16,
-            "health": 91,
-            "maxHealth": 91,
+            "armor": 14,
+            "health": 77,
+            "maxHealth": 77,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "link": "https://www.dndbeyond.com/monsters/1680928-inquisitor-of-the-tome",
+            "group": 2,
             "template": false
         },
         {
             "name": "Atticus Daranouve",
             "race": "Human",
-            "armor": 16,
-            "health": 91,
-            "maxHealth": 91,
+            "armor": 17,
+            "health": 144,
+            "maxHealth": 144,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
-            "template": false
+            "link": "https://www.dndbeyond.com/monsters/2582578-elder-warlock",
+            "template": false,
+            "group": 1,
+            "spells": [
+                {
+                    "name": "5th level",
+                    "slots": 8,
+                    "used": 0
+                },
+                {
+                    "name": "6th level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "7th level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "8th level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "9th level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
         },
         {
             "name": "Desmond Estana",
@@ -223,6 +253,7 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "group": 3,
             "template": false
         },
         {
@@ -234,6 +265,7 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "group": 3,
             "template": false
         },
         {
@@ -245,17 +277,19 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "group": 2,
             "template": false
         },
         {
             "name": "Kaylin Sunfall",
             "race": "Human",
             "armor": 16,
-            "health": 91,
-            "maxHealth": 91,
+            "health": 77,
+            "maxHealth": 77,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
+            "link": "https://www.dndbeyond.com/monsters/1680926-inquisitor-of-the-mind-fire",
+            "group": 2,
             "template": false
         },
         {
@@ -273,11 +307,11 @@
             "name": "Maximillian Everguard",
             "race": "Human",
             "armor": 16,
-            "health": 121,
-            "maxHealth": 121,
+            "health": 144,
+            "maxHealth": 144,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
+            "link": "https://www.dndbeyond.com/monsters/1680926-inquisitor-of-the-mind-fire",
             "template": false
         },
         {
@@ -289,6 +323,7 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
+            "group": 2,
             "template": false
         },
         {
@@ -300,6 +335,7 @@
             "speed": 30,
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/2560956-warlord",
+            "group": 3,
             "template": false
         },
         {
