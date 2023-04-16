@@ -9,7 +9,6 @@
             "race": "Nightmare",
             "weapons": [
                 {
-                    "id": 7,
                     "name": "Hooves",
                     "dice": "2d8",
                     "hitMod": 6,
@@ -23,132 +22,6 @@
             "template": false,
             "visible": true,
             "state": "alive"
-        },
-        {
-            "name": "Mauthereign Vance",
-            "race": "Human (lol)",
-            "armor": 16,
-            "health": 142,
-            "maxHealth": 142,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/characters/26581258",
-            "template": false,
-            "visible": true,
-            "initMod": 13,
-            "state": "alive",
-            "spells": [
-                {
-                    "name": "1st level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "2nd level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "3rd level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "4th level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "5th level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "6th level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "7th level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "8th level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "9th level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
-        },
-        {
-            "name": "Lina Defilius",
-            "race": "Human",
-            "armor": 17,
-            "health": 246,
-            "maxHealth": 246,
-            "speed": 30,
-            "link": "https://www.dndbeyond.com/monsters/3324321-lina-defilius",
-            "template": false,
-            "visible": true,
-            "initMod": 3,
-            "state": "alive",
-            "group": 1,
-            "spells": [
-                {
-                    "name": "Legendary Actions",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "1st level",
-                    "slots": 4,
-                    "used": 0
-                },
-                {
-                    "name": "2nd level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "3rd level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "4th level",
-                    "slots": 3,
-                    "used": 0
-                },
-                {
-                    "name": "5th level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "6th level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "7th level",
-                    "slots": 2,
-                    "used": 0
-                },
-                {
-                    "name": "8th level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "9th level",
-                    "slots": 1,
-                    "used": 0
-                }
-            ]
         },
         {
             "name": "Swarm of Weasels",
@@ -183,171 +56,22 @@
             "template": true
         },
         {
-            "name": "Shadow Demon",
-            "race": "Human",
-            "armor": 16,
-            "health": 91,
-            "maxHealth": 91,
-            "speed": 30,
+            "name": "Mekadragon",
+            "race": "Draconic Construct",
+            "armor": 22,
+            "health": 565,
+            "maxHealth": 565,
+            "speed": 60,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
-            "template": false
-        },
-        {
-            "name": "Tyrose Baresi",
-            "race": "Human",
-            "armor": 14,
-            "health": 77,
-            "maxHealth": 77,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1680928-inquisitor-of-the-tome",
-            "group": 2,
-            "template": false
-        },
-        {
-            "name": "Atticus Daranouve",
-            "race": "Human",
-            "armor": 17,
-            "health": 144,
-            "maxHealth": 144,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2582578-elder-warlock",
-            "template": false,
-            "group": 1,
+            "link": "https://www.dndbeyond.com/monsters/3466117-mekadragon",
             "spells": [
                 {
-                    "name": "5th level",
-                    "slots": 8,
-                    "used": 0
-                },
-                {
-                    "name": "6th level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "7th level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "8th level",
-                    "slots": 1,
-                    "used": 0
-                },
-                {
-                    "name": "9th level",
-                    "slots": 1,
+                    "name": "Legendary Resistence",
+                    "slots": 4,
                     "used": 0
                 }
-            ]
-        },
-        {
-            "name": "Desmond Estana",
-            "race": "Human",
-            "armor": 16,
-            "health": 91,
-            "maxHealth": 91,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
-            "group": 3,
+            ],
             "template": false
-        },
-        {
-            "name": "Isabelle Estana",
-            "race": "Human",
-            "armor": 16,
-            "health": 91,
-            "maxHealth": 91,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
-            "group": 3,
-            "template": false
-        },
-        {
-            "name": "Simone Paletree",
-            "race": "Human",
-            "armor": 16,
-            "health": 91,
-            "maxHealth": 91,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560955-warlock-of-the-great-old-one",
-            "group": 2,
-            "template": false
-        },
-        {
-            "name": "Kaylin Sunfall",
-            "race": "Human",
-            "armor": 16,
-            "health": 77,
-            "maxHealth": 77,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1680926-inquisitor-of-the-mind-fire",
-            "group": 2,
-            "template": false
-        },
-        {
-            "name": "Cassandra Whitemane",
-            "race": "Human",
-            "armor": 16,
-            "health": 121,
-            "maxHealth": 121,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
-            "template": false
-        },
-        {
-            "name": "Maximillian Everguard",
-            "race": "Human",
-            "armor": 16,
-            "health": 144,
-            "maxHealth": 144,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/1680926-inquisitor-of-the-mind-fire",
-            "template": false
-        },
-        {
-            "name": "Diana Sanderson",
-            "race": "Human",
-            "armor": 16,
-            "health": 121,
-            "maxHealth": 121,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
-            "group": 2,
-            "template": false
-        },
-        {
-            "name": "Deliliah Vayne",
-            "race": "Human",
-            "armor": 19,
-            "health": 229,
-            "maxHealth": 229,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560956-warlord",
-            "group": 3,
-            "template": false
-        },
-        {
-            "name": "Guard",
-            "race": "Human",
-            "armor": 17,
-            "health": 58,
-            "maxHealth": 58,
-            "speed": 30,
-            "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/17045-veteran",
-            "template": true
         }
     ],
     "players": [
