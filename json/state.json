@@ -56,6 +56,50 @@
             "template": true
         },
         {
+            "name": "Encharek",
+            "race": "Alhoon",
+            "armor": 18,
+            "health": 350,
+            "maxHealth": 350,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560716-alhoon",
+            "template": false
+        },
+        {
+            "name": "Encharek",
+            "race": "Alhoon",
+            "armor": 17,
+            "health": 350,
+            "maxHealth": 350,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560716-alhoon",
+            "template": false
+        },
+        {
+            "name": "Princess Xedalli",
+            "race": "Astral Elf",
+            "armor": 15,
+            "health": 183,
+            "maxHealth": 183,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
+            "template": false
+        },
+        {
+            "name": "Elaina Sartell",
+            "race": "Human",
+            "armor": 18,
+            "health": 229,
+            "maxHealth": 229,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/2560956-warlord",
+            "template": false
+        },
+        {
             "name": "Mekadragon",
             "race": "Draconic Construct",
             "armor": 22,
