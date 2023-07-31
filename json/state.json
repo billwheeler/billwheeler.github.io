@@ -56,6 +56,19 @@
             "template": true
         },
         {
+            "name": "Mouse Death",
+            "race": "Fey Cat Man",
+            "armor": 17,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 35,
+            "link": "https://www.dndbeyond.com/monsters/2913297-mouse-death",
+            "template": false,
+            "initMod": 5,
+            "visible": true,
+            "state": "alive"
+        },
+        {
             "name": "Encharek",
             "race": "Alhoon",
             "armor": 18,
@@ -63,40 +76,175 @@
             "maxHealth": 224,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560716-alhoon",
-            "template": false
+            "link": "https://www.dndbeyond.com/monsters/3720028-encharek",
+            "template": false,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 1
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Seventh Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Eighth Level",
+                    "slots": 1,
+                    "used": 0
+                },
+                {
+                    "name": "Nineth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
         },
         {
             "name": "Princess Xedalli",
             "race": "Astral Elf",
             "armor": 15,
-            "health": 183,
-            "maxHealth": 183,
+            "health": 99,
+            "maxHealth": 99,
             "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560807-evoker-wizard",
-            "template": false
+            "link": "https://www.dndbeyond.com/monsters/3716623-princess-xedalli",
+            "template": false,
+            "spells": [
+                {
+                    "name": "First Level",
+                    "slots": 4,
+                    "used": 1
+                },
+                {
+                    "name": "Second Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Third Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fourth Level",
+                    "slots": 3,
+                    "used": 0
+                },
+                {
+                    "name": "Fifth Level",
+                    "slots": 2,
+                    "used": 0
+                },
+                {
+                    "name": "Sixth Level",
+                    "slots": 1,
+                    "used": 0
+                }
+            ]
         },
         {
             "name": "Elaina Sartell",
             "race": "Human",
-            "armor": 18,
-            "health": 184,
-            "maxHealth": 184,
-            "speed": 30,
+            "armor": 19,
+            "health": 136,
+            "maxHealth": 136,
+            "speed": 40,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560956-warlord",
+            "link": "https://www.dndbeyond.com/monsters/3720179-elaina-sartell",
             "template": false
         },
         {
-            "name": "Fire Elemental Myrmidon",
-            "race": "Elemental",
-            "armor": 18,
-            "health": 123,
-            "maxHealth": 123,
-            "speed": 40,
+            "name": "Bago",
+            "race": "Gargantuan Fey",
+            "armor": 22,
+            "health": 409,
+            "maxHealth": 409,
+            "speed": 30,
             "state": "alive",
-            "link": "https://www.dndbeyond.com/monsters/2560809-fire-elemental-myrmidon",
+            "link": "https://www.dndbeyond.com/monsters/2059693-ancient-dragon-turtle",
+            "template": false,
+            "initMod": 1
+        },
+        {
+            "name": "Soldier G1",
+            "race": "Humanoid",
+            "armor": 19,
+            "health": 104,
+            "maxHealth": 104,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3643655-astral-elf-soldier",
+            "template": true
+        },
+        {
+            "name": "Elite",
+            "race": "Humanoid",
+            "armor": 20,
+            "health": 180,
+            "maxHealth": 180,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3643669-astral-elf-elite-soldier",
+            "template": true
+        },
+        {
+            "name": "Cleric",
+            "race": "Humanoid",
+            "armor": 19,
+            "health": 304,
+            "maxHealth": 304,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3643727-astral-elf-priest",
+            "template": true
+        },
+        {
+            "name": "Commander",
+            "race": "Humanoid",
+            "armor": 20,
+            "health": 210,
+            "maxHealth": 210,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3643697-astral-elf-commander",
+            "template": true
+        },
+        {
+            "name": "Baronet Desmyr",
+            "race": "Humanoid",
+            "armor": 19,
+            "health": 304,
+            "maxHealth": 304,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3643780-baronet-desmyr",
             "template": true
         },
         {
