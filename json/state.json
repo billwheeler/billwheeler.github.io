@@ -193,7 +193,7 @@
             "initMod": 1
         },
         {
-            "name": "Soldier G1",
+            "name": "Soldier",
             "race": "Humanoid",
             "armor": 19,
             "health": 104,
@@ -257,6 +257,124 @@
             "state": "alive",
             "link": "https://www.dndbeyond.com/monsters/3710721-monger",
             "template": true
+        },
+        {
+            "name": "Jirk",
+            "race": "Goblin",
+            "armor": 20,
+            "health": 180,
+            "maxHealth": 180,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790979-jirk",
+            "template": false
+        },
+        {
+            "name": "Goblin Thug",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": true
+        },
+        {
+            "name": "Goblin Thug 1",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": false,
+            "group": 1
+        },
+        {
+            "name": "Goblin Thug 2",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": false,
+            "group": 1
+        },
+        {
+            "name": "Goblin Thug 3",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": false,
+            "group": 2
+        },
+        {
+            "name": "Goblin Thug 4",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": false,
+            "group": 2
+        },
+        {
+            "name": "Goblin Thug 5",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": false,
+            "group": 2
+        },
+        {
+            "name": "Goblin Thug 6",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": false,
+            "group": 3
+        },
+        {
+            "name": "Goblin Thug 7",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": false,
+            "group": 3
+        },
+        {
+            "name": "Goblin Thug 8",
+            "race": "Goblin",
+            "armor": 15,
+            "health": 78,
+            "maxHealth": 78,
+            "speed": 30,
+            "state": "alive",
+            "link": "https://www.dndbeyond.com/monsters/3790954-goblin-thug",
+            "template": false,
+            "group": 3
         }
     ],
     "players": [
